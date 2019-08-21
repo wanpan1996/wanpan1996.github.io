@@ -1,269 +1,348 @@
 <!DOCTYPE html>
-<html lang=zh>
-<head><meta name="generator" content="Hexo 3.9.0">
-    <!-- so meta -->
+<html>
+  <head><meta name="generator" content="Hexo 3.9.0">
+    
+    <!-- Google Tag Manager -->
+    <script>
+      ;(function(w, d, s, l, i) {
+        w[l] = w[l] || []
+        w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' })
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != 'dataLayer' ? '&l=' + l : ''
+        j.async = true
+        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl
+        f.parentNode.insertBefore(j, f)
+      })(window, document, 'script', 'dataLayer', 'GTM-WJ7P5KL')
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <!-- 百度统计 -->
+    <script>
+      var _hmt = _hmt || []
+      ;(function() {
+        var hm = document.createElement('script')
+        hm.src = 'https://hm.baidu.com/hm.js?5a0acc897fd96474a2c8f4deac84611a'
+        var s = document.getElementsByTagName('script')[0]
+        s.parentNode.insertBefore(hm, s)
+      })()
+    </script>
+    <!-- 百度统计 -->
+
+    
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="HandheldFriendly" content="True">
+    <meta name="baidu-site-verification" content="vvVgSQUzPU">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="description" content="测试 cmd">
-<meta name="keywords" content="测试">
-<meta property="og:type" content="article">
-<meta property="og:title" content="test">
-<meta property="og:url" content="https://wanpan1996.github.io/2019/08/21/test/index.html">
-<meta property="og:site_name" content="渗透测试随笔">
-<meta property="og:description" content="测试 cmd">
-<meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-08-20T16:52:13.261Z">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="test">
-<meta name="twitter:description" content="测试 cmd">
+    <meta name="keywords" content="内网渗透,Web安全,渗透tips,红队,APT">
     
+    <meta name="google-site-verification" content="VQowHv5lAVVWJxjKI9bnAWT7NGdOrfS5KnLF07-B7w0">
     
-        
-          
-              <link rel="shortcut icon" href="/images/favicon.ico">
-          
-        
-        
-          
-            <link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
-          
-        
-        
-          
-            <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
-          
-        
-    
-    <!-- title -->
-    <title>test</title>
-    <!-- styles -->
-    <link rel="stylesheet" href="/css/style.css">
-    <!-- persian styles -->
-    
-      <link rel="stylesheet" href="/css/rtl.css">
-    
-    <!-- rss -->
-    
-    
-</head>
+    <meta name="description" content="每周一更，与人共勉。">
+    <title>渗透测试随笔 - </title>
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/style/style.css">
+  </head>
+  <body>
+    <div id="fixed-menu">
+      <span class="iconfont icon-arrowup"></span>
+    </div>
+    <div id="progress">
+      <div class="line"></div>
+    </div>
+    <div id="head">
+      
+      <a href="/" class>
+        Home
+      </a>
+      
+      <a href="/archives" class>
+        Archives
+      </a>
+      
+      <a href="/about" class>
+        About
+      </a>
+      
+    </div>
+    <div id="container">
+      <div id="main">
+        <div class="navbar">
+          <div class="toggle">
+            <span class="iconfont icon-menu toggle-icon"></span>
+          </div>
+          <div class="search">
+            <div class="input-warp">
+              <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-fenzu"/>
+              </svg>
+              <input type="text" name id placeholder="Search Keys">
+            </div>
+          </div>
+        </div>
+        <div class="content">
+          <article class="post-entry">
+    <div class="header">
+      <div class="title">内网渗透测试tips</div>
+      <div class="meta">
+        <span class="item">
+          <span class="iconfont icon-time-circle"></span>
+          <span>2019/08/21</span>
+        </span>
 
-<body class="max-width mx-auto px3 ltr">
-    
-      <div id="header-post">
-  <a id="menu-icon" href="#"><i class="fas fa-bars fa-lg"></i></a>
-  <a id="menu-icon-tablet" href="#"><i class="fas fa-bars fa-lg"></i></a>
-  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
-  <span id="menu">
-    <span id="nav">
-      <ul>
          
-          <li><a href="/">首页</a></li>
+        <span class="item">
+          <span class="iconfont icon-folder"></span>
+          <span>
+              
+          </span>
+        </span>
+        
+        
          
-          <li><a href="/about/">关于</a></li>
+          <span class="item">
+            <span class="iconfont icon-tag1"></span>
+            <span>
+                
+                  
+                    <a href="/tags/内网渗透">内网渗透</a>
+                  
+                
+            </span>
+          </span>
          
-          <li><a href="/archives/">归档</a></li>
-         
-          <li><a href="/projects_url">项目</a></li>
-        
-      </ul>
-    </span>
-    <br/>
-    <span id="actions">
-      <ul>
-        
-        
-        <li><a class="icon" href="/2019/08/20/hello-world/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
-        
-        <li><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
-        <li><a class="icon" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
-      </ul>
-      <span id="i-prev" class="info" style="display:none;">上一篇</span>
-      <span id="i-next" class="info" style="display:none;">下一篇</span>
-      <span id="i-top" class="info" style="display:none;">返回顶部</span>
-      <span id="i-share" class="info" style="display:none;">分享文章</span>
-    </span>
-    <br/>
-    <div id="share" style="display: none">
-      <ul>
-  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=https://wanpan1996.github.io/2019/08/21/test/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="https://twitter.com/share?url=https://wanpan1996.github.io/2019/08/21/test/&text=test"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=https://wanpan1996.github.io/2019/08/21/test/&title=test"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https://wanpan1996.github.io/2019/08/21/test/&is_video=false&description=test"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="mailto:?subject=test&body=Check out this article: https://wanpan1996.github.io/2019/08/21/test/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="https://getpocket.com/save?url=https://wanpan1996.github.io/2019/08/21/test/&title=test"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="http://reddit.com/submit?url=https://wanpan1996.github.io/2019/08/21/test/&title=test"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=https://wanpan1996.github.io/2019/08/21/test/&title=test"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="http://digg.com/submit?url=https://wanpan1996.github.io/2019/08/21/test/&title=test"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="http://www.tumblr.com/share/link?url=https://wanpan1996.github.io/2019/08/21/test/&name=test&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
-</ul>
-
+        <span class="item leancloud-visitors" id="https://wanpan1996.github.io/2019/08/21/test/" data-flag-title="内网渗透测试tips">
+          <span class="iconfont icon-eye1"></span>
+          <span class="leancloud-visitors-count"></span>
+        </span>
+      </div>
+      <div>
+      </div>
     </div>
-    <div id="toc">
-      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#测试"><span class="toc-number">1.</span> <span class="toc-text">测试</span></a></li></ol>
-    </div>
-  </span>
-</div>
+    <h2 id="前言："><a href="#前言：" class="headerlink" title="前言："></a>前言：</h2><blockquote>
+<p>有朋友可能在实战中会遇到这样的情况，域内设置策略每个月或者一段时间统一修改一次密码，而且密码是随机的。但是Sysvol共享脚本和GPP策略都没法拿到域内用户的hash或密码的时候，最直接的方式还是导出NTDS，当然这个需要在域控上操作。</p>
+</blockquote>
+<pre><code>目标环境介绍：
+2台 windows server 2012 R2 域控服务器
+ADC01 = 192.168.0.1         
+ADC02=192.168.0.2（备份）
+马儿是system权限。
+杀软为最新的趋势科技企业版</code></pre><blockquote>
+<p>话不多说开撸：（由于目标不方便截图，本地环境复现）</p>
+</blockquote>
+<p>Hash一般存储在两个地方：SAM文件，存储在本机对应本地用户,NTDS.DIT文件，存储在域控上对应域用户。</p>
+<p>(1) 查看系统当前快照</p>
+<figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vssadmin list shadows</span><br></pre></td></tr></table></figure>
 
-    
-    <div class="content index py4">
-        
-        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-  <header>
-    
-    <h1 class="posttitle" itemprop="name headline">
-        test
-    </h1>
+<p>(创建快照-由于类似的方法和工具网上很多这里只提一下)<br><img src="./images/1.png" alt="enter description here"><br>如果发现有快照，便可以通过快照查看该服务器的历史文件。</p>
+<p>(2) 创建快照</p>
+<figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vssadmin create shadow /<span class="keyword">for</span>=c:</span><br></pre></td></tr></table></figure>
 
-
-
-    <div class="meta">
-      <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
-        <span itemprop="name">渗透测试随笔</span>
-      </span>
-      
-    <div class="postdate">
-      
-        <time datetime="2019-08-20T16:50:06.000Z" itemprop="datePublished">2019-08-21</time>
-        
-      
-    </div>
+<p><img src="./images/2.png" alt="enter description here"></p>
 
 
-      
-
-      
-    <div class="article-tag">
-        <i class="fas fa-tag"></i>
-        <a class="tag-link" href="/tags/测试/">测试</a>
-    </div>
-
-
-    </div>
-  </header>
   
 
-  <div class="content" itemprop="articleBody">
-    <h1 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h1><blockquote>
-<p>cmd</p>
-</blockquote>
+  
+  <div class="post-reward">
+    <div id="reward-button">请杯咖啡呗~</div>
+    <div id="qr">
+      <div class="wrap">
+          
+          <div class="bg-wrap">
+            <a href="/images/zhifubao.jpg" target="_block" class="bg" style="background-image:url('/images/zhifubao.jpg')"></a>
+            支付宝
+          </div>
+          
+          
+          <div class="bg-wrap">
+              <a href="/images/weixin.jpg" target="_block" class="bg" style="background-image:url('/images/weixin.jpg')"></a>
+            微信
+          </div>
+          
+      </div>
+    </div>
+    
 
   </div>
+
+  <div class="post-copyright">
+    <div class="auth">
+      本文作者：<a href="https://wanpan1996.github.io">Saitama</a>
+    </div>
+    <div class="link">
+      永久链接：<a href="https://wanpan1996.github.io/2019/08/21/test/">https://wanpan1996.github.io/2019/08/21/test/</a>
+    </div>
+    <div class="declare">
+      版权声明：本文首发于<a href="https://wanpan1996.github.io">Saitama</a>的博客，转载请注明出处！
+    </div>
+  </div>
+
+  <div id="comment"></div>
 </article>
-
-
-
-        
-          <div id="footer-post-container">
-  <div id="footer-post">
-
-    <div id="nav-footer" style="display: none">
-      <ul>
-         
-          <li><a href="/">首页</a></li>
-         
-          <li><a href="/about/">关于</a></li>
-         
-          <li><a href="/archives/">归档</a></li>
-         
-          <li><a href="/projects_url">项目</a></li>
-        
-      </ul>
+        </div>
+        <footer>
+          <div class="copyright">
+            ©2019 <a href="https://wanpan1996.github.io">Saitama</a>. Powered by Hexo &
+            <a href="https://github.com/shixiaohu2206/hexo-theme-huhu">hexo-theme-huhu</a>
+          </div>
+          
+        </footer>
+      </div>
+      <div id="card-wrap">
+        <div class="card">
+          <div class="logo-widget">
+            <div class="author">
+              Utone
+            </div>
+            <div class="logo" style="background-image: url('/images/logo.jpeg')"></div>
+          </div>
+          <div class="locate-widget">
+            <div class="city-wrap">
+              <span class="iconfont icon-dangdi"></span>
+              <span id="city-name"></span>
+            </div>
+            <div class="weather-wrap">
+              <div id="weather-img">
+                <svg class="icon weather" aria-hidden="true">
+                  <use xlink:href="#icon-qingjiafeng"/>
+                </svg>
+              </div>
+              <div id="weather-detail"></div>
+            </div>
+          </div>
+          <div class="follow-widget">
+            
+            <a href="https://wanpan1996.github.io/" target="_block">
+              <span class="iconfont icon-github"></span>
+            </a>
+            
+            <a href="https://github.com/shixiaohu2206" target="_block">
+              <span class="iconfont icon-weixin"></span>
+            </a>
+             
+            <a href="/atom.xml" target="_block">
+              <span class="iconfont icon-rss"></span>
+            </a>
+            
+          </div>
+           
+          <div class="toc-widget">
+            <div class="title">
+              <span>Toc</span>
+            </div>
+            <div class="post-toc">
+              <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#前言："><span class="toc-text">前言：</span></a></li></ol>
+            </div>
+          </div>
+           
+          <div class="category-widget">
+            <div class="title">
+              <span>Categories</span>
+              <span><a href="/archives">···</a></span>
+            </div>
+            <div class="list">
+              <ul>
+                
+              </ul>
+            </div>
+          </div>
+          <div class="tag-widget">
+            <div class="title">
+              <span>Tag Cloud</span>
+              <span><a href>···</a></span>
+            </div>
+            <div class="tag-cloud">
+              <a href="/tags/内网渗透/" style="font-size: 13px; color: #4a4a4a">内网渗透</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-
-    <div id="toc-footer" style="display: none">
-      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#测试"><span class="toc-number">1.</span> <span class="toc-text">测试</span></a></li></ol>
-    </div>
-
-    <div id="share-footer" style="display: none">
-      <ul>
-  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=https://wanpan1996.github.io/2019/08/21/test/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="https://twitter.com/share?url=https://wanpan1996.github.io/2019/08/21/test/&text=test"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=https://wanpan1996.github.io/2019/08/21/test/&title=test"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https://wanpan1996.github.io/2019/08/21/test/&is_video=false&description=test"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="mailto:?subject=test&body=Check out this article: https://wanpan1996.github.io/2019/08/21/test/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="https://getpocket.com/save?url=https://wanpan1996.github.io/2019/08/21/test/&title=test"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="http://reddit.com/submit?url=https://wanpan1996.github.io/2019/08/21/test/&title=test"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=https://wanpan1996.github.io/2019/08/21/test/&title=test"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="http://digg.com/submit?url=https://wanpan1996.github.io/2019/08/21/test/&title=test"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="http://www.tumblr.com/share/link?url=https://wanpan1996.github.io/2019/08/21/test/&name=test&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
-</ul>
-
-    </div>
-
-    <div id="actions-footer">
-        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fas fa-bars fa-lg" aria-hidden="true"></i> 菜单</a>
-        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;"><i class="fas fa-list fa-lg" aria-hidden="true"></i> 目录</a>
-        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;"><i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> 分享</a>
-        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> 返回顶部</a>
-    </div>
-
-  </div>
-</div>
-
-        
-        <footer id="footer">
-  <div class="footer-left">
-    Copyright &copy; 2019 Saitama
-  </div>
-  <div class="footer-right">
-    <nav>
-      <ul>
-         
-          <li><a href="/">首页</a></li>
-         
-          <li><a href="/about/">关于</a></li>
-         
-          <li><a href="/archives/">归档</a></li>
-         
-          <li><a href="/projects_url">项目</a></li>
-        
-      </ul>
-    </nav>
-  </div>
-</footer>
-
-    </div>
-    <!-- styles -->
-<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
-<link rel="stylesheet" href="/lib/justified-gallery/css/justifiedGallery.min.css">
-
-    <!-- jquery -->
-<script src="/lib/jquery/jquery.min.js"></script>
-<script src="/lib/justified-gallery/js/jquery.justifiedGallery.min.js"></script>
-<!-- clipboard -->
-
-  <script src="/lib/clipboard/clipboard.min.js"></script>
-  <script type="text/javascript">
-  $(function() {
-    // copy-btn HTML
-    var btn = "<span class=\"btn-copy tooltipped tooltipped-sw\" aria-label=\"复制到粘贴板!\">";
-    btn += '<i class="far fa-clone"></i>';
-    btn += '</span>'; 
-    // mount it!
-    $(".highlight .code pre").before(btn);
-    var clip = new ClipboardJS('.btn-copy', {
-      target: function(trigger) {
-        return trigger.nextElementSibling;
+  </body>
+  
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WJ7P5KL" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  
+</html>
+<script type="text/javascript">
+  window.THEME_CONFIG = JSON.parse('{"title":"渗透测试随笔","subtitle":null,"description":"每周一更，与人共勉。","author":"Saitama","language":"zh-CN","timezone":null,"url":"https://wanpan1996.github.io","root":"/","permalink":":year/:month/:day/:title/","permalink_defaults":null,"source_dir":"source","public_dir":"public","tag_dir":"tags","archive_dir":"archives","category_dir":"categories","code_dir":"downloads/code","i18n_dir":":lang","skip_render":null,"new_post_name":":title.md","default_layout":"post","titlecase":false,"external_link":true,"filename_case":0,"render_drafts":false,"post_asset_folder":false,"relative_link":false,"future":true,"highlight":{"enable":true,"auto_detect":false,"line_number":true,"tab_replace":null,"first_line_number":"always1"},"default_category":"Web安全","category_map":null,"tag_map":null,"date_format":"YYYY-MM-DD","time_format":"HH:mm:ss","per_page":10,"pagination_dir":"page","theme":"huhu","deploy":{"type":"git","repo":"git@github.com:wanpan1996/wanpan1996.github.io.git","branch":"master"},"ignore":[],"keywords":"内网渗透,Web安全,渗透tips,红队,APT","index_generator":{"per_page":10,"order_by":"-date","path":""},"category_generator":{"per_page":10},"tag_generator":{"per_page":10},"archive_generator":{"per_page":10,"yearly":true,"monthly":true,"daily":false},"marked":{"gfm":true,"pedantic":false,"sanitize":false,"tables":true,"breaks":true,"smartLists":true,"smartypants":true,"modifyAnchors":"","autolink":true},"server":{"port":4000,"log":false,"compress":false,"header":true},"menu":{"home":"/","archives":"/archives","about":"/about"},"logo":"/images/logo.jpeg","categories_max":5,"tags_max":10,"favicon":"/images/favicon.ico","site_search":true,"rss":"/atom.xml","follow":{"github":"https://wanpan1996.github.io/","weixin":"https://github.com/shixiaohu2206"},"search_url":"/search.xml","site_icp":"","site_friends":{"CSDN":"https://blog.csdn.net/weixin_42193900"},"changyan":{"appid":"","conf":""},"valine":{"API_ID":"FjXColpwTL0BsrjJIN8Pmnn0-gzGzoHsz","API_KEY":"Ar7tucPRn3KV7UOidQxESoys"},"busuanzi":true,"share":["weibo","weixin","qqkongjian","QQ","douban","facebook","twitter","google"],"cdn_module":{"av_min":"https://cdn.jsdelivr.net/npm/leancloud-storage/dist/av-min","jquery":"https://cdn.bootcss.com/jquery/3.4.1/jquery.min","busuanzi":"//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini","confirm":"https://cdn.bootcss.com/jquery-confirm/3.3.4/jquery-confirm.min","fancybox":"https://cdn.bootcss.com/fancybox/3.5.7/jquery.fancybox.min"},"google_site_verification":"VQowHv5lAVVWJxjKI9bnAWT7NGdOrfS5KnLF07-B7w0","gtm_id":"GTM-WJ7P5KL","baidu_push":true,"reward":{"weixin":"images/weixin.jpg","zhifubao":"images/zhifubao.jpg"}}')
+  window.loadJs = function(d, m, a) {
+    var c = document.getElementsByTagName('head')[0] || document.head || document.documentElement
+    var b = document.createElement('script')
+    b.defer = true
+    b.setAttribute('type', 'text/javascript')
+    b.setAttribute('charset', 'UTF-8')
+    b.setAttribute('async', 'true')
+    b.setAttribute('src', d)
+    m && b.setAttribute('data-main', '/scripts/app')
+    if (typeof a === 'function') {
+      if (window.attachEvent) {
+        b.onreadystatechange = function() {
+          var e = b.readyState
+          if (e === 'loaded' || e === 'complete') {
+            b.onreadystatechange = null
+            a()
+          }
+        }
+      } else {
+        b.onload = a
       }
-    });
-    clip.on('success', function(e) {
-      e.trigger.setAttribute('aria-label', "复制成功!");
-      e.clearSelection();
+    }
+    c.appendChild(b)
+  }
+  loadJs('https://cdn.bootcss.com/require.js/2.3.6/require.min.js', true, function() {
+    require.config({
+      paths: {
+        // site
+        share: 'share',
+        iconfont: 'iconfont',
+        hodgepodge: 'hodgepodge',
+        valine: ['cdn/Valine.min'],
+
+        // cdn
+        av: ['https://cdn.jsdelivr.net/npm/leancloud-storage/dist/av-min', 'cdn/av-min'],
+        jquery: ['https://cdn.bootcss.com/jquery/3.4.1/jquery.min', 'cdn/jquery.min'],
+        busuanzi: ['//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini', 'cdn/busuanzi.pure.mini'],
+        confirm: ['https://cdn.bootcss.com/jquery-confirm/3.3.4/jquery-confirm.min', 'cdn/jquery.confirm.min'],
+        fancybox: ['https://cdn.bootcss.com/fancybox/3.5.7/jquery.fancybox.min', 'cdn/jquery.fancybox.min']
+      },
+
+      map: {
+        '*': {
+          // css: '/scripts/cdn/css-min.js'
+          css: 'https://cdn.bootcss.com/require-css/0.1.10/css.min.js'
+        }
+      },
+
+      shim: {
+        fancybox: {
+          // deps: ['css!../style/fancybox']
+          deps: ['css!https://cdn.bootcss.com/fancybox/3.5.7/jquery.fancybox.min.css']
+        },
+        confirm: {
+          // deps: ['css!../style/confirm']
+          deps: ['css!https://cdn.bootcss.com/jquery-confirm/3.3.4/jquery-confirm.min.css']
+        }
+      },
+
+      // 加载超时
+      waitSeconds: 3
     })
   })
-  </script>
+</script>
 
-<script src="/js/main.js"></script>
-<!-- search -->
+<script>
+  ;(function() {
+    var bp = document.createElement('script')
+    var curProtocol = window.location.protocol.split(':')[0]
+    if (curProtocol === 'https') {
+      bp.src = 'https://zz.bdstatic.com/linksubmit/push.js'
+    } else {
+      bp.src = 'http://push.zhanzhang.baidu.com/push.js'
+    }
+    var s = document.getElementsByTagName('script')[0]
+    s.parentNode.insertBefore(bp, s)
+  })()
+</script>
 
-<!-- Google Analytics -->
-
-<!-- Baidu Analytics -->
-
-<!-- Disqus Comments -->
-
-
-</body>
-</html>
