@@ -51,7 +51,7 @@
     </div>
     <div id="head">
       
-      <a href="/" class="current">
+      <a href="/" class>
         Home
       </a>
       
@@ -80,113 +80,106 @@
           </div>
         </div>
         <div class="content">
+          <article class="post-entry">
+    <div class="header">
+      <div class="title">内网渗透测试tips</div>
+      <div class="meta">
+        <span class="item">
+          <span class="iconfont icon-time-circle"></span>
+          <span>2019/08/21</span>
+        </span>
+
+         
+        <span class="item">
+          <span class="iconfont icon-folder"></span>
+          <span>
+              
+          </span>
+        </span>
+        
+        
+         
+          <span class="item">
+            <span class="iconfont icon-tag1"></span>
+            <span>
+                
+                  
+                    <a href="/tags/内网渗透">内网渗透</a>
+                  
+                
+            </span>
+          </span>
+         
+        <span class="item leancloud-visitors" id="https://wanpan1996.github.io/2019/08/21/test/" data-flag-title="内网渗透测试tips">
+          <span class="iconfont icon-eye1"></span>
+          <span class="leancloud-visitors-count"></span>
+        </span>
+      </div>
+      <div>
+      </div>
+    </div>
+    <h2 id="前言："><a href="#前言：" class="headerlink" title="前言："></a>前言：</h2><blockquote>
+<p>有朋友可能在实战中会遇到这样的情况，域内设置策略每个月或者一段时间统一修改一次密码，而且密码是随机的。但是Sysvol共享脚本和GPP策略都没法拿到域内用户的hash或密码的时候，最直接的方式还是导出NTDS，当然这个需要在域控上操作。</p>
+</blockquote>
+<pre><code>目标环境介绍：
+2台 windows server 2012 R2 域控服务器
+ADC01 = 192.168.0.1         
+ADC02=192.168.0.2（备份）
+马儿是system权限。
+杀软为最新的趋势科技企业版</code></pre><blockquote>
+<p>话不多说开撸：（由于目标不方便截图，本地环境复现）</p>
+</blockquote>
+<p>Hash一般存储在两个地方：SAM文件，存储在本机对应本地用户,NTDS.DIT文件，存储在域控上对应域用户。</p>
+<p>(1) 查看系统当前快照</p>
+<figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vssadmin list shadows</span><br></pre></td></tr></table></figure>
+
+<p>(创建快照-由于类似的方法和工具网上很多这里只提一下)</p>
+<img src="/2019/08/21/test/1.png" title="This is an example image">
+<p>如果发现有快照，便可以通过快照查看该服务器的历史文件。</p>
+<p>(2) 创建快照</p>
+<figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vssadmin create shadow /<span class="keyword">for</span>=c:</span><br></pre></td></tr></table></figure>
+
+
+
+  
+
+  
+  <div class="post-reward">
+    <div id="reward-button">请杯咖啡呗~</div>
+    <div id="qr">
+      <div class="wrap">
           
-<div class="posts">
-  <ul>
-     
-    <li class="item">
-      
-      <div class="describe">
-        <div class="title">
-          <a href="/2019/08/21/test/">内网渗透测试tips</a>
-        </div>
-        <div class="date">
-          <span class="iconfont icon-time-circle"></span>
-          <span>19/08/21</span>
-        </div>
-        
-        <div class="meta">
-          <div class="l">
-              <div class="warp">
-                  
-                  <span class="iconfont icon-folder"></span>
-                  <span class="desp">
-                        
-                  </span>
-                  
-              </div>          
-
-               
-              <div class="warp">
-                  <span class="iconfont icon-tag1"></span>
-                  <span class="desp">
-                        
-                          
-                            <a href="/tags/内网渗透">内网渗透</a>
-                          
-                        
-                  </span>
-              </div>  
-                      
-              <div class="warp">
-                <div class="share" data-url="/2019/08/21/test/">
-                  <span class="iconfont icon-share"></span>
-                </div>
-                <div class="desp share" data-url="/2019/08/21/test/">
-                  <a href="javascript:void(0);">分享</a>
-                </div>
-              </div>
+          <div class="bg-wrap">
+            <a href="/images/zhifubao.jpg" target="_block" class="bg" style="background-image:url('/images/zhifubao.jpg')"></a>
+            支付宝
           </div>
-          <div class="r">
-            <a href="/2019/08/21/test/">Read More</a>
+          
+          
+          <div class="bg-wrap">
+              <a href="/images/weixin.jpg" target="_block" class="bg" style="background-image:url('/images/weixin.jpg')"></a>
+            微信
           </div>
-        </div>
+          
       </div>
-    </li>
-     
-    <li class="item">
-      
-      <div class="describe">
-        <div class="title">
-          <a href="/2019/08/20/hello-world/">Hello World</a>
-        </div>
-        <div class="date">
-          <span class="iconfont icon-time-circle"></span>
-          <span>19/08/20</span>
-        </div>
-        
-        <div class="meta">
-          <div class="l">
-              <div class="warp">
-                  
-                  <span class="iconfont icon-folder"></span>
-                  <span class="desp">
-                        
-                  </span>
-                  
-              </div>          
-
-               
-              <div class="warp">
-                  <span class="iconfont icon-tag1"></span>
-                  <span class="desp">
-                        
-                  </span>
-              </div>  
-                      
-              <div class="warp">
-                <div class="share" data-url="/2019/08/20/hello-world/">
-                  <span class="iconfont icon-share"></span>
-                </div>
-                <div class="desp share" data-url="/2019/08/20/hello-world/">
-                  <a href="javascript:void(0);">分享</a>
-                </div>
-              </div>
-          </div>
-          <div class="r">
-            <a href="/2019/08/20/hello-world/">Read More</a>
-          </div>
-        </div>
-      </div>
-    </li>
+    </div>
     
-  </ul>
-</div>
 
-<div class="paginator">
-  <span class="page-number current">1</span>
-</div>
+  </div>
 
+  <div class="post-copyright">
+    <div class="auth">
+      本文作者：<a href="https://wanpan1996.github.io">Saitama</a>
+    </div>
+    <div class="link">
+      永久链接：<a href="https://wanpan1996.github.io/2019/08/21/test/">https://wanpan1996.github.io/2019/08/21/test/</a>
+    </div>
+    <div class="declare">
+      版权声明：本文首发于<a href="https://wanpan1996.github.io">Saitama</a>的博客，转载请注明出处！
+    </div>
+  </div>
+
+  <div id="comment"></div>
+</article>
         </div>
         <footer>
           <div class="copyright">
@@ -233,7 +226,16 @@
             </a>
             
           </div>
-          
+           
+          <div class="toc-widget">
+            <div class="title">
+              <span>Toc</span>
+            </div>
+            <div class="post-toc">
+              <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#前言："><span class="toc-text">前言：</span></a></li></ol>
+            </div>
+          </div>
+           
           <div class="category-widget">
             <div class="title">
               <span>Categories</span>
