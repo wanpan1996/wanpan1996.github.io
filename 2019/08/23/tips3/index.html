@@ -51,7 +51,7 @@
     </div>
     <div id="head">
       
-      <a href="/" class="current">
+      <a href="/" class>
         Home
       </a>
       
@@ -80,213 +80,129 @@
           </div>
         </div>
         <div class="content">
+          <article class="post-entry">
+    <div class="header">
+      <div class="title">权限维持-Hook-PasswordChangeNotify</div>
+      <div class="meta">
+        <span class="item">
+          <span class="iconfont icon-time-circle"></span>
+          <span>2019/08/23</span>
+        </span>
+
+         
+        <span class="item">
+          <span class="iconfont icon-folder"></span>
+          <span>
+              
+          </span>
+        </span>
+        
+        
+         
+          <span class="item">
+            <span class="iconfont icon-tag1"></span>
+            <span>
+                
+                  
+                    <a href="/tags/权限维持">权限维持</a>
+                  
+                
+            </span>
+          </span>
+         
+        <span class="item leancloud-visitors" id="https://wanpan1996.github.io/2019/08/23/tips3/" data-flag-title="权限维持-Hook-PasswordChangeNotify">
+          <span class="iconfont icon-eye1"></span>
+          <span class="leancloud-visitors-count"></span>
+        </span>
+      </div>
+      <div>
+      </div>
+    </div>
+    <h2 id="背景知识"><a href="#背景知识" class="headerlink" title="背景知识"></a>背景知识</h2><p>需要了解的相关背景知识如下：</p>
+<p>在修改域控密码时会进行如下同步操作：</p>
+<ul>
+<li>当修改域控密码时，LSA首先调用PasswordFileter来判断新密码是否符合密码复杂度要求 </li>
+</ul>
+<ul>
+<li>如果符合，LSA接着调用PasswordChangeNotify在系统上同步更新密码</li>
+</ul>
+<p>函数PasswordChangeNotify存在于rassfm.dll rassfm.dll可理解为Remote Access Subauthentication dll，只存在于在<strong>Server</strong>系统下，xp、win7、win8等均不存在</p>
+<p>可以使用dumpbin查看rassfm.dll导出函数来验证结论2：</p>
+<pre><code>#!bash
+dumpbin /exports c:\windows\system32\rassfm.dll</code></pre><img src="/2019/08/23/tips3/16.png" title="This is an example image">
+
+<h2 id="目标环境"><a href="#目标环境" class="headerlink" title="目标环境"></a>目标环境</h2><blockquote>
+<p>Windows server 2012 R2<br>Windwos server 2008 R2</p>
+</blockquote>
+<h2 id="操作步骤"><a href="#操作步骤" class="headerlink" title="操作步骤"></a>操作步骤</h2><ol>
+<li>生成Hook dll</li>
+</ol>
+<p>下载链接：<br><a href="https://github.com/clymb3r/Misc-Windows-Hacking" target="_blank" rel="noopener">https://github.com/clymb3r/Misc-Windows-Hacking</a><br>（1）为PasswordChangeNotify创建一个内联Hook，将初始函数重定向到PasswordChangeNotifyHook<br>（2）在PasswordChangeNotifyHook中实现记录密码的操作，然后重新将控制权交给PasswordChangeNotify</p>
+<ol start="2">
+<li>DLL注入</li>
+</ol>
+<p>可以利用Powershell技巧中的Process Injection将我们自己编写的dll注入到lsass进程，实现Hook功能。<br>这里附上三好学生大佬修改过的代码：<br><a href="https://github.com/3gstudent/Hook-PasswordChangeNotify" target="_blank" rel="noopener">https://github.com/3gstudent/Hook-PasswordChangeNotify</a><br>下载代码后修改最后一行为</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Invoke-ReflectivePEInjection -PEPath HookPasswordChange.dll –procname lsass</span><br></pre></td></tr></table></figure>
+
+<p>（1）这里我使用VS2017生成的dll，生成时需要把MFC设置为在静态库中使用MFC</p>
+<img src="/2019/08/23/tips3/11.png" title="This is an example image">
+
+<p>将生成好的dll文件和下载的dll注入脚本上传到目标系统（注意必须是server系统）</p>
+<img src="/2019/08/23/tips3/12.png" title="This is an example image">
+
+<p>执行脚本</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">PowerShell.exe -ExecutionPolicy Bypass -File HookPasswordChangeNotify.ps1</span><br></pre></td></tr></table></figure>
+
+<p>然后我们修改一下密码试试：</p>
+<img src="/2019/08/23/tips3/13.png" title="This is an example image">
+
+<p>在C:\windows\temp下找到password.txt</p>
+<img src="/2019/08/23/tips3/14.png" title="This is an example image">
+
+<img src="/2019/08/23/tips3/15.png" title="This is an example image">
+
+<p>关于Hook-PasswordChangeNotify 当然还有更厉害的方法，比如把记录的密码直接发送到我们的服务器上，等等。这就靠大家自己研究啦。<br>以上的思路和方法都是前辈们辛苦研究的，我只是把自己前段时间解决问题的方法列了出来，不足之处还请指正。<br>以上的操作都是在开启杀软的情况下进行的。</p>
+
+
+  
+
+  
+  <div class="post-reward">
+    <div id="reward-button">请杯咖啡呗~</div>
+    <div id="qr">
+      <div class="wrap">
           
-<div class="posts">
-  <ul>
-     
-    <li class="item">
-      
-      <div class="describe">
-        <div class="title">
-          <a href="/2019/08/23/tips3/">权限维持-Hook-PasswordChangeNotify</a>
-        </div>
-        <div class="date">
-          <span class="iconfont icon-time-circle"></span>
-          <span>19/08/23</span>
-        </div>
-        
-        <div class="meta">
-          <div class="l">
-              <div class="warp">
-                  
-                  <span class="iconfont icon-folder"></span>
-                  <span class="desp">
-                        
-                  </span>
-                  
-              </div>          
-
-               
-              <div class="warp">
-                  <span class="iconfont icon-tag1"></span>
-                  <span class="desp">
-                        
-                          
-                            <a href="/tags/权限维持">权限维持</a>
-                          
-                        
-                  </span>
-              </div>  
-                      
-              <div class="warp">
-                <div class="share" data-url="/2019/08/23/tips3/">
-                  <span class="iconfont icon-share"></span>
-                </div>
-                <div class="desp share" data-url="/2019/08/23/tips3/">
-                  <a href="javascript:void(0);">分享</a>
-                </div>
-              </div>
+          <div class="bg-wrap">
+            <a href="/images/zhifubao.jpg" target="_block" class="bg" style="background-image:url('/images/zhifubao.jpg')"></a>
+            支付宝
           </div>
-          <div class="r">
-            <a href="/2019/08/23/tips3/">Read More</a>
+          
+          
+          <div class="bg-wrap">
+              <a href="/images/weixin.jpg" target="_block" class="bg" style="background-image:url('/images/weixin.jpg')"></a>
+            微信
           </div>
-        </div>
+          
       </div>
-    </li>
-     
-    <li class="item">
-      
-      <div class="describe">
-        <div class="title">
-          <a href="/2019/08/22/tips2/">红队渗透流程</a>
-        </div>
-        <div class="date">
-          <span class="iconfont icon-time-circle"></span>
-          <span>19/08/22</span>
-        </div>
-        
-        <div class="meta">
-          <div class="l">
-              <div class="warp">
-                  
-                  <span class="iconfont icon-folder"></span>
-                  <span class="desp">
-                        
-                  </span>
-                  
-              </div>          
-
-               
-              <div class="warp">
-                  <span class="iconfont icon-tag1"></span>
-                  <span class="desp">
-                        
-                          
-                            <a href="/tags/红队资源">红队资源</a>
-                          
-                        
-                  </span>
-              </div>  
-                      
-              <div class="warp">
-                <div class="share" data-url="/2019/08/22/tips2/">
-                  <span class="iconfont icon-share"></span>
-                </div>
-                <div class="desp share" data-url="/2019/08/22/tips2/">
-                  <a href="javascript:void(0);">分享</a>
-                </div>
-              </div>
-          </div>
-          <div class="r">
-            <a href="/2019/08/22/tips2/">Read More</a>
-          </div>
-        </div>
-      </div>
-    </li>
-     
-    <li class="item">
-      
-      <div class="describe">
-        <div class="title">
-          <a href="/2019/08/21/tips1/">内网渗透 Tips1</a>
-        </div>
-        <div class="date">
-          <span class="iconfont icon-time-circle"></span>
-          <span>19/08/21</span>
-        </div>
-        
-        <div class="meta">
-          <div class="l">
-              <div class="warp">
-                  
-                  <span class="iconfont icon-folder"></span>
-                  <span class="desp">
-                        
-                  </span>
-                  
-              </div>          
-
-               
-              <div class="warp">
-                  <span class="iconfont icon-tag1"></span>
-                  <span class="desp">
-                        
-                          
-                            <a href="/tags/内网渗透">内网渗透</a>
-                          
-                        
-                  </span>
-              </div>  
-                      
-              <div class="warp">
-                <div class="share" data-url="/2019/08/21/tips1/">
-                  <span class="iconfont icon-share"></span>
-                </div>
-                <div class="desp share" data-url="/2019/08/21/tips1/">
-                  <a href="javascript:void(0);">分享</a>
-                </div>
-              </div>
-          </div>
-          <div class="r">
-            <a href="/2019/08/21/tips1/">Read More</a>
-          </div>
-        </div>
-      </div>
-    </li>
-     
-    <li class="item">
-      
-      <div class="describe">
-        <div class="title">
-          <a href="/2019/08/20/hello-world/">Hello World</a>
-        </div>
-        <div class="date">
-          <span class="iconfont icon-time-circle"></span>
-          <span>19/08/20</span>
-        </div>
-        
-        <div class="meta">
-          <div class="l">
-              <div class="warp">
-                  
-                  <span class="iconfont icon-folder"></span>
-                  <span class="desp">
-                        
-                  </span>
-                  
-              </div>          
-
-               
-              <div class="warp">
-                  <span class="iconfont icon-tag1"></span>
-                  <span class="desp">
-                        
-                  </span>
-              </div>  
-                      
-              <div class="warp">
-                <div class="share" data-url="/2019/08/20/hello-world/">
-                  <span class="iconfont icon-share"></span>
-                </div>
-                <div class="desp share" data-url="/2019/08/20/hello-world/">
-                  <a href="javascript:void(0);">分享</a>
-                </div>
-              </div>
-          </div>
-          <div class="r">
-            <a href="/2019/08/20/hello-world/">Read More</a>
-          </div>
-        </div>
-      </div>
-    </li>
+    </div>
     
-  </ul>
-</div>
 
-<div class="paginator">
-  <span class="page-number current">1</span>
-</div>
+  </div>
 
+  <div class="post-copyright">
+    <div class="auth">
+      本文作者：<a href="https://wanpan1996.github.io">Saitama</a>
+    </div>
+    <div class="link">
+      永久链接：<a href="https://wanpan1996.github.io/2019/08/23/tips3/">https://wanpan1996.github.io/2019/08/23/tips3/</a>
+    </div>
+    <div class="declare">
+      版权声明：本文首发于<a href="https://wanpan1996.github.io">Saitama</a>的博客，转载请注明出处！
+    </div>
+  </div>
+
+  <div id="comment"></div>
+</article>
         </div>
         <footer>
           <div class="copyright">
@@ -333,7 +249,16 @@
             </a>
             
           </div>
-          
+           
+          <div class="toc-widget">
+            <div class="title">
+              <span>Toc</span>
+            </div>
+            <div class="post-toc">
+              <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#背景知识"><span class="toc-text">背景知识</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#目标环境"><span class="toc-text">目标环境</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#操作步骤"><span class="toc-text">操作步骤</span></a></li></ol>
+            </div>
+          </div>
+           
           <div class="category-widget">
             <div class="title">
               <span>Categories</span>
