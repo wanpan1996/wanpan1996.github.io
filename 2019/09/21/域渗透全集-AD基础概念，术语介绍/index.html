@@ -51,7 +51,7 @@
     </div>
     <div id="head">
       
-      <a href="/" class="current">
+      <a href="/" class>
         Home
       </a>
       
@@ -80,317 +80,141 @@
           </div>
         </div>
         <div class="content">
+          <article class="post-entry">
+    <div class="header">
+      <div class="title">域渗透全集-AD基础概念，术语介绍</div>
+      <div class="meta">
+        <span class="item">
+          <span class="iconfont icon-time-circle"></span>
+          <span>2019/09/21</span>
+        </span>
+
+         
+        <span class="item">
+          <span class="iconfont icon-folder"></span>
+          <span>
+              
+          </span>
+        </span>
+        
+        
+         
+          <span class="item">
+            <span class="iconfont icon-tag1"></span>
+            <span>
+                
+                  
+                    <a href="/tags/域渗透全集">域渗透全集</a>
+                  
+                
+            </span>
+          </span>
+         
+        <span class="item leancloud-visitors" id="https://wanpan1996.github.io/2019/09/21/域渗透全集-AD基础概念，术语介绍/" data-flag-title="域渗透全集-AD基础概念，术语介绍">
+          <span class="iconfont icon-eye1"></span>
+          <span class="leancloud-visitors-count"></span>
+        </span>
+      </div>
+      <div>
+      </div>
+    </div>
+    <h1 id="AD的基础概念-常见术语"><a href="#AD的基础概念-常见术语" class="headerlink" title="AD的基础概念,常见术语"></a>AD的基础概念,常见术语</h1><p>Windows域简介见<a href="https://baike.baidu.com/item/windows%E5%9F%9F/1492318?fr=aladdin" target="_blank" rel="noopener">百度百科</a></p>
+<h2 id="AD的基础概念-1"><a href="#AD的基础概念-1" class="headerlink" title="AD的基础概念-1:"></a>AD的基础概念-1:</h2><ul>
+<li>AD是微软实现的目录服务,基于X.500工作在应用层,AD使用”Kerberos”认证用户以及使用LDAP来递归目录信息</li>
+<li>DC控制所有用户,用户信息,计算机,以及策略.主要工作就是认证用户</li>
+<li>在AD中所有网络资源都叫对象(Object),包括计算机,用户,打印机等等</li>
+<li>域(Domain)是安全的边界.域内的对象可以彼此共享数据,所有对象的信息存储在DC中(ntds.dit)</li>
+<li>Domain-&gt;tree-&gt;Forest</li>
+</ul>
+<h2 id="AD的基础概念-2："><a href="#AD的基础概念-2：" class="headerlink" title="AD的基础概念-2："></a>AD的基础概念-2：</h2><ul>
+<li><a href="https://baike.baidu.com/item/%E7%BB%84%E7%AD%96%E7%95%A5/101919?fromtitle=Group%20Policy&fromid=11296214&fr=aladdin" target="_blank" rel="noopener">Group Policy</a>:<br>A Group Policy Object is a collection of settings systems administrators create with the Microsoft Management Console (MMC) Group Policy Editor. The GPO can be associated with one or more of the Active Directory containers, such as sites, domains, or organizational units (OUs).</li>
+<li><a href="https://baike.baidu.com/item/%E7%BB%84%E7%BB%87%E5%8D%95%E4%BD%8D/6571875?fr=aladdin" target="_blank" rel="noopener">OU</a></li>
+<li>Objects</li>
+<li>域是边界,森里扩展了该管理边界</li>
+<li>作用域: 本地(计算机内),全局(域间),通用 (森林)</li>
+<li>默认情况,域具有传递性,森林没有</li>
+<li>信任关系:单向/双向/,可传递/不可传递</li>
+</ul>
+<h2 id="用户和组的概念"><a href="#用户和组的概念" class="headerlink" title="用户和组的概念"></a>用户和组的概念</h2><ul>
+<li>Administrator/LocalSystem: 本地计算机权限最高的2个用户</li>
+<li>Domain Admins: 域里权限最高的</li>
+<li>Enterprise Admins: 森林里权限最高的</li>
+<li>Schema Admins: 这个组里的成员有权编辑目录结构,权限非常大</li>
+<li><a href="https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd835564(v=ws.10)?redirectedfrom=MSDN" target="_blank" rel="noopener">UAC</a>:<ul>
+<li>User Account Control: Admin Approval Mode for the built-in Administrator account (默认禁用)</li>
+<li>User Account Control: Run all administrators in Admin Approval Mode (默认启用)</li>
+</ul>
+</li>
+</ul>
+<img src="/2019/09/21/域渗透全集-AD基础概念，术语介绍/1.jpg" title="This is an example image">
+
+<h2 id="LM-NT-and-NTLM-version-1-and-2"><a href="#LM-NT-and-NTLM-version-1-and-2" class="headerlink" title="LM, NT, and NTLM (version 1 and 2)"></a>LM, NT, and NTLM (version 1 and 2)</h2><ul>
+<li>LM: LM was turned off by default starting in Windows Vista/Server 2008, but might still linger in a network if there older systems are still used</li>
+<li>NTHash (A.K.A. NTLM):<a href="https://xz.aliyun.com/t/1802" target="_blank" rel="noopener">pass-the-hash</a></li>
+<li>NTLMv1 (A.K.A. Net-NTLMv1) : The NTLM protocol uses the NTHash in a challenge/response between a server and a client. The v1 of the protocol uses both the NT and LM hash, depending on configuration and what is available (<a href="https://xz.aliyun.com/t/3560" target="_blank" rel="noopener">Responder</a>)</li>
+<li>NTLMv2 (A.K.A. Net-NTLMv2): Default in Windows since Windows 2000.</li>
+<li>NTLMv1,NTLMv2能被用来<a href="https://www.freebuf.com/column/202842.html" target="_blank" rel="noopener">Relay attack</a>.</li>
+</ul>
+<h2 id="Mimikatz-WCE为什么能抓到明文"><a href="#Mimikatz-WCE为什么能抓到明文" class="headerlink" title="Mimikatz/WCE为什么能抓到明文?"></a>Mimikatz/WCE为什么能抓到明文?</h2><img src="/2019/09/21/域渗透全集-AD基础概念，术语介绍/2.jpg" title="This is an example image">
+<p>详见： <a href="https://2017.zeronights.org/wp-content/uploads/materials/ZN17_Kheirkhabarov_Hunting_for_Credentials_Dumping_in_Windows_Environment.pdf" target="_blank" rel="noopener">https://2017.zeronights.org/wp-content/uploads/materials/ZN17_Kheirkhabarov_Hunting_for_Credentials_Dumping_in_Windows_Environment.pdf</a></p>
+<h2 id="域-树-森林的概念"><a href="#域-树-森林的概念" class="headerlink" title="域,树,森林的概念"></a>域,树,森林的概念</h2><p>简介见 <a href="https://zhidao.baidu.com/question/12014170.html" target="_blank" rel="noopener">https://zhidao.baidu.com/question/12014170.html</a></p>
+<img src="/2019/09/21/域渗透全集-AD基础概念，术语介绍/3.jpg" title="This is an example image">
+
+<h2 id="AD通讯会涉及到哪些端口和协议"><a href="#AD通讯会涉及到哪些端口和协议" class="headerlink" title="AD通讯会涉及到哪些端口和协议"></a>AD通讯会涉及到哪些端口和协议</h2><img src="/2019/09/21/域渗透全集-AD基础概念，术语介绍/4.jpg" title="This is an example image">
+
+<h2 id="关于Kerberos认证"><a href="#关于Kerberos认证" class="headerlink" title="关于Kerberos认证"></a>关于Kerberos认证</h2><ul>
+<li>活动目录当前使用 <a href="https://blog.csdn.net/wulantian/article/details/42418231" target="_blank" rel="noopener">Kerberos 身份验证</a>，它本身有几个漏洞<ul>
+<li>Pass the Hash<ul>
+<li>Pass the Ticket</li>
+<li>Golden Ticket</li>
+<li>Silver Ticket</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>AD 曾经使用并且仍然支持 NTLM 加密，在当今的标准中，这种加密非常薄弱</li>
+</ul>
+
+
+  
+
+  
+  <div class="post-reward">
+    <div id="reward-button">请杯咖啡呗~</div>
+    <div id="qr">
+      <div class="wrap">
           
-<div class="posts">
-  <ul>
-     
-    <li class="item">
-      
-      <div class="describe">
-        <div class="title">
-          <a href="/2019/09/21/域渗透全集-渗透技巧-1/">域渗透全集-渗透技巧-1</a>
-        </div>
-        <div class="date">
-          <span class="iconfont icon-time-circle"></span>
-          <span>19/09/21</span>
-        </div>
-        
-        <div class="meta">
-          <div class="l">
-              <div class="warp">
-                  
-                  <span class="iconfont icon-folder"></span>
-                  <span class="desp">
-                        
-                  </span>
-                  
-              </div>          
-
-               
-              <div class="warp">
-                  <span class="iconfont icon-tag1"></span>
-                  <span class="desp">
-                        
-                          
-                            <a href="/tags/域渗透全集">域渗透全集</a>
-                          
-                        
-                  </span>
-              </div>  
-                      
-              <div class="warp">
-                <div class="share" data-url="/2019/09/21/域渗透全集-渗透技巧-1/">
-                  <span class="iconfont icon-share"></span>
-                </div>
-                <div class="desp share" data-url="/2019/09/21/域渗透全集-渗透技巧-1/">
-                  <a href="javascript:void(0);">分享</a>
-                </div>
-              </div>
+          <div class="bg-wrap">
+            <a href="/images/zhifubao.jpg" target="_block" class="bg" style="background-image:url('/images/zhifubao.jpg')"></a>
+            支付宝
           </div>
-          <div class="r">
-            <a href="/2019/09/21/域渗透全集-渗透技巧-1/">Read More</a>
+          
+          
+          <div class="bg-wrap">
+              <a href="/images/weixin.jpg" target="_block" class="bg" style="background-image:url('/images/weixin.jpg')"></a>
+            微信
           </div>
-        </div>
+          
       </div>
-    </li>
-     
-    <li class="item">
-      
-      <div class="describe">
-        <div class="title">
-          <a href="/2019/09/21/域渗透全集-AD基础概念，术语介绍/">域渗透全集-AD基础概念，术语介绍</a>
-        </div>
-        <div class="date">
-          <span class="iconfont icon-time-circle"></span>
-          <span>19/09/21</span>
-        </div>
-        
-        <div class="meta">
-          <div class="l">
-              <div class="warp">
-                  
-                  <span class="iconfont icon-folder"></span>
-                  <span class="desp">
-                        
-                  </span>
-                  
-              </div>          
-
-               
-              <div class="warp">
-                  <span class="iconfont icon-tag1"></span>
-                  <span class="desp">
-                        
-                          
-                            <a href="/tags/域渗透全集">域渗透全集</a>
-                          
-                        
-                  </span>
-              </div>  
-                      
-              <div class="warp">
-                <div class="share" data-url="/2019/09/21/域渗透全集-AD基础概念，术语介绍/">
-                  <span class="iconfont icon-share"></span>
-                </div>
-                <div class="desp share" data-url="/2019/09/21/域渗透全集-AD基础概念，术语介绍/">
-                  <a href="javascript:void(0);">分享</a>
-                </div>
-              </div>
-          </div>
-          <div class="r">
-            <a href="/2019/09/21/域渗透全集-AD基础概念，术语介绍/">Read More</a>
-          </div>
-        </div>
-      </div>
-    </li>
-     
-    <li class="item">
-      
-      <div class="describe">
-        <div class="title">
-          <a href="/2019/09/13/PHP-Webshell——disable-function方法大全/">PHP Webshell——disable_function方法大全</a>
-        </div>
-        <div class="date">
-          <span class="iconfont icon-time-circle"></span>
-          <span>19/09/13</span>
-        </div>
-        
-        <div class="meta">
-          <div class="l">
-              <div class="warp">
-                  
-                  <span class="iconfont icon-folder"></span>
-                  <span class="desp">
-                        
-                  </span>
-                  
-              </div>          
-
-               
-              <div class="warp">
-                  <span class="iconfont icon-tag1"></span>
-                  <span class="desp">
-                        
-                          
-                            <a href="/tags/web渗透">web渗透</a>
-                          
-                        
-                  </span>
-              </div>  
-                      
-              <div class="warp">
-                <div class="share" data-url="/2019/09/13/PHP-Webshell——disable-function方法大全/">
-                  <span class="iconfont icon-share"></span>
-                </div>
-                <div class="desp share" data-url="/2019/09/13/PHP-Webshell——disable-function方法大全/">
-                  <a href="javascript:void(0);">分享</a>
-                </div>
-              </div>
-          </div>
-          <div class="r">
-            <a href="/2019/09/13/PHP-Webshell——disable-function方法大全/">Read More</a>
-          </div>
-        </div>
-      </div>
-    </li>
-     
-    <li class="item">
-      
-      <div class="describe">
-        <div class="title">
-          <a href="/2019/08/23/tips3/">权限维持-Hook-PasswordChangeNotify</a>
-        </div>
-        <div class="date">
-          <span class="iconfont icon-time-circle"></span>
-          <span>19/08/23</span>
-        </div>
-        
-        <div class="meta">
-          <div class="l">
-              <div class="warp">
-                  
-                  <span class="iconfont icon-folder"></span>
-                  <span class="desp">
-                        
-                  </span>
-                  
-              </div>          
-
-               
-              <div class="warp">
-                  <span class="iconfont icon-tag1"></span>
-                  <span class="desp">
-                        
-                          
-                            <a href="/tags/权限维持">权限维持</a>
-                          
-                        
-                  </span>
-              </div>  
-                      
-              <div class="warp">
-                <div class="share" data-url="/2019/08/23/tips3/">
-                  <span class="iconfont icon-share"></span>
-                </div>
-                <div class="desp share" data-url="/2019/08/23/tips3/">
-                  <a href="javascript:void(0);">分享</a>
-                </div>
-              </div>
-          </div>
-          <div class="r">
-            <a href="/2019/08/23/tips3/">Read More</a>
-          </div>
-        </div>
-      </div>
-    </li>
-     
-    <li class="item">
-      
-      <div class="describe">
-        <div class="title">
-          <a href="/2019/08/22/tips2/">红队渗透流程</a>
-        </div>
-        <div class="date">
-          <span class="iconfont icon-time-circle"></span>
-          <span>19/08/22</span>
-        </div>
-        
-        <div class="meta">
-          <div class="l">
-              <div class="warp">
-                  
-                  <span class="iconfont icon-folder"></span>
-                  <span class="desp">
-                        
-                  </span>
-                  
-              </div>          
-
-               
-              <div class="warp">
-                  <span class="iconfont icon-tag1"></span>
-                  <span class="desp">
-                        
-                          
-                            <a href="/tags/红队资源">红队资源</a>
-                          
-                        
-                  </span>
-              </div>  
-                      
-              <div class="warp">
-                <div class="share" data-url="/2019/08/22/tips2/">
-                  <span class="iconfont icon-share"></span>
-                </div>
-                <div class="desp share" data-url="/2019/08/22/tips2/">
-                  <a href="javascript:void(0);">分享</a>
-                </div>
-              </div>
-          </div>
-          <div class="r">
-            <a href="/2019/08/22/tips2/">Read More</a>
-          </div>
-        </div>
-      </div>
-    </li>
-     
-    <li class="item">
-      
-      <div class="describe">
-        <div class="title">
-          <a href="/2019/08/21/tips1/">内网渗透 Tips1</a>
-        </div>
-        <div class="date">
-          <span class="iconfont icon-time-circle"></span>
-          <span>19/08/21</span>
-        </div>
-        
-        <div class="meta">
-          <div class="l">
-              <div class="warp">
-                  
-                  <span class="iconfont icon-folder"></span>
-                  <span class="desp">
-                        
-                  </span>
-                  
-              </div>          
-
-               
-              <div class="warp">
-                  <span class="iconfont icon-tag1"></span>
-                  <span class="desp">
-                        
-                          
-                            <a href="/tags/内网渗透">内网渗透</a>
-                          
-                        
-                  </span>
-              </div>  
-                      
-              <div class="warp">
-                <div class="share" data-url="/2019/08/21/tips1/">
-                  <span class="iconfont icon-share"></span>
-                </div>
-                <div class="desp share" data-url="/2019/08/21/tips1/">
-                  <a href="javascript:void(0);">分享</a>
-                </div>
-              </div>
-          </div>
-          <div class="r">
-            <a href="/2019/08/21/tips1/">Read More</a>
-          </div>
-        </div>
-      </div>
-    </li>
+    </div>
     
-  </ul>
-</div>
 
-<div class="paginator">
-  <span class="page-number current">1</span>
-</div>
+  </div>
 
+  <div class="post-copyright">
+    <div class="auth">
+      本文作者：<a href="https://wanpan1996.github.io">Saitama</a>
+    </div>
+    <div class="link">
+      永久链接：<a href="https://wanpan1996.github.io/2019/09/21/域渗透全集-AD基础概念，术语介绍/">https://wanpan1996.github.io/2019/09/21/域渗透全集-AD基础概念，术语介绍/</a>
+    </div>
+    <div class="declare">
+      版权声明：本文首发于<a href="https://wanpan1996.github.io">Saitama</a>的博客，转载请注明出处！
+    </div>
+  </div>
+
+  <div id="comment"></div>
+</article>
         </div>
         <footer>
           <div class="copyright">
@@ -437,7 +261,16 @@
             </a>
             
           </div>
-          
+           
+          <div class="toc-widget">
+            <div class="title">
+              <span>Toc</span>
+            </div>
+            <div class="post-toc">
+              <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#AD的基础概念-常见术语"><span class="toc-text">AD的基础概念,常见术语</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#AD的基础概念-1"><span class="toc-text">AD的基础概念-1:</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#AD的基础概念-2："><span class="toc-text">AD的基础概念-2：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#用户和组的概念"><span class="toc-text">用户和组的概念</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#LM-NT-and-NTLM-version-1-and-2"><span class="toc-text">LM, NT, and NTLM (version 1 and 2)</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Mimikatz-WCE为什么能抓到明文"><span class="toc-text">Mimikatz/WCE为什么能抓到明文?</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#域-树-森林的概念"><span class="toc-text">域,树,森林的概念</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#AD通讯会涉及到哪些端口和协议"><span class="toc-text">AD通讯会涉及到哪些端口和协议</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#关于Kerberos认证"><span class="toc-text">关于Kerberos认证</span></a></li></ol></li></ol>
+            </div>
+          </div>
+           
           <div class="category-widget">
             <div class="title">
               <span>Categories</span>
