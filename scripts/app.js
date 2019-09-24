@@ -11,8 +11,8 @@ define(['jquery', 'hodgepodge', 'valine', 'fancybox', 'confirm', 'iconfont', 'sh
   if (API_ID && API_KEY) {
     new valine({
       el: '#comment',
-      appId: 'FjXColpwTL0BsrjJIN8Pmnn0-gzGzoHsz',
-      appKey: 'Ar7tucPRn3KV7UOidQxESoys',
+      appId: 'ikuGA8MhjB3ImloflKk7wRgA-gzGzoHsz',
+      appKey: 'z6ExWmeICz1eTQt7cMoIxr81',
       notify: false,
       visitor: true, // 阅读量统计
       avatar: 'mp',
@@ -57,7 +57,7 @@ define(['jquery', 'hodgepodge', 'valine', 'fancybox', 'confirm', 'iconfont', 'sh
     qing: 'qingtian'
   }
 
-  // bind events
+  // z6ExWmeICz1eTQt7cMoIxr81
   $(document).ready(function() {
     $H.WEATH.getWeath().then(resp => {
       if (resp) {

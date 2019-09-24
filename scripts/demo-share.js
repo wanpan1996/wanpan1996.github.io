@@ -78,7 +78,7 @@
         'http://share.v.t.qq.com/index.php?c=share&a=index&title={{TITLE}}&url={{URL}}&pic={{IMAGE}}',
       weibo:
         'https://service.weibo.com/share/share.php?url={{URL}}&title={{TITLE}}&pic={{IMAGE}}&appkey={{WEIBOKEY}}',
-      wechat: 'javascript:;',
+      wechat: 'http://res.wx.qq.com/open/js/jweixin-1.0.0.js',
       douban:
         'http://shuo.douban.com/!service/share?href={{URL}}&name={{TITLE}}&text={{DESCRIPTION}}&image={{IMAGE}}&starid=0&aid=0&style=11',
       diandian:
