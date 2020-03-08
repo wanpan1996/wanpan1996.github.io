@@ -55,6 +55,7 @@ var LOCALSTORAGE = (function() {
 })()
 
 // 天气接口
+
 function getWeath() {
   var weathKey = 'WEATH'
   var weathData = LOCALSTORAGE.get(weathKey)
@@ -63,7 +64,7 @@ function getWeath() {
     return Promise.resolve(weathData)
   } else {
     return new Promise((resolve, reject) => {
-      fetch('https://www.tianqiapi.com/api/').then(
+      fetch('https://tianqiapi.com/api?version=v6&appid=52777565&appsecret=5u4JEG3J').then(
         data => {
           if (data.ok) {
             data.json().then(resp => {

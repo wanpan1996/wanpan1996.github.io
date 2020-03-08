@@ -28,7 +28,7 @@ define(function(require, exports, module) {
     $(document).ready(function() {
       $H.WEATH.getWeath().then(resp => {
         if (resp) {
-          var city_name = resp.city || '上海' // 默认上海
+          var city_name = resp.city || '成都' // 默认上海
           var today = (resp.data && resp.data[0]) || {}
           var wea_img = today.wea_img || 'qingtian' // 默认晴天图标
           var wea = today.wea // 当前天气
