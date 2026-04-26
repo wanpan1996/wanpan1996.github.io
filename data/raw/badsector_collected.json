@@ -1,0 +1,138 @@
+[
+  {
+    "url": "https://krebsonsecurity.com/",
+    "title": "Krebs on Security – In-depth security news and investigation",
+    "summary": "‘Scattered Spider’ Member ‘Tylerb’ Pleads Guilty A 24-year-old British national and senior member of the cybercrime group “Scattered Spider” has pleaded guilty to wire fraud conspiracy and aggravated identity theft.Tyler Robert Buchananadmitted his role in a series of text-message phishing attacks in the summer of 2022 that allowed the group to hack into at least a dozen major technology companies and steal tens of millions of dollars worth of cryptocurrency from investors. Buchanan’s hacker han",
+    "content": "‘Scattered Spider’ Member ‘Tylerb’ Pleads Guilty A 24-year-old British national and senior member of the cybercrime group “Scattered Spider” has pleaded guilty to wire fraud conspiracy and aggravated identity theft.Tyler Robert Buchananadmitted his role in a series of text-message phishing attacks in the summer of 2022 that allowed the group to hack into at least a dozen major technology companies and steal tens of millions of dollars worth of cryptocurrency from investors. Buchanan’s hacker handle “Tylerb” once graced a leaderboard in the English-language criminal hacking scene that tracked the most accomplished cyber thieves. Now in U.S. custody and awaiting sentencing, the Dundee, Scotland native is facing the possibility of more than 20 years in prison. Two photos published in a Daily Mail story dated May 3, 2025 show Buchanan as a child (left) and as an adult being detained by airport authorities in Spain. “M&S” in this screenshot refers to Marks & Spencer, a major U.K. retail cha",
+    "source": "krebsonsecurity.com",
+    "status": "ok"
+  },
+  {
+    "url": "https://portswigger.net/daily-swig",
+    "title": "Web Application Security, Testing, & Scanning - PortSwigger",
+    "summary": "Trusted by the people whouse it every day Everything you need to stay ahead The latest AppSec news from PortSwigger",
+    "content": "Trusted by the people whouse it every day Everything you need to stay ahead The latest AppSec news from PortSwigger The top 10 web hacking techniques of\n                                  2025 Welcome to the next generation of Burp\n                                  Suite",
+    "source": "portswigger.net",
+    "status": "ok"
+  },
+  {
+    "url": "https://labs.f-secure.com/",
+    "title": "Useful online security tips and articles | F‑Secure",
+    "summary": "What is a Trojan? How to stay protected against the Trojan horse virus A Trojan horse is a type of malware that appears to be a legitimate program or file. Read more about how to detect and remove Trojan horses.",
+    "content": "What is a Trojan? How to stay protected against the Trojan horse virus A Trojan horse is a type of malware that appears to be a legitimate program or file. Read more about how to detect and remove Trojan horses.",
+    "source": "labs.f-secure.com",
+    "status": "ok"
+  },
+  {
+    "url": "https://posts.specterops.io/",
+    "title": "Blog - SpecterOps",
+    "summary": "TL;DR: Javier Azofra and I vibe-ported MSSQLHound to Go to drastically improve run duration, enable cross-platform execution, support SOCKS proxying… By: \n                        Chris Thompson SpecterOps Selected for OpenAI’s Trusted Access for Cyber Program",
+    "content": "TL;DR: Javier Azofra and I vibe-ported MSSQLHound to Go to drastically improve run duration, enable cross-platform execution, support SOCKS proxying… By: \n                        Chris Thompson SpecterOps Selected for OpenAI’s Trusted Access for Cyber Program SpecterOps has been named to OpenAI's inaugural Trusted Access for Cyber (TAC) cohort (alongside Nvidia, CrowdStrike, JPMorgan Chase, and Bank of America and others) giving… By: \n                        Jared Atkinson",
+    "source": "posts.specterops.io",
+    "status": "ok"
+  },
+  {
+    "url": "https://unit42.paloaltonetworks.com/",
+    "title": "Unit 42 - Latest Cybersecurity Research | Palo Alto Networks",
+    "summary": "Unit 42 analyzes npm supply chain evolution post-Shai Hulud. Discover wormable malware, CI/CD persistence, multi-stage attacks and more. The npm Threat Landscape: Attack Surface and Mitigations TGR-STA-1030: New Activity in Central and South America",
+    "content": "Unit 42 analyzes npm supply chain evolution post-Shai Hulud. Discover wormable malware, CI/CD persistence, multi-stage attacks and more. The npm Threat Landscape: Attack Surface and Mitigations TGR-STA-1030: New Activity in Central and South America Frontier AI and the Future of Defense: Your Top Questions Answered Access the latest threat research",
+    "source": "unit42.paloaltonetworks.com",
+    "status": "ok"
+  },
+  {
+    "url": "https://blog.fox-it.com/",
+    "title": "Fox-IT International blog – News and opinions from Fox-IT",
+    "summary": "Authors: Yun Zheng Hu and Mick Koomen Introduction In the past few years, Fox-IT and NCC Group have conducted multiple incident response cases involving a Lazarus subgroup that specifically targets organizations in the financial and cryptocurrency sector. This Lazarus subgroup overlaps with activity linked to AppleJeus1, Citrine Sleet2, UNC47363, and Gleaming Pisces4. This actor uses …Continue readingThree Lazarus RATs coming for your cheese→",
+    "content": "Authors: Yun Zheng Hu and Mick Koomen Introduction In the past few years, Fox-IT and NCC Group have conducted multiple incident response cases involving a Lazarus subgroup that specifically targets organizations in the financial and cryptocurrency sector. This Lazarus subgroup overlaps with activity linked to AppleJeus1, Citrine Sleet2, UNC47363, and Gleaming Pisces4. This actor uses …Continue readingThree Lazarus RATs coming for your cheese→",
+    "source": "blog.fox-it.com",
+    "status": "ok"
+  },
+  {
+    "url": "https://labs.sentinelone.com/",
+    "title": "SentinelLabs - We are hunters, reversers, exploit developers, and tinkerers shedding light on the world of malware, exploits, APTs, and cybercrime across all platforms.",
+    "summary": "LABScon25 Replay | Are Your Chinese Cameras Spying For You Or On You? Marc Rogers and Silas Cutler expose how cheap smart home devices conceal a shadow supply chain of shell companies, firmware flaws, and foreign data routing.",
+    "content": "LABScon25 Replay | Are Your Chinese Cameras Spying For You Or On You? Marc Rogers and Silas Cutler expose how cheap smart home devices conceal a shadow supply chain of shell companies, firmware flaws, and foreign data routing.",
+    "source": "labs.sentinelone.com",
+    "status": "ok"
+  },
+  {
+    "url": "https://www.fortinet.com/blog/threat-research",
+    "title": "FortiGuard Labs Threat Research",
+    "summary": "TBK DVRs targeted by Nexcorium: exploiting, persisting, brute-force attacks, and multi-architecture Mirai-style DDoS in a single campaign. From CVE-2024-3721 exploitation to CVE-2017-17215 reuse, this botnet demonstrates how quickly IoT threats continue to evolve. Analysis of DPRK-linked LNK-based attacks using GitHub as covert C2 infrastructure, detailing multi-stage PowerShell execution, persistence mechanisms, and data exfiltration techniques targeting Windows environments. Following U.S.-Isr",
+    "content": "TBK DVRs targeted by Nexcorium: exploiting, persisting, brute-force attacks, and multi-architecture Mirai-style DDoS in a single campaign. From CVE-2024-3721 exploitation to CVE-2017-17215 reuse, this botnet demonstrates how quickly IoT threats continue to evolve. Analysis of DPRK-linked LNK-based attacks using GitHub as covert C2 infrastructure, detailing multi-stage PowerShell execution, persistence mechanisms, and data exfiltration techniques targeting Windows environments. Following U.S.-Israeli strikes on Iran, FortiGuard Labs has not yet observed large-scale cyber retaliation. However, we observed that regional cyber activity is rising. Organizations should take action to strengthen cyber hygiene, rotate credentials, and reduce exposure. ByAamir Lakhani,Carl Windsor,andDerek MankyMarch 04, 2026 FortiGuard Labs provides a technical breakdown of a multi-stage Agent Tesla campaign, from phishing and encrypted scripts to in-memory execution, process hollowing, and data exfiltration",
+    "source": "fortinet.com",
+    "status": "ok"
+  },
+  {
+    "url": "https://blog.cloudflare.com/",
+    "title": "The Cloudflare Blog",
+    "summary": "Making Rust Workers reliable: panic and abort recovery in wasmâbindgen Panics in Rust Workers were historically fatal, poisoning the entire instance. By collaborating upstream on the wasmâbindgen project, Rust Workers now support resilient critical error recovery, including panic unwinding using WebAssembly Exception Handling....",
+    "content": "Making Rust Workers reliable: panic and abort recovery in wasmâbindgen Panics in Rust Workers were historically fatal, poisoning the entire instance. By collaborating upstream on the wasmâbindgen project, Rust Workers now support resilient critical error recovery, including panic unwinding using WebAssembly Exception Handling....",
+    "source": "blog.cloudflare.com",
+    "status": "ok"
+  },
+  {
+    "url": "https://blog.google/threat-analysis-group",
+    "title": "Official news and updates on Google's Threat Analysis Group | Google Blog",
+    "summary": "The latest on our efforts to counter government-backed attacks. Buying Spying: How the commercial surveillance industry works and what can be done about it This report documents the rise of commercial surveillance vendors and the industry that threatens free speech, the free press and the open internet.",
+    "content": "The latest on our efforts to counter government-backed attacks. Buying Spying: How the commercial surveillance industry works and what can be done about it This report documents the rise of commercial surveillance vendors and the industry that threatens free speech, the free press and the open internet.",
+    "source": "blog.google",
+    "status": "ok"
+  },
+  {
+    "url": "https://www.schneier.com/",
+    "title": "Schneier on Security -",
+    "summary": "Friday Squid Blogging: How Squid Survived Extinction Events Scientists have finally cracked a long-standing mystery about squid and cuttlefish evolution by analyzing newly sequenced genomes alongside global datasets. The research reveals that these bizarre, intelligent creatures likely originated deep in the ocean over 100 million years ago, surviving mass extinction events by retreating into oxygen-rich deep-sea refuges. For millions of years, their evolution barely changed—until a dramatic pos",
+    "content": "Friday Squid Blogging: How Squid Survived Extinction Events Scientists have finally cracked a long-standing mystery about squid and cuttlefish evolution by analyzing newly sequenced genomes alongside global datasets. The research reveals that these bizarre, intelligent creatures likely originated deep in the ocean over 100 million years ago, surviving mass extinction events by retreating into oxygen-rich deep-sea refuges. For millions of years, their evolution barely changed—until a dramatic post-extinction boom sparked rapid diversification as they moved into new shallow-water habitats. As usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered. Posted on April 24, 2026 at 5:03 PM•11 Comments",
+    "source": "schneier.com",
+    "status": "ok"
+  },
+  {
+    "url": "https://security.googleblog.com/",
+    "title": "Google Online Security Blog",
+    "summary": "AI threats in the wild: The current state of prompt injections on the web At Google, our Threat Intelligence teams are dedicated to staying ahead of real-world adversarial activity, proactively monitoring emerging threats before they can impact users. Right now,Indirect Prompt Injection (IPI)is a top priority for the security community, anticipating it as a primary attack vector for adversaries to target and compromise AI agents. But while the danger of IPI is widely discussed, are threat actors",
+    "content": "AI threats in the wild: The current state of prompt injections on the web At Google, our Threat Intelligence teams are dedicated to staying ahead of real-world adversarial activity, proactively monitoring emerging threats before they can impact users. Right now,Indirect Prompt Injection (IPI)is a top priority for the security community, anticipating it as a primary attack vector for adversaries to target and compromise AI agents. But while the danger of IPI is widely discussed, are threat actors actually exploiting this vector today – and if so, how? To answer these questions and to uncover real-world abuse, we initiated a broad sweep of the public web to monitor for known indirect prompt injection patterns. This is what we found. Unlike a direct injection where a user \"jailbreaks\" a chatbot, IPI occurs when an AI system processes content—like a website, email, or document—that contains malicious instructions. When the AI reads this poisoned content, it may silently follow the attacker",
+    "source": "security.googleblog.com",
+    "status": "ok"
+  },
+  {
+    "url": "https://labs.detectify.com/",
+    "title": "Detectify Labs - Writeups, ethical hacker insights, security guidance",
+    "summary": "Reducing the attack surface in AWS The smaller our attack surface, the fewer things we need to worry about. An excellent way of reducing the attack surface (and our cognitive load) is using AWS Service Control Policies (SCPs.) In this post, I’ll describe how we approached it.",
+    "content": "Reducing the attack surface in AWS The smaller our attack surface, the fewer things we need to worry about. An excellent way of reducing the attack surface (and our cognitive load) is using AWS Service Control Policies (SCPs.) In this post, I’ll describe how we approached it.",
+    "source": "labs.detectify.com",
+    "status": "ok"
+  },
+  {
+    "url": "https://blog.sonarsource.com/",
+    "title": "Sonar blog | Sonar",
+    "summary": "Cloud-based static analysis tool for your CI/CD workflows Self-managed static analysis tool for continuous codebase inspection Free IDE extension that provides on-the-fly analysis and coding guidance",
+    "content": "Cloud-based static analysis tool for your CI/CD workflows Self-managed static analysis tool for continuous codebase inspection Free IDE extension that provides on-the-fly analysis and coding guidance Secure use of open source code with advanced SAST and SCA Bring code quality and security into your AI workflow",
+    "source": "blog.sonarsource.com",
+    "status": "ok"
+  },
+  {
+    "url": "https://labs.watchtowr.com/",
+    "title": "watchTowr Labs",
+    "summary": "watchTowr Labsis the epicentre of offensive security expertise atwatchTowr- where research, innovation, and real attacker insight power ourPreemptive Exposure Managementtechnology.This blog offers a glimpse into the original research behind the continuous, attacker-aligned engine that drives thewatchTowr Platform.",
+    "content": "watchTowr Labsis the epicentre of offensive security expertise atwatchTowr- where research, innovation, and real attacker insight power ourPreemptive Exposure Managementtechnology.This blog offers a glimpse into the original research behind the continuous, attacker-aligned engine that drives thewatchTowr Platform.",
+    "source": "labs.watchtowr.com",
+    "status": "ok"
+  },
+  {
+    "url": "https://blog.quarkslab.com/",
+    "title": "Quarkslab's blog",
+    "summary": "Obfuscation vs the Optimizer: An LLVM Middle-End Arms Race How one Commit Broke Obfuscation: A blog post exploring the role of compilers and optimizations in the field of obfuscation and de-obfuscation. BSIM explained once and for all!",
+    "content": "Obfuscation vs the Optimizer: An LLVM Middle-End Arms Race How one Commit Broke Obfuscation: A blog post exploring the role of compilers and optimizations in the field of obfuscation and de-obfuscation. BSIM explained once and for all! Since its initial released in December 2023, many people have used and built tools around the BSIM feature of Ghidra but up to this date its internals were unknown. This post brings some light on how BSIM works, theoretically and in it's C++ implementation. Tearing down a car telematic unit (and finding an accident on Facebook)",
+    "source": "blog.quarkslab.com",
+    "status": "ok"
+  },
+  {
+    "url": "https://blog.includesecurity.com/",
+    "title": "Include Security Research Blog - Team Research blog",
+    "summary": "The Include Security team attended the BSides 2026 CTF competition and observed how effective frontier models have become at solving a variety of CTF challenges. Our team gives a first-hand account of how the winning strategy has recently shifted to prioritizing efficient solve times and orchestration pipelines that can combine the speed of lighter-weight models on easier challenges with a heavy-hitting model’s reasoning capabilities. We also highlight why the success of LLMs in CTFs does not tr",
+    "content": "The Include Security team attended the BSides 2026 CTF competition and observed how effective frontier models have become at solving a variety of CTF challenges. Our team gives a first-hand account of how the winning strategy has recently shifted to prioritizing efficient solve times and orchestration pipelines that can combine the speed of lighter-weight models on easier challenges with a heavy-hitting model’s reasoning capabilities. We also highlight why the success of LLMs in CTFs does not translate as effectively in the arena of professional security assessments.",
+    "source": "blog.includesecurity.com",
+    "status": "ok"
+  }
+]
