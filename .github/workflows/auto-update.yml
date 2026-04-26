@@ -27,7 +27,7 @@ jobs:
         run: |
           pip install openai beautifulsoup4 lxml requests feedparser
 
-      - name: Collect news from blogs
+      - name: Collect news from RSS feeds
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
         run: python pipelines/collect_pipeline.py
