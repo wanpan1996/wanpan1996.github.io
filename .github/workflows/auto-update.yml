@@ -1,0 +1,44 @@
+name: Auto Update Security News
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'   # 每6小时运行一次
+  workflow_dispatch:          # 手动触发
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          pip install openai beautifulsoup4 lxml requests feedparser
+
+      - name: Collect news from blogs
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+        run: python pipelines/collect_pipeline.py
+
+      - name: AI Analysis with DeepSeek Flash
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+        run: python pipelines/analyze_pipeline.py
+
+      - name: Generate website
+        run: python pipelines/generate_pipeline.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "SecNews Bot"
+          git config user.email "bot@secnews.dev"
+          git add index.html data/
+          git diff --staged --quiet || git commit -m "Auto: refresh news $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
