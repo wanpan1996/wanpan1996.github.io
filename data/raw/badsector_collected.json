@@ -48,6 +48,14 @@
     "status": "ok"
   },
   {
+    "url": "https://research.nccgroup.com/",
+    "title": "Cyber Security Research | NCC Group",
+    "summary": "Powering the future of cyber security throughbreakthrough research and practical innovation |Research Articles|Research Activities|Key Contacts| At NCC Group, our Research advances cyber security by discovering vulnerabilities, building open‑source tools, and translating insights into practical guidance for customers and the wider community.",
+    "content": "Powering the future of cyber security throughbreakthrough research and practical innovation |Research Articles|Research Activities|Key Contacts| At NCC Group, our Research advances cyber security by discovering vulnerabilities, building open‑source tools, and translating insights into practical guidance for customers and the wider community. Our projects span vulnerability research and exploitation, network and system security, malware and ransomware analysis/DFIR, applied cryptography, hardware & embedded systems/IoT, and software/AI security – with a track record of publishing reports and tooling that strengthen real‑world cyber resilience. For over 25 years, NCC Group researchers have contributed deep technical insight across industry and academia, presenting at global conferences and collaborating with partners worldwide.",
+    "source": "research.nccgroup.com",
+    "status": "ok"
+  },
+  {
     "url": "https://labs.sentinelone.com/",
     "title": "SentinelLabs - We are hunters, reversers, exploit developers, and tinkerers shedding light on the world of malware, exploits, APTs, and cybercrime across all platforms.",
     "summary": "LABScon25 Replay | Are Your Chinese Cameras Spying For You Or On You? Marc Rogers and Silas Cutler expose how cheap smart home devices conceal a shadow supply chain of shell companies, firmware flaws, and foreign data routing.",
@@ -80,14 +88,6 @@
     "status": "ok"
   },
   {
-    "url": "https://www.schneier.com/",
-    "title": "Schneier on Security -",
-    "summary": "Friday Squid Blogging: How Squid Survived Extinction Events Scientists have finally cracked a long-standing mystery about squid and cuttlefish evolution by analyzing newly sequenced genomes alongside global datasets. The research reveals that these bizarre, intelligent creatures likely originated deep in the ocean over 100 million years ago, surviving mass extinction events by retreating into oxygen-rich deep-sea refuges. For millions of years, their evolution barely changed—until a dramatic pos",
-    "content": "Friday Squid Blogging: How Squid Survived Extinction Events Scientists have finally cracked a long-standing mystery about squid and cuttlefish evolution by analyzing newly sequenced genomes alongside global datasets. The research reveals that these bizarre, intelligent creatures likely originated deep in the ocean over 100 million years ago, surviving mass extinction events by retreating into oxygen-rich deep-sea refuges. For millions of years, their evolution barely changed—until a dramatic post-extinction boom sparked rapid diversification as they moved into new shallow-water habitats. As usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered. Posted on April 24, 2026 at 5:03 PM•11 Comments",
-    "source": "schneier.com",
-    "status": "ok"
-  },
-  {
     "url": "https://security.googleblog.com/",
     "title": "Google Online Security Blog",
     "summary": "AI threats in the wild: The current state of prompt injections on the web At Google, our Threat Intelligence teams are dedicated to staying ahead of real-world adversarial activity, proactively monitoring emerging threats before they can impact users. Right now,Indirect Prompt Injection (IPI)is a top priority for the security community, anticipating it as a primary attack vector for adversaries to target and compromise AI agents. But while the danger of IPI is widely discussed, are threat actors",
@@ -117,6 +117,14 @@
     "summary": "watchTowr Labsis the epicentre of offensive security expertise atwatchTowr- where research, innovation, and real attacker insight power ourPreemptive Exposure Managementtechnology.This blog offers a glimpse into the original research behind the continuous, attacker-aligned engine that drives thewatchTowr Platform.",
     "content": "watchTowr Labsis the epicentre of offensive security expertise atwatchTowr- where research, innovation, and real attacker insight power ourPreemptive Exposure Managementtechnology.This blog offers a glimpse into the original research behind the continuous, attacker-aligned engine that drives thewatchTowr Platform.",
     "source": "labs.watchtowr.com",
+    "status": "ok"
+  },
+  {
+    "url": "https://vulncheck.com/blog",
+    "title": "Blog  | Company | VulnCheck",
+    "summary": "Bring real-world exploit and vulnerability intelligence directly into Splunk, making it easier for security teams to enrich CVE data, prioritize remediation and respond faster to emerging threats. In response to NIST NVD's announcement that it will significantly limit CVE enrichment starting April 15, 2026, VulnCheck reaffirms its commitment to filling the data gap through its free NVD++ community service and plans to expand coverage with CVSS scores over the next month A primary source breakdow",
+    "content": "Bring real-world exploit and vulnerability intelligence directly into Splunk, making it easier for security teams to enrich CVE data, prioritize remediation and respond faster to emerging threats. In response to NIST NVD's announcement that it will significantly limit CVE enrichment starting April 15, 2026, VulnCheck reaffirms its commitment to filling the data gap through its free NVD++ community service and plans to expand coverage with CVSS scores over the next month A primary source breakdown of every CVE publicly credited to Anthropic researchers and Project Glasswing, based on a full search of the CVE record database. VulnCheck's Initial Access Intelligence team analysis of CVE-2026-20079, an authentication bypass and remote code execution vulnerability in Cisco Secure Firewall Management Center. Canary Intelligence linked exploitation of CVE-2023-46604, CVE-2023-38646, and CVE-2025-55182 to the same Kinsing infrastructure, including a shared staging host and attacker IP first se",
+    "source": "vulncheck.com",
     "status": "ok"
   },
   {
