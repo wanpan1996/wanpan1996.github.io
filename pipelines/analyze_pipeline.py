@@ -38,12 +38,21 @@ def run_analyze_pipeline(articles=None):
 
     if articles is None:
         data_dir = Path(project_root) / 'data' / 'raw'
-        # Prefer Badsector collected data over generic raw data
+        # Prefer RSS collected data over badsector homepage scrapes
+        rss_path = data_dir / 'rss_articles.json'
+        collected_path = data_dir / 'collected.json'
         badsector_path = data_dir / 'badsector_collected.json'
-        if badsector_path.exists():
-            with open(badsector_path, 'r', encoding='utf-8') as f:
+
+        data_file = None
+        for p in [rss_path, collected_path, badsector_path]:
+            if p.exists():
+                data_file = p
+                break
+
+        if data_file:
+            with open(data_file, 'r', encoding='utf-8') as f:
                 articles = json.load(f)
-            print(f"  Loaded {len(articles)} articles from Badsector Labs")
+            print(f"  Loaded {len(articles)} articles from {data_file.name}")
         else:
             files = sorted(data_dir.glob('raw_*.json'))
             if files:

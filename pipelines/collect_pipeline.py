@@ -4,52 +4,33 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 import json
 from pathlib import Path
-from data.collectors.badsector_collector import load_urls, BadsectorCollector
+from datetime import datetime
 
-def run_collect_pipeline(max_urls=25):
+def run_collect_pipeline():
     print("=" * 60)
-    print("Badsector Labs Blog Collector")
+    print("SecNews Collector - RSS + Badsector")
     print("=" * 60)
 
-    txt_path = Path(__file__).parent.parent / 'data' / 'blogs.txt'
-    if not txt_path.exists():
-        print("ERROR: data/blogs.txt not found")
-        return
+    from data.collectors.rss_feed_collector import KNOWN_FEEDS, collect_feeds
 
-    urls = load_urls(str(txt_path))
-    print(f"Loaded {len(urls)} blog URLs from Badsector Labs list")
+    print(f"Configured {len(KNOWN_FEEDS)} RSS feeds\n")
+    articles = collect_feeds(KNOWN_FEEDS, max_per_feed=3)
 
-    # Priority cybersecurity blogs
-    keywords = [
-        'krebsonsecurity', 'portswigger', 'schneier',
-        'research.nccgroup', 'posts.specterops', 'labs.sentinelone',
-        'unit42.paloaltonetworks', 'blog.cloudflare',
-        'labs.f-secure', 'blog.fox-it',
-        'blog.orange.tw', 'fortinet.com/blog/threat',
-        'blog.google/threat', 'msrc.microsoft',
-        'blog.trendmicro', 'security.googleblog',
-        'thehackernews', 'bleepingcomputer',
-        'blog.checkpoint', 'labs.detectify',
-        'blog.sonarsource', 'labs.watchtowr',
-        'blog.quarkslab', 'embracethered',
-        'vulncheck', 'blog.includesecurity',
-    ]
-
-    filtered = [u for u in urls if any(k in u.lower() for k in keywords)]
-    if len(filtered) < 15:
-        filtered = urls[:max_urls]
-    else:
-        filtered = filtered[:max_urls]
-
-    print(f"Selected {len(filtered)} priority blogs for scraping")
-
-    collector = BadsectorCollector(filtered, max_urls=len(filtered))
-    articles = collector.collect(delay=0.3)
+    if not articles:
+        print("\nNo articles. Trying homepage scraper fallback...")
+        from data.collectors.badsector_collector import load_urls, BadsectorCollector
+        txt = Path(__file__).parent.parent / 'data' / 'blogs.txt'
+        urls = load_urls(str(txt))
+        collector = BadsectorCollector(urls[:15], max_urls=15)
+        articles = collector.collect(delay=0.3)
 
     # Save
-    output_path = Path(__file__).parent.parent / 'data' / 'raw' / 'badsector_collected.json'
-    collector.save(str(output_path))
-    print(f"\nSaved {len(articles)} articles to {output_path}")
+    output = Path(__file__).parent.parent / 'data' / 'raw' / 'collected.json'
+    output.parent.mkdir(parents=True, exist_ok=True)
+    with open(output, 'w', encoding='utf-8') as f:
+        json.dump(articles, f, ensure_ascii=False, indent=2)
+
+    print(f"\nSaved {len(articles)} articles to {output}")
     return articles
 
 if __name__ == '__main__':
