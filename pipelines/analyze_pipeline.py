@@ -1,13 +1,17 @@
 import sys
 import os
 import json
+import io
 from pathlib import Path
 from datetime import datetime
+
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8')
 
 project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, project_root)
 
-from analysis.deepseek_api import analyze_article, generate_daily_digest, generate_html_page
+from analysis.deepseek_api import analyze_article, generate_daily_digest
 
 OUTPUT_DIR = Path(project_root) / 'data' / 'processed'
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
@@ -19,29 +23,54 @@ def run_analyze_pipeline(articles=None):
 
     if articles is None:
         data_dir = Path(project_root) / 'data' / 'raw'
-        files = sorted(data_dir.glob('raw_*.json'))
-        if not files:
-            from test_local import MOCK_ARTICLES
-            articles = MOCK_ARTICLES
-            print(f"  Using {len(articles)} mock articles")
-        else:
-            with open(files[-1], 'r', encoding='utf-8') as f:
+        # Prefer Badsector collected data over generic raw data
+        badsector_path = data_dir / 'badsector_collected.json'
+        if badsector_path.exists():
+            with open(badsector_path, 'r', encoding='utf-8') as f:
                 articles = json.load(f)
-            print(f"  Loaded {len(articles)} articles from {files[-1]}")
+            print(f"  Loaded {len(articles)} articles from Badsector Labs")
+        else:
+            files = sorted(data_dir.glob('raw_*.json'))
+            if files:
+                with open(files[-1], 'r', encoding='utf-8') as f:
+                    articles = json.load(f)
+                print(f"  Loaded {len(articles)} articles from {files[-1]}")
+            else:
+                from test_local import MOCK_ARTICLES
+                articles = MOCK_ARTICLES
+                print(f"  Using {len(articles)} mock articles")
 
     analyzed = []
     for i, article in enumerate(articles):
-        print(f"  [{i+1}/{len(articles)}] Analyzing: {article.get('title','')[:60]}...")
+        title = article.get('title', '')[:80]
         try:
-            result_json = analyze_article(
+            print(f"  [{i+1}/{len(articles)}] Analyzing: {title}")
+        except UnicodeEncodeError:
+            print(f"  [{i+1}/{len(articles)}] Analyzing: {title.encode('ascii', 'replace').decode()}")
+        try:
+            result = analyze_article(
                 title=article.get('title', ''),
                 summary=article.get('summary', ''),
                 source=article.get('source', '')
             )
-            result = json.loads(result_json) if isinstance(result_json, str) else result_json
+            # Map to filter-compatible tags
+            filter_tags = []
+            if result.get('priority') == '重要':
+                filter_tags.append('important')
+            elif result.get('priority') == '新技术':
+                filter_tags.append('newtech')
+            cat = result.get('category', '')
+            if cat == '新闻': filter_tags.append('news')
+            elif cat == '技术': filter_tags.append('techniques')
+            elif cat == '工具': filter_tags.append('tools')
+            elif cat == '研究': filter_tags.append('news')
+            result['tags'] = filter_tags
             merged = {**article, **result}
             analyzed.append(merged)
-            print(f"    → [{result.get('priority','')}] [{result.get('category','')}] hot={result.get('heat_score',0)}")
+            try:
+                print(f"    -> [{result.get('priority','')}] [{result.get('category','')}] hot={result.get('heat_score',0)}")
+            except UnicodeEncodeError:
+                print(f"    -> [{result.get('priority','')[:2]}] hot={result.get('heat_score',0)}")
         except Exception as e:
             print(f"    ✗ Error: {e}")
             analyzed.append(article)

@@ -1,50 +1,68 @@
 import sys
 import os
 import json
+import re
 from pathlib import Path
+from datetime import datetime
 
 project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, project_root)
 
-from analysis.deepseek_api import generate_html_page
+from analysis.deepseek_api import generate_daily_digest
 
-OUTPUT_DIR = Path(project_root) / 'web' / 'static'
-OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 PROCESSED_DIR = Path(project_root) / 'data' / 'processed'
+TEMPLATE_PATH = Path(project_root) / 'index.html'
 
 def generate_site(articles=None, digest=""):
     print("=" * 50)
-    print("DeepSeek Flash - Auto Website Generator")
+    print("Site Generator - Update data + digest")
     print("=" * 50)
 
     if articles is None:
         analyzed_path = PROCESSED_DIR / 'analyzed.json'
         if analyzed_path.exists():
-            with open(analyzed_path, 'r', encoding='utf-8') as f:
-                articles = json.load(f)
+            articles = json.loads(analyzed_path.read_text(encoding='utf-8'))
             print(f"  Loaded {len(articles)} analyzed articles")
         else:
-            from test_local import MOCK_ARTICLES
-            articles = MOCK_ARTICLES
-            print(f"  Using {len(articles)} mock articles")
+            print("  ERROR: No analyzed.json found. Run analyze_pipeline first.")
+            return
 
     if not digest:
         digest_path = PROCESSED_DIR / 'digest.txt'
         if digest_path.exists():
             digest = digest_path.read_text(encoding='utf-8')
+        else:
+            print("  Generating daily digest via DeepSeek Flash...")
+            digest = generate_daily_digest(articles)
 
-    print("  Generating HTML page via DeepSeek Flash...")
-    html = generate_html_page(articles, digest)
+    if not TEMPLATE_PATH.exists():
+        print("  ERROR: index.html template not found")
+        return
 
-    output_path = OUTPUT_DIR / 'index.html'
-    with open(output_path, 'w', encoding='utf-8') as f:
-        f.write(html)
-    print(f"  Page saved to {output_path} ({len(html)} chars)")
+    html = TEMPLATE_PATH.read_text(encoding='utf-8')
+
+    # Replace the data block
+    data_json = json.dumps(articles, ensure_ascii=False, indent=2)
+    html = re.sub(
+        r'<script type="application/json" id="articles-json">.*?</script>',
+        f'<script type="application/json" id="articles-json">\n{data_json}\n</script>',
+        html,
+        flags=re.DOTALL
+    )
+
+    # Replace digest date
+    today = datetime.now().strftime('%Y-%m-%d')
+    html = re.sub(
+        r'(\d{4}-\d{2}-\d{2})\s*[-·]\s*实时更新',
+        f'{today}  ·  实时更新',
+        html
+    )
+
+    TEMPLATE_PATH.write_text(html, encoding='utf-8')
+    print(f"  Updated {TEMPLATE_PATH} with {len(articles)} articles")
+    print(f"  Digest date set to {today}")
     return html
 
 if __name__ == '__main__':
-    analyzed_path = PROCESSED_DIR / 'analyzed.json'
-    articles = json.loads(analyzed_path.read_text(encoding='utf-8'))
-    digest = (PROCESSED_DIR / 'digest.txt').read_text(encoding='utf-8')
-    generate_site(articles, digest)
-    print("\nDone! Open web/static/index.html in your browser.")
+    generate_site()
+    print("\nDone!")

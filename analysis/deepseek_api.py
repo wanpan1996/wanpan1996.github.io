@@ -1,4 +1,6 @@
 import os
+import re
+import json
 from openai import OpenAI
 
 DEEPSEEK_API_KEY = os.environ.get("DEEPSEEK_API_KEY", "sk-81bfd68b425b4ec6a01805454a791838")
@@ -19,8 +21,13 @@ SYSTEM_PROMPT = """You are a cybersecurity news analyst. Analyze the given artic
 
 Return ONLY valid JSON, no markdown or explanation."""
 
+def _strip_markdown(text: str) -> str:
+    text = text.strip()
+    text = re.sub(r'^```(?:html|json)?\s*\n?', '', text)
+    text = re.sub(r'\n?```\s*$', '', text)
+    return text.strip()
+
 def analyze_article(title: str, summary: str, source: str = "") -> dict:
-    """Use DeepSeek Flash to intelligently analyze an article."""
     response = client.chat.completions.create(
         model=MODEL,
         messages=[
@@ -30,10 +37,11 @@ def analyze_article(title: str, summary: str, source: str = "") -> dict:
         temperature=0.1,
         response_format={"type": "json_object"},
     )
-    return response.choices[0].message.content
+    raw = response.choices[0].message.content
+    cleaned = _strip_markdown(raw)
+    return json.loads(cleaned)
 
 def generate_daily_digest(articles: list) -> str:
-    """Generate a daily cybersecurity digest summary."""
     articles_text = "\n\n".join([
         f"[{a.get('priority','')}] {a.get('title','')}: {a.get('summary_short','')}"
         for a in articles[:20]
@@ -47,10 +55,9 @@ def generate_daily_digest(articles: list) -> str:
         ],
         temperature=0.3,
     )
-    return response.choices[0].message.content
+    return response.choices[0].message.content.strip()
 
 def generate_html_page(articles: list, digest: str) -> str:
-    """Generate a full static HTML page from analyzed articles."""
     articles_text = "\n\n".join([
         f"[{a.get('priority','')}] [{a.get('category','')}] {a.get('title','')} | {a.get('summary_short','')}"
         for a in articles[:30]
@@ -79,4 +86,4 @@ Return ONLY the complete HTML code, no markdown wrapping."""
         ],
         temperature=0.2,
     )
-    return response.choices[0].message.content
+    return _strip_markdown(response.choices[0].message.content)

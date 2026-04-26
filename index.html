@@ -1,1098 +1,841 @@
-I've generated a complete, standalone HTML page for "SecNews - AI Powered" – a dark-themed cybersecurity news aggregator. It includes a hero section with today's digest, filterable article cards, and a search bar, all with responsive styling and inline interactivity.
-```html
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SecNews - AI Powered 网络安全日报</title>
-    <style>
-        *,
-        *::before,
-        *::after {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="SecNews - AI驱动的网络安全情报聚合平台">
+<title>SecNews — AI网络安全日报</title>
+<style>
+/* ====== Reset & Variables ====== */
+*, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+:root {
+  --bg: #080c16;
+  --bg-nav: #0b1124;
+  --bg-card: #111827;
+  --bg-card-hover: #161e33;
+  --bg-input: #111827;
+  --border: #1e293b;
+  --border-hover: #334155;
+  --text: #e2e8f0;
+  --text-dim: #94a3b8;
+  --text-muted: #64748b;
+  --cyan: #22d3ee;
+  --cyan-dim: #0891b2;
+  --red: #ef4444;
+  --amber: #f59e0b;
+  --purple: #a78bfa;
+  --green: #34d399;
+  --blue: #60a5fa;
+  --radius: 10px;
+  --radius-sm: 6px;
+  --font: system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --mono: 'SF Mono', 'Cascadia Code', 'JetBrains Mono', monospace;
+  --shadow: 0 4px 24px rgba(0,0,0,.4);
+  --transition: 180ms ease;
+}
 
-        :root {
-            --bg-deep: #080c18;
-            --bg-surface: #0f1630;
-            --bg-card: #121a33;
-            --bg-card-hover: #172142;
-            --bg-nav: #0b1124;
-            --border-color: #1c2a4a;
-            --border-glow: #00c8ff22;
-            --text-primary: #e0e8f5;
-            --text-secondary: #8a9bb8;
-            --text-muted: #5a6d8a;
-            --accent-cyan: #00d4ff;
-            --accent-cyan-dim: #00a3cc;
-            --accent-red: #ff4757;
-            --accent-red-dim: #cc1a2a;
-            --accent-orange: #ff8c32;
-            --accent-yellow: #ffd93d;
-            --accent-purple: #a78bfa;
-            --accent-green: #34d399;
-            --accent-blue: #60a5fa;
-            --shadow-card: 0 4px 24px rgba(0, 0, 0, 0.6);
-            --radius: 12px;
-            --radius-sm: 8px;
-            --transition: 0.25s ease;
-            --font-sans: 'Segoe UI', 'Inter', system-ui, -apple-system, sans-serif;
-            --font-mono: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', monospace;
-        }
+html { scroll-behavior:smooth; }
+body {
+  font-family:var(--font);
+  background:var(--bg);
+  color:var(--text);
+  line-height:1.6;
+  min-height:100vh;
+  background-image:
+    radial-gradient(ellipse at 15% 5%, rgba(34,211,238,.015) 0%, transparent 55%),
+    radial-gradient(ellipse at 85% 80%, rgba(139,92,246,.01) 0%, transparent 55%);
+  background-attachment:fixed;
+}
 
-        html {
-            scroll-behavior: smooth;
-        }
+::-webkit-scrollbar { width:5px; }
+::-webkit-scrollbar-track { background:var(--bg); }
+::-webkit-scrollbar-thumb { background:var(--border); border-radius:3px; }
+::-webkit-scrollbar-thumb:hover { background:var(--border-hover); }
 
-        body {
-            font-family: var(--font-sans);
-            background: var(--bg-deep);
-            color: var(--text-primary);
-            line-height: 1.6;
-            min-height: 100vh;
-            background-image:
-                radial-gradient(ellipse at 20% 10%, rgba(0, 180, 255, 0.03) 0%, transparent 60%),
-                radial-gradient(ellipse at 80% 90%, rgba(120, 80, 255, 0.02) 0%, transparent 60%);
-        }
+/* ====== Navigation ====== */
+.nav {
+  position:sticky; top:0; z-index:100;
+  background:rgba(11,17,36,.94);
+  backdrop-filter:blur(16px); -webkit-backdrop-filter:blur(16px);
+  border-bottom:1px solid var(--border);
+  height:56px; display:flex; align-items:center; padding:0 24px;
+}
+.nav-logo {
+  display:flex; align-items:center; gap:10px;
+  text-decoration:none; color:var(--text); font-weight:700; font-size:17px;
+  font-family:var(--mono); letter-spacing:-.3px;
+}
+.nav-logo svg { width:28px; height:28px; }
+.nav-logo .accent { color:var(--cyan); }
+.nav-links { display:flex; gap:4px; margin-left:auto; }
+.nav-links a {
+  color:var(--text-dim); text-decoration:none; font-size:13px; font-weight:500;
+  padding:6px 14px; border-radius:6px; transition:var(--transition);
+}
+.nav-links a:hover { color:var(--text); background:rgba(255,255,255,.04); }
 
-        /* Scrollbar */
-        ::-webkit-scrollbar {
-            width: 6px;
-            height: 6px;
-        }
-        ::-webkit-scrollbar-track {
-            background: var(--bg-deep);
-        }
-        ::-webkit-scrollbar-thumb {
-            background: var(--border-color);
-            border-radius: 3px;
-        }
-        ::-webkit-scrollbar-thumb:hover {
-            background: var(--accent-cyan-dim);
-        }
+/* ====== Container ====== */
+.wrap { max-width:1200px; margin:0 auto; padding:0 24px; }
 
-        /* Navigation */
-        .navbar {
-            position: sticky;
-            top: 0;
-            z-index: 100;
-            background: rgba(11, 17, 36, 0.92);
-            backdrop-filter: blur(16px);
-            -webkit-backdrop-filter: blur(16px);
-            border-bottom: 1px solid var(--border-color);
-            padding: 0 24px;
-            height: 64px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.5);
-        }
+/* ====== Hero ====== */
+.hero { padding:40px 0 28px; }
+.hero-status {
+  display:flex; align-items:center; gap:8px;
+  font-family:var(--mono); font-size:12px; color:var(--cyan);
+  letter-spacing:1.5px; margin-bottom:8px;
+}
+.hero-status .dot {
+  width:7px; height:7px; border-radius:50%; background:var(--red);
+  animation:pulse 1.8s ease-in-out infinite;
+}
+@keyframes pulse { 0%,100%{opacity:1;transform:scale(1)} 50%{opacity:.3;transform:scale(.65)} }
+.hero h1 {
+  font-size:26px; font-weight:800; line-height:1.3; margin-bottom:20px;
+  background:linear-gradient(135deg, #f1f5f9 40%, var(--cyan) 100%);
+  -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text;
+}
 
-        .nav-logo {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            text-decoration: none;
-            color: var(--text-primary);
-        }
+/* ====== Digest Card ====== */
+.digest {
+  background:var(--bg-card); border:1px solid var(--border); border-radius:var(--radius);
+  padding:24px 28px; position:relative; overflow:hidden;
+  box-shadow:0 2px 12px rgba(0,0,0,.3);
+}
+.digest::before {
+  content:''; position:absolute; top:0; left:0; width:3px; height:100%;
+  background:linear-gradient(180deg, var(--red), var(--amber), var(--cyan));
+}
+.digest-head { display:flex; align-items:center; justify-content:space-between; margin-bottom:16px; flex-wrap:wrap; gap:8px; }
+.digest-label { font-family:var(--mono); font-size:13px; font-weight:600; color:var(--cyan); letter-spacing:1px; }
+.digest-date { font-size:12px; color:var(--text-muted); font-family:var(--mono); }
+.digest-body { font-size:14px; color:var(--text-dim); line-height:1.7; }
+.digest-body strong { color:var(--text); font-weight:600; }
+.digest-badge {
+  display:inline-block; font-family:var(--mono); font-size:11px; font-weight:700;
+  padding:0 7px; border-radius:4px; margin-right:4px; vertical-align:middle;
+}
+.digest-badge.crit { background:rgba(239,68,68,.14); color:var(--red); }
+.digest-badge.apt  { background:rgba(245,158,11,.14); color:var(--amber); }
+.digest-badge.tech { background:rgba(167,139,250,.14); color:var(--purple); }
 
-        .nav-logo-icon {
-            width: 36px;
-            height: 36px;
-            background: linear-gradient(135deg, var(--accent-cyan), var(--accent-purple));
-            border-radius: 8px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 18px;
-            font-weight: 700;
-            color: #fff;
-            box-shadow: 0 0 20px rgba(0, 212, 255, 0.15);
-        }
+/* ====== Controls ====== */
+.controls { padding:24px 0 16px; display:flex; flex-direction:column; gap:14px; }
+.search-bar {
+  display:flex; align-items:center; background:var(--bg-input);
+  border:1px solid var(--border); border-radius:8px; padding:0 14px;
+  transition:var(--transition); max-width:420px;
+}
+.search-bar:focus-within { border-color:var(--cyan); box-shadow:0 0 0 3px rgba(34,211,238,.06); }
+.search-bar svg { flex-shrink:0; color:var(--text-muted); }
+.search-bar input {
+  background:none; border:none; outline:none; color:var(--text); font-size:14px;
+  padding:10px 10px; width:100%; font-family:var(--font);
+}
+.search-bar input::placeholder { color:var(--text-muted); }
+.search-bar .clear {
+  background:none; border:none; color:var(--text-muted); cursor:pointer;
+  padding:4px 6px; border-radius:4px; font-size:15px; display:none;
+}
+.search-bar .clear.show { display:block; }
+.search-bar .clear:hover { color:var(--text); }
 
-        .nav-logo-text {
-            font-family: var(--font-mono);
-            font-weight: 700;
-            font-size: 18px;
-            letter-spacing: 0.5px;
-        }
-        .nav-logo-text span {
-            color: var(--accent-cyan);
-        }
+.filter-row { display:flex; flex-wrap:wrap; gap:7px; align-items:center; }
+.fbtn {
+  background:var(--bg-card); border:1px solid var(--border); color:var(--text-dim);
+  font-family:var(--font); font-size:12.5px; font-weight:500;
+  padding:6px 16px; border-radius:20px; cursor:pointer;
+  transition:var(--transition); white-space:nowrap; user-select:none;
+}
+.fbtn:hover { background:var(--bg-card-hover); color:var(--text); border-color:var(--border-hover); }
+.fbtn.on { color:var(--cyan); border-color:var(--cyan); background:rgba(34,211,238,.08); }
+.fbtn[data-filter="hot"].on     { color:var(--red);    border-color:var(--red);    background:rgba(239,68,68,.08); }
+.fbtn[data-filter="important"].on { color:var(--amber);  border-color:var(--amber);  background:rgba(245,158,11,.08); }
+.fbtn[data-filter="newtech"].on  { color:var(--purple);  border-color:var(--purple);  background:rgba(139,92,246,.08); }
+.fbtn[data-filter="news"].on     { color:var(--blue);    border-color:var(--blue);    background:rgba(96,165,250,.08); }
+.fbtn[data-filter="techniques"].on{ color:var(--green);   border-color:var(--green);   background:rgba(52,211,153,.08); }
+.count { font-size:12px; color:var(--text-muted); font-family:var(--mono); margin-left:auto; }
 
-        .nav-badge {
-            font-size: 10px;
-            background: var(--accent-cyan);
-            color: #000;
-            padding: 2px 8px;
-            border-radius: 12px;
-            font-weight: 700;
-            letter-spacing: 0.3px;
-            margin-left: 6px;
-            vertical-align: middle;
-            text-transform: uppercase;
-        }
+/* ====== Grid ====== */
+.grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(340px,1fr)); gap:18px; padding-bottom:36px; }
+.grid.empty { display:flex; }
 
-        .nav-links {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
+.card {
+  background:var(--bg-card); border:1px solid var(--border); border-radius:var(--radius);
+  padding:22px 22px 20px; transition:all var(--transition);
+  display:flex; flex-direction:column;
+  animation:fadeUp .4s ease forwards; opacity:0;
+}
+@keyframes fadeUp { to { opacity:1; transform:translateY(0); } from { opacity:0; transform:translateY(14px); } }
+.card:hover {
+  background:var(--bg-card-hover); border-color:var(--border-hover);
+  transform:translateY(-2px); box-shadow:0 8px 32px rgba(0,0,0,.45);
+}
+.card-tags { display:flex; flex-wrap:wrap; gap:5px; margin-bottom:12px; }
+.ctag {
+  font-size:10.5px; font-weight:700; padding:3px 9px; border-radius:12px;
+  font-family:var(--mono); letter-spacing:.2px;
+}
+.ctag.hot       { background:rgba(239,68,68,.12); color:var(--red); }
+.ctag.important { background:rgba(245,158,11,.12); color:var(--amber); }
+.ctag.newtech   { background:rgba(139,92,246,.12); color:var(--purple); }
+.ctag.news      { background:rgba(96,165,250,.10); color:var(--blue); }
+.ctag.techniques{ background:rgba(52,211,153,.10); color:var(--green); }
+.ctag.tools     { background:rgba(34,211,238,.10); color:var(--cyan); }
 
-        .nav-link {
-            color: var(--text-secondary);
-            text-decoration: none;
-            font-size: 13px;
-            font-weight: 500;
-            padding: 6px 14px;
-            border-radius: 6px;
-            transition: var(--transition);
-        }
-        .nav-link:hover {
-            color: var(--text-primary);
-            background: rgba(255, 255, 255, 0.04);
-        }
-        .nav-link.active {
-            color: var(--accent-cyan);
-            background: rgba(0, 212, 255, 0.08);
-        }
+.card-title { font-size:16px; font-weight:700; line-height:1.4; margin-bottom:8px; color:var(--text); }
+.card-desc  { font-size:13.5px; color:var(--text-dim); line-height:1.6; flex-grow:1; }
+.card-foot  {
+  margin-top:16px; padding-top:12px; border-top:1px solid rgba(255,255,255,.03);
+  display:flex; align-items:center; justify-content:space-between;
+  font-size:11.5px; color:var(--text-muted);
+}
 
-        /* Container */
-        .container {
-            max-width: 1280px;
-            margin: 0 auto;
-            padding: 0 24px;
-        }
+/* ====== Empty ====== */
+.none {
+  grid-column:1/-1; display:flex; flex-direction:column; align-items:center;
+  justify-content:center; padding:60px 20px; color:var(--text-muted); text-align:center;
+}
+.none .icon { font-size:44px; margin-bottom:12px; opacity:.35; }
+.none .title { font-size:15px; font-weight:600; color:var(--text-dim); }
+.none .sub { font-size:13px; margin-top:4px; }
 
-        /* Hero Section */
-        .hero {
-            padding: 48px 0 32px;
-            position: relative;
-        }
+/* ====== To-top ====== */
+#toTop {
+  position:fixed; bottom:28px; right:28px; z-index:90;
+  width:40px; height:40px; border-radius:10px;
+  background:var(--bg-card); border:1px solid var(--border); color:var(--text-dim);
+  display:flex; align-items:center; justify-content:center;
+  cursor:pointer; opacity:0; pointer-events:none;
+  transition:var(--transition); font-size:18px;
+}
+#toTop.show { opacity:1; pointer-events:auto; }
+#toTop:hover { background:var(--bg-card-hover); color:var(--cyan); border-color:var(--cyan); }
 
-        .hero::after {
-            content: '';
-            position: absolute;
-            bottom: 0;
-            left: 10%;
-            right: 10%;
-            height: 1px;
-            background: linear-gradient(90deg, transparent, var(--accent-cyan), var(--accent-purple), transparent);
-            opacity: 0.3;
-        }
+/* ====== Footer ====== */
+.foot {
+  border-top:1px solid var(--border); padding:22px 24px; text-align:center;
+  font-size:12.5px; color:var(--text-muted);
+}
+.foot .fw { max-width:1200px; margin:0 auto; display:flex; flex-wrap:wrap; align-items:center; justify-content:center; gap:8px 20px; }
+.foot .brand { font-family:var(--mono); font-weight:600; }
+.foot .brand span { color:var(--cyan); }
+.foot a { color:var(--cyan); text-decoration:none; }
+.foot a:hover { text-decoration:underline; }
 
-        .hero-title {
-            font-family: var(--font-mono);
-            font-size: 14px;
-            font-weight: 400;
-            color: var(--accent-cyan);
-            letter-spacing: 2px;
-            text-transform: uppercase;
-            margin-bottom: 8px;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
-        .hero-title .pulse {
-            display: inline-block;
-            width: 8px;
-            height: 8px;
-            background: var(--accent-red);
-            border-radius: 50%;
-            animation: pulse 1.8s ease-in-out infinite;
-        }
-
-        @keyframes pulse {
-            0%,
-            100% {
-                opacity: 1;
-                transform: scale(1);
-            }
-            50% {
-                opacity: 0.3;
-                transform: scale(0.7);
-            }
-        }
-
-        .hero-headline {
-            font-size: 28px;
-            font-weight: 800;
-            line-height: 1.3;
-            margin-bottom: 20px;
-            background: linear-gradient(135deg, #fff 40%, var(--accent-cyan) 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-
-        .daily-digest {
-            background: var(--bg-surface);
-            border: 1px solid var(--border-color);
-            border-radius: var(--radius);
-            padding: 28px 32px;
-            box-shadow: var(--shadow-card);
-            position: relative;
-            overflow: hidden;
-        }
-
-        .daily-digest::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 4px;
-            height: 100%;
-            background: linear-gradient(180deg, var(--accent-red), var(--accent-orange), var(--accent-yellow));
-        }
-
-        .digest-header {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            margin-bottom: 18px;
-            flex-wrap: wrap;
-            gap: 10px;
-        }
-
-        .digest-label {
-            font-family: var(--font-mono);
-            font-size: 13px;
-            font-weight: 600;
-            color: var(--accent-cyan);
-            letter-spacing: 1px;
-            text-transform: uppercase;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
-        .digest-label .icon {
-            font-size: 18px;
-        }
-
-        .digest-date {
-            font-size: 12px;
-            color: var(--text-muted);
-            font-family: var(--font-mono);
-        }
-
-        .digest-items {
-            display: flex;
-            flex-direction: column;
-            gap: 14px;
-        }
-
-        .digest-item {
-            display: flex;
-            gap: 12px;
-            align-items: flex-start;
-            padding: 6px 0;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.04);
-        }
-        .digest-item:last-child {
-            border-bottom: none;
-        }
-
-        .digest-item .emoji {
-            font-size: 18px;
-            flex-shrink: 0;
-            margin-top: 2px;
-        }
-
-        .digest-item .content {
-            font-size: 14px;
-            color: var(--text-secondary);
-            line-height: 1.6;
-        }
-
-        .digest-item .content strong {
-            color: var(--text-primary);
-            font-weight: 600;
-        }
-
-        .digest-item .content .badge-critical {
-            display: inline-block;
-            background: rgba(255, 71, 87, 0.15);
-            color: var(--accent-red);
-            font-size: 11px;
-            font-weight: 700;
-            padding: 0 8px;
-            border-radius: 4px;
-            margin-right: 4px;
-            font-family: var(--font-mono);
-        }
-        .digest-item .content .badge-apt {
-            display: inline-block;
-            background: rgba(255, 140, 50, 0.15);
-            color: var(--accent-orange);
-            font-size: 11px;
-            font-weight: 700;
-            padding: 0 8px;
-            border-radius: 4px;
-            margin-right: 4px;
-            font-family: var(--font-mono);
-        }
-        .digest-item .content .badge-llm {
-            display: inline-block;
-            background: rgba(167, 139, 250, 0.15);
-            color: var(--accent-purple);
-            font-size: 11px;
-            font-weight: 700;
-            padding: 0 8px;
-            border-radius: 4px;
-            margin-right: 4px;
-            font-family: var(--font-mono);
-        }
-
-        .digest-meta {
-            margin-top: 16px;
-            font-size: 13px;
-            color: var(--text-muted);
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            padding-top: 12px;
-            border-top: 1px solid rgba(255, 255, 255, 0.05);
-        }
-        .digest-meta span {
-            display: flex;
-            align-items: center;
-            gap: 4px;
-        }
-
-        /* Search & Filter */
-        .controls {
-            padding: 28px 0 20px;
-            display: flex;
-            flex-direction: column;
-            gap: 18px;
-        }
-
-        .search-wrap {
-            display: flex;
-            align-items: center;
-            background: var(--bg-surface);
-            border: 1px solid var(--border-color);
-            border-radius: var(--radius-sm);
-            padding: 0 18px;
-            transition: var(--transition);
-            max-width: 480px;
-        }
-        .search-wrap:focus-within {
-            border-color: var(--accent-cyan);
-            box-shadow: 0 0 0 3px rgba(0, 212, 255, 0.08);
-        }
-        .search-wrap .search-icon {
-            color: var(--text-muted);
-            font-size: 16px;
-            margin-right: 10px;
-            flex-shrink: 0;
-        }
-        .search-wrap input {
-            background: none;
-            border: none;
-            outline: none;
-            color: var(--text-primary);
-            font-size: 14px;
-            padding: 12px 0;
-            width: 100%;
-            font-family: var(--font-sans);
-        }
-        .search-wrap input::placeholder {
-            color: var(--text-muted);
-        }
-        .search-wrap .clear-btn {
-            background: none;
-            border: none;
-            color: var(--text-muted);
-            font-size: 16px;
-            cursor: pointer;
-            padding: 4px 6px;
-            border-radius: 4px;
-            display: none;
-            transition: var(--transition);
-        }
-        .search-wrap .clear-btn:hover {
-            color: var(--text-primary);
-        }
-        .search-wrap .clear-btn.visible {
-            display: block;
-        }
-
-        .filter-group {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 8px;
-        }
-
-        .filter-btn {
-            background: var(--bg-surface);
-            border: 1px solid var(--border-color);
-            color: var(--text-secondary);
-            font-family: var(--font-sans);
-            font-size: 13px;
-            font-weight: 500;
-            padding: 8px 18px;
-            border-radius: 20px;
-            cursor: pointer;
-            transition: var(--transition);
-            white-space: nowrap;
-            user-select: none;
-        }
-        .filter-btn:hover {
-            background: var(--bg-card-hover);
-            color: var(--text-primary);
-            border-color: rgba(255, 255, 255, 0.1);
-        }
-        .filter-btn.active {
-            background: rgba(0, 212, 255, 0.12);
-            color: var(--accent-cyan);
-            border-color: var(--accent-cyan);
-            box-shadow: 0 0 16px rgba(0, 212, 255, 0.06);
-        }
-        .filter-btn[data-filter="hot"].active {
-            background: rgba(255, 71, 87, 0.12);
-            color: var(--accent-red);
-            border-color: var(--accent-red);
-        }
-        .filter-btn[data-filter="important"].active {
-            background: rgba(255, 140, 50, 0.12);
-            color: var(--accent-orange);
-            border-color: var(--accent-orange);
-        }
-        .filter-btn[data-filter="newtech"].active {
-            background: rgba(167, 139, 250, 0.12);
-            color: var(--accent-purple);
-            border-color: var(--accent-purple);
-        }
-        .filter-btn[data-filter="news"].active {
-            background: rgba(96, 165, 250, 0.12);
-            color: var(--accent-blue);
-            border-color: var(--accent-blue);
-        }
-        .filter-btn[data-filter="techniques"].active {
-            background: rgba(52, 211, 153, 0.12);
-            color: var(--accent-green);
-            border-color: var(--accent-green);
-        }
-
-        .filter-count {
-            font-size: 13px;
-            color: var(--text-muted);
-            margin-left: auto;
-            align-self: center;
-            font-family: var(--font-mono);
-        }
-
-        /* Article Grid */
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
-            gap: 20px;
-            padding-bottom: 48px;
-        }
-
-        .article-card {
-            background: var(--bg-card);
-            border: 1px solid var(--border-color);
-            border-radius: var(--radius);
-            padding: 24px 24px 22px;
-            transition: all var(--transition);
-            cursor: default;
-            position: relative;
-            overflow: hidden;
-            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.25);
-            display: flex;
-            flex-direction: column;
-        }
-
-        .article-card::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 2px;
-            background: linear-gradient(90deg, transparent, var(--border-glow), transparent);
-            opacity: 0;
-            transition: var(--transition);
-        }
-
-        .article-card:hover {
-            background: var(--bg-card-hover);
-            border-color: rgba(255, 255, 255, 0.08);
-            transform: translateY(-2px);
-            box-shadow: 0 8px 40px rgba(0, 0, 0, 0.5);
-        }
-        .article-card:hover::before {
-            opacity: 1;
-        }
-
-        .article-card .card-tags {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 6px;
-            margin-bottom: 14px;
-        }
-
-        .card-tag {
-            font-size: 11px;
-            font-weight: 700;
-            padding: 3px 10px;
-            border-radius: 12px;
-            letter-spacing: 0.3px;
-            font-family: var(--font-mono);
-            display: inline-flex;
-            align-items: center;
-            gap: 4px;
-        }
-
-        .card-tag.hot {
-            background: rgba(255, 71, 87, 0.14);
-            color: var(--accent-red);
-        }
-        .card-tag.important {
-            background: rgba(255, 140, 50, 0.14);
-            color: var(--accent-orange);
-        }
-        .card-tag.newtech {
-            background: rgba(167, 139, 250, 0.14);
-            color: var(--accent-purple);
-        }
-        .card-tag.news {
-            background: rgba(96, 165, 250, 0.10);
-            color: var(--accent-blue);
-        }
-        .card-tag.techniques {
-            background: rgba(52, 211, 153, 0.10);
-            color: var(--accent-green);
-        }
-        .card-tag.tools {
-            background: rgba(0, 212, 255, 0.10);
-            color: var(--accent-cyan);
-        }
-
-        .article-card .card-title {
-            font-size: 17px;
-            font-weight: 700;
-            line-height: 1.4;
-            margin-bottom: 10px;
-            color: var(--text-primary);
-        }
-
-        .article-card .card-desc {
-            font-size: 14px;
-            color: var(--text-secondary);
-            line-height: 1.6;
-            flex-grow: 1;
-        }
-
-        .article-card .card-footer {
-            margin-top: 18px;
-            padding-top: 14px;
-            border-top: 1px solid rgba(255, 255, 255, 0.04);
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            font-size: 12px;
-            color: var(--text-muted);
-        }
-
-        .article-card .card-source {
-            display: flex;
-            align-items: center;
-            gap: 6px;
-        }
-        .article-card .card-source .dot {
-            width: 6px;
-            height: 6px;
-            border-radius: 50%;
-            background: var(--accent-cyan);
-            opacity: 0.5;
-        }
-
-        /* Empty state */
-        .empty-state {
-            grid-column: 1 / -1;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            padding: 60px 20px;
-            color: var(--text-muted);
-            text-align: center;
-        }
-        .empty-state .empty-icon {
-            font-size: 48px;
-            margin-bottom: 16px;
-            opacity: 0.4;
-        }
-        .empty-state .empty-text {
-            font-size: 16px;
-            font-weight: 500;
-        }
-        .empty-state .empty-sub {
-            font-size: 13px;
-            margin-top: 6px;
-        }
-
-        /* Footer */
-        .footer {
-            border-top: 1px solid var(--border-color);
-            padding: 28px 24px;
-            text-align: center;
-            font-size: 13px;
-            color: var(--text-muted);
-            background: var(--bg-nav);
-        }
-        .footer .footer-inner {
-            max-width: 1280px;
-            margin: 0 auto;
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-            justify-content: center;
-            gap: 12px 24px;
-        }
-        .footer a {
-            color: var(--accent-cyan);
-            text-decoration: none;
-            transition: var(--transition);
-        }
-        .footer a:hover {
-            color: var(--accent-cyan-dim);
-        }
-        .footer .footer-logo {
-            font-family: var(--font-mono);
-            font-weight: 600;
-            color: var(--text-secondary);
-        }
-        .footer .footer-logo span {
-            color: var(--accent-cyan);
-        }
-
-        /* Responsive */
-        @media (max-width: 768px) {
-            .navbar {
-                padding: 0 16px;
-            }
-            .nav-logo-text {
-                font-size: 15px;
-            }
-            .nav-links {
-                gap: 4px;
-            }
-            .nav-link {
-                font-size: 12px;
-                padding: 4px 10px;
-            }
-            .container {
-                padding: 0 16px;
-            }
-            .hero {
-                padding: 28px 0 20px;
-            }
-            .hero-headline {
-                font-size: 22px;
-            }
-            .daily-digest {
-                padding: 20px 20px;
-            }
-            .digest-item .content {
-                font-size: 13px;
-            }
-            .grid {
-                grid-template-columns: 1fr;
-                gap: 16px;
-            }
-            .article-card {
-                padding: 20px 18px 18px;
-            }
-            .article-card .card-title {
-                font-size: 16px;
-            }
-            .filter-group {
-                gap: 6px;
-            }
-            .filter-btn {
-                font-size: 12px;
-                padding: 6px 14px;
-            }
-            .search-wrap {
-                max-width: 100%;
-            }
-            .digest-header {
-                flex-direction: column;
-                align-items: flex-start;
-            }
-            .filter-count {
-                margin-left: 0;
-                width: 100%;
-                text-align: left;
-                margin-top: 4px;
-            }
-        }
-
-        @media (min-width: 769px) and (max-width: 1024px) {
-            .grid {
-                grid-template-columns: repeat(2, 1fr);
-            }
-        }
-
-        @media (min-width: 1025px) {
-            .grid {
-                grid-template-columns: repeat(3, 1fr);
-            }
-            .grid.has-1 {
-                grid-template-columns: minmax(340px, 480px);
-                justify-content: center;
-            }
-            .grid.has-2 {
-                grid-template-columns: repeat(2, 1fr);
-                max-width: 800px;
-                margin: 0 auto;
-            }
-        }
-
-        /* Animations */
-        @keyframes fadeInUp {
-            from {
-                opacity: 0;
-                transform: translateY(16px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        .article-card {
-            animation: fadeInUp 0.4s ease forwards;
-        }
-        .article-card:nth-child(1) {
-            animation-delay: 0.02s;
-        }
-        .article-card:nth-child(2) {
-            animation-delay: 0.06s;
-        }
-        .article-card:nth-child(3) {
-            animation-delay: 0.10s;
-        }
-        .article-card:nth-child(4) {
-            animation-delay: 0.14s;
-        }
-        .article-card:nth-child(5) {
-            animation-delay: 0.18s;
-        }
-        .article-card:nth-child(6) {
-            animation-delay: 0.22s;
-        }
-        .article-card:nth-child(7) {
-            animation-delay: 0.26s;
-        }
-        .article-card:nth-child(8) {
-            animation-delay: 0.30s;
-        }
-    </style>
+/* ====== Responsive ====== */
+@media (max-width: 768px) {
+  .wrap { padding:0 16px; }
+  .nav { padding:0 16px; }
+  .nav-logo { font-size:15px; }
+  .nav-links a { font-size:12px; padding:4px 10px; }
+  .hero h1 { font-size:21px; }
+  .digest { padding:18px 18px; }
+  .digest-body { font-size:13px; }
+  .grid { grid-template-columns:1fr; gap:14px; }
+  .card { padding:18px 16px 16px; }
+  .card-title { font-size:15px; }
+  .search-bar { max-width:100%; }
+  .filter-row { gap:5px; }
+  .fbtn { font-size:11.5px; padding:5px 12px; }
+  .count { margin-left:0; width:100%; }
+  #toTop { bottom:16px; right:16px; }
+}
+@media (min-width:769px) and (max-width:1024px) {
+  .grid { grid-template-columns:repeat(2,1fr); }
+}
+</style>
 </head>
 <body>
 
-    <!-- Navigation -->
-    <nav class="navbar">
-        <a href="#" class="nav-logo">
-            <div class="nav-logo-icon">S</div>
-            <span class="nav-logo-text">Sec<span>News</span> <span class="nav-badge">AI</span></span>
-        </a>
-        <div class="nav-links">
-            <a href="#" class="nav-link active">日报</a>
-            <a href="#" class="nav-link">威胁情报</a>
-            <a href="#" class="nav-link">工具</a>
-            <a href="#" class="nav-link">关于</a>
-        </div>
-    </nav>
+<nav class="nav">
+  <a href="#" class="nav-logo">
+    <svg viewBox="0 0 28 28" fill="none"><rect x="4" y="4" width="20" height="20" rx="5" fill="none" stroke="#22d3ee" stroke-width="2"/><path d="M14 8v7l4 2" stroke="#22d3ee" stroke-width="2" stroke-linecap="round"/></svg>
+    Sec<span class="accent">News</span>
+  </a>
+  <div class="nav-links">
+    <a href="#">日报</a><a href="#">情报</a><a href="#">工具</a><a href="#">关于</a>
+  </div>
+</nav>
 
-    <!-- Main Container -->
-    <div class="container">
+<div class="wrap">
 
-        <!-- Hero Section -->
-        <section class="hero">
-            <div class="hero-title">
-                <span class="pulse"></span>
-                LIVE THREAT FEED
-            </div>
-            <h1 class="hero-headline">AI 驱动的网络安全情报聚合</h1>
+<section class="hero">
+  <div class="hero-status"><span class="dot"></span> LIVE SECURITY FEED</div>
+  <h1>AI 驱动的网络安全情报聚合</h1>
 
-            <div class="daily-digest">
-                <div class="digest-header">
-                    <div class="digest-label">
-                        <span class="icon">📡</span> 今日安全日报
-                    </div>
-                    <span class="digest-date">2025-02-24 · 实时更新</span>
-                </div>
-
-                <div class="digest-items">
-                    <div class="digest-item">
-                        <span class="emoji">🚨</span>
-                        <div class="content">
-                            <strong>严重威胁</strong>：Apache HTTP Server 曝 <span class="badge-critical">CVE-2024-1234</span> 零日漏洞，可远程代码执行，所有版本需立即修补。
-                        </div>
-                    </div>
-                    <div class="digest-item">
-                        <span class="emoji">🚨</span>
-                        <div class="content">
-                            <strong>国家背景攻击</strong>：<span class="badge-apt">APT</span> CISA警告某APT组织正针对金融行业发动攻击，建议加强监控与隔离。
-                        </div>
-                    </div>
-                    <div class="digest-item">
-                        <span class="emoji">⚠️</span>
-                        <div class="content">
-                            <strong>新型攻击技术</strong>：首次发现基于 <span class="badge-llm">LLM</span> 的攻击绕过MFA认证，多因素验证不再绝对安全，需补充行为检测。
-                        </div>
-                    </div>
-                    <div class="digest-item">
-                        <span class="emoji">📰</span>
-                        <div class="content">
-                            <strong>其他</strong>：GitHub发布CodeQL 静态分析工具，提升代码安全审计能力。
-                        </div>
-                    </div>
-                </div>
-
-                <div class="digest-meta">
-                    <span>🔴 3 个严重威胁</span>
-                    <span>🟡 2 个预警</span>
-                    <span>🟢 1 个情报更新</span>
-                </div>
-            </div>
-        </section>
-
-        <!-- Controls -->
-        <section class="controls">
-            <div class="search-wrap">
-                <span class="search-icon">🔍</span>
-                <input type="text" id="searchInput" placeholder="搜索文章标题或描述..." aria-label="搜索">
-                <button class="clear-btn" id="clearBtn" aria-label="清除搜索">✕</button>
-            </div>
-
-            <div class="filter-group">
-                <button class="filter-btn active" data-filter="all">📋 全部</button>
-                <button class="filter-btn" data-filter="hot">🔥 热门</button>
-                <button class="filter-btn" data-filter="important">⚠️ 重要</button>
-                <button class="filter-btn" data-filter="newtech">🆕 新技术</button>
-                <button class="filter-btn" data-filter="news">📰 新闻</button>
-                <button class="filter-btn" data-filter="techniques">🔧 技术</button>
-                <span class="filter-count" id="resultCount">显示 5 篇文章</span>
-            </div>
-        </section>
-
-        <!-- Article Grid -->
-        <main class="grid" id="articleGrid">
-            <!-- Cards will be rendered by JS -->
-        </main>
-
+  <div class="digest">
+    <div class="digest-head">
+      <span class="digest-label">今日安全日报</span>
+      <span class="digest-date" id="digestDate"></span>
     </div>
+    <div class="digest-body" id="digestContent">
+      <p style="color:var(--text-muted)">加载中...</p>
+    </div>
+  </div>
+</section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="footer-inner">
-            <span class="footer-logo">Sec<span>News</span> · AI Powered</span>
-            <span>© 2025 网络安全情报聚合</span>
-            <a href="#">隐私政策</a>
-            <a href="#">数据来源</a>
-            <span>⚡ 实时威胁追踪</span>
-        </div>
-    </footer>
+<section class="controls">
+  <div class="search-bar">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+    <input type="text" id="searchInput" placeholder="搜索文章标题或关键词..." aria-label="搜索">
+    <button class="clear" id="clearBtn" aria-label="清除">&#x2715;</button>
+  </div>
+  <div class="filter-row">
+    <button class="fbtn on" data-filter="all">全部</button>
+    <button class="fbtn" data-filter="hot">热门</button>
+    <button class="fbtn" data-filter="important">重要</button>
+    <button class="fbtn" data-filter="newtech">新技术</button>
+    <button class="fbtn" data-filter="news">新闻</button>
+    <button class="fbtn" data-filter="techniques">技术</button>
+    <span class="count" id="resultCount">5 篇</span>
+  </div>
+</section>
 
-    <script>
-        (function() {
-            'use strict';
+<main class="grid" id="articleGrid"></main>
 
-            // ─── Data ────────────────────────────────────────────
-            const articlesData = [{
-                id: 1,
-                title: 'Critical CVE-2024-1234 Exploit Found in Apache',
-                description: 'Apache HTTP Server严重零日漏洞，可远程代码执行，需立即修补。',
-                tags: ['important', 'news'],
-                tagLabels: ['⚠️ 重要', '📰 新闻']
-            }, {
-                id: 2,
-                title: 'New LLM-Based Attack Technique Bypasses Authentication',
-                description: '基于LLM的新型攻击技术首次绕过MFA认证，多因素验证不再绝对安全。',
-                tags: ['newtech', 'techniques'],
-                tagLabels: ['🆕 新技术', '🔧 技术']
-            }, {
-                id: 3,
-                title: 'Weekly Security News Roundup',
-                description: '本周安全新闻：多个补丁发布，修复小缺陷。',
-                tags: ['news'],
-                tagLabels: ['📰 新闻']
-            }, {
-                id: 4,
-                title: 'GitHub Releases New CodeQL Analysis Tool',
-                description: 'GitHub发布新的开源静态代码分析工具CodeQL，提升代码安全审计效率。',
-                tags: ['newtech', 'techniques'],
-                tagLabels: ['🆕 新技术', '🔧 技术']
-            }, {
-                id: 5,
-                title: 'Advanced Persistent Threat Group Targets Financial Sector',
-                description: '国家级APT组织攻击金融行业，CISA发布严重警告，建议加强监控与隔离。',
-                tags: ['important', 'news'],
-                tagLabels: ['⚠️ 重要', '📰 新闻']
-            }];
+</div>
 
-            // ─── State ────────────────────────────────────────────
-            let currentFilter = 'all';
-            let currentSearch = '';
-            let currentResults = [...articlesData];
+<footer class="foot">
+  <div class="fw">
+    <span class="brand">Sec<span>News</span> &#xb7; AI Powered</span>
+    <span>&copy; 2026 网络安全情报聚合</span>
+    <a href="#">数据来源</a>
+    <span>实时威胁追踪</span>
+  </div>
+</footer>
 
-            // ─── DOM refs ─────────────────────────────────────────
-            const grid = document.getElementById('articleGrid');
-            const searchInput = document.getElementById('searchInput');
-            const clearBtn = document.getElementById('clearBtn');
-            const resultCount = document.getElementById('resultCount');
-            const filterBtns = document.querySelectorAll('.filter-btn');
+<div id="toTop" title="回到顶部">&#x2191;</div>
 
-            // ─── Helpers ──────────────────────────────────────────
-            function getTagClass(tag) {
-                const map = {
-                    'hot': 'hot',
-                    'important': 'important',
-                    'newtech': 'newtech',
-                    'news': 'news',
-                    'techniques': 'techniques',
-                    'tools': 'tools'
-                };
-                return map[tag] || 'news';
-            }
+<!-- ====== Data ====== -->
+<script type="application/json" id="articles-json">
+[
+  {
+    "url": "https://krebsonsecurity.com/",
+    "title": "Krebs on Security – In-depth security news and investigation",
+    "summary": "‘Scattered Spider’ Member ‘Tylerb’ Pleads Guilty A 24-year-old British national and senior member of the cybercrime group “Scattered Spider” has pleaded guilty to wire fraud conspiracy and aggravated identity theft.Tyler Robert Buchananadmitted his role in a series of text-message phishing attacks in the summer of 2022 that allowed the group to hack into at least a dozen major technology companies and steal tens of millions of dollars worth of cryptocurrency from investors. Buchanan’s hacker han",
+    "content": "‘Scattered Spider’ Member ‘Tylerb’ Pleads Guilty A 24-year-old British national and senior member of the cybercrime group “Scattered Spider” has pleaded guilty to wire fraud conspiracy and aggravated identity theft.Tyler Robert Buchananadmitted his role in a series of text-message phishing attacks in the summer of 2022 that allowed the group to hack into at least a dozen major technology companies and steal tens of millions of dollars worth of cryptocurrency from investors. Buchanan’s hacker handle “Tylerb” once graced a leaderboard in the English-language criminal hacking scene that tracked the most accomplished cyber thieves. Now in U.S. custody and awaiting sentencing, the Dundee, Scotland native is facing the possibility of more than 20 years in prison. Two photos published in a Daily Mail story dated May 3, 2025 show Buchanan as a child (left) and as an adult being detained by airport authorities in Spain. “M&S” in this screenshot refers to Marks & Spencer, a major U.K. retail cha",
+    "source": "krebsonsecurity.com",
+    "status": "ok",
+    "category": "新闻",
+    "priority": "重要",
+    "heat_score": 85,
+    "summary_short": "Scattered Spider成员因诈骗和身份盗窃认罪。",
+    "keywords": [
+      "Scattered Spider",
+      "guilty plea",
+      "wire fraud",
+      "identity theft",
+      "phishing"
+    ],
+    "tags": [
+      "important",
+      "news"
+    ]
+  },
+  {
+    "url": "https://portswigger.net/daily-swig",
+    "title": "Web Application Security, Testing, & Scanning - PortSwigger",
+    "summary": "Trusted by the people whouse it every day Everything you need to stay ahead The latest AppSec news from PortSwigger",
+    "content": "Trusted by the people whouse it every day Everything you need to stay ahead The latest AppSec news from PortSwigger The top 10 web hacking techniques of
+                                  2025 Welcome to the next generation of Burp
+                                  Suite",
+    "source": "portswigger.net",
+    "status": "ok",
+    "category": "技术",
+    "priority": "普通",
+    "heat_score": 20,
+    "summary_short": "PortSwigger提供的Web安全测试与扫描工具介绍",
+    "keywords": [
+      "Web应用安全",
+      "安全测试",
+      "扫描",
+      "PortSwigger"
+    ],
+    "tags": [
+      "techniques"
+    ]
+  },
+  {
+    "url": "https://labs.f-secure.com/",
+    "title": "Useful online security tips and articles | F‑Secure",
+    "summary": "What is a Trojan? How to stay protected against the Trojan horse virus A Trojan horse is a type of malware that appears to be a legitimate program or file. Read more about how to detect and remove Trojan horses.",
+    "content": "What is a Trojan? How to stay protected against the Trojan horse virus A Trojan horse is a type of malware that appears to be a legitimate program or file. Read more about how to detect and remove Trojan horses.",
+    "source": "labs.f-secure.com",
+    "status": "ok",
+    "category": "技术",
+    "priority": "普通",
+    "heat_score": 20,
+    "summary_short": "Trojan horses explained: detection and removal tips.",
+    "keywords": [
+      "Trojan",
+      "malware",
+      "security tips",
+      "detection",
+      "removal"
+    ],
+    "tags": [
+      "techniques"
+    ]
+  },
+  {
+    "url": "https://posts.specterops.io/",
+    "title": "Blog - SpecterOps",
+    "summary": "TL;DR: Javier Azofra and I vibe-ported MSSQLHound to Go to drastically improve run duration, enable cross-platform execution, support SOCKS proxying… By: 
+                        Chris Thompson SpecterOps Selected for OpenAI’s Trusted Access for Cyber Program",
+    "content": "TL;DR: Javier Azofra and I vibe-ported MSSQLHound to Go to drastically improve run duration, enable cross-platform execution, support SOCKS proxying… By: 
+                        Chris Thompson SpecterOps Selected for OpenAI’s Trusted Access for Cyber Program SpecterOps has been named to OpenAI's inaugural Trusted Access for Cyber (TAC) cohort (alongside Nvidia, CrowdStrike, JPMorgan Chase, and Bank of America and others) giving… By: 
+                        Jared Atkinson",
+    "source": "posts.specterops.io",
+    "status": "ok",
+    "category": "工具",
+    "priority": "新技术",
+    "heat_score": 70,
+    "summary_short": "MSSQLHound移植到Go，性能提升，支持跨平台和SOCKS代理。",
+    "keywords": [
+      "MSSQLHound",
+      "Go",
+      "跨平台",
+      "SOCKS代理"
+    ],
+    "tags": [
+      "newtech",
+      "tools"
+    ]
+  },
+  {
+    "url": "https://unit42.paloaltonetworks.com/",
+    "title": "Unit 42 - Latest Cybersecurity Research | Palo Alto Networks",
+    "summary": "Unit 42 analyzes npm supply chain evolution post-Shai Hulud. Discover wormable malware, CI/CD persistence, multi-stage attacks and more. The npm Threat Landscape: Attack Surface and Mitigations TGR-STA-1030: New Activity in Central and South America",
+    "content": "Unit 42 analyzes npm supply chain evolution post-Shai Hulud. Discover wormable malware, CI/CD persistence, multi-stage attacks and more. The npm Threat Landscape: Attack Surface and Mitigations TGR-STA-1030: New Activity in Central and South America Frontier AI and the Future of Defense: Your Top Questions Answered Access the latest threat research",
+    "source": "unit42.paloaltonetworks.com",
+    "status": "ok",
+    "category": "研究",
+    "priority": "新技术",
+    "heat_score": 70,
+    "summary_short": "分析npm供应链威胁演变，包括蠕虫式恶意软件和CI/CD持久化攻击。",
+    "keywords": [
+      "npm",
+      "supply chain",
+      "wormable malware",
+      "CI/CD persistence",
+      "multi-stage attacks"
+    ],
+    "tags": [
+      "newtech",
+      "news"
+    ]
+  },
+  {
+    "url": "https://blog.fox-it.com/",
+    "title": "Fox-IT International blog – News and opinions from Fox-IT",
+    "summary": "Authors: Yun Zheng Hu and Mick Koomen Introduction In the past few years, Fox-IT and NCC Group have conducted multiple incident response cases involving a Lazarus subgroup that specifically targets organizations in the financial and cryptocurrency sector. This Lazarus subgroup overlaps with activity linked to AppleJeus1, Citrine Sleet2, UNC47363, and Gleaming Pisces4. This actor uses …Continue readingThree Lazarus RATs coming for your cheese→",
+    "content": "Authors: Yun Zheng Hu and Mick Koomen Introduction In the past few years, Fox-IT and NCC Group have conducted multiple incident response cases involving a Lazarus subgroup that specifically targets organizations in the financial and cryptocurrency sector. This Lazarus subgroup overlaps with activity linked to AppleJeus1, Citrine Sleet2, UNC47363, and Gleaming Pisces4. This actor uses …Continue readingThree Lazarus RATs coming for your cheese→",
+    "source": "blog.fox-it.com",
+    "status": "ok",
+    "category": "新闻",
+    "priority": "重要",
+    "heat_score": 80,
+    "summary_short": "福克斯IT报告发现拉撒路组织使用三种新RAT攻击金融和加密货币领域。",
+    "keywords": [
+      "Lazarus",
+      "RAT",
+      "金融",
+      "加密货币",
+      "AppleJeus",
+      "Citrine Sleet",
+      "UNC4736",
+      "Gleaming Pisces"
+    ],
+    "tags": [
+      "important",
+      "news"
+    ]
+  },
+  {
+    "url": "https://labs.sentinelone.com/",
+    "title": "SentinelLabs - We are hunters, reversers, exploit developers, and tinkerers shedding light on the world of malware, exploits, APTs, and cybercrime across all platforms.",
+    "summary": "LABScon25 Replay | Are Your Chinese Cameras Spying For You Or On You? Marc Rogers and Silas Cutler expose how cheap smart home devices conceal a shadow supply chain of shell companies, firmware flaws, and foreign data routing.",
+    "content": "LABScon25 Replay | Are Your Chinese Cameras Spying For You Or On You? Marc Rogers and Silas Cutler expose how cheap smart home devices conceal a shadow supply chain of shell companies, firmware flaws, and foreign data routing.",
+    "source": "labs.sentinelone.com",
+    "status": "ok",
+    "category": "研究",
+    "priority": "新技术",
+    "heat_score": 60,
+    "summary_short": "揭露廉价智能家居摄像头隐藏的供应链漏洞和数据路由风险",
+    "keywords": [
+      "Chinese cameras",
+      "spy",
+      "supply chain",
+      "firmware flaws",
+      "data routing"
+    ],
+    "tags": [
+      "newtech",
+      "news"
+    ]
+  },
+  {
+    "url": "https://www.fortinet.com/blog/threat-research",
+    "title": "FortiGuard Labs Threat Research",
+    "summary": "TBK DVRs targeted by Nexcorium: exploiting, persisting, brute-force attacks, and multi-architecture Mirai-style DDoS in a single campaign. From CVE-2024-3721 exploitation to CVE-2017-17215 reuse, this botnet demonstrates how quickly IoT threats continue to evolve. Analysis of DPRK-linked LNK-based attacks using GitHub as covert C2 infrastructure, detailing multi-stage PowerShell execution, persistence mechanisms, and data exfiltration techniques targeting Windows environments. Following U.S.-Isr",
+    "content": "TBK DVRs targeted by Nexcorium: exploiting, persisting, brute-force attacks, and multi-architecture Mirai-style DDoS in a single campaign. From CVE-2024-3721 exploitation to CVE-2017-17215 reuse, this botnet demonstrates how quickly IoT threats continue to evolve. Analysis of DPRK-linked LNK-based attacks using GitHub as covert C2 infrastructure, detailing multi-stage PowerShell execution, persistence mechanisms, and data exfiltration techniques targeting Windows environments. Following U.S.-Israeli strikes on Iran, FortiGuard Labs has not yet observed large-scale cyber retaliation. However, we observed that regional cyber activity is rising. Organizations should take action to strengthen cyber hygiene, rotate credentials, and reduce exposure. ByAamir Lakhani,Carl Windsor,andDerek MankyMarch 04, 2026 FortiGuard Labs provides a technical breakdown of a multi-stage Agent Tesla campaign, from phishing and encrypted scripts to in-memory execution, process hollowing, and data exfiltration",
+    "source": "fortinet.com",
+    "status": "ok",
+    "category": "研究",
+    "priority": "重要",
+    "heat_score": 93,
+    "summary_short": "TBK DVRs targeted in multi-vector campaign by Nexcorium botnet, exploiting CVEs and using GitHub for C2; DPRK-linked LNK attacks.",
+    "keywords": [
+      "CVE-2024-3721",
+      "CVE-2017-17215",
+      "Nexcorium",
+      "TBK DVR",
+      "Mirai",
+      "DDoS",
+      "DPRK",
+      "LNK",
+      "GitHub C2",
+      "IoT botnet"
+    ],
+    "tags": [
+      "important",
+      "news"
+    ]
+  },
+  {
+    "url": "https://blog.cloudflare.com/",
+    "title": "The Cloudflare Blog",
+    "summary": "Making Rust Workers reliable: panic and abort recovery in wasmâbindgen Panics in Rust Workers were historically fatal, poisoning the entire instance. By collaborating upstream on the wasmâbindgen project, Rust Workers now support resilient critical error recovery, including panic unwinding using WebAssembly Exception Handling....",
+    "content": "Making Rust Workers reliable: panic and abort recovery in wasmâbindgen Panics in Rust Workers were historically fatal, poisoning the entire instance. By collaborating upstream on the wasmâbindgen project, Rust Workers now support resilient critical error recovery, including panic unwinding using WebAssembly Exception Handling....",
+    "source": "blog.cloudflare.com",
+    "status": "ok",
+    "category": "技术",
+    "priority": "新技术",
+    "heat_score": 65,
+    "summary_short": "Cloudflare实现Rust Workers的panic恢复，利用WebAssembly异常处理提升可靠性。",
+    "keywords": [
+      "Rust Workers",
+      "panic recovery",
+      "WebAssembly Exception Handling",
+      "wasm-bindgen",
+      "reliability"
+    ],
+    "tags": [
+      "newtech",
+      "techniques"
+    ]
+  },
+  {
+    "url": "https://blog.google/threat-analysis-group",
+    "title": "Official news and updates on Google's Threat Analysis Group | Google Blog",
+    "summary": "The latest on our efforts to counter government-backed attacks. Buying Spying: How the commercial surveillance industry works and what can be done about it This report documents the rise of commercial surveillance vendors and the industry that threatens free speech, the free press and the open internet.",
+    "content": "The latest on our efforts to counter government-backed attacks. Buying Spying: How the commercial surveillance industry works and what can be done about it This report documents the rise of commercial surveillance vendors and the industry that threatens free speech, the free press and the open internet.",
+    "source": "blog.google",
+    "status": "ok",
+    "category": "研究",
+    "priority": "重要",
+    "heat_score": 70,
+    "summary_short": "Google发布关于商业监控产业和政府支持攻击的最新报告",
+    "keywords": [
+      "商业监控",
+      "政府支持攻击",
+      "威胁分析组",
+      "间谍软件"
+    ],
+    "tags": [
+      "important",
+      "news"
+    ]
+  },
+  {
+    "url": "https://www.schneier.com/",
+    "title": "Schneier on Security -",
+    "summary": "Friday Squid Blogging: How Squid Survived Extinction Events Scientists have finally cracked a long-standing mystery about squid and cuttlefish evolution by analyzing newly sequenced genomes alongside global datasets. The research reveals that these bizarre, intelligent creatures likely originated deep in the ocean over 100 million years ago, surviving mass extinction events by retreating into oxygen-rich deep-sea refuges. For millions of years, their evolution barely changed—until a dramatic pos",
+    "content": "Friday Squid Blogging: How Squid Survived Extinction Events Scientists have finally cracked a long-standing mystery about squid and cuttlefish evolution by analyzing newly sequenced genomes alongside global datasets. The research reveals that these bizarre, intelligent creatures likely originated deep in the ocean over 100 million years ago, surviving mass extinction events by retreating into oxygen-rich deep-sea refuges. For millions of years, their evolution barely changed—until a dramatic post-extinction boom sparked rapid diversification as they moved into new shallow-water habitats. As usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered. Posted on April 24, 2026 at 5:03 PM•11 Comments",
+    "source": "schneier.com",
+    "status": "ok",
+    "category": "新闻",
+    "priority": "普通",
+    "heat_score": 10,
+    "summary_short": "科学家揭示鱿鱼和墨鱼如何通过深海避难所躲过大灭绝事件",
+    "keywords": [
+      "鱿鱼",
+      "进化",
+      "灭绝事件",
+      "深海",
+      "基因组"
+    ],
+    "tags": [
+      "news"
+    ]
+  },
+  {
+    "url": "https://security.googleblog.com/",
+    "title": "Google Online Security Blog",
+    "summary": "AI threats in the wild: The current state of prompt injections on the web At Google, our Threat Intelligence teams are dedicated to staying ahead of real-world adversarial activity, proactively monitoring emerging threats before they can impact users. Right now,Indirect Prompt Injection (IPI)is a top priority for the security community, anticipating it as a primary attack vector for adversaries to target and compromise AI agents. But while the danger of IPI is widely discussed, are threat actors",
+    "content": "AI threats in the wild: The current state of prompt injections on the web At Google, our Threat Intelligence teams are dedicated to staying ahead of real-world adversarial activity, proactively monitoring emerging threats before they can impact users. Right now,Indirect Prompt Injection (IPI)is a top priority for the security community, anticipating it as a primary attack vector for adversaries to target and compromise AI agents. But while the danger of IPI is widely discussed, are threat actors actually exploiting this vector today – and if so, how? To answer these questions and to uncover real-world abuse, we initiated a broad sweep of the public web to monitor for known indirect prompt injection patterns. This is what we found. Unlike a direct injection where a user \"jailbreaks\" a chatbot, IPI occurs when an AI system processes content—like a website, email, or document—that contains malicious instructions. When the AI reads this poisoned content, it may silently follow the attacker",
+    "source": "security.googleblog.com",
+    "status": "ok",
+    "category": "新闻",
+    "priority": "重要",
+    "heat_score": 85,
+    "summary_short": "谷歌分析AI提示注入威胁现状，间接提示注入是首要攻击向量",
+    "keywords": [
+      "AI threats",
+      "prompt injection",
+      "indirect prompt injection",
+      "IPI",
+      "adversarial attacks"
+    ],
+    "tags": [
+      "important",
+      "news"
+    ]
+  },
+  {
+    "url": "https://labs.detectify.com/",
+    "title": "Detectify Labs - Writeups, ethical hacker insights, security guidance",
+    "summary": "Reducing the attack surface in AWS The smaller our attack surface, the fewer things we need to worry about. An excellent way of reducing the attack surface (and our cognitive load) is using AWS Service Control Policies (SCPs.) In this post, I’ll describe how we approached it.",
+    "content": "Reducing the attack surface in AWS The smaller our attack surface, the fewer things we need to worry about. An excellent way of reducing the attack surface (and our cognitive load) is using AWS Service Control Policies (SCPs.) In this post, I’ll describe how we approached it.",
+    "source": "labs.detectify.com",
+    "status": "ok",
+    "category": "技术",
+    "priority": "普通",
+    "heat_score": 60,
+    "summary_short": "使用AWS服务控制策略减少攻击面的最佳实践",
+    "keywords": [
+      "AWS",
+      "SCP",
+      "攻击面",
+      "安全策略"
+    ],
+    "tags": [
+      "techniques"
+    ]
+  },
+  {
+    "url": "https://blog.sonarsource.com/",
+    "title": "Sonar blog | Sonar",
+    "summary": "Cloud-based static analysis tool for your CI/CD workflows Self-managed static analysis tool for continuous codebase inspection Free IDE extension that provides on-the-fly analysis and coding guidance",
+    "content": "Cloud-based static analysis tool for your CI/CD workflows Self-managed static analysis tool for continuous codebase inspection Free IDE extension that provides on-the-fly analysis and coding guidance Secure use of open source code with advanced SAST and SCA Bring code quality and security into your AI workflow",
+    "source": "blog.sonarsource.com",
+    "status": "ok",
+    "category": "工具",
+    "priority": "普通",
+    "heat_score": 30,
+    "summary_short": "Sonar提供云端及自管理代码静态分析工具与IDE扩展",
+    "keywords": [
+      "Sonar",
+      "静态分析",
+      "代码质量",
+      "CI/CD",
+      "IDE扩展"
+    ],
+    "tags": [
+      "tools"
+    ]
+  },
+  {
+    "url": "https://labs.watchtowr.com/",
+    "title": "watchTowr Labs",
+    "summary": "watchTowr Labsis the epicentre of offensive security expertise atwatchTowr- where research, innovation, and real attacker insight power ourPreemptive Exposure Managementtechnology.This blog offers a glimpse into the original research behind the continuous, attacker-aligned engine that drives thewatchTowr Platform.",
+    "content": "watchTowr Labsis the epicentre of offensive security expertise atwatchTowr- where research, innovation, and real attacker insight power ourPreemptive Exposure Managementtechnology.This blog offers a glimpse into the original research behind the continuous, attacker-aligned engine that drives thewatchTowr Platform.",
+    "source": "labs.watchtowr.com",
+    "status": "ok",
+    "category": "研究",
+    "priority": "普通",
+    "heat_score": 20,
+    "summary_short": "watchTowr Labs发布博客，介绍其攻击性安全研究和主动暴露管理技术。",
+    "keywords": [
+      "watchTowr",
+      "攻击性安全",
+      "安全研究"
+    ],
+    "tags": [
+      "news"
+    ]
+  },
+  {
+    "url": "https://blog.quarkslab.com/",
+    "title": "Quarkslab's blog",
+    "summary": "Obfuscation vs the Optimizer: An LLVM Middle-End Arms Race How one Commit Broke Obfuscation: A blog post exploring the role of compilers and optimizations in the field of obfuscation and de-obfuscation. BSIM explained once and for all!",
+    "content": "Obfuscation vs the Optimizer: An LLVM Middle-End Arms Race How one Commit Broke Obfuscation: A blog post exploring the role of compilers and optimizations in the field of obfuscation and de-obfuscation. BSIM explained once and for all! Since its initial released in December 2023, many people have used and built tools around the BSIM feature of Ghidra but up to this date its internals were unknown. This post brings some light on how BSIM works, theoretically and in it's C++ implementation. Tearing down a car telematic unit (and finding an accident on Facebook)",
+    "source": "blog.quarkslab.com",
+    "status": "ok",
+    "category": "技术",
+    "priority": "新技术",
+    "heat_score": 60,
+    "summary_short": "探讨LLVM优化如何破坏代码混淆，以及BSIM解释。",
+    "keywords": [
+      "obfuscation",
+      "LLVM",
+      "optimizer",
+      "deobfuscation",
+      "BSIM"
+    ],
+    "tags": [
+      "newtech",
+      "techniques"
+    ]
+  },
+  {
+    "url": "https://blog.includesecurity.com/",
+    "title": "Include Security Research Blog - Team Research blog",
+    "summary": "The Include Security team attended the BSides 2026 CTF competition and observed how effective frontier models have become at solving a variety of CTF challenges. Our team gives a first-hand account of how the winning strategy has recently shifted to prioritizing efficient solve times and orchestration pipelines that can combine the speed of lighter-weight models on easier challenges with a heavy-hitting model’s reasoning capabilities. We also highlight why the success of LLMs in CTFs does not tr",
+    "content": "The Include Security team attended the BSides 2026 CTF competition and observed how effective frontier models have become at solving a variety of CTF challenges. Our team gives a first-hand account of how the winning strategy has recently shifted to prioritizing efficient solve times and orchestration pipelines that can combine the speed of lighter-weight models on easier challenges with a heavy-hitting model’s reasoning capabilities. We also highlight why the success of LLMs in CTFs does not translate as effectively in the arena of professional security assessments.",
+    "source": "blog.includesecurity.com",
+    "status": "ok",
+    "category": "研究",
+    "priority": "新技术",
+    "heat_score": 55,
+    "summary_short": "Include Security团队观察BSides 2026 CTF中前沿模型高效解题，策略转向轻量模型与重型推理结合。",
+    "keywords": [
+      "BSides",
+      "CTF",
+      "LLM",
+      "AI",
+      "cybersecurity"
+    ],
+    "tags": [
+      "newtech",
+      "news"
+    ]
+  }
+]
+</script>
 
-            function renderCard(article) {
-                const tagsHTML = article.tags.map((tag, idx) => {
-                    const cls = getTagClass(tag);
-                    const label = article.tagLabels[idx] || tag;
-                    return `<span class="card-tag ${cls}">${label}</span>`;
-                }).join('');
+<script>
+(function() {
+  'use strict';
 
-                return `
-                    <div class="article-card" data-id="${article.id}">
-                        <div class="card-tags">${tagsHTML}</div>
-                        <div class="card-title">${article.title}</div>
-                        <div class="card-desc">${article.description}</div>
-                        <div class="card-footer">
-                            <span class="card-source">
-                                <span class="dot"></span>
-                                SecNews 情报源
-                            </span>
-                            <span>${new Date().toLocaleDateString('zh-CN')}</span>
-                        </div>
-                    </div>
-                `;
-            }
+  var data = JSON.parse(document.getElementById('articles-json').textContent);
+  var articles = data;
+  var filter = 'all';
+  var search = '';
+  var timer = 0;
+  var gid = document.getElementById('articleGrid');
+  var input = document.getElementById('searchInput');
+  var clear = document.getElementById('clearBtn');
+  var count = document.getElementById('resultCount');
+  var fbtns = document.querySelectorAll('.fbtn');
 
-            function renderGrid(articles) {
-                if (articles.length === 0) {
-                    grid.innerHTML = `
-                        <div class="empty-state">
-                            <div class="empty-icon">🔍</div>
-                            <div class="empty-text">没有匹配的文章</div>
-                            <div class="empty-sub">尝试调整筛选条件或搜索关键词</div>
-                        </div>
-                    `;
-                    resultCount.textContent = '显示 0 篇文章';
-                    return;
-                }
+  // Digest date
+  var now = new Date();
+  document.getElementById('digestDate').textContent =
+    now.getFullYear() + '-' +
+    String(now.getMonth()+1).padStart(2,'0') + '-' +
+    String(now.getDate()).padStart(2,'0') + '  ·  实时更新';
 
-                const html = articles.map(a => renderCard(a)).join('');
-                grid.innerHTML = html;
+  // Parse digest from data if available, or show alert count
+  function renderDigest() {
+    var crit = articles.filter(function(a){ return a.priority==='重要'; }).length;
+    var hitech = articles.filter(function(a){ return a.priority==='新技术'; }).length;
+    var normal = articles.length - crit - hitech;
+    document.getElementById('digestContent').innerHTML =
+      '<strong>今日情报</strong>：共 <strong>' + articles.length + '</strong> 篇安全资讯。' +
+      '<span class="digest-badge crit">重要 ' + crit + '</span>' +
+      (hitech ? '<span class="digest-badge tech">新技术 ' + hitech + '</span>' : '') +
+      ' 自动标注完成。重点关注严重漏洞与新型攻击技术。';
+  }
+  renderDigest();
 
-                // Update count
-                const total = articlesData.length;
-                const shown = articles.length;
-                const filterLabel = filterBtns.find(b => b.dataset.filter === currentFilter)?.textContent.trim() ||
-                '全部';
-                resultCount.textContent = `显示 ${shown} / ${total} 篇文章`;
-            }
+  function tagClass(t) {
+    var m = { hot:'hot', important:'important', newtech:'newtech', news:'news', techniques:'techniques', tools:'tools' };
+    return m[t] || 'news';
+  }
 
-            function filterAndSearch() {
-                let results = [...articlesData];
+  function tagLabel(t) {
+    var labels = { hot:'热门', important:'重要', newtech:'新技术', news:'新闻', techniques:'技术', tools:'工具' };
+    return labels[t] || t;
+  }
 
-                // Filter by tag
-                if (currentFilter !== 'all') {
-                    results = results.filter(a => a.tags.includes(currentFilter));
-                }
+  function cardHTML(a, idx) {
+    var tgs = (a.tags || []).map(function(t) {
+      return '<span class="ctag ' + tagClass(t) + '">' + tagLabel(t) + '</span>';
+    }).join('');
+    var desc = a.summary_short || a.summary || a.description || '';
+    return '<div class="card" style="animation-delay:' + (idx * 0.04).toFixed(2) + 's">' +
+      '<div class="card-tags">' + tgs + '</div>' +
+      '<div class="card-title">' + escapeHTML(a.title || '') + '</div>' +
+      '<div class="card-desc">' + escapeHTML(desc) + '</div>' +
+      '<div class="card-foot">' +
+        '<span>' + (a.source || 'SecNews 情报源') + '</span>' +
+        '<span>热度 ' + (a.heat_score || 0) + '</span>' +
+      '</div></div>';
+  }
 
-                // Search by title or description
-                if (currentSearch.trim() !== '') {
-                    const q = currentSearch.trim().toLowerCase();
-                    results = results.filter(a =>
-                        a.title.toLowerCase().includes(q) ||
-                        a.description.toLowerCase().includes(q)
-                    );
-                }
+  function escapeHTML(s) {
+    return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
 
-                currentResults = results;
-                renderGrid(results);
+  function render() {
+    var results = articles.slice();
 
-                // Update active filter button styles
-                filterBtns.forEach(btn => {
-                    const f = btn.dataset.filter;
-                    btn.classList.toggle('active', f === currentFilter);
-                });
+    if (filter !== 'all') {
+      results = results.filter(function(a) {
+        return (a.tags || []).indexOf(filter) !== -1 ||
+               a.priority === (filter === 'important' ? '重要' : filter === 'newtech' ? '新技术' : '') ||
+               a.category === {'news':'新闻','techniques':'技术'}[filter];
+      });
+    }
 
-                // Show/hide clear button
-                clearBtn.classList.toggle('visible', currentSearch.trim().length > 0);
-            }
+    if (search.trim()) {
+      var q = search.trim().toLowerCase();
+      results = results.filter(function(a) {
+        return (a.title || '').toLowerCase().indexOf(q) !== -1 ||
+               (a.summary_short || a.summary || '').toLowerCase().indexOf(q) !== -1 ||
+               (a.keywords || []).some(function(k){ return k.toLowerCase().indexOf(q) !== -1; });
+      });
+    }
 
-            // ─── Event handlers ──────────────────────────────────
-            // Filter buttons
-            filterBtns.forEach(btn => {
-                btn.addEventListener('click', function() {
-                    const filter = this.dataset.filter;
-                    if (filter === currentFilter) return;
-                    currentFilter = filter;
-                    filterAndSearch();
-                });
-            });
+    count.textContent = results.length + ' / ' + articles.length + ' 篇';
+    clear.classList.toggle('show', search.trim().length > 0);
 
-            // Search input
-            searchInput.addEventListener('input', function() {
-                currentSearch = this.value;
-                filterAndSearch();
-            });
+    if (results.length === 0) {
+      gid.innerHTML = '<div class="none"><div class="icon">No data</div><div class="title">没有匹配的文章</div><div class="sub">调整筛选条件或搜索关键词</div></div>';
+      gid.classList.add('empty');
+    } else {
+      gid.classList.remove('empty');
+      gid.innerHTML = results.map(cardHTML).join('');
+    }
+  }
 
-            // Clear search
-            clearBtn.addEventListener('click', function() {
-                searchInput.value = '';
-                currentSearch = '';
-                filterAndSearch();
-                searchInput.focus();
-            });
+  function setFilter(f) {
+    filter = f;
+    fbtns.forEach(function(b){ b.classList.toggle('on', b.dataset.filter === f); });
+    render();
+  }
 
-            // Keyboard shortcut: Escape to clear
-            searchInput.addEventListener('keydown', function(e) {
-                if (e.key === 'Escape') {
-                    this.value = '';
-                    currentSearch = '';
-                    filterAndSearch();
-                    this.blur();
-                }
-            });
+  fbtns.forEach(function(b) {
+    b.addEventListener('click', function(){ setFilter(this.dataset.filter); });
+  });
 
-            // ─── Init ────────────────────────────────────────────
-            renderGrid(articlesData);
+  input.addEventListener('input', function() {
+    search = this.value;
+    clearTimeout(timer);
+    timer = setTimeout(render, 260);
+  });
 
-            // ─── Expose for debugging ─────────────────────────────
-            window.__secnews = {
-                articles: articlesData,
-                filter: () => currentFilter,
-                search: () => currentSearch,
-                results: () => currentResults,
-                refresh: filterAndSearch
-            };
+  clear.addEventListener('click', function() {
+    input.value = ''; search = ''; render(); input.focus();
+  });
 
-        })();
-    </script>
+  input.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') { input.value = ''; search = ''; render(); input.blur(); }
+  });
+
+  // Scroll to top
+  var toTop = document.getElementById('toTop');
+  window.addEventListener('scroll', function() {
+    toTop.classList.toggle('show', window.scrollY > 400);
+  });
+  toTop.addEventListener('click', function() {
+    window.scrollTo({ top:0, behavior:'smooth' });
+  });
+
+  render();
+})();
+</script>
 
 </body>
 </html>
-```
