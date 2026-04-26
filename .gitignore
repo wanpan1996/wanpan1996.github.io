@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.env
+data/raw/*.json
+data/processed/*.json
+data/processed/*.txt
+.DS_Store

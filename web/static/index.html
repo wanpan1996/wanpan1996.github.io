@@ -1,0 +1,1028 @@
+```html
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SecNews - AI Powered 网络安全新闻聚合</title>
+    <style>
+        /* ===== RESET & BASE ===== */
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        html {
+            font-size: 16px;
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans SC", sans-serif;
+            background: #0a0e17;
+            color: #e0e4ec;
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+        a {
+            color: #4fc3f7;
+            text-decoration: none;
+        }
+        a:hover {
+            color: #81d4fa;
+        }
+
+        /* ===== SCROLLBAR ===== */
+        ::-webkit-scrollbar {
+            width: 6px;
+            height: 6px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #141b2b;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #2a3a5c;
+            border-radius: 3px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #3a4f7a;
+        }
+
+        /* ===== LAYOUT ===== */
+        .container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* ===== HEADER ===== */
+        header {
+            background: #0d1322;
+            border-bottom: 1px solid #1e2a44;
+            padding: 16px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            background: rgba(13, 19, 34, 0.92);
+        }
+        .header-inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 1.5rem;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            color: #e8eef5;
+        }
+        .logo-icon {
+            width: 36px;
+            height: 36px;
+            background: linear-gradient(135deg, #00bcd4, #0288d1);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+            color: #fff;
+            box-shadow: 0 0 20px rgba(0, 188, 212, 0.25);
+        }
+        .logo span {
+            background: linear-gradient(90deg, #4fc3f7, #00bcd4);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .logo .ai-badge {
+            font-size: 0.6rem;
+            background: rgba(0, 188, 212, 0.18);
+            color: #4fc3f7;
+            padding: 2px 10px;
+            border-radius: 20px;
+            border: 1px solid rgba(0, 188, 212, 0.3);
+            font-weight: 500;
+            letter-spacing: 0.5px;
+            -webkit-text-fill-color: #4fc3f7;
+            margin-left: 4px;
+        }
+        .header-controls {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+        .search-box {
+            display: flex;
+            align-items: center;
+            background: #141b2b;
+            border: 1px solid #1e2a44;
+            border-radius: 8px;
+            padding: 0 12px;
+            transition: border-color 0.25s;
+        }
+        .search-box:focus-within {
+            border-color: #4fc3f7;
+            box-shadow: 0 0 0 3px rgba(79, 195, 247, 0.1);
+        }
+        .search-box .icon {
+            color: #5a6a8a;
+            font-size: 1rem;
+            margin-right: 8px;
+            user-select: none;
+        }
+        .search-box input {
+            background: transparent;
+            border: none;
+            outline: none;
+            color: #e0e4ec;
+            font-size: 0.9rem;
+            padding: 8px 0;
+            width: 180px;
+            font-family: inherit;
+        }
+        .search-box input::placeholder {
+            color: #4a5a7a;
+        }
+        .search-box input:focus {
+            outline: none;
+        }
+        .header-stats {
+            font-size: 0.8rem;
+            color: #5a6a8a;
+            white-space: nowrap;
+        }
+        .header-stats strong {
+            color: #4fc3f7;
+            font-weight: 600;
+        }
+
+        /* ===== HERO ===== */
+        .hero {
+            background: linear-gradient(145deg, #0d1a2e 0%, #0a0e17 100%);
+            border-bottom: 1px solid #1a2a48;
+            padding: 40px 0 36px;
+            position: relative;
+            overflow: hidden;
+        }
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -60%;
+            right: -10%;
+            width: 500px;
+            height: 500px;
+            background: radial-gradient(circle, rgba(0, 188, 212, 0.06) 0%, transparent 70%);
+            pointer-events: none;
+            border-radius: 50%;
+        }
+        .hero::after {
+            content: '';
+            position: absolute;
+            bottom: -30%;
+            left: -5%;
+            width: 400px;
+            height: 400px;
+            background: radial-gradient(circle, rgba(79, 195, 247, 0.04) 0%, transparent 70%);
+            pointer-events: none;
+            border-radius: 50%;
+        }
+        .hero .container {
+            position: relative;
+            z-index: 1;
+        }
+        .hero h1 {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: #e8eef5;
+            margin-bottom: 6px;
+            letter-spacing: -0.3px;
+        }
+        .hero h1 small {
+            font-size: 0.9rem;
+            font-weight: 400;
+            color: #4fc3f7;
+            margin-left: 12px;
+        }
+        .hero .subtitle {
+            color: #6a7a9a;
+            font-size: 0.95rem;
+            margin-bottom: 24px;
+            border-left: 3px solid #4fc3f7;
+            padding-left: 14px;
+        }
+        .digest-card {
+            background: rgba(20, 30, 55, 0.6);
+            border: 1px solid #1e2a44;
+            border-radius: 12px;
+            padding: 22px 28px;
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+            transition: border-color 0.3s;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+        }
+        .digest-card:hover {
+            border-color: #2a3a5c;
+        }
+        .digest-card .digest-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #4fc3f7;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 14px;
+            letter-spacing: 0.3px;
+        }
+        .digest-card .digest-title .badge {
+            font-size: 0.65rem;
+            background: rgba(79, 195, 247, 0.15);
+            color: #4fc3f7;
+            padding: 2px 12px;
+            border-radius: 20px;
+            border: 1px solid rgba(79, 195, 247, 0.2);
+            font-weight: 500;
+        }
+        .digest-card .digest-content {
+            font-size: 0.95rem;
+            line-height: 1.7;
+            color: #c8d0e0;
+        }
+        .digest-card .digest-content .item {
+            padding: 8px 0 6px;
+            border-bottom: 1px solid rgba(30, 42, 68, 0.5);
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+        }
+        .digest-card .digest-content .item:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+        .digest-card .digest-content .item .emoji {
+            flex-shrink: 0;
+            font-size: 1.1rem;
+            margin-top: 2px;
+        }
+        .digest-card .digest-content .item .text {
+            flex: 1;
+        }
+        .digest-card .digest-content .item .text strong {
+            color: #e8eef5;
+            font-weight: 600;
+        }
+        .digest-card .digest-content .item .text .tag-threat {
+            color: #ef5350;
+            font-weight: 600;
+        }
+        .digest-card .digest-content .item .text .tag-apt {
+            color: #ff7043;
+            font-weight: 600;
+        }
+        .digest-card .digest-content .item .text .tag-new {
+            color: #ffa726;
+            font-weight: 600;
+        }
+        .digest-card .digest-footer {
+            margin-top: 12px;
+            padding-top: 12px;
+            border-top: 1px solid rgba(30, 42, 68, 0.5);
+            font-size: 0.85rem;
+            color: #5a6a8a;
+        }
+
+        /* ===== FILTERS ===== */
+        .filters-section {
+            background: #0d1322;
+            border-bottom: 1px solid #1a2a48;
+            padding: 16px 0;
+            position: sticky;
+            top: 68px;
+            z-index: 50;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            background: rgba(13, 19, 34, 0.90);
+        }
+        .filter-bar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+        .filter-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+        .filter-btn {
+            background: transparent;
+            border: 1px solid #1e2a44;
+            color: #7a8aaa;
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 0.82rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s;
+            font-family: inherit;
+            white-space: nowrap;
+        }
+        .filter-btn:hover {
+            border-color: #4fc3f7;
+            color: #b0c4e8;
+            background: rgba(79, 195, 247, 0.06);
+        }
+        .filter-btn.active {
+            background: rgba(79, 195, 247, 0.15);
+            border-color: #4fc3f7;
+            color: #4fc3f7;
+            box-shadow: 0 0 12px rgba(79, 195, 247, 0.08);
+        }
+        .filter-results {
+            font-size: 0.82rem;
+            color: #5a6a8a;
+        }
+        .filter-results strong {
+            color: #b0c4e8;
+            font-weight: 600;
+        }
+
+        /* ===== ARTICLES GRID ===== */
+        .articles-section {
+            padding: 28px 0 60px;
+        }
+        .articles-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+            gap: 20px;
+        }
+        .article-card {
+            background: #111a2e;
+            border: 1px solid #1a2a48;
+            border-radius: 12px;
+            padding: 20px 22px 18px;
+            transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+        .article-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, #4fc3f7, transparent);
+            opacity: 0;
+            transition: opacity 0.4s;
+        }
+        .article-card:hover {
+            border-color: #2a3a5c;
+            transform: translateY(-3px);
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+        }
+        .article-card:hover::before {
+            opacity: 1;
+        }
+        .article-card .card-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            margin-bottom: 10px;
+        }
+        .article-card .card-tags .tag {
+            font-size: 0.7rem;
+            font-weight: 600;
+            padding: 2px 10px;
+            border-radius: 12px;
+            letter-spacing: 0.3px;
+            background: rgba(30, 42, 68, 0.6);
+            color: #7a8aaa;
+            border: 1px solid rgba(30, 42, 68, 0.4);
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+        }
+        .article-card .card-tags .tag.hot {
+            background: rgba(239, 83, 80, 0.15);
+            color: #ef5350;
+            border-color: rgba(239, 83, 80, 0.25);
+        }
+        .article-card .card-tags .tag.important {
+            background: rgba(255, 112, 67, 0.15);
+            color: #ff7043;
+            border-color: rgba(255, 112, 67, 0.25);
+        }
+        .article-card .card-tags .tag.newtech {
+            background: rgba(255, 167, 38, 0.15);
+            color: #ffa726;
+            border-color: rgba(255, 167, 38, 0.25);
+        }
+        .article-card .card-tags .tag.category {
+            background: rgba(79, 195, 247, 0.08);
+            color: #4fc3f7;
+            border-color: rgba(79, 195, 247, 0.15);
+        }
+        .article-card .card-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #e8eef5;
+            line-height: 1.5;
+            margin-bottom: 6px;
+            flex: 1;
+        }
+        .article-card .card-title .en {
+            display: block;
+            font-weight: 500;
+            color: #b0c4e8;
+            font-size: 0.92rem;
+            margin-bottom: 2px;
+        }
+        .article-card .card-title .zh {
+            display: block;
+            color: #7a8aaa;
+            font-size: 0.88rem;
+            font-weight: 400;
+        }
+        .article-card .card-meta {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 12px;
+            padding-top: 10px;
+            border-top: 1px solid rgba(30, 42, 68, 0.3);
+            font-size: 0.75rem;
+            color: #4a5a7a;
+        }
+        .article-card .card-meta .source {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .article-card .card-meta .source .dot {
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: #4fc3f7;
+            opacity: 0.5;
+        }
+        .article-card .card-meta .date {
+            color: #3a4a6a;
+        }
+        .article-card .card-actions {
+            display: flex;
+            gap: 8px;
+            margin-top: 10px;
+        }
+        .article-card .card-actions .btn-sm {
+            font-size: 0.7rem;
+            padding: 3px 12px;
+            border-radius: 14px;
+            border: 1px solid rgba(79, 195, 247, 0.15);
+            background: transparent;
+            color: #4fc3f7;
+            cursor: pointer;
+            transition: all 0.2s;
+            font-family: inherit;
+        }
+        .article-card .card-actions .btn-sm:hover {
+            background: rgba(79, 195, 247, 0.1);
+            border-color: rgba(79, 195, 247, 0.3);
+        }
+
+        /* Empty state */
+        .empty-state {
+            grid-column: 1 / -1;
+            text-align: center;
+            padding: 60px 20px;
+            color: #4a5a7a;
+        }
+        .empty-state .empty-icon {
+            font-size: 3rem;
+            margin-bottom: 12px;
+            opacity: 0.4;
+        }
+        .empty-state h3 {
+            font-size: 1.1rem;
+            color: #6a7a9a;
+            margin-bottom: 4px;
+        }
+        .empty-state p {
+            font-size: 0.9rem;
+        }
+
+        /* ===== RESPONSIVE ===== */
+        @media (max-width: 900px) {
+            .articles-grid {
+                grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+                gap: 16px;
+            }
+            .hero h1 {
+                font-size: 1.5rem;
+            }
+            .hero h1 small {
+                font-size: 0.75rem;
+                margin-left: 6px;
+                display: block;
+                margin-top: 4px;
+            }
+            .digest-card {
+                padding: 16px 18px;
+            }
+            .digest-card .digest-content {
+                font-size: 0.88rem;
+            }
+        }
+        @media (max-width: 640px) {
+            .header-inner {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 10px;
+            }
+            .header-controls {
+                justify-content: space-between;
+                gap: 10px;
+            }
+            .search-box input {
+                width: 120px;
+            }
+            .header-stats {
+                font-size: 0.7rem;
+            }
+            .filters-section {
+                top: 118px;
+            }
+            .filter-bar {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 8px;
+            }
+            .filter-buttons {
+                justify-content: center;
+            }
+            .filter-results {
+                text-align: center;
+            }
+            .articles-grid {
+                grid-template-columns: 1fr;
+                gap: 14px;
+            }
+            .article-card {
+                padding: 16px 18px 14px;
+            }
+            .hero {
+                padding: 28px 0 24px;
+            }
+            .hero h1 {
+                font-size: 1.25rem;
+            }
+            .digest-card .digest-title {
+                font-size: 0.95rem;
+            }
+            .logo {
+                font-size: 1.2rem;
+            }
+            .logo-icon {
+                width: 30px;
+                height: 30px;
+                font-size: 1rem;
+            }
+            .container {
+                padding: 0 14px;
+            }
+        }
+        @media (max-width: 400px) {
+            .search-box input {
+                width: 80px;
+                font-size: 0.8rem;
+            }
+            .filter-btn {
+                font-size: 0.72rem;
+                padding: 4px 12px;
+            }
+            .article-card .card-title {
+                font-size: 0.92rem;
+            }
+            .article-card .card-title .en {
+                font-size: 0.85rem;
+            }
+            .article-card .card-title .zh {
+                font-size: 0.82rem;
+            }
+        }
+
+        /* ===== ANIMATIONS ===== */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(16px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .article-card {
+            animation: fadeInUp 0.45s ease both;
+        }
+        .article-card:nth-child(1) {
+            animation-delay: 0.02s;
+        }
+        .article-card:nth-child(2) {
+            animation-delay: 0.06s;
+        }
+        .article-card:nth-child(3) {
+            animation-delay: 0.10s;
+        }
+        .article-card:nth-child(4) {
+            animation-delay: 0.14s;
+        }
+        .article-card:nth-child(5) {
+            animation-delay: 0.18s;
+        }
+
+        /* Utility */
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            border: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ===== HEADER ===== -->
+    <header>
+        <div class="container header-inner">
+            <div class="logo">
+                <div class="logo-icon">🛡</div>
+                <div>SecNews <span>AI</span><span class="ai-badge">AI · 聚合</span></div>
+            </div>
+            <div class="header-controls">
+                <div class="search-box" role="search">
+                    <span class="icon">🔍</span>
+                    <input type="text" id="searchInput" placeholder="搜索文章..." aria-label="搜索文章">
+                </div>
+                <div class="header-stats">
+                    📊 今日 <strong id="totalCount">5</strong> 篇 · 已读 <strong id="readCount">0</strong>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero">
+        <div class="container">
+            <h1>
+                安全日报
+                <small>📅 2025-01-16 · AI 智能聚合</small>
+            </h1>
+            <div class="subtitle">基于深度学习的热点提取 · 每日自动编译</div>
+            <div class="digest-card">
+                <div class="digest-title">
+                    ⚡ 今日安全日报
+                    <span class="badge">AI 摘要</span>
+                </div>
+                <div class="digest-content">
+                    <div class="item">
+                        <span class="emoji">🚨</span>
+                        <span class="text">
+                            <strong class="tag-threat">严重威胁</strong>：
+                            Apache HTTP Server 曝CVE-2024-1234零日漏洞，可远程代码执行，所有版本需立即修补。
+                        </span>
+                    </div>
+                    <div class="item">
+                        <span class="emoji">🚨</span>
+                        <span class="text">
+                            <strong class="tag-apt">国家背景攻击</strong>：
+                            CISA警告某APT组织正针对金融行业发动攻击，建议加强监控与隔离。
+                        </span>
+                    </div>
+                    <div class="item">
+                        <span class="emoji">⚠️</span>
+                        <span class="text">
+                            <strong class="tag-new">新型攻击技术</strong>：
+                            首次发现基于LLM的攻击绕过MFA认证，多因素验证不再绝对安全，需补充行为检测。
+                        </span>
+                    </div>
+                    <div class="digest-footer">
+                        📌 其他：GitHub发布CodeQL · 本周安全新闻多个补丁
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FILTERS ===== -->
+    <section class="filters-section">
+        <div class="container filter-bar">
+            <div class="filter-buttons" id="filterButtons">
+                <button class="filter-btn active" data-filter="all">📋 全部</button>
+                <button class="filter-btn" data-filter="hot">🔥 热门</button>
+                <button class="filter-btn" data-filter="important">⚠️ 重要</button>
+                <button class="filter-btn" data-filter="newtech">🆕 新技术</button>
+                <button class="filter-btn" data-filter="news">📰 新闻</button>
+                <button class="filter-btn" data-filter="techniques">🔧 技术</button>
+            </div>
+            <div class="filter-results">
+                显示 <strong id="visibleCount">5</strong> / <span id="totalCountLabel">5</span> 篇
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== ARTICLES ===== -->
+    <section class="articles-section">
+        <div class="container">
+            <div class="articles-grid" id="articlesGrid">
+                <!-- Cards will be rendered by JS -->
+            </div>
+        </div>
+    </section>
+
+    <script>
+        (function() {
+            'use strict';
+
+            // ===== DATA =====
+            const articles = [{
+                id: 1,
+                titleEn: 'Critical CVE-2024-1234 Exploit Found in Apache',
+                titleZh: 'Apache HTTP Server严重零日漏洞，可远程代码执行，需立即修补',
+                tags: ['important', 'news', 'hot'],
+                category: 'news',
+                date: '2025-01-16',
+                source: 'CVE Database'
+            }, {
+                id: 2,
+                titleEn: 'New LLM-Based Attack Technique Bypasses Authentication',
+                titleZh: '基于LLM的新型攻击技术首次绕过MFA认证',
+                tags: ['newtech', 'techniques'],
+                category: 'techniques',
+                date: '2025-01-15',
+                source: 'AI Security Research'
+            }, {
+                id: 3,
+                titleEn: 'Weekly Security News Roundup',
+                titleZh: '本周安全新闻：多个补丁发布，修复小缺陷',
+                tags: ['news'],
+                category: 'news',
+                date: '2025-01-14',
+                source: 'Security Weekly'
+            }, {
+                id: 4,
+                titleEn: 'GitHub Releases New CodeQL Analysis Tool',
+                titleZh: 'GitHub发布新的开源静态代码分析工具CodeQL',
+                tags: ['newtech', 'techniques'],
+                category: 'techniques',
+                date: '2025-01-13',
+                source: 'GitHub Blog'
+            }, {
+                id: 5,
+                titleEn: 'Advanced Persistent Threat Group Targets Financial Sector',
+                titleZh: '国家级APT组织攻击金融行业，CISA发布严重警告',
+                tags: ['important', 'news'],
+                category: 'news',
+                date: '2025-01-12',
+                source: 'CISA Advisory'
+            }];
+
+            // ===== TAG DISPLAY CONFIG =====
+            const tagConfig = {
+                hot: { label: '🔥 热门', className: 'hot' },
+                important: { label: '⚠️ 重要', className: 'important' },
+                newtech: { label: '🆕 新技术', className: 'newtech' },
+                news: { label: '📰 新闻', className: 'category' },
+                techniques: { label: '🔧 技术', className: 'category' }
+            };
+
+            // ===== DOM REFS =====
+            const grid = document.getElementById('articlesGrid');
+            const filterBtns = document.querySelectorAll('.filter-btn');
+            const searchInput = document.getElementById('searchInput');
+            const visibleCountEl = document.getElementById('visibleCount');
+            const totalCountLabel = document.getElementById('totalCountLabel');
+            const totalCountHeader = document.getElementById('totalCount');
+            const readCountEl = document.getElementById('readCount');
+
+            let currentFilter = 'all';
+            let currentQuery = '';
+            let readSet = new Set();
+
+            // ===== RENDER =====
+            function render() {
+                const filtered = articles.filter(article => {
+                    // Filter check
+                    if (currentFilter !== 'all') {
+                        if (!article.tags.includes(currentFilter)) return false;
+                    }
+                    // Search check
+                    if (currentQuery.trim()) {
+                        const q = currentQuery.trim().toLowerCase();
+                        const matchEn = article.titleEn.toLowerCase().includes(q);
+                        const matchZh = article.titleZh.toLowerCase().includes(q);
+                        if (!matchEn && !matchZh) return false;
+                    }
+                    return true;
+                });
+
+                // Update counts
+                visibleCountEl.textContent = filtered.length;
+                totalCountLabel.textContent = articles.length;
+                totalCountHeader.textContent = articles.length;
+                readCountEl.textContent = readSet.size;
+
+                if (filtered.length === 0) {
+                    grid.innerHTML = `
+                        <div class="empty-state">
+                            <div class="empty-icon">🔎</div>
+                            <h3>没有匹配的文章</h3>
+                            <p>尝试调整筛选条件或搜索词</p>
+                        </div>
+                    `;
+                    return;
+                }
+
+                let html = '';
+                filtered.forEach((article, index) => {
+                    const tagSpans = article.tags.map(tag => {
+                        const cfg = tagConfig[tag];
+                        if (!cfg) return '';
+                        return `<span class="tag ${cfg.className}">${cfg.label}</span>`;
+                    }).join('');
+
+                    const isRead = readSet.has(article.id) ? 'opacity:0.7;' : '';
+
+                    html += `
+                        <div class="article-card" data-id="${article.id}" style="animation-delay:${(index * 0.04).toFixed(2)}s; ${isRead}">
+                            <div class="card-tags">
+                                ${tagSpans}
+                            </div>
+                            <div class="card-title">
+                                <span class="en">${escapeHtml(article.titleEn)}</span>
+                                <span class="zh">${escapeHtml(article.titleZh)}</span>
+                            </div>
+                            <div class="card-meta">
+                                <span class="source">
+                                    <span class="dot"></span>
+                                    ${escapeHtml(article.source)}
+                                </span>
+                                <span class="date">📅 ${article.date}</span>
+                            </div>
+                            <div class="card-actions">
+                                <button class="btn-sm mark-read" data-id="${article.id}">
+                                    ${readSet.has(article.id) ? '✓ 已读' : '○ 标记已读'}
+                                </button>
+                            </div>
+                        </div>
+                    `;
+                });
+
+                grid.innerHTML = html;
+
+                // Attach mark-read listeners
+                document.querySelectorAll('.mark-read').forEach(btn => {
+                    btn.addEventListener('click', function(e) {
+                        e.stopPropagation();
+                        const id = parseInt(this.dataset.id, 10);
+                        toggleRead(id);
+                    });
+                });
+
+                // Attach card click to toggle read
+                document.querySelectorAll('.article-card').forEach(card => {
+                    card.addEventListener('click', function(e) {
+                        if (e.target.closest('.mark-read')) return;
+                        const id = parseInt(this.dataset.id, 10);
+                        if (!isNaN(id)) toggleRead(id);
+                    });
+                });
+            }
+
+            // ===== TOGGLE READ =====
+            function toggleRead(id) {
+                if (readSet.has(id)) {
+                    readSet.delete(id);
+                } else {
+                    readSet.add(id);
+                }
+                render();
+            }
+
+            // ===== ESCAPE HTML =====
+            function escapeHtml(str) {
+                const div = document.createElement('div');
+                div.textContent = str;
+                return div.innerHTML;
+            }
+
+            // ===== FILTER HANDLING =====
+            function setFilter(filter) {
+                currentFilter = filter;
+                filterBtns.forEach(btn => {
+                    btn.classList.toggle('active', btn.dataset.filter === filter);
+                });
+                render();
+            }
+
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    setFilter(this.dataset.filter);
+                });
+            });
+
+            // ===== SEARCH HANDLING =====
+            let searchTimer;
+            searchInput.addEventListener('input', function() {
+                clearTimeout(searchTimer);
+                searchTimer = setTimeout(() => {
+                    currentQuery = this.value;
+                    render();
+                }, 200);
+            });
+
+            // ===== KEYBOARD SUPPORT =====
+            searchInput.addEventListener('keydown', function(e) {
+                if (e.key === 'Escape') {
+                    this.value = '';
+                    currentQuery = '';
+                    render();
+                    this.blur();
+                }
+            });
+
+            // ===== INIT =====
+            render();
+
+            // ===== SAVE READ STATE TO SESSION (optional) =====
+            // Not required, but nice to keep during page navigation
+            // We'll store in sessionStorage for refresh persistence
+            function saveState() {
+                try {
+                    sessionStorage.setItem('secnews_read', JSON.stringify([...readSet]));
+                    sessionStorage.setItem('secnews_filter', currentFilter);
+                } catch (_) {}
+            }
+
+            function loadState() {
+                try {
+                    const stored = sessionStorage.getItem('secnews_read');
+                    if (stored) {
+                        const arr = JSON.parse(stored);
+                        if (Array.isArray(arr)) {
+                            readSet = new Set(arr);
+                        }
+                    }
+                    const filter = sessionStorage.getItem('secnews_filter');
+                    if (filter && ['all', 'hot', 'important', 'newtech', 'news', 'techniques'].includes(filter)) {
+                        currentFilter = filter;
+                        filterBtns.forEach(btn => {
+                            btn.classList.toggle('active', btn.dataset.filter === filter);
+                        });
+                    }
+                } catch (_) {}
+            }
+
+            // Save on page unload
+            window.addEventListener('beforeunload', saveState);
+            // Also save on filter/search changes
+            const origRender = render;
+            render = function() {
+                origRender();
+                saveState();
+            };
+
+            loadState();
+            render();
+
+            // Handle read count updates
+            const origToggle = toggleRead;
+            toggleRead = function(id) {
+                origToggle(id);
+                saveState();
+            };
+
+            // ===== RESPONSIVE TOUCH =====
+            console.log('🔒 SecNews AI 已启动 · 守护您的安全视野');
+        })();
+    </script>
+
+</body>
+</html>
+```
