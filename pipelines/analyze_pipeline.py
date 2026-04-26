@@ -2,6 +2,7 @@ import sys
 import os
 import json
 import io
+import re
 from pathlib import Path
 from datetime import datetime
 
@@ -15,6 +16,20 @@ from analysis.deepseek_api import analyze_article, generate_daily_digest
 
 OUTPUT_DIR = Path(project_root) / 'data' / 'processed'
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+
+def _sanitize_result(d: dict) -> dict:
+    clean = {}
+    for k, v in d.items():
+        if isinstance(v, str):
+            v = v.replace('\r\n',' ').replace('\n',' ').replace('\r',' ').replace('\t',' ')
+            v = re.sub(r'[\x00-\x08\x0b\x0c\x0e-\x1f]', '', v)
+            v = re.sub(r'\s+', ' ', v).strip()
+            clean[k] = v
+        elif isinstance(v, list):
+            clean[k] = [_sanitize_result(e) if isinstance(e,dict) else str(e).replace('\n',' ') for e in v]
+        else:
+            clean[k] = v
+    return clean
 
 def run_analyze_pipeline(articles=None):
     print("=" * 50)
@@ -65,6 +80,8 @@ def run_analyze_pipeline(articles=None):
             elif cat == '工具': filter_tags.append('tools')
             elif cat == '研究': filter_tags.append('news')
             result['tags'] = filter_tags
+            # Sanitize all string fields
+            result = _sanitize_result(result)
             merged = {**article, **result}
             analyzed.append(merged)
             try:

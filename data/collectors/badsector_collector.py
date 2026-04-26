@@ -42,6 +42,8 @@ def scrape_page(url: str, timeout: int = 15) -> Dict[str, Any]:
     try:
         resp = requests.get(url, headers=HEADERS, timeout=timeout, allow_redirects=True)
         resp.raise_for_status()
+        # Force UTF-8 to avoid encoding issues
+        resp.encoding = resp.apparent_encoding or 'utf-8'
         soup = BeautifulSoup(resp.text, 'lxml')
         
         title = ''
@@ -75,9 +77,9 @@ def scrape_page(url: str, timeout: int = 15) -> Dict[str, Any]:
         
         return {
             'url': url,
-            'title': title,
-            'summary': summary,
-            'content': content,
+            'title': _clean_text(title),
+            'summary': _clean_text(summary),
+            'content': _clean_text(content),
             'source': _extract_domain(url),
             'status': 'ok'
         }
@@ -90,6 +92,14 @@ def scrape_page(url: str, timeout: int = 15) -> Dict[str, Any]:
             'source': _extract_domain(url),
             'status': f'error: {str(e)[:100]}'
         }
+
+def _clean_text(s: str) -> str:
+    if not s:
+        return ''
+    s = s.replace('\r\n', ' ').replace('\n', ' ').replace('\r', ' ').replace('\t', ' ')
+    s = re.sub(r'[\x00-\x08\x0b\x0c\x0e-\x1f]', '', s)
+    s = re.sub(r'\s+', ' ', s).strip()
+    return s
 
 def _extract_domain(url: str) -> str:
     m = re.search(r'https?://(?:www\.)?([^/]+)', url)
