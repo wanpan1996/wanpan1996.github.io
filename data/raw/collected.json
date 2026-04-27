@@ -42,6 +42,20 @@
     "published": "2026-04-24T11:01:03Z"
   },
   {
+    "title": "Checkmarx Confirms GitHub Repository Data Posted on Dark Web After March 23 Attack",
+    "summary": "Checkmarx has disclosed that its ongoing investigation tied to the supply chain security incident has revealed that a cybercriminal group published data related to the company on the dark web. \"Based on current evidence, we believe this data originated from Checkmarx's GitHub repository, and that access to that repository was facilitated through the initial supply chain attack of March 23, 2026,",
+    "url": "https://thehackernews.com/2026/04/checkmarx-confirms-github-repository.html",
+    "source": "feeds.feedburner.com",
+    "published": "Mon, 27 Apr 2026 19:49:00 +0530"
+  },
+  {
+    "title": "⚡ Weekly Recap: Fast16 Malware, XChat Launch, Federal Backdoor, AI Employee Tracking & More",
+    "summary": "Everything is dumb again. This week feels broken in a very familiar way. Old tricks are back. New tools are doing shady crap. Supply chains got hit. Fake help desks worked. Weird research showed how easy some attacks still are. Most of it feels like stuff we should have fixed years ago. Bad extensions. Stolen creds. Remote tools are getting abused. Malware hides in places people trust. Same",
+    "url": "https://thehackernews.com/2026/04/weekly-recap-fast16-malware-xchat.html",
+    "source": "feeds.feedburner.com",
+    "published": "Mon, 27 Apr 2026 19:00:00 +0530"
+  },
+  {
     "title": "Mythos Changed the Math on Vulnerability Discovery. Most Teams Aren't Ready for the Remediation Side",
     "summary": "Anthropic’s Claude Mythos Preview has dominated security discussions since its April 7 announcement. Early reporting describes a powerful cybersecurity-focused AI system capable of identifying vulnerabilities at scale and raising serious questions about how quickly organizations can validate, prioritize, and remediate what it finds. The debate that followed has mostly focused on the right",
     "url": "https://thehackernews.com/2026/04/mythos-changed-math-on-vulnerability.html",
@@ -49,39 +63,25 @@
     "published": "Mon, 27 Apr 2026 17:28:00 +0530"
   },
   {
-    "title": "PhantomCore Exploits TrueConf Vulnerabilities to Breach Russian Networks",
-    "summary": "A pro-Ukrainian hacktivist group called PhantomCore has been attributed to attacks actively targeting servers running TrueConf video conferencing software in Russia since September 2025. That's according to a report published by Positive Technologies, which found the threat actors to be leveraging an exploit chain comprising three vulnerabilities to execute commands remotely on susceptible",
-    "url": "https://thehackernews.com/2026/04/phantomcore-exploits-trueconf.html",
-    "source": "feeds.feedburner.com",
-    "published": "Mon, 27 Apr 2026 17:24:00 +0530"
-  },
-  {
-    "title": "Researchers Uncover 73 Fake VS Code Extensions Delivering GlassWorm v2 Malware",
-    "summary": "Cybersecurity researchers have flagged dozens of Microsoft Visual Studio Code (VS Code) extensions on the Open VSX repository that are linked to a persistent information-stealing campaign dubbed GlassWorm. The cluster of 73 extensions has been identified as cloned versions of their legitimate counterparts. Of these, six have been confirmed to be malicious, with the remaining acting as seemingly",
-    "url": "https://thehackernews.com/2026/04/researchers-uncover-73-fake-vs-code.html",
-    "source": "feeds.feedburner.com",
-    "published": "Mon, 27 Apr 2026 16:53:00 +0530"
-  },
-  {
-    "title": "Money launderer linked to $230M crypto heist gets 70 months in prison",
-    "summary": "​22-year-old Evan Tangeman of Newport Beach, California, was sentenced to 70 months in prison for laundering funds stolen in a massive $230 million cryptocurrency heist. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/money-launderer-linked-to-230m-crypto-heist-gets-70-months-in-prison/",
+    "title": "FTC: Americans lost over $2.1 billion to social media scams in 2025",
+    "summary": "The U.S. Federal Trade Commission (FTC) warned of a massive increase in losses from social media scams since 2020, exceeding $2.1 billion in 2025. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/ftc-americans-lost-over-21-billion-to-social-media-scams-in-2025/",
     "source": "bleepingcomputer.com",
-    "published": "Mon, 27 Apr 2026 09:01:38 -0400"
+    "published": "Mon, 27 Apr 2026 12:27:53 -0400"
   },
   {
-    "title": "Deepfake Voice Attacks are Outpacing Defenses: What Security Leaders Should Know",
-    "summary": "Three seconds of audio is all it takes to clone a voice for fraud. Adaptive Security shows how deepfake calls trick employees into sending real money—and why most defenses don't catch them. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/deepfake-voice-attacks-are-outpacing-defenses-what-security-leaders-should-know/",
+    "title": "PyPI package with 1.1M monthly downloads hacked to push infostealer",
+    "summary": "An attacker pushed a malicious version of the popular elementary-data package Python Package Index (PyPI) to steal sensitive developer data and cryptocurrency wallets. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/pypi-package-with-11m-monthly-downloads-hacked-to-push-infostealer/",
     "source": "bleepingcomputer.com",
-    "published": "Mon, 27 Apr 2026 09:00:09 -0400"
+    "published": "Mon, 27 Apr 2026 11:17:37 -0400"
   },
   {
-    "title": "Microsoft says Outlook.com outage is causing sign‑in failures",
-    "summary": "Microsoft is investigating an ongoing Outlook.com outage that is causing intermittent signing issues and preventing customers from accessing their mailboxes. [...]",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-outlookcom-outage-is-causing-sign-in-failures/",
+    "title": "Home security giant ADT data breach affects 5.5 million people",
+    "summary": "The ShinyHunters extortion group stole the personal information of 5.5 million individuals after breaching the systems of home security giant ADT earlier this month, according to data breach notification service Have I Been Pwned. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/home-security-giant-adt-data-breach-affects-55-million-people/",
     "source": "bleepingcomputer.com",
-    "published": "Mon, 27 Apr 2026 08:03:46 -0400"
+    "published": "Mon, 27 Apr 2026 10:43:11 -0400"
   },
   {
     "title": "Student Loan Breach Exposes 2.5M Records",
