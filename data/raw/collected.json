@@ -42,25 +42,25 @@
     "published": "2026-04-24T11:01:03Z"
   },
   {
+    "title": "Microsoft Patches Entra ID Role Flaw That Enabled Service Principal Takeover",
+    "summary": "An administrative role meant for artificial intelligence (AI) agents within Microsoft Entra ID could enable privilege escalation and identity takeover attacks, according to new findings from Silverfort. Agent ID Administrator is a privileged built-in role introduced by Microsoft as part of its agent identity platform to handle all aspects of an AI agent's identity lifecycle operations in a",
+    "url": "https://thehackernews.com/2026/04/microsoft-patches-entra-id-role-flaw.html",
+    "source": "feeds.feedburner.com",
+    "published": "Tue, 28 Apr 2026 12:07:00 +0530"
+  },
+  {
+    "title": "Microsoft Confirms Active Exploitation of Windows Shell CVE-2026-32202",
+    "summary": "Microsoft on Monday revised its advisory for a now-patched, high-severity security flaw impacting Windows Shell to acknowledge that it has been actively exploited in the wild. The vulnerability in question is CVE-2026-32202 (CVSS score: 4.3), a spoofing vulnerability that could allow an attacker to access sensitive information. It was addressed as part of its Patch Tuesday update for this",
+    "url": "https://thehackernews.com/2026/04/microsoft-confirms-active-exploitation.html",
+    "source": "feeds.feedburner.com",
+    "published": "Tue, 28 Apr 2026 11:20:00 +0530"
+  },
+  {
     "title": "Checkmarx Confirms GitHub Repository Data Posted on Dark Web After March 23 Attack",
     "summary": "Checkmarx has disclosed that its ongoing investigation tied to the supply chain security incident has revealed that a cybercriminal group published data related to the company on the dark web. \"Based on current evidence, we believe this data originated from Checkmarx's GitHub repository, and that access to that repository was facilitated through the initial supply chain attack of March 23, 2026,",
     "url": "https://thehackernews.com/2026/04/checkmarx-confirms-github-repository.html",
     "source": "feeds.feedburner.com",
     "published": "Mon, 27 Apr 2026 19:49:00 +0530"
-  },
-  {
-    "title": "⚡ Weekly Recap: Fast16 Malware, XChat Launch, Federal Backdoor, AI Employee Tracking & More",
-    "summary": "Everything is dumb again. This week feels broken in a very familiar way. Old tricks are back. New tools are doing shady crap. Supply chains got hit. Fake help desks worked. Weird research showed how easy some attacks still are. Most of it feels like stuff we should have fixed years ago. Bad extensions. Stolen creds. Remote tools are getting abused. Malware hides in places people trust. Same",
-    "url": "https://thehackernews.com/2026/04/weekly-recap-fast16-malware-xchat.html",
-    "source": "feeds.feedburner.com",
-    "published": "Mon, 27 Apr 2026 19:00:00 +0530"
-  },
-  {
-    "title": "Mythos Changed the Math on Vulnerability Discovery. Most Teams Aren't Ready for the Remediation Side",
-    "summary": "Anthropic’s Claude Mythos Preview has dominated security discussions since its April 7 announcement. Early reporting describes a powerful cybersecurity-focused AI system capable of identifying vulnerabilities at scale and raising serious questions about how quickly organizations can validate, prioritize, and remediate what it finds. The debate that followed has mostly focused on the right",
-    "url": "https://thehackernews.com/2026/04/mythos-changed-math-on-vulnerability.html",
-    "source": "feeds.feedburner.com",
-    "published": "Mon, 27 Apr 2026 17:28:00 +0530"
   },
   {
     "title": "Robinhood account creation flaw abused to send phishing emails",
