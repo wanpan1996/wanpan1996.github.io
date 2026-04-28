@@ -7,14 +7,14 @@
     "published": "Tue, 21 Apr 2026 14:53:59 +0000",
     "category": "新闻",
     "priority": "重要",
-    "heat_score": 80,
-    "summary_short": "Scattered Spider成员Tyler Buchanan认罪，涉欺诈和身份盗窃。",
+    "heat_score": 75,
+    "summary_short": "Scattered Spider成员Tylerb认罪，涉大规模钓鱼攻击和加密货币盗窃",
     "keywords": [
       "Scattered Spider",
-      "Tyler Buchanan",
-      "认罪",
-      "电信欺诈",
-      "身份盗窃"
+      "phishing",
+      "wire fraud",
+      "identity theft",
+      "cryptocurrency"
     ],
     "tags": [
       "important",
@@ -29,15 +29,12 @@
     "published": "Tue, 14 Apr 2026 21:47:59 +0000",
     "category": "新闻",
     "priority": "重要",
-    "heat_score": 90,
-    "summary_short": "微软修复167个漏洞，含SharePoint零日及Windows Defender漏洞，Chrome和Adobe也发布紧急更新。",
+    "heat_score": 95,
+    "summary_short": "微软修复167个漏洞含零日，Chrome和Adobe Reader紧急修复",
     "keywords": [
+      "微软",
       "Patch Tuesday",
       "零日漏洞",
-      "漏洞",
-      "SharePoint",
-      "Windows Defender",
-      "BlueHammer",
       "Chrome",
       "Adobe Reader",
       "远程代码执行"
@@ -55,14 +52,37 @@
     "published": "Tue, 07 Apr 2026 17:02:44 +0000",
     "category": "新闻",
     "priority": "重要",
-    "heat_score": 90,
-    "summary_short": "Russian hackers use router flaws to steal Microsoft Office tokens from 18k+ networks.",
+    "heat_score": 85,
+    "summary_short": "俄罗斯黑客利用旧路由器漏洞窃取数千网络Microsoft Office认证令牌",
     "keywords": [
       "Russia",
       "hackers",
       "routers",
       "Microsoft Office",
-      "authentication tokens"
+      "authentication tokens",
+      "espionage"
+    ],
+    "tags": [
+      "important",
+      "news"
+    ]
+  },
+  {
+    "title": "What Anthropic’s Mythos Means for the Future of Cybersecurity",
+    "summary": "Two weeks ago, Anthropic announced that its new model, Claude Mythos Preview, can autonomously find and weaponize software vulnerabilities, turning them into working exploits without expert guidance. These were vulnerabilities in key software like operating systems and internet infrastructure that thousands of software developers working on those systems failed to find. This capability will have major security implications, compromising the devices and services we use every day. As a result, Anthropic is not releasing the model to the general public, but instead to a ...",
+    "url": "https://www.schneier.com/blog/archives/2026/04/what-anthropics-mythos-means-for-the-future-of-cybersecurity.html",
+    "source": "schneier.com",
+    "published": "2026-04-28T11:06:44Z",
+    "category": "新闻",
+    "priority": "重要",
+    "heat_score": 90,
+    "summary_short": "Anthropic的AI自主发现并利用软件漏洞，构成重大安全威胁。",
+    "keywords": [
+      "Anthropic",
+      "Claude Mythos",
+      "漏洞",
+      "利用",
+      "AI安全"
     ],
     "tags": [
       "important",
@@ -77,14 +97,12 @@
     "published": "2026-04-27T11:04:41Z",
     "category": "新闻",
     "priority": "普通",
-    "heat_score": 30,
-    "summary_short": "中世纪加密信件被破译，自1860年发现后持续研究。",
+    "heat_score": 20,
+    "summary_short": "西班牙外交官16世纪加密信件终被破译",
     "keywords": [
-      "中世纪",
-      "加密",
+      "加密信件",
       "破译",
-      "信件",
-      "外交官"
+      "西班牙外交官"
     ],
     "tags": [
       "news"
@@ -98,34 +116,78 @@
     "published": "2026-04-24T21:03:23Z",
     "category": "新闻",
     "priority": "普通",
-    "heat_score": 10,
-    "summary_short": "研究发现鱿鱼和乌贼通过深海避难所度过灭绝事件",
+    "heat_score": 20,
+    "summary_short": "鱿鱼和乌贼通过深海避难所躲过灭绝事件，并在浅海快速进化。",
     "keywords": [
       "鱿鱼",
       "乌贼",
       "进化",
-      "灭绝事件"
+      "灭绝事件",
+      "深海"
     ],
     "tags": [
       "news"
     ]
   },
   {
-    "title": "Hiding Bluetooth Trackers in Mail",
-    "summary": "It was used to track a Dutch naval ship: Dutch journalist Just Vervaart, working for regional media network Omroep Gelderland, followed the directions posted on the Dutch government website and mailed a postcard with a hidden tracker inside. Because of this, they were able to track the ship for about a day, watching it sail from Heraklion, Crete, before it turned towards Cyprus. While it only showed the location of that one vessel, knowing that it was part of a carrier strike group sailing in the Mediterranean could potentially put the entire fleet at risk...",
-    "url": "https://www.schneier.com/blog/archives/2026/04/hiding-bluetooth-trackers-in-mail.html",
-    "source": "schneier.com",
-    "published": "2026-04-24T11:01:03Z",
+    "title": "Why Secure Data Movement Is the Zero Trust Bottleneck Nobody Talks About",
+    "summary": "Every security program is betting on the same assumption: once a system is connected, the problem is solved. Open a ticket, stand up a gateway, push the data through. Done. That assumption is wrong. It is also a major reason Zero Trust programs stall. New research my team just published puts numbers on it. The Cyber360: Defending the Digital Battlespace report, based on a survey of 500 security",
+    "url": "https://thehackernews.com/2026/04/why-secure-data-movement-is-zero-trust.html",
+    "source": "feeds.feedburner.com",
+    "published": "Tue, 28 Apr 2026 17:28:00 +0530",
+    "category": "研究",
+    "priority": "新技术",
+    "heat_score": 60,
+    "summary_short": "零信任中安全数据移动是常被忽视的瓶颈，新研究揭示问题。",
+    "keywords": [
+      "Zero Trust",
+      "安全数据移动",
+      "安全瓶颈",
+      "研究"
+    ],
+    "tags": [
+      "newtech",
+      "news"
+    ]
+  },
+  {
+    "title": "Critical Unpatched Flaw Leaves Hugging Face LeRobot Open to Unauthenticated RCE",
+    "summary": "Cybersecurity researchers have disclosed details of a critical security flaw impacting LeRobot, Hugging Face's open-source robotics platform with nearly 24,000 GitHub stars, that could be exploited to achieve remote code execution. The vulnerability in question is CVE-2026-25874 (CVSS score: 9.3), which has been described as a case of untrusted data deserialization stemming from the use of the",
+    "url": "https://thehackernews.com/2026/04/critical-cve-2026-25874-leaves-hugging.html",
+    "source": "feeds.feedburner.com",
+    "published": "Tue, 28 Apr 2026 16:48:00 +0530",
+    "category": "新闻",
+    "priority": "重要",
+    "heat_score": 90,
+    "summary_short": "Hugging Face LeRobot存在未修补的严重漏洞，可导致未认证远程代码执行。",
+    "keywords": [
+      "CVE-2026-25874",
+      "Hugging Face",
+      "LeRobot",
+      "远程代码执行",
+      "未认证"
+    ],
+    "tags": [
+      "important",
+      "news"
+    ]
+  },
+  {
+    "title": "After Mythos: New Playbooks For a Zero-Window Era",
+    "summary": "When patching isn’t fast enough, NDR helps contain the next era of threats. If you’ve been tracking advancements in AI, you know the exploit window, the short buffer that organizations relied on to patch and protect after a vulnerability disclosure, is closing fast. Anthropic’s new model, Claude Mythos, and its Project Glasswing, showed that finding exploitable vulnerabilities and subtle cracks",
+    "url": "https://thehackernews.com/2026/04/after-mythos-new-playbooks-for-zero.html",
+    "source": "feeds.feedburner.com",
+    "published": "Tue, 28 Apr 2026 16:00:00 +0530",
     "category": "技术",
     "priority": "新技术",
-    "heat_score": 70,
-    "summary_short": "记者通过邮寄隐藏蓝牙追踪器成功追踪荷兰军舰，暴露舰队位置风险。",
+    "heat_score": 80,
+    "summary_short": "探讨零窗口时代下NDR应对AI快速发现漏洞的新策略",
     "keywords": [
-      "蓝牙追踪器",
-      "邮件追踪",
-      "海军监视",
-      "记者",
-      "船只追踪"
+      "zero-window",
+      "NDR",
+      "Claude Mythos",
+      "漏洞发现",
+      "AI"
     ],
     "tags": [
       "newtech",
@@ -133,133 +195,63 @@
     ]
   },
   {
-    "title": "Microsoft Patches Entra ID Role Flaw That Enabled Service Principal Takeover",
-    "summary": "An administrative role meant for artificial intelligence (AI) agents within Microsoft Entra ID could enable privilege escalation and identity takeover attacks, according to new findings from Silverfort. Agent ID Administrator is a privileged built-in role introduced by Microsoft as part of its agent identity platform to handle all aspects of an AI agent's identity lifecycle operations in a",
-    "url": "https://thehackernews.com/2026/04/microsoft-patches-entra-id-role-flaw.html",
-    "source": "feeds.feedburner.com",
-    "published": "Tue, 28 Apr 2026 12:07:00 +0530",
-    "category": "新闻",
-    "priority": "重要",
-    "heat_score": 85,
-    "summary_short": "Microsoft修复Entra ID角色漏洞，防止服务主体接管攻击",
-    "keywords": [
-      "Microsoft Entra ID",
-      "漏洞",
-      "权限提升",
-      "身份接管",
-      "服务主体接管",
-      "Agent ID Administrator",
-      "Silverfort"
-    ],
-    "tags": [
-      "important",
-      "news"
-    ]
-  },
-  {
-    "title": "Microsoft Confirms Active Exploitation of Windows Shell CVE-2026-32202",
-    "summary": "Microsoft on Monday revised its advisory for a now-patched, high-severity security flaw impacting Windows Shell to acknowledge that it has been actively exploited in the wild. The vulnerability in question is CVE-2026-32202 (CVSS score: 4.3), a spoofing vulnerability that could allow an attacker to access sensitive information. It was addressed as part of its Patch Tuesday update for this",
-    "url": "https://thehackernews.com/2026/04/microsoft-confirms-active-exploitation.html",
-    "source": "feeds.feedburner.com",
-    "published": "Tue, 28 Apr 2026 11:20:00 +0530",
-    "category": "新闻",
-    "priority": "重要",
-    "heat_score": 85,
-    "summary_short": "微软确认Windows Shell漏洞CVE-2026-32202被积极利用，已修复。",
-    "keywords": [
-      "CVE-2026-32202",
-      "Windows Shell",
-      "漏洞利用",
-      "微软",
-      "安全补丁"
-    ],
-    "tags": [
-      "important",
-      "news"
-    ]
-  },
-  {
-    "title": "Checkmarx Confirms GitHub Repository Data Posted on Dark Web After March 23 Attack",
-    "summary": "Checkmarx has disclosed that its ongoing investigation tied to the supply chain security incident has revealed that a cybercriminal group published data related to the company on the dark web. \"Based on current evidence, we believe this data originated from Checkmarx's GitHub repository, and that access to that repository was facilitated through the initial supply chain attack of March 23, 2026,",
-    "url": "https://thehackernews.com/2026/04/checkmarx-confirms-github-repository.html",
-    "source": "feeds.feedburner.com",
-    "published": "Mon, 27 Apr 2026 19:49:00 +0530",
-    "category": "新闻",
-    "priority": "重要",
-    "heat_score": 85,
-    "summary_short": "Checkmarx确认GitHub仓库数据在暗网泄露",
-    "keywords": [
-      "Checkmarx",
-      "GitHub",
-      "暗网",
-      "供应链攻击",
-      "数据泄露"
-    ],
-    "tags": [
-      "important",
-      "news"
-    ]
-  },
-  {
-    "title": "Robinhood account creation flaw abused to send phishing emails",
-    "summary": "Online trading platform Robinhood's account creation process was exploited by threat actors to inject phishing messages into legitimate emails, tricking users into believing their accounts had suspicious activity. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/robinhood-account-creation-flaw-abused-to-send-phishing-emails/",
+    "title": "Microsoft to deprecate legacy TLS in Exchange Online starting July",
+    "summary": "Microsoft says it will start blocking legacy TLS connections for POP and IMAP email clients in Exchange Online starting in July 2026. [...]",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-deprecate-legacy-tls-in-exchange-online-starting-july/",
     "source": "bleepingcomputer.com",
-    "published": "Mon, 27 Apr 2026 19:11:01 -0400",
+    "published": "Tue, 28 Apr 2026 09:18:36 -0400",
     "category": "新闻",
-    "priority": "重要",
-    "heat_score": 75,
-    "summary_short": "Robinhood账户创建漏洞被利用发送钓鱼邮件",
+    "priority": "普通",
+    "heat_score": 40,
+    "summary_short": "微软将于2026年7月起在Exchange Online停止对旧版TLS的支持。",
     "keywords": [
-      "Robinhood",
-      "phishing",
-      "account creation flaw",
-      "email spoofing",
-      "threat actors"
+      "Microsoft",
+      "Exchange Online",
+      "TLS",
+      "deprecation",
+      "security"
     ],
     "tags": [
-      "important",
       "news"
     ]
   },
   {
-    "title": "GlassWorm malware attacks return via 73 OpenVSX \"sleeper\" extensions",
-    "summary": "A new wave of the Glassworm campaign is targeting the OpenVSX ecosystem with 73 \"sleeper\" extensions that turn malicious after an update. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/glassworm-malware-attacks-return-via-73-openvsx-sleeper-extensions/",
+    "title": "Inside an OPSEC Playbook: How Threat Actors Evade Detection",
+    "summary": "Threat actors are now publishing structured OPSEC playbooks to stay undetected. Flare reveals how these guides outline layered infrastructure, identity separation, and long-term evasion strategies. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/inside-an-opsec-playbook-how-threat-actors-evade-detection/",
     "source": "bleepingcomputer.com",
-    "published": "Mon, 27 Apr 2026 17:41:01 -0400",
+    "published": "Tue, 28 Apr 2026 08:50:58 -0400",
     "category": "技术",
-    "priority": "重要",
-    "heat_score": 85,
-    "summary_short": "GlassWorm恶意软件通过73个OpenVSX“休眠”扩展发起攻击，更新后变为恶意。",
+    "priority": "新技术",
+    "heat_score": 65,
+    "summary_short": "威胁 actors 使用结构化 OPSEC 手册，通过分层基础设施和身份分离躲避检测。",
     "keywords": [
-      "GlassWorm",
-      "OpenVSX",
-      "sleeper extensions",
-      "malware",
-      "supply chain"
+      "OPSEC",
+      "playbook",
+      "evasion",
+      "layered infrastructure",
+      "identity separation"
     ],
     "tags": [
-      "important",
+      "newtech",
       "techniques"
     ]
   },
   {
-    "title": "Canada arrests three for operating “SMS blaster” device in Toronto",
-    "summary": "Canadian authorities have arrested three men for operating an \"SMS blaster\" device that pretends to be a cellular tower to send phishing texts to nearby phones. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/canada-arrests-three-for-operating-sms-blaster-device-in-toronto/",
+    "title": "Microsoft: New Remote Desktop warnings may display incorrectly",
+    "summary": "Microsoft has confirmed a new issue causing newly introduced Windows security warnings to display incorrectly when opening Remote Desktop (.rdp) files. [...]",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-new-remote-desktop-warnings-may-display-incorrectly/",
     "source": "bleepingcomputer.com",
-    "published": "Mon, 27 Apr 2026 16:00:31 -0400",
+    "published": "Tue, 28 Apr 2026 05:51:26 -0400",
     "category": "新闻",
     "priority": "普通",
-    "heat_score": 60,
-    "summary_short": "加拿大逮捕三名使用伪基站发送钓鱼短信的嫌犯",
+    "heat_score": 30,
+    "summary_short": "Microsoft确认打开RDP文件时新安全警告显示异常",
     "keywords": [
-      "SMS blaster",
-      "伪基站",
-      "钓鱼短信",
-      "加拿大逮捕",
-      "网络诈骗"
+      "RDP",
+      "Microsoft",
+      "安全警告",
+      "显示错误"
     ],
     "tags": [
       "news"
@@ -273,13 +265,13 @@
     "published": "Wed, 31 Aug 2022 12:57:48 +0000",
     "category": "新闻",
     "priority": "重要",
-    "heat_score": 85,
-    "summary_short": "学生贷款数据泄露，影响250万人",
+    "heat_score": 75,
+    "summary_short": "学生贷款数据泄露影响250万人",
     "keywords": [
       "student loan",
       "breach",
-      "data leak",
-      "2.5M records"
+      "2.5 million",
+      "data exposure"
     ],
     "tags": [
       "important",
@@ -294,14 +286,14 @@
     "published": "Tue, 30 Aug 2022 16:00:43 +0000",
     "category": "新闻",
     "priority": "重要",
-    "heat_score": 75,
-    "summary_short": "APT TA423利用水坑攻击部署ScanBox JS侦察工具",
+    "heat_score": 78,
+    "summary_short": "APT TA423通过水坑攻击传播ScanBox键盘记录器",
     "keywords": [
-      "water hole",
-      "APT TA423",
+      "Watering Hole",
       "ScanBox",
-      "keylogger",
-      "reconnaissance"
+      "Keylogger",
+      "APT TA423",
+      "JavaScript Reconnaissance"
     ],
     "tags": [
       "important",
@@ -316,16 +308,37 @@
     "published": "Mon, 29 Aug 2022 14:56:19 +0000",
     "category": "新闻",
     "priority": "重要",
-    "heat_score": 80,
-    "summary_short": "0ktapus组织通过伪造多因素认证系统对130多家公司发起钓鱼攻击",
+    "heat_score": 85,
+    "summary_short": "0ktapus组织通过仿冒多因素认证系统，对130多家公司发起钓鱼攻击。",
     "keywords": [
       "0ktapus",
-      "phishing",
-      "MFA spoofing",
-      "threat group"
+      "钓鱼攻击",
+      "多因素认证",
+      "130家受害公司"
     ],
     "tags": [
       "important",
+      "news"
+    ]
+  },
+  {
+    "title": "Shutdowns, power outages, and conflict: a review of Q1 2026 Internet disruptions",
+    "summary": "The first quarter of 2026 saw a surge in Internet disruptions, from nationwide shutdowns in Uganda and Iran to unprecedented drone strikes on cloud infrastructure. We explore the data behind these events using Cloudflare Radar.",
+    "url": "https://blog.cloudflare.com/q1-2026-internet-disruption-summary/",
+    "source": "blog.cloudflare.com",
+    "published": "Tue, 28 Apr 2026 13:00:00 GMT",
+    "category": "新闻",
+    "priority": "普通",
+    "heat_score": 60,
+    "summary_short": "Q1 2026全球互联网中断事件回顾，包括乌干达和伊朗的全国断网及针对云基础设施的无人机打击。",
+    "keywords": [
+      "Internet disruptions",
+      "shutdowns",
+      "power outages",
+      "conflict",
+      "Cloudflare Radar"
+    ],
+    "tags": [
       "news"
     ]
   },
@@ -337,15 +350,14 @@
     "published": "Wed, 22 Apr 2026 13:00:00 GMT",
     "category": "技术",
     "priority": "新技术",
-    "heat_score": 60,
-    "summary_short": "Rust Workers支持恐慌回退与异常处理恢复",
+    "heat_score": 70,
+    "summary_short": "Rust Workers支持panic恢复，利用WebAssembly异常处理。",
     "keywords": [
-      "Rust",
-      "Workers",
+      "Rust Workers",
       "panic recovery",
+      "WebAssembly Exception Handling",
       "wasm-bindgen",
-      "WebAssembly",
-      "exception handling"
+      "error resilience"
     ],
     "tags": [
       "newtech",
@@ -358,43 +370,20 @@
     "url": "https://blog.cloudflare.com/past-bots-and-humans/",
     "source": "blog.cloudflare.com",
     "published": "Tue, 21 Apr 2026 13:00:00 GMT",
-    "category": "研究",
+    "category": "技术",
     "priority": "新技术",
-    "heat_score": 40,
-    "summary_short": "Cloudflare提出新型匿名凭证模型平衡隐私与安全",
+    "heat_score": 65,
+    "summary_short": "探讨超越传统人机验证，提出以匿名凭证保障隐私与责任的新模型",
     "keywords": [
-      "AI assistants",
-      "privacy proxies",
-      "bot detection",
-      "anonymous credentials",
-      "user privacy"
+      "AI助手",
+      "隐私代理",
+      "人机验证",
+      "匿名凭证",
+      "问责制"
     ],
     "tags": [
       "newtech",
-      "news"
-    ]
-  },
-  {
-    "title": "Building the agentic cloud: everything we launched during Agents Week 2026",
-    "summary": "Agents Week 2026 is a wrap. Let’s take a look at everything we announced, from compute and security to the agent toolbox, platform tools, and the emerging agentic web. Everything we shipped for the agentic cloud.",
-    "url": "https://blog.cloudflare.com/agents-week-in-review/",
-    "source": "blog.cloudflare.com",
-    "published": "Mon, 20 Apr 2026 13:00:00 GMT",
-    "category": "新闻",
-    "priority": "新技术",
-    "heat_score": 50,
-    "summary_short": "Cloudflare发布Agent Week 2026系列产品，涵盖计算、安全、代理工具等。",
-    "keywords": [
-      "Cloudflare",
-      "Agents Week 2026",
-      "agentic cloud",
-      "agent toolbox",
-      "platform tools",
-      "agentic web"
-    ],
-    "tags": [
-      "newtech",
-      "news"
+      "techniques"
     ]
   },
   {
@@ -405,13 +394,14 @@
     "published": "Fri, 24 Apr 2026 21:40:33 +0000",
     "category": "研究",
     "priority": "新技术",
-    "heat_score": 80,
-    "summary_short": "Unit 42分析npm供应链安全，涉及蠕虫式恶意软件和CI/CD持续攻击。",
+    "heat_score": 70,
+    "summary_short": "Unit 42分析npm供应链威胁，涉及蠕虫式恶意软件、CI/CD持久化等攻击手段及缓解措施。",
     "keywords": [
       "npm",
       "supply chain",
-      "wormable malware",
-      "CI/CD persistence"
+      "malware",
+      "CI/CD",
+      "persistence"
     ],
     "tags": [
       "newtech",
@@ -424,15 +414,15 @@
     "url": "https://unit42.paloaltonetworks.com/new-activity-central-south-america/",
     "source": "unit42.paloaltonetworks.com",
     "published": "Fri, 24 Apr 2026 20:30:19 +0000",
-    "category": "新闻",
+    "category": "研究",
     "priority": "重要",
     "heat_score": 80,
-    "summary_short": "Unit 42报告TGR-STA-1030在拉美地区持续活跃",
+    "summary_short": "Unit 42 报告 TGR-STA-1030 在拉丁美洲的新活动",
     "keywords": [
       "TGR-STA-1030",
+      "Central and South America",
       "Unit 42",
-      "中南美洲",
-      "威胁活动"
+      "threat activity"
     ],
     "tags": [
       "important",
@@ -448,12 +438,11 @@
     "category": "新闻",
     "priority": "普通",
     "heat_score": 30,
-    "summary_short": "前沿AI在防御中的未来：安全领导者的关键问题解答。",
+    "summary_short": "Frontier AI对网络安全防御的影响及问答",
     "keywords": [
-      "frontier AI",
+      "Frontier AI",
       "defense",
-      "security leaders",
-      "Unit 42"
+      "security leaders"
     ],
     "tags": [
       "news"
@@ -467,14 +456,14 @@
     "published": "Thu, 23 Apr 2026 22:00:45 +0000",
     "category": "研究",
     "priority": "新技术",
-    "heat_score": 60,
-    "summary_short": "发现2005年ShadowBrokers相关的高精度计算软件内存篡改框架",
+    "heat_score": 75,
+    "summary_short": "2005年ShadowBrokers相关框架通过内存修补高精度软件破坏计算结果",
     "keywords": [
-      "fast16",
       "ShadowBrokers",
-      "cyber sabotage",
-      "memory patching",
-      "high-precision calculation"
+      "高精度破坏",
+      "内存修补",
+      "Stuxnet",
+      "网络战"
     ],
     "tags": [
       "newtech",
@@ -489,14 +478,14 @@
     "published": "Wed, 22 Apr 2026 22:00:15 +0000",
     "category": "研究",
     "priority": "重要",
-    "heat_score": 85,
-    "summary_short": "揭示廉价智能家居摄像头隐藏的供应链、固件漏洞和数据外流风险。",
+    "heat_score": 80,
+    "summary_short": "揭露廉价智能设备隐藏的壳公司、固件缺陷及境外数据路由风险。",
     "keywords": [
-      "智能家居摄像头",
-      "供应链",
+      "中国摄像头",
+      "供应链安全",
       "固件漏洞",
       "数据路由",
-      "隐私风险"
+      "壳公司"
     ],
     "tags": [
       "important",
@@ -509,19 +498,20 @@
     "url": "https://www.sentinelone.com/labs/building-an-adversarial-consensus-engine-multi-agent-llms-for-automated-malware-analysis/",
     "source": "labs.sentinelone.com",
     "published": "Thu, 19 Mar 2026 10:00:07 +0000",
-    "category": "新技术",
+    "category": "研究",
     "priority": "新技术",
-    "heat_score": 60,
-    "summary_short": "多智能体LLM共识引擎用于自动化恶意软件分析，减少幻觉。",
+    "heat_score": 65,
+    "summary_short": "提出多代理LLM共识引擎用于自动化恶意软件分析，减少幻觉。",
     "keywords": [
-      "multi-agent",
+      "Multi-Agent",
       "LLM",
-      "adversarial consensus",
-      "malware analysis",
-      "automation"
+      "Consensus Engine",
+      "Malware Analysis",
+      "Automated"
     ],
     "tags": [
-      "newtech"
+      "newtech",
+      "news"
     ]
   },
   {
@@ -532,17 +522,19 @@
     "published": "Mon, 01 Sep 2025 13:00:00 +0000",
     "category": "新闻",
     "priority": "重要",
-    "heat_score": 80,
-    "summary_short": "Lazarus组织使用三种新的远程访问木马攻击金融和加密货币领域。",
+    "heat_score": 85,
+    "summary_short": "拉撒路APT子组织使用三种远程木马攻击金融和加密货币行业。",
     "keywords": [
       "Lazarus",
-      "RATs",
+      "RAT",
+      "金融",
+      "加密货币",
       "AppleJeus",
       "Citrine Sleet",
       "UNC4736",
       "Gleaming Pisces",
-      "金融",
-      "加密货币"
+      "Fox-IT",
+      "NCC Group"
     ],
     "tags": [
       "important",
@@ -556,17 +548,18 @@
     "source": "blog.fox-it.com",
     "published": "Wed, 11 Dec 2024 07:30:00 +0000",
     "category": "工具",
-    "priority": "普通",
-    "heat_score": 50,
-    "summary_short": "介绍使用开源事件响应框架Dissect解密全盘加密的方法。",
+    "priority": "新技术",
+    "heat_score": 60,
+    "summary_short": "Dissect开源事件响应框架新增全盘加密解密功能，提升数字取证效率",
     "keywords": [
       "Dissect",
       "全盘加密",
       "解密",
       "事件响应",
-      "开源工具"
+      "数字取证"
     ],
     "tags": [
+      "newtech",
       "tools"
     ]
   },
@@ -578,13 +571,14 @@
     "published": "Wed, 25 Sep 2024 10:36:12 +0000",
     "category": "技术",
     "priority": "新技术",
-    "heat_score": 75,
-    "summary_short": "探讨利用恶意软件虚拟化技术规避EDR检测的方法。",
+    "heat_score": 65,
+    "summary_short": "探讨通过恶意软件虚拟化规避EDR检测的红队技术。",
     "keywords": [
-      "EDR evasion",
-      "malware virtualization",
-      "red teaming",
-      "in-memory payload"
+      "红队",
+      "EDR规避",
+      "恶意软件虚拟化",
+      "端点检测",
+      "内存载荷"
     ],
     "tags": [
       "newtech",
@@ -599,14 +593,13 @@
     "published": "2025-08-27T03:00:00.000Z",
     "category": "技术",
     "priority": "普通",
-    "heat_score": 40,
-    "summary_short": "作者分享PHP CTF经历及黑客文化，为非紧急技术文章。",
+    "heat_score": 50,
+    "summary_short": "作者分享PHP CTF经历与PHRACK杂志故事，强调黑客文化。",
     "keywords": [
       "PHP",
       "CTF",
-      "黑客文化",
       "PHRACK",
-      "经验分享"
+      "黑客文化"
     ],
     "tags": [
       "techniques"
@@ -618,19 +611,18 @@
     "url": "https://blog.orange.tw/posts/2025-08-the-art-of-php-en/",
     "source": "blog.orange.tw",
     "published": "2025-08-27T02:00:00.000Z",
-    "category": "技术",
-    "priority": "新技术",
-    "heat_score": 60,
-    "summary_short": "作者在PHRACK 40周年特刊发表关于PHP CTF技巧的文章",
+    "category": "新闻",
+    "priority": "普通",
+    "heat_score": 35,
+    "summary_short": "作者在PHRACK 40周年纪念刊上发表的关于PHP与CTF之旅的文章。",
     "keywords": [
-      "CTF",
       "PHP",
+      "CTF",
       "PHRACK",
       "安全研究"
     ],
     "tags": [
-      "newtech",
-      "techniques"
+      "news"
     ]
   },
   {
@@ -640,18 +632,16 @@
     "source": "blog.orange.tw",
     "published": "2025-07-01T16:00:00.000Z",
     "category": "技术",
-    "priority": "新技术",
-    "heat_score": 65,
-    "summary_short": "Orange Tsai分享OSEE高级Windows漏洞利用考试经验与技巧。",
+    "priority": "普通",
+    "heat_score": 60,
+    "summary_short": "从Web狗视角分享OSEE考试经验与学习路径",
     "keywords": [
       "OSEE",
       "Windows Exploitation",
       "Offensive Security",
-      "漏洞利用",
-      "考试经验"
+      "漏洞利用"
     ],
     "tags": [
-      "newtech",
       "techniques"
     ]
   },
@@ -661,15 +651,15 @@
     "url": "https://blog.google/threat-analysis-group/tag-bulletin-q4-2025/",
     "source": "blog.google",
     "published": "Thu, 29 Jan 2026 19:30:00 +0000",
-    "category": "研究",
+    "category": "新闻",
     "priority": "普通",
     "heat_score": 50,
-    "summary_short": "Google TAG公布Q4 2025协调影响操作活动概述。",
+    "summary_short": "谷歌TAG公告：2025年第四季度终止的协调影响力行动概述。",
     "keywords": [
-      "影响操作",
-      "协调行动",
-      "Google TAG",
-      "虚假信息"
+      "协调影响力行动",
+      "Q4 2025",
+      "终止",
+      "谷歌"
     ],
     "tags": [
       "news"
@@ -683,15 +673,13 @@
     "published": "Thu, 13 Nov 2025 16:00:00 +0000",
     "category": "新闻",
     "priority": "普通",
-    "heat_score": 40,
-    "summary_short": "谷歌发布Q3协调影响操作报告，平台终止多个活动",
+    "heat_score": 50,
+    "summary_short": "Google TAG发布Q3 2025协调影响力行动打击报告",
     "keywords": [
-      "influence operation",
-      "coordinated",
+      "影响力行动",
       "Q3 2025",
-      "TAG",
-      "Google",
-      "disinformation"
+      "Google TAG",
+      "协调行动"
     ],
     "tags": [
       "news"
@@ -704,17 +692,18 @@
     "source": "blog.google",
     "published": "Mon, 21 Jul 2025 17:45:00 +0000",
     "category": "新闻",
-    "priority": "普通",
+    "priority": "重要",
     "heat_score": 60,
-    "summary_short": "谷歌TAG发布Q2 2025协调影响操作报告",
+    "summary_short": "Google TAG发布2025年第二季度协同影响行动报告",
     "keywords": [
+      "coordinated influence operations",
+      "disinformation",
       "TAG",
-      "Google",
-      "influence operation",
       "Q2 2025",
-      "coordinated campaign"
+      "Google"
     ],
     "tags": [
+      "important",
       "news"
     ]
   },
@@ -726,14 +715,14 @@
     "published": "2026-04-23T17:38:00.001-04:00",
     "category": "研究",
     "priority": "新技术",
-    "heat_score": 75,
-    "summary_short": "谷歌发现间接提示注入正成为AI攻击主要威胁，但现实攻击案例仍少见。",
+    "heat_score": 85,
+    "summary_short": "谷歌威胁情报团队分析现实世界中间接提示注入攻击的现状与趋势。",
     "keywords": [
-      "prompt injection",
-      "indirect prompt injection",
-      "AI security",
-      "threat intelligence",
-      "adversarial activity"
+      "间接提示注入",
+      "AI安全",
+      "威胁情报",
+      "攻击向量",
+      "谷歌"
     ],
     "tags": [
       "newtech",
@@ -748,14 +737,14 @@
     "published": "2026-04-10T11:12:00.001-04:00",
     "category": "技术",
     "priority": "新技术",
-    "heat_score": 70,
-    "summary_short": "Google在Pixel 10基带中集成Rust DNS解析器，提升内存安全。",
+    "heat_score": 60,
+    "summary_short": "Google Pixel 10 在基带中集成 Rust DNS 解析器，提升内存安全。",
     "keywords": [
       "Rust",
-      "Pixel基带",
+      "Pixel",
+      "基带",
       "DNS解析器",
-      "内存安全",
-      "固件安全"
+      "内存安全"
     ],
     "tags": [
       "newtech",
@@ -768,20 +757,20 @@
     "url": "http://security.googleblog.com/2026/04/protecting-cookies-with-device-bound.html",
     "source": "security.googleblog.com",
     "published": "2026-04-09T13:07:00.001-04:00",
-    "category": "新闻",
-    "priority": "重要",
+    "category": "技术",
+    "priority": "新技术",
     "heat_score": 75,
-    "summary_short": "Chrome 146 为 Windows 用户推出 Device Bound Session Credentials，防止会话窃取。",
+    "summary_short": "Device Bound Session Credentials 进入公开可用阶段，先适用于 Windows，后续扩大到 macOS。",
     "keywords": [
       "Device Bound Session Credentials",
-      "会话窃取",
-      "Chrome",
-      "安全",
-      "信息窃取恶意软件"
+      "session theft",
+      "cookie protection",
+      "Chrome 146",
+      "infostealer malware"
     ],
     "tags": [
-      "important",
-      "news"
+      "newtech",
+      "techniques"
     ]
   },
   {
@@ -790,20 +779,20 @@
     "url": "https://labs.detectify.com/writeups/ai-agents-building-security-tests/",
     "source": "labs.detectify.com",
     "published": "Thu, 25 Sep 2025 14:10:59 +0000",
-    "category": "工具",
+    "category": "技术",
     "priority": "新技术",
     "heat_score": 60,
-    "summary_short": "Detectify AI Agent自动创建安全测试，从研究到合并请求。",
+    "summary_short": "Detectify AI Agent自动生成安全测试，从研究到合并请求",
     "keywords": [
       "AI agent",
-      "security tests",
-      "automation",
-      "vulnerability research",
+      "安全测试",
+      "自动化",
+      "漏洞研究",
       "Detectify"
     ],
     "tags": [
       "newtech",
-      "tools"
+      "techniques"
     ]
   },
   {
@@ -815,12 +804,11 @@
     "category": "新闻",
     "priority": "普通",
     "heat_score": 20,
-    "summary_short": "2024 Detectify众包奖项获奖者公布",
+    "summary_short": "Detectify公布2024年Crowdsource获奖者",
     "keywords": [
       "Detectify",
-      "众包",
-      "奖项",
-      "获奖者",
+      "Crowdsource",
+      "awards",
       "2024"
     ],
     "tags": [
@@ -835,13 +823,14 @@
     "published": "Tue, 26 Mar 2024 11:17:55 +0000",
     "category": "技术",
     "priority": "普通",
-    "heat_score": 30,
-    "summary_short": "使用AWS SCP减少攻击面的方法。",
+    "heat_score": 50,
+    "summary_short": "介绍使用AWS服务控制策略(SCP)减少攻击面的方法",
     "keywords": [
       "AWS",
-      "SCP",
-      "攻击面",
-      "安全"
+      "Service Control Policies",
+      "SCPs",
+      "attack surface reduction",
+      "cloud security"
     ],
     "tags": [
       "techniques"
@@ -853,17 +842,16 @@
     "url": "https://labs.watchtowr.com/youre-not-supposed-to-sharefile-with-everyone-progress-sharefile-pre-auth-rce-chain-cve-2026-2699-cve-2026-2701/",
     "source": "labs.watchtowr.com",
     "published": "Thu, 02 Apr 2026 10:00:42 GMT",
-    "category": "新闻",
+    "category": "研究",
     "priority": "重要",
-    "heat_score": 93,
-    "summary_short": "Progress ShareFile存在预认证远程代码执行漏洞链，CVE-2026-2699与CVE-2026-2701。",
+    "heat_score": 90,
+    "summary_short": "Progress ShareFile存在预认证RCE链漏洞（CVE-2026-2699和CVE-2026-2701）",
     "keywords": [
       "Progress ShareFile",
-      "pre-auth RCE",
+      "Pre-Auth RCE",
       "CVE-2026-2699",
       "CVE-2026-2701",
-      "file transfer vulnerability",
-      "CISA KEV"
+      "漏洞链"
     ],
     "tags": [
       "important",
@@ -879,12 +867,13 @@
     "category": "技术",
     "priority": "重要",
     "heat_score": 85,
-    "summary_short": "分析Citrix NetScaler的CVE-2026-3055内存越界读取漏洞，续上一篇。",
+    "summary_short": "Citrix NetScaler内存超读漏洞CVE-2026-3055第二部分分析",
     "keywords": [
+      "Citrix",
+      "NetScaler",
       "CVE-2026-3055",
-      "Citrix NetScaler",
       "Memory Overread",
-      "漏洞分析"
+      "漏洞"
     ],
     "tags": [
       "important",
@@ -897,20 +886,19 @@
     "url": "https://labs.watchtowr.com/the-sequels-are-never-as-good-but-were-still-in-pain-citrix-netscaler-cve-2026-3055-memory-overread/",
     "source": "labs.watchtowr.com",
     "published": "Sat, 28 Mar 2026 20:39:56 GMT",
-    "category": "新闻",
+    "category": "技术",
     "priority": "重要",
     "heat_score": 90,
-    "summary_short": "Citrix NetScaler存在严重内存过度读取漏洞CVE-2026-3055，可能导致信息泄露。",
+    "summary_short": "Citrix NetScaler存在CVE-2026-3055内存越界读取漏洞，需警惕。",
     "keywords": [
       "Citrix",
       "NetScaler",
       "CVE-2026-3055",
-      "memory overread",
-      "vulnerability"
+      "memory overread"
     ],
     "tags": [
       "important",
-      "news"
+      "techniques"
     ]
   },
   {
@@ -921,14 +909,14 @@
     "published": "Thu, 23 Apr 2026 16:01:13 +0000",
     "category": "研究",
     "priority": "新技术",
-    "heat_score": 55,
-    "summary_short": "AI模型在CTF竞赛中表现优异，但专业安全评估仍需人机协作。",
+    "heat_score": 60,
+    "summary_short": "AI模型在CTF竞赛中表现优异，但专业安全评估中效果有限。",
     "keywords": [
-      "CTF",
       "AI",
+      "CTF",
       "LLM",
-      "capture the flag",
-      "security assessments"
+      "安全评估",
+      "策略"
     ],
     "tags": [
       "newtech",
@@ -942,17 +930,18 @@
     "source": "blog.includesecurity.com",
     "published": "Thu, 19 Feb 2026 16:24:34 +0000",
     "category": "研究",
-    "priority": "普通",
-    "heat_score": 60,
-    "summary_short": "Terraform配置可能默认引入安全漏洞，与AWS控制台存在安全差距。",
+    "priority": "新技术",
+    "heat_score": 70,
+    "summary_short": "Terraform创建AWS资源时默认安全配置可能弱于控制台，存在安全差距。",
     "keywords": [
-      "AWS",
       "Terraform",
-      "安全差距",
-      "配置漏洞",
-      "云安全"
+      "AWS",
+      "安全配置",
+      "默认漏洞",
+      "基础设施即代码"
     ],
     "tags": [
+      "newtech",
       "news"
     ]
   },
@@ -962,21 +951,43 @@
     "url": "https://blog.includesecurity.com/2025/11/immutable-strings-in-java-are-your-secrets-still-safe/",
     "source": "blog.includesecurity.com",
     "published": "Tue, 11 Nov 2025 19:02:38 +0000",
-    "category": "技术",
+    "category": "研究",
     "priority": "新技术",
-    "heat_score": 70,
-    "summary_short": "Java字符串不可变性导致秘密残留内存，含PoC演示",
+    "heat_score": 65,
+    "summary_short": "Java字符串不可变导致秘密残留内存，PoC演示如何检测与规避",
     "keywords": [
       "Java",
-      "immutable strings",
-      "memory safety",
-      "secrets",
-      "garbage collection",
-      "proof of concept"
+      "不可变字符串",
+      "内存",
+      "秘密",
+      "垃圾回收",
+      "安全"
     ],
     "tags": [
       "newtech",
-      "techniques"
+      "news"
+    ]
+  },
+  {
+    "title": "VECT Ransomware: Why Paying Won’t Get Your Files Back",
+    "summary": "Do not pay the ransom. VECT permanently destroys large files rather than locking them. Even the attackers cannot recover them. Payment will not restore your data VECT partnered with TeamPCP and BreachForums to build one of the largest ransomware affiliate networks ever assembled, giving them a ready-made pipeline to thousands of potential victims The encryption flaw exists across all versions. Windows, Linux, and ESXi variants are all affected. The bug has been present since before the public 2.0 release and has never been fixed Advertised features don’t work. Encryption speed modes, anti-analysis protections, and other capabilities are either unimplemented or broken Check Point Threat Emulation and Harmony Endpoint provide full protection against all known [&#8230;] The post VECT Ransomwa",
+    "url": "https://blog.checkpoint.com/security/vect-ransomware-why-paying-wont-get-your-files-back/",
+    "source": "blog.checkpoint.com",
+    "published": "Tue, 28 Apr 2026 13:00:08 +0000",
+    "category": "新闻",
+    "priority": "重要",
+    "heat_score": 85,
+    "summary_short": "VECT勒索软件永久销毁文件，支付赎金无法恢复数据。",
+    "keywords": [
+      "VECT ransomware",
+      "ransom",
+      "affiliate network",
+      "encryption flaw",
+      "data destruction"
+    ],
+    "tags": [
+      "important",
+      "news"
     ]
   },
   {
@@ -988,13 +999,13 @@
     "category": "新闻",
     "priority": "普通",
     "heat_score": 20,
-    "summary_short": "Check Point WAF获Frost & Sullivan技术领导力认可",
+    "summary_short": "Check Point荣获Frost & Sullivan 2026年WAF与API安全技术创新领导奖",
     "keywords": [
       "Check Point",
       "WAF",
       "API安全",
       "Frost & Sullivan",
-      "应用安全"
+      "技术创新"
     ],
     "tags": [
       "news"
@@ -1008,38 +1019,15 @@
     "published": "Wed, 22 Apr 2026 13:00:31 +0000",
     "category": "技术",
     "priority": "新技术",
-    "heat_score": 60,
-    "summary_short": "Check Point与Google Cloud合作，为AI代理提供从访问控制到结果控制的安全方案",
+    "heat_score": 65,
+    "summary_short": "Check Point与Google Cloud合作，提出从访问控制转向结果控制来保护AI代理的新方法。",
     "keywords": [
       "AI安全",
-      "访问控制",
-      "结果控制",
+      "代理系统",
       "Google Cloud",
-      "Check Point"
-    ],
-    "tags": [
-      "newtech",
-      "techniques"
-    ]
-  },
-  {
-    "title": "Experience AI-Powered Check Point Firewall at Google Cloud Next",
-    "summary": "Today’s enterprises demand Zero Trust security, everywhere. Cloud security teams require high-performance protection without the burden of managing firewalls at scale. For this reason, organizations are seeking managed network security solutions that reduce operational overhead while improving consistency, visibility, and prevention across complex multi-cloud environments. Responding to that demand, Check Point is continuing rollout of an AI-powered cloud firewall as a service now available for preview on Google Cloud, as well as Amazon Web Services (AWS) and Microsoft Azure. There will be demos of the new firewall service at the Check Point Booth #3101 in the Google Next Solution Expo. Check Point Cloud Firewall as a Service eliminates the complex overhead of managing firewall software in",
-    "url": "https://blog.checkpoint.com/securing-the-cloud/experience-ai-powered-check-point-firewall-at-google-cloud-next/",
-    "source": "blog.checkpoint.com",
-    "published": "Wed, 22 Apr 2026 13:00:20 +0000",
-    "category": "技术",
-    "priority": "新技术",
-    "heat_score": 70,
-    "summary_short": "Check Point推出AI云防火墙服务，支持GCP、AWS、Azure预览。",
-    "keywords": [
       "Check Point",
-      "AI Firewall",
-      "Cloud Firewall as a Service",
-      "Google Cloud",
-      "AWS",
-      "Azure",
-      "Zero Trust"
+      "访问控制",
+      "结果控制"
     ],
     "tags": [
       "newtech",
@@ -1055,13 +1043,13 @@
     "category": "技术",
     "priority": "重要",
     "heat_score": 95,
-    "summary_short": "Ivanti Pulse Connect Secure 存在认证绕过和远程代码执行漏洞，需紧急修复。",
+    "summary_short": "Ivanti Pulse Connect Secure 认证绕过与远程代码执行漏洞利用分析",
     "keywords": [
       "Ivanti",
       "Pulse Connect Secure",
       "Auth Bypass",
       "RCE",
-      "Exploitation"
+      "Exploit"
     ],
     "tags": [
       "important",
@@ -1076,12 +1064,12 @@
     "published": "Tue, 24 Oct 2023 08:35:11 +1100",
     "category": "新闻",
     "priority": "重要",
-    "heat_score": 95,
-    "summary_short": "Citrix Bleed漏洞泄露会话令牌，CVE-2023-4966",
+    "heat_score": 90,
+    "summary_short": "CVE-2023-4966 Citrix Bleed漏洞泄露会话令牌",
     "keywords": [
+      "Citrix",
       "CVE-2023-4966",
-      "Citrix Bleed",
-      "session token leak",
+      "session tokens",
       "vulnerability"
     ],
     "tags": [
@@ -1097,19 +1085,37 @@
     "published": "Wed, 04 Oct 2023 08:33:19 +1100",
     "category": "新闻",
     "priority": "重要",
-    "heat_score": 90,
-    "summary_short": "Progress WS_FTP Ad Hoc存在远程代码执行漏洞（CVE-2023-40044），通过IIS HTTP模块利用",
+    "heat_score": 95,
+    "summary_short": "Progress WS_FTP存在严重RCE漏洞（CVE-2023-40044），通过IIS HTTP模块利用。",
     "keywords": [
       "RCE",
-      "Progress",
-      "WS_FTP",
-      "Ad Hoc",
-      "CVE-2023-40044",
+      "Progress WS_FTP",
       "IIS",
-      "HTTP Modules"
+      "HTTP Modules",
+      "CVE-2023-40044"
     ],
     "tags": [
       "important",
+      "news"
+    ]
+  },
+  {
+    "title": "Five defender priorities from the Talos Year in Review",
+    "summary": "With attackers moving faster than ever, it’s easy to feel overwhelmed. This blog breaks down five practical priorities from the Cisco Talos 2025 Year in Review to help defenders focus and prioritize, amidst all the noise.",
+    "url": "https://blog.talosintelligence.com/five-defender-priorities-from-the-talos-year-in-review/",
+    "source": "blog.talosintelligence.com",
+    "published": "Tue, 28 Apr 2026 13:23:20 GMT",
+    "category": "新闻",
+    "priority": "普通",
+    "heat_score": 55,
+    "summary_short": "Talos年度回顾给出五大防御优先事项，帮助安全团队应对快速演变的攻击。",
+    "keywords": [
+      "防御优先事项",
+      "Talos年度回顾",
+      "网络安全策略",
+      "攻击者加速"
+    ],
+    "tags": [
       "news"
     ]
   },
@@ -1119,17 +1125,18 @@
     "url": "https://blog.talosintelligence.com/it-pays-to-be-a-forever-student/",
     "source": "blog.talosintelligence.com",
     "published": "Thu, 23 Apr 2026 18:00:22 GMT",
-    "category": "技术",
+    "category": "新闻",
     "priority": "普通",
-    "heat_score": 30,
-    "summary_short": "探讨跨学科学习对AI时代网络安全的价值",
+    "heat_score": 20,
+    "summary_short": "强调跨学科学习对网络安全的重要性，特别是在AI时代。",
     "keywords": [
       "跨学科学习",
+      "网络安全",
       "AI",
-      "网络安全"
+      "持续学习"
     ],
     "tags": [
-      "techniques"
+      "news"
     ]
   },
   {
@@ -1140,15 +1147,15 @@
     "published": "Thu, 23 Apr 2026 15:10:57 GMT",
     "category": "新闻",
     "priority": "重要",
-    "heat_score": 90,
-    "summary_short": "UAT-4356利用CVE-2025-20333等n-day漏洞攻击Cisco Firepower设备",
+    "heat_score": 85,
+    "summary_short": "UAT-4356利用CVE-2025-20333和CVE-2025-20362漏洞攻击思科Firepower FXOS设备。",
     "keywords": [
       "UAT-4356",
       "Cisco Firepower",
+      "FXOS",
       "CVE-2025-20333",
       "CVE-2025-20362",
-      "n-day",
-      "FXOS"
+      "n-day漏洞"
     ],
     "tags": [
       "important",
@@ -1156,24 +1163,42 @@
     ]
   },
   {
-    "title": "IR Trends Q1 2026: Phishing reemerges as top initial access vector, as attacks targeting public administration persist",
-    "summary": "Phishing reemerged as the most observed means of gaining initial access, accounting for over a third of the engagements where initial access could be determined. Phishing has not been the top vertical for initial access since Q2 2025.",
-    "url": "https://blog.talosintelligence.com/ir-trends-q1-2026/",
-    "source": "blog.talosintelligence.com",
-    "published": "Wed, 22 Apr 2026 10:00:34 GMT",
-    "category": "新闻",
-    "priority": "重要",
-    "heat_score": 65,
-    "summary_short": "Phishing重回初始访问向量首位，公共管理攻击持续。",
+    "title": "Horizon3.ai Research Reveals Growing Divide Between Security Leaders and Practitioners",
+    "summary": "New Horizon3.ai research reveals a disconnect between executive confidence and real-world security risk as validation lags behind activity.",
+    "url": "https://horizon3.ai/news/press-release/horizon3-research-security-gap/",
+    "source": "horizon3.ai",
+    "published": "Tue, 28 Apr 2026 12:05:00 +0000",
+    "category": "研究",
+    "priority": "普通",
+    "heat_score": 35,
+    "summary_short": "研究显示安全领导与从业者对风险认知存在差距。",
     "keywords": [
-      "phishing",
-      "initial access",
-      "incident response trends",
-      "public administration",
-      "Q1 2026"
+      "安全领导",
+      "从业者",
+      "脱节",
+      "风险验证"
     ],
     "tags": [
-      "important",
+      "news"
+    ]
+  },
+  {
+    "title": "The State of Assumed Security",
+    "summary": "Most organizations measure activity, not resistance. This report reveals where security assumptions break and real exposure begins.",
+    "url": "https://horizon3.ai/downloads/research/the-state-of-assumed-security/",
+    "source": "horizon3.ai",
+    "published": "Tue, 28 Apr 2026 11:50:00 +0000",
+    "category": "研究",
+    "priority": "普通",
+    "heat_score": 60,
+    "summary_short": "报告揭示安全假设的破裂点与真实暴露面",
+    "keywords": [
+      "security assumptions",
+      "exposure",
+      "resistance",
+      "measurement"
+    ],
+    "tags": [
       "news"
     ]
   },
@@ -1186,59 +1211,17 @@
     "category": "技术",
     "priority": "新技术",
     "heat_score": 60,
-    "summary_short": "探讨Mythos框架如何将漏洞链化为实际攻击路径。",
+    "summary_short": "Mythos框架展示漏洞如何通过攻击链转化为实际风险",
     "keywords": [
       "Mythos",
-      "攻击路径",
-      "可利用性",
-      "漏洞链"
+      "attack paths",
+      "exploitability",
+      "vulnerability chaining",
+      "risk assessment"
     ],
     "tags": [
       "newtech",
       "techniques"
-    ]
-  },
-  {
-    "title": "CVE-2026-3324",
-    "summary": "CVE-2026-3324 allows authentication bypass in Log360 via exposed APIs. Patch affected builds and validate exposure.",
-    "url": "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-3324/",
-    "source": "horizon3.ai",
-    "published": "Tue, 21 Apr 2026 15:41:40 +0000",
-    "category": "新闻",
-    "priority": "重要",
-    "heat_score": 85,
-    "summary_short": "CVE-2026-3324允许通过暴露的API绕过Log360认证，需打补丁。",
-    "keywords": [
-      "CVE-2026-3324",
-      "Log360",
-      "authentication bypass",
-      "API exposure"
-    ],
-    "tags": [
-      "important",
-      "news"
-    ]
-  },
-  {
-    "title": "Mythos Didn’t Break Cybersecurity. It Exposed What Was Already Broken.",
-    "summary": "Mythos shows that finding vulnerabilities isn’t the problem—understanding exploitability and impact is what security teams are missing.",
-    "url": "https://horizon3.ai/intelligence/blogs/mythos-ai-cybersecurity-risk-gaps/",
-    "source": "horizon3.ai",
-    "published": "Fri, 17 Apr 2026 19:05:57 +0000",
-    "category": "新闻",
-    "priority": "重要",
-    "heat_score": 65,
-    "summary_short": "Mythos揭示了安全团队对漏洞利用性和影响的理解不足。",
-    "keywords": [
-      "Mythos",
-      "漏洞",
-      "利用性",
-      "影响",
-      "安全团队"
-    ],
-    "tags": [
-      "important",
-      "news"
     ]
   },
   {
@@ -1247,20 +1230,20 @@
     "url": "https://www.mdsec.co.uk/2026/03/disabling-security-features-in-a-locked-bios/",
     "source": "mdsec.co.uk",
     "published": "Thu, 26 Mar 2026 14:45:39 +0000",
-    "category": "技术",
+    "category": "研究",
     "priority": "新技术",
-    "heat_score": 75,
-    "summary_short": "修改Dell UEFI固件在锁定的BIOS中禁用安全功能且不留痕迹。",
+    "heat_score": 85,
+    "summary_short": "研究通过修改固件映像绕过锁定BIOS的安全功能。",
     "keywords": [
-      "BIOS",
       "UEFI",
+      "BIOS",
       "firmware",
       "security bypass",
       "Dell"
     ],
     "tags": [
       "newtech",
-      "techniques"
+      "news"
     ]
   },
   {
@@ -1271,13 +1254,13 @@
     "published": "Fri, 13 Mar 2026 15:25:24 +0000",
     "category": "技术",
     "priority": "重要",
-    "heat_score": 80,
-    "summary_short": "MDSec发布RegPwn漏洞利用工具，针对广泛使用的软件",
+    "heat_score": 75,
+    "summary_short": "MDSec发布RegPwn漏洞利用工具，针对广泛使用的软件进行攻击测试。",
     "keywords": [
       "RegPwn",
-      "MDSec",
       "vulnerability",
       "exploit",
+      "MDSec",
       "red team"
     ],
     "tags": [
@@ -1293,14 +1276,14 @@
     "published": "Fri, 27 Feb 2026 11:13:46 +0000",
     "category": "技术",
     "priority": "新技术",
-    "heat_score": 65,
-    "summary_short": "MDSec红队研究Windows和macOS权限提升技术，目标NT AUTHORITY\\SYSTEM。",
+    "heat_score": 70,
+    "summary_short": "MDSec红队研究Windows和macOS提权技术，详细分析回退至SYSTEM权限的方法。",
     "keywords": [
       "privilege escalation",
       "Windows",
       "macOS",
-      "red team",
-      "NT AUTHORITY\\SYSTEM"
+      "NT AUTHORITY\\SYSTEM",
+      "red team"
     ],
     "tags": [
       "newtech",

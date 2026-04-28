@@ -21,6 +21,13 @@
     "published": "Tue, 07 Apr 2026 17:02:44 +0000"
   },
   {
+    "title": "What Anthropic’s Mythos Means for the Future of Cybersecurity",
+    "summary": "Two weeks ago, Anthropic announced that its new model, Claude Mythos Preview, can autonomously find and weaponize software vulnerabilities, turning them into working exploits without expert guidance. These were vulnerabilities in key software like operating systems and internet infrastructure that thousands of software developers working on those systems failed to find. This capability will have major security implications, compromising the devices and services we use every day. As a result, Anthropic is not releasing the model to the general public, but instead to a ...",
+    "url": "https://www.schneier.com/blog/archives/2026/04/what-anthropics-mythos-means-for-the-future-of-cybersecurity.html",
+    "source": "schneier.com",
+    "published": "2026-04-28T11:06:44Z"
+  },
+  {
     "title": "Medieval Encrypted Letter Decoded",
     "summary": "Sent by a Spanish diplomat. Apparently people have been working on it since it was rediscovered in 1860.",
     "url": "https://www.schneier.com/blog/archives/2026/04/medieval-encrypted-letter-decoded.html",
@@ -35,53 +42,46 @@
     "published": "2026-04-24T21:03:23Z"
   },
   {
-    "title": "Hiding Bluetooth Trackers in Mail",
-    "summary": "It was used to track a Dutch naval ship: Dutch journalist Just Vervaart, working for regional media network Omroep Gelderland, followed the directions posted on the Dutch government website and mailed a postcard with a hidden tracker inside. Because of this, they were able to track the ship for about a day, watching it sail from Heraklion, Crete, before it turned towards Cyprus. While it only showed the location of that one vessel, knowing that it was part of a carrier strike group sailing in the Mediterranean could potentially put the entire fleet at risk...",
-    "url": "https://www.schneier.com/blog/archives/2026/04/hiding-bluetooth-trackers-in-mail.html",
-    "source": "schneier.com",
-    "published": "2026-04-24T11:01:03Z"
-  },
-  {
-    "title": "Microsoft Patches Entra ID Role Flaw That Enabled Service Principal Takeover",
-    "summary": "An administrative role meant for artificial intelligence (AI) agents within Microsoft Entra ID could enable privilege escalation and identity takeover attacks, according to new findings from Silverfort. Agent ID Administrator is a privileged built-in role introduced by Microsoft as part of its agent identity platform to handle all aspects of an AI agent's identity lifecycle operations in a",
-    "url": "https://thehackernews.com/2026/04/microsoft-patches-entra-id-role-flaw.html",
+    "title": "Why Secure Data Movement Is the Zero Trust Bottleneck Nobody Talks About",
+    "summary": "Every security program is betting on the same assumption: once a system is connected, the problem is solved. Open a ticket, stand up a gateway, push the data through. Done. That assumption is wrong. It is also a major reason Zero Trust programs stall. New research my team just published puts numbers on it. The Cyber360: Defending the Digital Battlespace report, based on a survey of 500 security",
+    "url": "https://thehackernews.com/2026/04/why-secure-data-movement-is-zero-trust.html",
     "source": "feeds.feedburner.com",
-    "published": "Tue, 28 Apr 2026 12:07:00 +0530"
+    "published": "Tue, 28 Apr 2026 17:28:00 +0530"
   },
   {
-    "title": "Microsoft Confirms Active Exploitation of Windows Shell CVE-2026-32202",
-    "summary": "Microsoft on Monday revised its advisory for a now-patched, high-severity security flaw impacting Windows Shell to acknowledge that it has been actively exploited in the wild. The vulnerability in question is CVE-2026-32202 (CVSS score: 4.3), a spoofing vulnerability that could allow an attacker to access sensitive information. It was addressed as part of its Patch Tuesday update for this",
-    "url": "https://thehackernews.com/2026/04/microsoft-confirms-active-exploitation.html",
+    "title": "Critical Unpatched Flaw Leaves Hugging Face LeRobot Open to Unauthenticated RCE",
+    "summary": "Cybersecurity researchers have disclosed details of a critical security flaw impacting LeRobot, Hugging Face's open-source robotics platform with nearly 24,000 GitHub stars, that could be exploited to achieve remote code execution. The vulnerability in question is CVE-2026-25874 (CVSS score: 9.3), which has been described as a case of untrusted data deserialization stemming from the use of the",
+    "url": "https://thehackernews.com/2026/04/critical-cve-2026-25874-leaves-hugging.html",
     "source": "feeds.feedburner.com",
-    "published": "Tue, 28 Apr 2026 11:20:00 +0530"
+    "published": "Tue, 28 Apr 2026 16:48:00 +0530"
   },
   {
-    "title": "Checkmarx Confirms GitHub Repository Data Posted on Dark Web After March 23 Attack",
-    "summary": "Checkmarx has disclosed that its ongoing investigation tied to the supply chain security incident has revealed that a cybercriminal group published data related to the company on the dark web. \"Based on current evidence, we believe this data originated from Checkmarx's GitHub repository, and that access to that repository was facilitated through the initial supply chain attack of March 23, 2026,",
-    "url": "https://thehackernews.com/2026/04/checkmarx-confirms-github-repository.html",
+    "title": "After Mythos: New Playbooks For a Zero-Window Era",
+    "summary": "When patching isn’t fast enough, NDR helps contain the next era of threats. If you’ve been tracking advancements in AI, you know the exploit window, the short buffer that organizations relied on to patch and protect after a vulnerability disclosure, is closing fast. Anthropic’s new model, Claude Mythos, and its Project Glasswing, showed that finding exploitable vulnerabilities and subtle cracks",
+    "url": "https://thehackernews.com/2026/04/after-mythos-new-playbooks-for-zero.html",
     "source": "feeds.feedburner.com",
-    "published": "Mon, 27 Apr 2026 19:49:00 +0530"
+    "published": "Tue, 28 Apr 2026 16:00:00 +0530"
   },
   {
-    "title": "Robinhood account creation flaw abused to send phishing emails",
-    "summary": "Online trading platform Robinhood's account creation process was exploited by threat actors to inject phishing messages into legitimate emails, tricking users into believing their accounts had suspicious activity. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/robinhood-account-creation-flaw-abused-to-send-phishing-emails/",
+    "title": "Microsoft to deprecate legacy TLS in Exchange Online starting July",
+    "summary": "Microsoft says it will start blocking legacy TLS connections for POP and IMAP email clients in Exchange Online starting in July 2026. [...]",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-deprecate-legacy-tls-in-exchange-online-starting-july/",
     "source": "bleepingcomputer.com",
-    "published": "Mon, 27 Apr 2026 19:11:01 -0400"
+    "published": "Tue, 28 Apr 2026 09:18:36 -0400"
   },
   {
-    "title": "GlassWorm malware attacks return via 73 OpenVSX \"sleeper\" extensions",
-    "summary": "A new wave of the Glassworm campaign is targeting the OpenVSX ecosystem with 73 \"sleeper\" extensions that turn malicious after an update. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/glassworm-malware-attacks-return-via-73-openvsx-sleeper-extensions/",
+    "title": "Inside an OPSEC Playbook: How Threat Actors Evade Detection",
+    "summary": "Threat actors are now publishing structured OPSEC playbooks to stay undetected. Flare reveals how these guides outline layered infrastructure, identity separation, and long-term evasion strategies. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/inside-an-opsec-playbook-how-threat-actors-evade-detection/",
     "source": "bleepingcomputer.com",
-    "published": "Mon, 27 Apr 2026 17:41:01 -0400"
+    "published": "Tue, 28 Apr 2026 08:50:58 -0400"
   },
   {
-    "title": "Canada arrests three for operating “SMS blaster” device in Toronto",
-    "summary": "Canadian authorities have arrested three men for operating an \"SMS blaster\" device that pretends to be a cellular tower to send phishing texts to nearby phones. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/canada-arrests-three-for-operating-sms-blaster-device-in-toronto/",
+    "title": "Microsoft: New Remote Desktop warnings may display incorrectly",
+    "summary": "Microsoft has confirmed a new issue causing newly introduced Windows security warnings to display incorrectly when opening Remote Desktop (.rdp) files. [...]",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-new-remote-desktop-warnings-may-display-incorrectly/",
     "source": "bleepingcomputer.com",
-    "published": "Mon, 27 Apr 2026 16:00:31 -0400"
+    "published": "Tue, 28 Apr 2026 05:51:26 -0400"
   },
   {
     "title": "Student Loan Breach Exposes 2.5M Records",
@@ -105,6 +105,13 @@
     "published": "Mon, 29 Aug 2022 14:56:19 +0000"
   },
   {
+    "title": "Shutdowns, power outages, and conflict: a review of Q1 2026 Internet disruptions",
+    "summary": "The first quarter of 2026 saw a surge in Internet disruptions, from nationwide shutdowns in Uganda and Iran to unprecedented drone strikes on cloud infrastructure. We explore the data behind these events using Cloudflare Radar.",
+    "url": "https://blog.cloudflare.com/q1-2026-internet-disruption-summary/",
+    "source": "blog.cloudflare.com",
+    "published": "Tue, 28 Apr 2026 13:00:00 GMT"
+  },
+  {
     "title": "Making Rust Workers reliable: panic and abort recovery in wasm‑bindgen",
     "summary": "Panics in Rust Workers were historically fatal, poisoning the entire instance. By collaborating upstream on the wasm‑bindgen project, Rust Workers now support resilient critical error recovery, including panic unwinding using WebAssembly Exception Handling.",
     "url": "https://blog.cloudflare.com/making-rust-workers-reliable/",
@@ -117,13 +124,6 @@
     "url": "https://blog.cloudflare.com/past-bots-and-humans/",
     "source": "blog.cloudflare.com",
     "published": "Tue, 21 Apr 2026 13:00:00 GMT"
-  },
-  {
-    "title": "Building the agentic cloud: everything we launched during Agents Week 2026",
-    "summary": "Agents Week 2026 is a wrap. Let’s take a look at everything we announced, from compute and security to the agent toolbox, platform tools, and the emerging agentic web. Everything we shipped for the agentic cloud.",
-    "url": "https://blog.cloudflare.com/agents-week-in-review/",
-    "source": "blog.cloudflare.com",
-    "published": "Mon, 20 Apr 2026 13:00:00 GMT"
   },
   {
     "title": "The npm Threat Landscape: Attack Surface and Mitigations",
@@ -315,6 +315,13 @@
     "published": "Tue, 11 Nov 2025 19:02:38 +0000"
   },
   {
+    "title": "VECT Ransomware: Why Paying Won’t Get Your Files Back",
+    "summary": "Do not pay the ransom. VECT permanently destroys large files rather than locking them. Even the attackers cannot recover them. Payment will not restore your data VECT partnered with TeamPCP and BreachForums to build one of the largest ransomware affiliate networks ever assembled, giving them a ready-made pipeline to thousands of potential victims The encryption flaw exists across all versions. Windows, Linux, and ESXi variants are all affected. The bug has been present since before the public 2.0 release and has never been fixed Advertised features don’t work. Encryption speed modes, anti-analysis protections, and other capabilities are either unimplemented or broken Check Point Threat Emulation and Harmony Endpoint provide full protection against all known [&#8230;] The post VECT Ransomwa",
+    "url": "https://blog.checkpoint.com/security/vect-ransomware-why-paying-wont-get-your-files-back/",
+    "source": "blog.checkpoint.com",
+    "published": "Tue, 28 Apr 2026 13:00:08 +0000"
+  },
+  {
     "title": "Check Point WAF Leads Application Security-Validated by Frost & Sullivan",
     "summary": "Check Point has been honored Frost &#38; Sullivan’s 2026 Technology Innovation Leadership recognition in WAF and API security, positioning us as a Company to Action shaping the future of cybersecurity. This recognition reflects a major shift in how application security must operate today. Application Security Has Fundamentally Changed Applications are no longer just web apps they now run on APIs, microservices, and AI-driven services, rapidly expanding across hybrid and multi-cloud environments. Each release introduces new components, increasing the attack surface. At the same time, accelerated DevSecOps cycles are making both web and AI applications harder to secure, while threats continue [&#8230;] The post Check Point WAF Leads Application Security-Validated by Frost &#038; Sullivan app",
     "url": "https://blog.checkpoint.com/securing-the-cloud/check-point-waf-leads-application-security-validated-by-frost-sullivan/",
@@ -327,13 +334,6 @@
     "url": "https://blog.checkpoint.com/artificial-intelligence/from-access-control-to-outcome-control-securing-ai-agents-with-check-point-and-google-cloud/",
     "source": "blog.checkpoint.com",
     "published": "Wed, 22 Apr 2026 13:00:31 +0000"
-  },
-  {
-    "title": "Experience AI-Powered Check Point Firewall at Google Cloud Next",
-    "summary": "Today’s enterprises demand Zero Trust security, everywhere. Cloud security teams require high-performance protection without the burden of managing firewalls at scale. For this reason, organizations are seeking managed network security solutions that reduce operational overhead while improving consistency, visibility, and prevention across complex multi-cloud environments. Responding to that demand, Check Point is continuing rollout of an AI-powered cloud firewall as a service now available for preview on Google Cloud, as well as Amazon Web Services (AWS) and Microsoft Azure. There will be demos of the new firewall service at the Check Point Booth #3101 in the Google Next Solution Expo. Check Point Cloud Firewall as a Service eliminates the complex overhead of managing firewall software in",
-    "url": "https://blog.checkpoint.com/securing-the-cloud/experience-ai-powered-check-point-firewall-at-google-cloud-next/",
-    "source": "blog.checkpoint.com",
-    "published": "Wed, 22 Apr 2026 13:00:20 +0000"
   },
   {
     "title": "High Signal Detection and Exploitation of Ivanti's Pulse Connect Secure Auth Bypass & RCE",
@@ -357,6 +357,13 @@
     "published": "Wed, 04 Oct 2023 08:33:19 +1100"
   },
   {
+    "title": "Five defender priorities from the Talos Year in Review",
+    "summary": "With attackers moving faster than ever, it’s easy to feel overwhelmed. This blog breaks down five practical priorities from the Cisco Talos 2025 Year in Review to help defenders focus and prioritize, amidst all the noise.",
+    "url": "https://blog.talosintelligence.com/five-defender-priorities-from-the-talos-year-in-review/",
+    "source": "blog.talosintelligence.com",
+    "published": "Tue, 28 Apr 2026 13:23:20 GMT"
+  },
+  {
     "title": "It pays to be a forever student",
     "summary": "In this newsletter, Joe discusses why understanding other disciplines can often flow back into the macro and micro of cybersecurity, especially in a world of AI.",
     "url": "https://blog.talosintelligence.com/it-pays-to-be-a-forever-student/",
@@ -371,11 +378,18 @@
     "published": "Thu, 23 Apr 2026 15:10:57 GMT"
   },
   {
-    "title": "IR Trends Q1 2026: Phishing reemerges as top initial access vector, as attacks targeting public administration persist",
-    "summary": "Phishing reemerged as the most observed means of gaining initial access, accounting for over a third of the engagements where initial access could be determined. Phishing has not been the top vertical for initial access since Q2 2025.",
-    "url": "https://blog.talosintelligence.com/ir-trends-q1-2026/",
-    "source": "blog.talosintelligence.com",
-    "published": "Wed, 22 Apr 2026 10:00:34 GMT"
+    "title": "Horizon3.ai Research Reveals Growing Divide Between Security Leaders and Practitioners",
+    "summary": "New Horizon3.ai research reveals a disconnect between executive confidence and real-world security risk as validation lags behind activity.",
+    "url": "https://horizon3.ai/news/press-release/horizon3-research-security-gap/",
+    "source": "horizon3.ai",
+    "published": "Tue, 28 Apr 2026 12:05:00 +0000"
+  },
+  {
+    "title": "The State of Assumed Security",
+    "summary": "Most organizations measure activity, not resistance. This report reveals where security assumptions break and real exposure begins.",
+    "url": "https://horizon3.ai/downloads/research/the-state-of-assumed-security/",
+    "source": "horizon3.ai",
+    "published": "Tue, 28 Apr 2026 11:50:00 +0000"
   },
   {
     "title": "Mythos in Practice: Attack Paths, Exploitability, and What Actually Matters Most",
@@ -383,20 +397,6 @@
     "url": "https://horizon3.ai/intelligence/blogs/mythos-attack-paths-exploitability/",
     "source": "horizon3.ai",
     "published": "Wed, 22 Apr 2026 18:38:21 +0000"
-  },
-  {
-    "title": "CVE-2026-3324",
-    "summary": "CVE-2026-3324 allows authentication bypass in Log360 via exposed APIs. Patch affected builds and validate exposure.",
-    "url": "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-3324/",
-    "source": "horizon3.ai",
-    "published": "Tue, 21 Apr 2026 15:41:40 +0000"
-  },
-  {
-    "title": "Mythos Didn’t Break Cybersecurity. It Exposed What Was Already Broken.",
-    "summary": "Mythos shows that finding vulnerabilities isn’t the problem—understanding exploitability and impact is what security teams are missing.",
-    "url": "https://horizon3.ai/intelligence/blogs/mythos-ai-cybersecurity-risk-gaps/",
-    "source": "horizon3.ai",
-    "published": "Fri, 17 Apr 2026 19:05:57 +0000"
   },
   {
     "title": "Disabling Security Features in a Locked BIOS",
