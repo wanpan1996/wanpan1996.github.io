@@ -63,25 +63,25 @@
     "published": "Mon, 27 Apr 2026 17:28:00 +0530"
   },
   {
-    "title": "FTC: Americans lost over $2.1 billion to social media scams in 2025",
-    "summary": "The U.S. Federal Trade Commission (FTC) warned of a massive increase in losses from social media scams since 2020, exceeding $2.1 billion in 2025. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/ftc-americans-lost-over-21-billion-to-social-media-scams-in-2025/",
+    "title": "Robinhood account creation flaw abused to send phishing emails",
+    "summary": "Online trading platform Robinhood's account creation process was exploited by threat actors to inject phishing messages into legitimate emails, tricking users into believing their accounts had suspicious activity. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/robinhood-account-creation-flaw-abused-to-send-phishing-emails/",
     "source": "bleepingcomputer.com",
-    "published": "Mon, 27 Apr 2026 12:27:53 -0400"
+    "published": "Mon, 27 Apr 2026 19:11:01 -0400"
   },
   {
-    "title": "PyPI package with 1.1M monthly downloads hacked to push infostealer",
-    "summary": "An attacker pushed a malicious version of the popular elementary-data package Python Package Index (PyPI) to steal sensitive developer data and cryptocurrency wallets. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/pypi-package-with-11m-monthly-downloads-hacked-to-push-infostealer/",
+    "title": "GlassWorm malware attacks return via 73 OpenVSX \"sleeper\" extensions",
+    "summary": "A new wave of the Glassworm campaign is targeting the OpenVSX ecosystem with 73 \"sleeper\" extensions that turn malicious after an update. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/glassworm-malware-attacks-return-via-73-openvsx-sleeper-extensions/",
     "source": "bleepingcomputer.com",
-    "published": "Mon, 27 Apr 2026 11:17:37 -0400"
+    "published": "Mon, 27 Apr 2026 17:41:01 -0400"
   },
   {
-    "title": "Home security giant ADT data breach affects 5.5 million people",
-    "summary": "The ShinyHunters extortion group stole the personal information of 5.5 million individuals after breaching the systems of home security giant ADT earlier this month, according to data breach notification service Have I Been Pwned. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/home-security-giant-adt-data-breach-affects-55-million-people/",
+    "title": "Canada arrests three for operating “SMS blaster” device in Toronto",
+    "summary": "Canadian authorities have arrested three men for operating an \"SMS blaster\" device that pretends to be a cellular tower to send phishing texts to nearby phones. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/canada-arrests-three-for-operating-sms-blaster-device-in-toronto/",
     "source": "bleepingcomputer.com",
-    "published": "Mon, 27 Apr 2026 10:43:11 -0400"
+    "published": "Mon, 27 Apr 2026 16:00:31 -0400"
   },
   {
     "title": "Student Loan Breach Exposes 2.5M Records",
