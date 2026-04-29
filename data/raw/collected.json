@@ -42,6 +42,20 @@
     "published": "2026-04-27T11:04:41Z"
   },
   {
+    "title": "SAP-Related npm Packages Compromised in Credential-Stealing Supply Chain Attack",
+    "summary": "Cybersecurity researchers are sounding the alarm about a new supply chain attack campaign targeting SAP-related npm Packages with credential-stealing malware. According to reports from Aikido Security, SafeDep, Socket, StepSecurity, and Google-owned Wiz, the campaign – calling itself the mini Shai-Hulud – has affected the following packages associated with SAP's JavaScript and cloud application",
+    "url": "https://thehackernews.com/2026/04/sap-npm-packages-compromised-by-mini.html",
+    "source": "feeds.feedburner.com",
+    "published": "Wed, 29 Apr 2026 21:56:00 +0530"
+  },
+  {
+    "title": "New Wave of DPRK Attacks Uses AI-Inserted npm Malware, Fake Firms, and RATs",
+    "summary": "Cybersecurity researchers have discovered malicious code in an npm package after a malicious package as a dependency to the project by Anthropic's Claude Opus large language model (LLM). The package in question is \"@validate-sdk/v2,\" which is listed on npm as a utility software development kit (SDK) for hashing, validation, encoding/decoding, and secure random generation. However, its real",
+    "url": "https://thehackernews.com/2026/04/new-wave-of-dprk-attacks-uses-ai.html",
+    "source": "feeds.feedburner.com",
+    "published": "Wed, 29 Apr 2026 20:13:00 +0530"
+  },
+  {
     "title": "Webinar: How to Automate Exposure Validation to Match the Speed of AI Attacks",
     "summary": "In February 2026, researchers uncovered a shift that completely changed the game: threat actors are now using custom AI setups to automate attacks directly into the kill chain. We aren't just talking about AI writing better phishing emails anymore. We’re talking about autonomous agents mapping Active Directory and seizing Domain Admin credentials in minutes. The problem? Most defensive workflows",
     "url": "https://thehackernews.com/2026/04/webinar-how-to-automate-exposure.html",
@@ -49,39 +63,25 @@
     "published": "Wed, 29 Apr 2026 17:32:00 +0530"
   },
   {
-    "title": "What to Look for in an Exposure Management Platform (And What Most of Them Get Wrong)",
-    "summary": "Every security team has a version of the same story. The quarter ends with hundreds of vulnerabilities closed. The dashboards are bursting with green. Then someone in a leadership meeting asks: \"So, are we actually safer now?\" Crickets. The room goes quiet because an honest answer requires context – which is something that patch counts and CVSS scores were never designed to provide. Exposure",
-    "url": "https://thehackernews.com/2026/04/what-to-look-for-in-exposure-management.html",
-    "source": "feeds.feedburner.com",
-    "published": "Wed, 29 Apr 2026 17:00:00 +0530"
-  },
-  {
-    "title": "Critical cPanel Authentication Vulnerability Identified — Update Your Server Immediately",
-    "summary": "cPanel has released security updates to address a security issue impacting various authentication paths that could allow an attacker to obtain access to the control panel software. The problem affects all currently supported versions, according to an alert released by cPanel on Tuesday. The issue has been addressed in the following versions - 11.110.0.97 11.118.0.63 11.126.0.54 11.132.0.29",
-    "url": "https://thehackernews.com/2026/04/critical-cpanel-authentication.html",
-    "source": "feeds.feedburner.com",
-    "published": "Wed, 29 Apr 2026 15:07:00 +0530"
-  },
-  {
-    "title": "Learning from the Vercel breach: Shadow AI & OAuth sprawl",
-    "summary": "A single third-party OAuth integration can become a direct path into your environment. Push explains how the Vercel breach shows a compromised OAuth app can lead to widespread impact across downstream customers. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/learning-from-the-vercel-breach-shadow-ai-and-oauth-sprawl/",
+    "title": "Hackers arrested for hijacking and selling 610,000 Roblox accounts",
+    "summary": "The Ukrainian police have arrested three individuals who hacked more than 610,000 Roblox gaming accounts and sold them for a profit of $225,000. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-arrested-for-hijacking-and-selling-610-000-roblox-accounts/",
     "source": "bleepingcomputer.com",
-    "published": "Wed, 29 Apr 2026 09:05:14 -0400"
+    "published": "Wed, 29 Apr 2026 14:32:15 -0400"
   },
   {
-    "title": "GitHub fixes RCE flaw that gave access to millions of private repos",
-    "summary": "In early March, GitHub patched a critical remote code execution vulnerability (CVE-2026-3854) that could have allowed attackers to access millions of private repositories. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/github-fixes-rce-flaw-that-gave-access-to-millions-of-private-repos/",
+    "title": "cPanel, WHM emergency update fixes critical auth bypass bug",
+    "summary": "A critical vulnerability affecting all but the latest versions of cPanel and the WebHost Manager (WHM) dashboard could be exploited to obtain access to the control panel without authentication. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/cpanel-whm-emergency-update-fixes-critical-auth-bypass-bug/",
     "source": "bleepingcomputer.com",
-    "published": "Wed, 29 Apr 2026 08:41:17 -0400"
+    "published": "Wed, 29 Apr 2026 11:51:44 -0400"
   },
   {
-    "title": "CISA orders feds to patch Windows flaw exploited as zero-day",
-    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has ordered federal agencies to secure their Windows systems against a vulnerability exploited in zero-day attacks. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-windows-flaw-exploited-in-zero-day-attacks/",
+    "title": "European police dismantles €50 million crypto investment fraud ring",
+    "summary": "Austrian and Albanian authorities dismantled a criminal ring accused of running a large-scale cryptocurrency investment fraud operation that caused estimated losses of over €50 million ($58.5 million) to victims worldwide. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/european-police-dismantles-50-million-crypto-investment-fraud-ring/",
     "source": "bleepingcomputer.com",
-    "published": "Wed, 29 Apr 2026 06:29:31 -0400"
+    "published": "Wed, 29 Apr 2026 10:27:36 -0400"
   },
   {
     "title": "Student Loan Breach Exposes 2.5M Records",
@@ -105,6 +105,13 @@
     "published": "Mon, 29 Aug 2022 14:56:19 +0000"
   },
   {
+    "title": "Agents can now create Cloudflare accounts, buy domains, and deploy",
+    "summary": "Starting today, agents can now be Cloudflare customers. They can create a Cloudflare account, start a paid subscription, register a domain, and get back an API token to deploy code right away. Humans can be in the loop to grant permission, but there’s no need to go to the dashboard, copy and paste API tokens, or enter credit card details.",
+    "url": "https://blog.cloudflare.com/agents-stripe-projects/",
+    "source": "blog.cloudflare.com",
+    "published": "Thu, 30 Apr 2026 13:00:00 GMT"
+  },
+  {
     "title": "Shutdowns, power outages, and conflict: a review of Q1 2026 Internet disruptions",
     "summary": "The first quarter of 2026 saw a surge in Internet disruptions, from nationwide shutdowns in Uganda and Iran to unprecedented drone strikes on cloud infrastructure. We explore the data behind these events using Cloudflare Radar.",
     "url": "https://blog.cloudflare.com/q1-2026-internet-disruption-summary/",
@@ -117,13 +124,6 @@
     "url": "https://blog.cloudflare.com/making-rust-workers-reliable/",
     "source": "blog.cloudflare.com",
     "published": "Wed, 22 Apr 2026 13:00:00 GMT"
-  },
-  {
-    "title": "Moving past bots vs. humans",
-    "summary": "As AI assistants and privacy proxies challenge the capabilities of traditional bot detection, the Web needs new models for accountability. We believe that control should remain with the client, and that an open ecosystem of anonymous credentials is key to preserving user privacy while protecting origins from abuse.",
-    "url": "https://blog.cloudflare.com/past-bots-and-humans/",
-    "source": "blog.cloudflare.com",
-    "published": "Tue, 21 Apr 2026 13:00:00 GMT"
   },
   {
     "title": "The npm Threat Landscape: Attack Surface and Mitigations",
@@ -273,6 +273,13 @@
     "published": "Tue, 26 Mar 2024 11:17:55 +0000"
   },
   {
+    "title": "The Internet Is Falling Down, Falling Down, Falling Down (cPanel & WHM Authentication Bypass CVE-2026-41940)",
+    "summary": "Hello! Yes, it&apos;s all a disaster again! Let&apos;s get this party started: 0:00 /0:12 1&#xd7; No comments today, so imagine this:We wrote something that we find very funny,Nobody else gets it,But everyone humors us Just like a typical watchTowr Labs",
+    "url": "https://labs.watchtowr.com/the-internet-is-falling-down-falling-down-falling-down-cpanel-whm-authentication-bypass-cve-2026-41940/",
+    "source": "labs.watchtowr.com",
+    "published": "Wed, 29 Apr 2026 17:19:19 GMT"
+  },
+  {
     "title": "You’re Not Supposed To ShareFile With Everyone (Progress ShareFile Pre-Auth RCE Chain CVE-2026-2699 & CVE-2026-2701)",
     "summary": "If you squint and look at the CISA KEV list, you might think it&apos;s made up exclusively of vulnerabilities in file transfer solutions.While this would be wrong (and you shouldn&#x2019;t squint, it&#x2019;s bad for your eyes), file transfer solutions do play a decent",
     "url": "https://labs.watchtowr.com/youre-not-supposed-to-sharefile-with-everyone-progress-sharefile-pre-auth-rce-chain-cve-2026-2699-cve-2026-2701/",
@@ -285,13 +292,6 @@
     "url": "https://labs.watchtowr.com/please-we-beg-just-one-weekend-free-of-appliances-citrix-netscaler-cve-2026-3055-memory-overread-part-2/",
     "source": "labs.watchtowr.com",
     "published": "Sun, 29 Mar 2026 20:07:28 GMT"
-  },
-  {
-    "title": "The Sequels Are Never As Good, But We're Still In Pain (Citrix NetScaler CVE-2026-3055 Memory Overread)",
-    "summary": "Sequels? Pain? We&apos;re obviously talking about Citrix NetScalers, yet again.Welcome back to another watchTowr Labs blog post - pull up a chair, we always welcome new members to our group therapy sessions.If you asked a C programmer what they most dislike doing in life, their answer",
-    "url": "https://labs.watchtowr.com/the-sequels-are-never-as-good-but-were-still-in-pain-citrix-netscaler-cve-2026-3055-memory-overread/",
-    "source": "labs.watchtowr.com",
-    "published": "Sat, 28 Mar 2026 20:39:56 GMT"
   },
   {
     "title": "CTFs in the AI Era",
@@ -378,6 +378,13 @@
     "published": "Thu, 23 Apr 2026 18:00:22 GMT"
   },
   {
+    "title": "CVE-2026-41940",
+    "summary": "CVE-2026-41940 allows unauthenticated access to cPanel and WHM, posing a critical risk to hosting environments and managed infrastructure.",
+    "url": "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-41940/",
+    "source": "horizon3.ai",
+    "published": "Wed, 29 Apr 2026 19:08:39 +0000"
+  },
+  {
     "title": "Project Glasswing & NodeZero® factsheet",
     "summary": "See how Glasswing and NodeZero combine to identify vulnerabilities and validate which ones can actually be exploited.",
     "url": "https://horizon3.ai/downloads/factsheets/project-glasswing-nodezero-factsheet/",
@@ -390,13 +397,6 @@
     "url": "https://horizon3.ai/news/press-release/horizon3-research-security-gap/",
     "source": "horizon3.ai",
     "published": "Tue, 28 Apr 2026 12:05:00 +0000"
-  },
-  {
-    "title": "The State of Assumed Security",
-    "summary": "Most organizations measure activity, not resistance. This report reveals where security assumptions break and real exposure begins.",
-    "url": "https://horizon3.ai/downloads/research/the-state-of-assumed-security/",
-    "source": "horizon3.ai",
-    "published": "Tue, 28 Apr 2026 11:50:00 +0000"
   },
   {
     "title": "Disabling Security Features in a Locked BIOS",
