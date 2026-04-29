@@ -42,6 +42,13 @@
     "published": "2026-04-24T21:03:23Z"
   },
   {
+    "title": "LiteLLM CVE-2026-42208 SQL Injection Exploited within 36 Hours of Disclosure",
+    "summary": "In yet another instance of threat actors quickly jumping on the exploitation bandwagon, a newly disclosed critical security flaw in BerriAI's LiteLLM Python package has come under active exploitation in the wild within 36 hours of the bug becoming public knowledge. The vulnerability, tracked as CVE-2026-42208 (CVSS score: 9.3), is an SQL injection that could be exploited to modify the underlying",
+    "url": "https://thehackernews.com/2026/04/litellm-cve-2026-42208-sql-injection.html",
+    "source": "feeds.feedburner.com",
+    "published": "Wed, 29 Apr 2026 11:04:00 +0530"
+  },
+  {
     "title": "Researchers Discover Critical GitHub CVE-2026-3854 RCE Flaw Exploitable via Single Git Push",
     "summary": "Cybersecurity researchers have disclosed details of a critical security vulnerability impacting GitHub.com and GitHub Enterprise Server that could allow an authenticated user to obtain remote code execution with a single \"git push\" command. The flaw, tracked as CVE-2026-3854 (CVSS score: 8.7), is a case of command injection that could allow an attacker with push access to a repository to achieve",
     "url": "https://thehackernews.com/2026/04/researchers-discover-critical-github.html",
@@ -54,13 +61,6 @@
     "url": "https://thehackernews.com/2026/04/brazilian-lofygang-resurfaces-after.html",
     "source": "feeds.feedburner.com",
     "published": "Tue, 28 Apr 2026 23:09:00 +0530"
-  },
-  {
-    "title": "VECT 2.0 Ransomware Irreversibly Destroys Files Over 131KB on Windows, Linux, ESXi",
-    "summary": "Threat hunters are warning that the cybercriminal operation known as VECT 2.0 acts more like a wiper than a ransomware due to a critical flaw in its encryption implementation across Windows, Linux, and ESXi variants that renders recovery impossible even for the threat actors. The fact that VECT's locker permanently destroys large files rather than encrypting them means even victims who opt to",
-    "url": "https://thehackernews.com/2026/04/vect-20-ransomware-irreversibly.html",
-    "source": "feeds.feedburner.com",
-    "published": "Tue, 28 Apr 2026 19:31:00 +0530"
   },
   {
     "title": "Broken VECT 2.0 ransomware acts as a data wiper for large files",
