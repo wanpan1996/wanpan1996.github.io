@@ -63,25 +63,25 @@
     "published": "Tue, 28 Apr 2026 19:31:00 +0530"
   },
   {
+    "title": "Broken VECT 2.0 ransomware acts as a data wiper for large files",
+    "summary": "Researchers are warning that the VECT 2.0 ransomware has a problem in the way it handles encryption nonces that leads to permanently destroying larger files rather than encrypt them. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/broken-vect-20-ransomware-acts-as-a-data-wiper-for-large-files/",
+    "source": "bleepingcomputer.com",
+    "published": "Tue, 28 Apr 2026 17:25:57 -0400"
+  },
+  {
+    "title": "Hackers are exploiting a critical LiteLLM pre-auth SQLi flaw",
+    "summary": "Hackers are targeting sensitive information stored in the LiteLLM open-source large-language model (LLM) gateway by exploiting a critical vulnerability tracked as CVE-2026-42208. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-are-exploiting-a-critical-litellm-pre-auth-sqli-flaw/",
+    "source": "bleepingcomputer.com",
+    "published": "Tue, 28 Apr 2026 17:07:23 -0400"
+  },
+  {
     "title": "Video service Vimeo confirms Anodot breach exposed user data",
     "summary": "Vimeo has disclosed that data belonging to some of its customers and users has been accessed without authorization following the recent breach at the Anodot data anomaly detection company. [...]",
     "url": "https://www.bleepingcomputer.com/news/security/video-service-vimeo-confirms-anodot-breach-exposed-user-data/",
     "source": "bleepingcomputer.com",
     "published": "Tue, 28 Apr 2026 15:04:22 -0400"
-  },
-  {
-    "title": "US reportedly charges Scattered Spider hacker arrested in Finland",
-    "summary": "A 19-year-old dual United States and Estonian citizen arrested in Finland earlier this month faces federal charges in the U.S. alleging he was a prolific member of the notorious Scattered Spider hacking collective. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/us-reportedly-charges-scattered-spider-hacker-arrested-in-finland/",
-    "source": "bleepingcomputer.com",
-    "published": "Tue, 28 Apr 2026 11:39:52 -0400"
-  },
-  {
-    "title": "Checkmarx confirms LAPSUS$ hackers leaked its stolen GitHub data",
-    "summary": "Application security company Checkmarx has confirmed that the LAPSUS$ threat group leaked data stolen from its private GitHub repository. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/checkmarx-confirms-lapsus-hackers-leaked-its-stolen-github-data/",
-    "source": "bleepingcomputer.com",
-    "published": "Tue, 28 Apr 2026 10:50:40 -0400"
   },
   {
     "title": "Student Loan Breach Exposes 2.5M Records",
