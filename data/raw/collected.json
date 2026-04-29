@@ -21,6 +21,13 @@
     "published": "Tue, 07 Apr 2026 17:02:44 +0000"
   },
   {
+    "title": "Claude Mythos Has Found 271 Zero-Days in Firefox",
+    "summary": "That&#8217;s a lot. No, it&#8217;s an extraordinary number: Since February, the Firefox team has been working around the clock using frontier AI models to find and fix latent security vulnerabilities in the browser. We wrote previously about our collaboration with Anthropic to scan Firefox with Opus 4.6, which led to fixes for 22 security-sensitive bugs in Firefox 148. As part of our continued collaboration with Anthropic, we had the opportunity to apply an early version of Claude Mythos Preview to Firefox. This week&#8217;s release of Firefox 150 includes fixes for 271 vulnerabilities identified during this initial evaluation...",
+    "url": "https://www.schneier.com/blog/archives/2026/04/claude-mythos-has-found-271-zero-days-in-firefox.html",
+    "source": "schneier.com",
+    "published": "2026-04-29T10:12:17Z"
+  },
+  {
     "title": "What Anthropic’s Mythos Means for the Future of Cybersecurity",
     "summary": "Two weeks ago, Anthropic announced that its new model, Claude Mythos Preview, can autonomously find and weaponize software vulnerabilities, turning them into working exploits without expert guidance. These were vulnerabilities in key software like operating systems and internet infrastructure that thousands of software developers working on those systems failed to find. This capability will have major security implications, compromising the devices and services we use every day. As a result, Anthropic is not releasing the model to the general public, but instead to a ...",
     "url": "https://www.schneier.com/blog/archives/2026/04/what-anthropics-mythos-means-for-the-future-of-cybersecurity.html",
@@ -35,53 +42,46 @@
     "published": "2026-04-27T11:04:41Z"
   },
   {
-    "title": "Friday Squid Blogging: How Squid Survived Extinction Events",
-    "summary": "Science news: Scientists have finally cracked a long-standing mystery about squid and cuttlefish evolution by analyzing newly sequenced genomes alongside global datasets. The research reveals that these bizarre, intelligent creatures likely originated deep in the ocean over 100 million years ago, surviving mass extinction events by retreating into oxygen-rich deep-sea refuges. For millions of years, their evolution barely changed&#8212;until a dramatic post-extinction boom sparked rapid diversification as they moved into new shallow-water habitats. ...",
-    "url": "https://www.schneier.com/blog/archives/2026/04/friday-squid-blogging-how-squid-survived-extinction-events.html",
-    "source": "schneier.com",
-    "published": "2026-04-24T21:03:23Z"
-  },
-  {
-    "title": "LiteLLM CVE-2026-42208 SQL Injection Exploited within 36 Hours of Disclosure",
-    "summary": "In yet another instance of threat actors quickly jumping on the exploitation bandwagon, a newly disclosed critical security flaw in BerriAI's LiteLLM Python package has come under active exploitation in the wild within 36 hours of the bug becoming public knowledge. The vulnerability, tracked as CVE-2026-42208 (CVSS score: 9.3), is an SQL injection that could be exploited to modify the underlying",
-    "url": "https://thehackernews.com/2026/04/litellm-cve-2026-42208-sql-injection.html",
+    "title": "Webinar: How to Automate Exposure Validation to Match the Speed of AI Attacks",
+    "summary": "In February 2026, researchers uncovered a shift that completely changed the game: threat actors are now using custom AI setups to automate attacks directly into the kill chain. We aren't just talking about AI writing better phishing emails anymore. We’re talking about autonomous agents mapping Active Directory and seizing Domain Admin credentials in minutes. The problem? Most defensive workflows",
+    "url": "https://thehackernews.com/2026/04/webinar-how-to-automate-exposure.html",
     "source": "feeds.feedburner.com",
-    "published": "Wed, 29 Apr 2026 11:04:00 +0530"
+    "published": "Wed, 29 Apr 2026 17:32:00 +0530"
   },
   {
-    "title": "Researchers Discover Critical GitHub CVE-2026-3854 RCE Flaw Exploitable via Single Git Push",
-    "summary": "Cybersecurity researchers have disclosed details of a critical security vulnerability impacting GitHub.com and GitHub Enterprise Server that could allow an authenticated user to obtain remote code execution with a single \"git push\" command. The flaw, tracked as CVE-2026-3854 (CVSS score: 8.7), is a case of command injection that could allow an attacker with push access to a repository to achieve",
-    "url": "https://thehackernews.com/2026/04/researchers-discover-critical-github.html",
+    "title": "What to Look for in an Exposure Management Platform (And What Most of Them Get Wrong)",
+    "summary": "Every security team has a version of the same story. The quarter ends with hundreds of vulnerabilities closed. The dashboards are bursting with green. Then someone in a leadership meeting asks: \"So, are we actually safer now?\" Crickets. The room goes quiet because an honest answer requires context – which is something that patch counts and CVSS scores were never designed to provide. Exposure",
+    "url": "https://thehackernews.com/2026/04/what-to-look-for-in-exposure-management.html",
     "source": "feeds.feedburner.com",
-    "published": "Tue, 28 Apr 2026 23:49:00 +0530"
+    "published": "Wed, 29 Apr 2026 17:00:00 +0530"
   },
   {
-    "title": "Brazilian LofyGang Resurfaces After Three Years With Minecraft LofyStealer Campaign",
-    "summary": "A cybercrime group of Brazilian origin has resurfaced after more than three years to orchestrate a campaign that targets Minecraft players with a new stealer called LofyStealer (aka GrabBot). \"The malware disguises itself as a Minecraft hack called 'Slinky,'\" Brazil-based cybersecurity company ZenoX said in a technical report. \"It uses the official game icon to induce voluntary execution,",
-    "url": "https://thehackernews.com/2026/04/brazilian-lofygang-resurfaces-after.html",
+    "title": "Critical cPanel Authentication Vulnerability Identified — Update Your Server Immediately",
+    "summary": "cPanel has released security updates to address a security issue impacting various authentication paths that could allow an attacker to obtain access to the control panel software. The problem affects all currently supported versions, according to an alert released by cPanel on Tuesday. The issue has been addressed in the following versions - 11.110.0.97 11.118.0.63 11.126.0.54 11.132.0.29",
+    "url": "https://thehackernews.com/2026/04/critical-cpanel-authentication.html",
     "source": "feeds.feedburner.com",
-    "published": "Tue, 28 Apr 2026 23:09:00 +0530"
+    "published": "Wed, 29 Apr 2026 15:07:00 +0530"
   },
   {
-    "title": "Broken VECT 2.0 ransomware acts as a data wiper for large files",
-    "summary": "Researchers are warning that the VECT 2.0 ransomware has a problem in the way it handles encryption nonces that leads to permanently destroying larger files rather than encrypt them. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/broken-vect-20-ransomware-acts-as-a-data-wiper-for-large-files/",
+    "title": "Learning from the Vercel breach: Shadow AI & OAuth sprawl",
+    "summary": "A single third-party OAuth integration can become a direct path into your environment. Push explains how the Vercel breach shows a compromised OAuth app can lead to widespread impact across downstream customers. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/learning-from-the-vercel-breach-shadow-ai-and-oauth-sprawl/",
     "source": "bleepingcomputer.com",
-    "published": "Tue, 28 Apr 2026 17:25:57 -0400"
+    "published": "Wed, 29 Apr 2026 09:05:14 -0400"
   },
   {
-    "title": "Hackers are exploiting a critical LiteLLM pre-auth SQLi flaw",
-    "summary": "Hackers are targeting sensitive information stored in the LiteLLM open-source large-language model (LLM) gateway by exploiting a critical vulnerability tracked as CVE-2026-42208. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-are-exploiting-a-critical-litellm-pre-auth-sqli-flaw/",
+    "title": "GitHub fixes RCE flaw that gave access to millions of private repos",
+    "summary": "In early March, GitHub patched a critical remote code execution vulnerability (CVE-2026-3854) that could have allowed attackers to access millions of private repositories. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/github-fixes-rce-flaw-that-gave-access-to-millions-of-private-repos/",
     "source": "bleepingcomputer.com",
-    "published": "Tue, 28 Apr 2026 17:07:23 -0400"
+    "published": "Wed, 29 Apr 2026 08:41:17 -0400"
   },
   {
-    "title": "Video service Vimeo confirms Anodot breach exposed user data",
-    "summary": "Vimeo has disclosed that data belonging to some of its customers and users has been accessed without authorization following the recent breach at the Anodot data anomaly detection company. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/video-service-vimeo-confirms-anodot-breach-exposed-user-data/",
+    "title": "CISA orders feds to patch Windows flaw exploited as zero-day",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has ordered federal agencies to secure their Windows systems against a vulnerability exploited in zero-day attacks. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-windows-flaw-exploited-in-zero-day-attacks/",
     "source": "bleepingcomputer.com",
-    "published": "Tue, 28 Apr 2026 15:04:22 -0400"
+    "published": "Wed, 29 Apr 2026 06:29:31 -0400"
   },
   {
     "title": "Student Loan Breach Exposes 2.5M Records",
@@ -357,6 +357,13 @@
     "published": "Wed, 04 Oct 2023 08:33:19 +1100"
   },
   {
+    "title": "AI-powered honeypots: Turning the tables on malicious AI agents",
+    "summary": "Just as AI brings time-saving advantages to our lives, it brings similar advantages to threat actors. We can take the advantage back. This blog shows how generative AI can be used to rapidly deploy adaptive honeypot systems.",
+    "url": "https://blog.talosintelligence.com/ai-powered-honeypots-turning-the-tables-on-malicious-ai-agents/",
+    "source": "blog.talosintelligence.com",
+    "published": "Wed, 29 Apr 2026 10:00:42 GMT"
+  },
+  {
     "title": "Five defender priorities from the Talos Year in Review",
     "summary": "With attackers moving faster than ever, it’s easy to feel overwhelmed. This blog breaks down five practical priorities from the Cisco Talos 2025 Year in Review to help defenders focus and prioritize, amidst all the noise.",
     "url": "https://blog.talosintelligence.com/five-defender-priorities-from-the-talos-year-in-review/",
@@ -369,13 +376,6 @@
     "url": "https://blog.talosintelligence.com/it-pays-to-be-a-forever-student/",
     "source": "blog.talosintelligence.com",
     "published": "Thu, 23 Apr 2026 18:00:22 GMT"
-  },
-  {
-    "title": "UAT-4356's Targeting of Cisco Firepower Devices",
-    "summary": "Cisco Talos is aware of UAT-4356's continued active targeting of Cisco Firepower devices’ Firepower eXtensible Operating System (FXOS). UAT-4356 exploited n-day vulnerabilities (CVE-2025-20333 and CVE-2025-20362) to gain unauthorized access to vulnerable devices.",
-    "url": "https://blog.talosintelligence.com/uat-4356-firestarter/",
-    "source": "blog.talosintelligence.com",
-    "published": "Thu, 23 Apr 2026 15:10:57 GMT"
   },
   {
     "title": "Project Glasswing & NodeZero® factsheet",
