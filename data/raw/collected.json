@@ -21,6 +21,13 @@
     "published": "Tue, 07 Apr 2026 17:02:44 +0000"
   },
   {
+    "title": "Fast16 Malware",
+    "summary": "Researchers have reverse-engineered a piece of malware named Fast16. It&#8217;s almost certainly state-sponsored, probably US in origin, and was deployed against Iran years before Stuxnet: &#8220;&#8230;the Fast16 malware was designed to carry out the most subtle form of sabotage ever seen in an in-the-wild malware tool: By automatically spreading across networks and then silently manipulating computation processes in certain software applications that perform high-precision mathematical calculations and simulate physical phenomena, Fast16 can alter the results of those programs to cause failures that range from faulty research results to catastrophic damage to real-world equipment.&#8221;...",
+    "url": "https://www.schneier.com/blog/archives/2026/04/fast16-malware.html",
+    "source": "schneier.com",
+    "published": "2026-04-30T10:22:02Z"
+  },
+  {
     "title": "Claude Mythos Has Found 271 Zero-Days in Firefox",
     "summary": "That&#8217;s a lot. No, it&#8217;s an extraordinary number: Since February, the Firefox team has been working around the clock using frontier AI models to find and fix latent security vulnerabilities in the browser. We wrote previously about our collaboration with Anthropic to scan Firefox with Opus 4.6, which led to fixes for 22 security-sensitive bugs in Firefox 148. As part of our continued collaboration with Anthropic, we had the opportunity to apply an early version of Claude Mythos Preview to Firefox. This week&#8217;s release of Firefox 150 includes fixes for 271 vulnerabilities identified during this initial evaluation...",
     "url": "https://www.schneier.com/blog/archives/2026/04/claude-mythos-has-found-271-zero-days-in-firefox.html",
@@ -35,32 +42,39 @@
     "published": "2026-04-28T11:06:44Z"
   },
   {
-    "title": "Medieval Encrypted Letter Decoded",
-    "summary": "Sent by a Spanish diplomat. Apparently people have been working on it since it was rediscovered in 1860.",
-    "url": "https://www.schneier.com/blog/archives/2026/04/medieval-encrypted-letter-decoded.html",
-    "source": "schneier.com",
-    "published": "2026-04-27T11:04:41Z"
+    "title": "New Python Backdoor Uses Tunneling Service to Steal Browser and Cloud Credentials",
+    "summary": "Cybersecurity researchers have disclosed details of a stealthy Python-based backdoor framework called DEEP#DOOR that comes with capabilities to establish persistent access and harvest a wide range of sensitive information from compromised hosts. \"The intrusion chain begins with execution of a batch script ('install_obf.bat') that disables Windows security controls, dynamically extracts an",
+    "url": "https://thehackernews.com/2026/04/new-python-backdoor-uses-tunneling.html",
+    "source": "feeds.feedburner.com",
+    "published": "Thu, 30 Apr 2026 18:06:00 +0530"
   },
   {
-    "title": "Google Fixes CVSS 10 Gemini CLI CI RCE and Cursor Flaws Enable Code Execution",
-    "summary": "Google has addressed a maximum severity security flaw in Gemini CLI -- the \"@google/gemini-cli\" npm package and the \"google-github-actions/run-gemini-cli\" GitHub Actions workflow -- that could have allowed attackers to execute arbitrary commands on host systems. \"The vulnerability allowed an unprivileged external attacker to force their own malicious content to load as Gemini configuration,\"",
-    "url": "https://thehackernews.com/2026/04/google-fixes-cvss-10-gemini-cli-ci-rce.html",
+    "title": "EtherRAT Distribution Spoofing Administrative Tools via GitHub Facades",
+    "summary": "Intro A sophisticated, high-resilience malicious campaign was identified by Atos Threat Research Center (TRC) in March 2026. This operation specifically targets the high-privilege professional accounts of enterprise administrators, DevOps engineers, and security analysts by impersonating administrative utilities they rely on for daily operations. By integrating&nbsp;Search Engine Order (SEO)",
+    "url": "https://thehackernews.com/2026/04/etherrat-distribution-spoofing.html",
     "source": "feeds.feedburner.com",
-    "published": "Thu, 30 Apr 2026 12:37:00 +0530"
+    "published": "Thu, 30 Apr 2026 17:00:00 +0530"
   },
   {
-    "title": "SAP-Related npm Packages Compromised in Credential-Stealing Supply Chain Attack",
-    "summary": "Cybersecurity researchers are sounding the alarm about a new supply chain attack campaign targeting SAP-related npm Packages with credential-stealing malware. According to reports from Aikido Security, SafeDep, Socket, StepSecurity, and Google-owned Wiz, the campaign – calling itself the mini Shai-Hulud – has affected the following packages associated with SAP's JavaScript and cloud application",
-    "url": "https://thehackernews.com/2026/04/sap-npm-packages-compromised-by-mini.html",
+    "title": "New Linux 'Copy Fail' Vulnerability Enables Root Access on Major Distributions",
+    "summary": "Cybersecurity researchers have disclosed details of a Linux local privilege escalation (LPE) flaw that could allow an unprivileged local user to obtain root. The high-severity vulnerability tracked as CVE-2026-31431 (CVSS score: 7.8) has been codenamed Copy Fail by Xint.io and Theori. \"An unprivileged local user can write four controlled bytes into the page cache of any readable file on a Linux",
+    "url": "https://thehackernews.com/2026/04/new-linux-copy-fail-vulnerability.html",
     "source": "feeds.feedburner.com",
-    "published": "Wed, 29 Apr 2026 21:56:00 +0530"
+    "published": "Thu, 30 Apr 2026 14:54:00 +0530"
   },
   {
-    "title": "New Wave of DPRK Attacks Uses AI-Inserted npm Malware, Fake Firms, and RATs",
-    "summary": "Cybersecurity researchers have discovered malicious code in an npm package after a malicious package as a dependency to the project by Anthropic's Claude Opus large language model (LLM). The package in question is \"@validate-sdk/v2,\" which is listed on npm as a utility software development kit (SDK) for hashing, validation, encoding/decoding, and secure random generation. However, its real",
-    "url": "https://thehackernews.com/2026/04/new-wave-of-dprk-attacks-uses-ai.html",
-    "source": "feeds.feedburner.com",
-    "published": "Wed, 29 Apr 2026 20:13:00 +0530"
+    "title": "Critical cPanel and WHM bug exploited as a zero-day, PoC now available",
+    "summary": "The critical CVE-2026-41940 authentication bypass vulnerability in cPanel, WHM, and WP Squared is being actively exploited in the wild and has been leveraged in attempts since late February. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/critical-cpanel-and-whm-bug-exploited-as-a-zero-day-poc-now-available/",
+    "source": "bleepingcomputer.com",
+    "published": "Thu, 30 Apr 2026 07:40:31 -0400"
+  },
+  {
+    "title": "Police dismantles 9 crypto scam centers, arrests 276 suspects",
+    "summary": "A joint international operation involving U.S. and Chinese authorities arrested at least 276 suspects and shut down nine cryptocurrency investment fraud centers. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/police-dismantles-9-crypto-investment-scam-centers-arrests-276-suspects/",
+    "source": "bleepingcomputer.com",
+    "published": "Thu, 30 Apr 2026 07:21:02 -0400"
   },
   {
     "title": "Official SAP npm packages compromised to steal credentials",
@@ -68,20 +82,6 @@
     "url": "https://www.bleepingcomputer.com/news/security/official-sap-npm-packages-compromised-to-steal-credentials/",
     "source": "bleepingcomputer.com",
     "published": "Wed, 29 Apr 2026 18:43:44 -0400"
-  },
-  {
-    "title": "Popular WordPress redirect plugin hid dormant backdoor for years",
-    "summary": "The Quick Page/Post Redirect plugin, installed on more than 70,000 WordPress sites, had a backdoor added five years ago that allows injecting arbitrary code into users' sites. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/popular-wordpress-redirect-plugin-hid-dormant-backdoor-for-years/",
-    "source": "bleepingcomputer.com",
-    "published": "Wed, 29 Apr 2026 18:13:15 -0400"
-  },
-  {
-    "title": "Hackers exploit RCE flaws in Qinglong task scheduler for cryptomining",
-    "summary": "Hackers are exploiting two authentication bypass vulnerabilities in the Qinglong open-source task scheduling tool to deploy cryptominers on developers' servers. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-rce-flaws-in-qinglong-task-scheduler-for-cryptomining/",
-    "source": "bleepingcomputer.com",
-    "published": "Wed, 29 Apr 2026 16:50:35 -0400"
   },
   {
     "title": "Student Loan Breach Exposes 2.5M Records",
@@ -315,6 +315,13 @@
     "published": "Tue, 11 Nov 2025 19:02:38 +0000"
   },
   {
+    "title": "Check Point Cyber Security Now Available Across All Levels of U.S. Government",
+    "summary": "We’re proud to announce that Check Point has earned GovRAMP Authorization for the Check Point Infinity Platform for Government. This is a big milestone for the company and is a reflection of our unparalleled prevention-first capabilities, which were recently ranked #1 for the fourth consecutive year in Miercom&#8217;s 2026 Hybrid Mesh Network Security Assessment (Check Point achieved the top overall security effectiveness score of 99.8%, with 100% phishing detection and 99.9% AI-powered malware prevention versus leading competitors). Combined with FedRAMP Authorization achieved in 2025, this means Check Point now delivers security-vetted protection across federal, state, local, and tribal governments, providing a consistent, trusted cyber security framework across all levels of U.S. public",
+    "url": "https://blog.checkpoint.com/security/check-point-cyber-security-now-available-across-all-levels-of-u-s-government/",
+    "source": "blog.checkpoint.com",
+    "published": "Thu, 30 Apr 2026 12:00:31 +0000"
+  },
+  {
     "title": "VECT Ransomware: Why Paying Won’t Get Your Files Back",
     "summary": "Do not pay the ransom. VECT permanently destroys large files rather than locking them. Even the attackers cannot recover them. Payment will not restore your data VECT partnered with TeamPCP and BreachForums to build one of the largest ransomware affiliate networks ever assembled, giving them a ready-made pipeline to thousands of potential victims The encryption flaw exists across all versions. Windows, Linux, and ESXi variants are all affected. The bug has been present since before the public 2.0 release and has never been fixed Advertised features don’t work. Encryption speed modes, anti-analysis protections, and other capabilities are either unimplemented or broken Check Point Threat Emulation and Harmony Endpoint provide full protection against all known [&#8230;] The post VECT Ransomwa",
     "url": "https://blog.checkpoint.com/security/vect-ransomware-why-paying-wont-get-your-files-back/",
@@ -327,13 +334,6 @@
     "url": "https://blog.checkpoint.com/securing-the-cloud/check-point-waf-leads-application-security-validated-by-frost-sullivan/",
     "source": "blog.checkpoint.com",
     "published": "Thu, 23 Apr 2026 13:00:40 +0000"
-  },
-  {
-    "title": "From Access Control to Outcome Control: Securing AI Agents with Check Point and Google Cloud",
-    "summary": "AI is changing how software works. Applications no longer just process requests. They reason, make decisions, and take action. AI agents now retrieve data, invoke tools, and execute workflows across systems in real time. That shift introduces a new kind of risk. Because in an agentic world, security is no longer just about who has access. It’s about what AI is allowed to do. A new control point for agentic systems in Google Cloud Google Cloud’s Gemini Enterprise Agent Platform provides a centralized control point for agentic systems enabling identity, access, policy enforcement, and observability across how agents operate. This [&#8230;] The post From Access Control to Outcome Control: Securing AI Agents with Check Point and Google Cloud appeared first on Check Point Blog.",
-    "url": "https://blog.checkpoint.com/artificial-intelligence/from-access-control-to-outcome-control-securing-ai-agents-with-check-point-and-google-cloud/",
-    "source": "blog.checkpoint.com",
-    "published": "Wed, 22 Apr 2026 13:00:31 +0000"
   },
   {
     "title": "High Signal Detection and Exploitation of Ivanti's Pulse Connect Secure Auth Bypass & RCE",
