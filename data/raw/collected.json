@@ -63,25 +63,25 @@
     "published": "Wed, 29 Apr 2026 17:32:00 +0530"
   },
   {
-    "title": "Hackers arrested for hijacking and selling 610,000 Roblox accounts",
-    "summary": "The Ukrainian police have arrested three individuals who hacked more than 610,000 Roblox gaming accounts and sold them for a profit of $225,000. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-arrested-for-hijacking-and-selling-610-000-roblox-accounts/",
+    "title": "Official SAP npm packages compromised to steal credentials",
+    "summary": "Multiple official SAP npm packages were compromised in what is believed to be a TeamPCP supply-chain attack to steal credentials and authentication tokens from developers' systems. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/official-sap-npm-packages-compromised-to-steal-credentials/",
     "source": "bleepingcomputer.com",
-    "published": "Wed, 29 Apr 2026 14:32:15 -0400"
+    "published": "Wed, 29 Apr 2026 18:43:44 -0400"
   },
   {
-    "title": "cPanel, WHM emergency update fixes critical auth bypass bug",
-    "summary": "A critical vulnerability affecting all but the latest versions of cPanel and the WebHost Manager (WHM) dashboard could be exploited to obtain access to the control panel without authentication. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/cpanel-whm-emergency-update-fixes-critical-auth-bypass-bug/",
+    "title": "Popular WordPress redirect plugin hid dormant backdoor for years",
+    "summary": "The Quick Page/Post Redirect plugin, installed on more than 70,000 WordPress sites, had a backdoor added five years ago that allows injecting arbitrary code into users' sites. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/popular-wordpress-redirect-plugin-hid-dormant-backdoor-for-years/",
     "source": "bleepingcomputer.com",
-    "published": "Wed, 29 Apr 2026 11:51:44 -0400"
+    "published": "Wed, 29 Apr 2026 18:13:15 -0400"
   },
   {
-    "title": "European police dismantles €50 million crypto investment fraud ring",
-    "summary": "Austrian and Albanian authorities dismantled a criminal ring accused of running a large-scale cryptocurrency investment fraud operation that caused estimated losses of over €50 million ($58.5 million) to victims worldwide. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/european-police-dismantles-50-million-crypto-investment-fraud-ring/",
+    "title": "Hackers exploit RCE flaws in Qinglong task scheduler for cryptomining",
+    "summary": "Hackers are exploiting two authentication bypass vulnerabilities in the Qinglong open-source task scheduling tool to deploy cryptominers on developers' servers. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-rce-flaws-in-qinglong-task-scheduler-for-cryptomining/",
     "source": "bleepingcomputer.com",
-    "published": "Wed, 29 Apr 2026 10:27:36 -0400"
+    "published": "Wed, 29 Apr 2026 16:50:35 -0400"
   },
   {
     "title": "Student Loan Breach Exposes 2.5M Records",
@@ -378,13 +378,6 @@
     "published": "Thu, 23 Apr 2026 18:00:22 GMT"
   },
   {
-    "title": "CVE-2026-41940",
-    "summary": "CVE-2026-41940 allows unauthenticated access to cPanel and WHM, posing a critical risk to hosting environments and managed infrastructure.",
-    "url": "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-41940/",
-    "source": "horizon3.ai",
-    "published": "Wed, 29 Apr 2026 19:08:39 +0000"
-  },
-  {
     "title": "Project Glasswing & NodeZero® factsheet",
     "summary": "See how Glasswing and NodeZero combine to identify vulnerabilities and validate which ones can actually be exploited.",
     "url": "https://horizon3.ai/downloads/factsheets/project-glasswing-nodezero-factsheet/",
@@ -397,6 +390,13 @@
     "url": "https://horizon3.ai/news/press-release/horizon3-research-security-gap/",
     "source": "horizon3.ai",
     "published": "Tue, 28 Apr 2026 12:05:00 +0000"
+  },
+  {
+    "title": "The State of Assumed Security",
+    "summary": "Most organizations measure activity, not resistance. This report reveals where security assumptions break and real exposure begins.",
+    "url": "https://horizon3.ai/downloads/research/the-state-of-assumed-security/",
+    "source": "horizon3.ai",
+    "published": "Tue, 28 Apr 2026 11:50:00 +0000"
   },
   {
     "title": "Disabling Security Features in a Locked BIOS",
