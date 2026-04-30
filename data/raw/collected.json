@@ -1,5 +1,12 @@
 [
   {
+    "title": "Anti-DDoS Firm Heaped Attacks on Brazilian ISPs",
+    "summary": "A Brazilian tech firm that specializes in protecting networks from distributed denial-of-service (DDoS) attacks has been enabling a botnet responsible for an extended campaign of massive DDoS attacks against other network operators in Brazil, KrebsOnSecurity has learned. The firm's chief executive says the malicious activity resulted from a security breach and was likely the work of a competitor trying to tarnish his company's public image.",
+    "url": "https://krebsonsecurity.com/2026/04/anti-ddos-firm-heaped-attacks-on-brazilian-isps/",
+    "source": "krebsonsecurity.com",
+    "published": "Thu, 30 Apr 2026 14:04:26 +0000"
+  },
+  {
     "title": "‘Scattered Spider’ Member ‘Tylerb’ Pleads Guilty",
     "summary": "A 24-year-old British national and senior member of the cybercrime group \"Scattered Spider\" has pleaded guilty to wire fraud conspiracy and aggravated identity theft. Tyler Robert Buchanan admitted his role in a series of text-message phishing attacks in the summer of 2022 that allowed the group to hack into at least a dozen major technology companies and steal tens of millions of dollars worth of cryptocurrency from investors.",
     "url": "https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/",
@@ -12,13 +19,6 @@
     "url": "https://krebsonsecurity.com/2026/04/patch-tuesday-april-2026-edition/",
     "source": "krebsonsecurity.com",
     "published": "Tue, 14 Apr 2026 21:47:59 +0000"
-  },
-  {
-    "title": "Russia Hacked Routers to Steal Microsoft Office Tokens",
-    "summary": "Hackers linked to Russia's military intelligence units are using known flaws in older Internet routers to mass harvest authentication tokens from Microsoft Office users, security experts warned today. The spying campaign allowed state-backed Russian hackers to quietly siphon authentication tokens from users on more than 18,000 networks without deploying any malicious software or code.",
-    "url": "https://krebsonsecurity.com/2026/04/russia-hacked-routers-to-steal-microsoft-office-tokens/",
-    "source": "krebsonsecurity.com",
-    "published": "Tue, 07 Apr 2026 17:02:44 +0000"
   },
   {
     "title": "Fast16 Malware",
@@ -42,6 +42,20 @@
     "published": "2026-04-28T11:06:44Z"
   },
   {
+    "title": "PyTorch Lightning Compromised in PyPI Supply Chain Attack to Steal Credentials",
+    "summary": "In yet another software supply chain attack, threat actors have managed to compromise the popular Python package Lightning to push two malicious versions to conduct credential theft. According to Aikido Security, Socket, and StepSecurity, the two malicious versions are versions 2.6.2 and 2.6.3, both of which were published on April 30, 2026. The campaign is assessed to be an extension of the",
+    "url": "https://thehackernews.com/2026/04/pytorch-lightning-compromised-in-pypi.html",
+    "source": "feeds.feedburner.com",
+    "published": "Thu, 30 Apr 2026 22:01:00 +0530"
+  },
+  {
+    "title": "ThreatsDay Bulletin: SMS Blaster Busts, OpenEMR Flaws, 600K Roblox Hacks and 25 More Stories",
+    "summary": "The internet is noisy this week. We are seeing some wild new tactics, like people using fake cell towers to send scam texts, while some developers are accidentally downloading tools that peek into their private files during a simple install. It is definitely a busy time to be online. Security is always a moving target. Millions of servers are currently sitting online without any passwords, and",
+    "url": "https://thehackernews.com/2026/04/threatsday-bulletin-sms-blaster-busts.html",
+    "source": "feeds.feedburner.com",
+    "published": "Thu, 30 Apr 2026 19:25:00 +0530"
+  },
+  {
     "title": "New Python Backdoor Uses Tunneling Service to Steal Browser and Cloud Credentials",
     "summary": "Cybersecurity researchers have disclosed details of a stealthy Python-based backdoor framework called DEEP#DOOR that comes with capabilities to establish persistent access and harvest a wide range of sensitive information from compromised hosts. \"The intrusion chain begins with execution of a batch script ('install_obf.bat') that disables Windows security controls, dynamically extracts an",
     "url": "https://thehackernews.com/2026/04/new-python-backdoor-uses-tunneling.html",
@@ -49,39 +63,25 @@
     "published": "Thu, 30 Apr 2026 18:06:00 +0530"
   },
   {
-    "title": "EtherRAT Distribution Spoofing Administrative Tools via GitHub Facades",
-    "summary": "Intro A sophisticated, high-resilience malicious campaign was identified by Atos Threat Research Center (TRC) in March 2026. This operation specifically targets the high-privilege professional accounts of enterprise administrators, DevOps engineers, and security analysts by impersonating administrative utilities they rely on for daily operations. By integrating&nbsp;Search Engine Order (SEO)",
-    "url": "https://thehackernews.com/2026/04/etherrat-distribution-spoofing.html",
-    "source": "feeds.feedburner.com",
-    "published": "Thu, 30 Apr 2026 17:00:00 +0530"
-  },
-  {
-    "title": "New Linux 'Copy Fail' Vulnerability Enables Root Access on Major Distributions",
-    "summary": "Cybersecurity researchers have disclosed details of a Linux local privilege escalation (LPE) flaw that could allow an unprivileged local user to obtain root. The high-severity vulnerability tracked as CVE-2026-31431 (CVSS score: 7.8) has been codenamed Copy Fail by Xint.io and Theori. \"An unprivileged local user can write four controlled bytes into the page cache of any readable file on a Linux",
-    "url": "https://thehackernews.com/2026/04/new-linux-copy-fail-vulnerability.html",
-    "source": "feeds.feedburner.com",
-    "published": "Thu, 30 Apr 2026 14:54:00 +0530"
-  },
-  {
-    "title": "Critical cPanel and WHM bug exploited as a zero-day, PoC now available",
-    "summary": "The critical CVE-2026-41940 authentication bypass vulnerability in cPanel, WHM, and WP Squared is being actively exploited in the wild and has been leveraged in attempts since late February. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/critical-cpanel-and-whm-bug-exploited-as-a-zero-day-poc-now-available/",
+    "title": "New Bluekit phishing service includes an AI assistant, 40 templates",
+    "summary": "A new phishing kit named Bluekit offers more than 40 templates targeting popular services and includes basic AI features for generating campaign drafts. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/new-bluekit-phishing-service-includes-an-ai-assistant-40-templates/",
     "source": "bleepingcomputer.com",
-    "published": "Thu, 30 Apr 2026 07:40:31 -0400"
+    "published": "Thu, 30 Apr 2026 14:58:50 -0400"
   },
   {
-    "title": "Police dismantles 9 crypto scam centers, arrests 276 suspects",
-    "summary": "A joint international operation involving U.S. and Chinese authorities arrested at least 276 suspects and shut down nine cryptocurrency investment fraud centers. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/police-dismantles-9-crypto-investment-scam-centers-arrests-276-suspects/",
+    "title": "Romanian leader of online swatting ring gets 4 years in prison",
+    "summary": "A Romanian national who led an online swatting ring that targeted more than 75 public officials, multiple journalists, and four religious institutions was sentenced to 4 years in federal prison. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/romanian-leader-of-online-swatting-ring-gets-4-years-in-prison/",
     "source": "bleepingcomputer.com",
-    "published": "Thu, 30 Apr 2026 07:21:02 -0400"
+    "published": "Thu, 30 Apr 2026 13:45:12 -0400"
   },
   {
-    "title": "Official SAP npm packages compromised to steal credentials",
-    "summary": "Multiple official SAP npm packages were compromised in what is believed to be a TeamPCP supply-chain attack to steal credentials and authentication tokens from developers' systems. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/official-sap-npm-packages-compromised-to-steal-credentials/",
+    "title": "FBI links cybercriminals to sharp surge in cargo theft attacks",
+    "summary": "The U.S. Federal Bureau of Investigation (FBI) warned the transportation and logistics industry of a sharp rise in cyber-enabled cargo theft, with estimated losses in the United States and Canada reaching nearly $725 million in 2025. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/fbi-links-cybercriminals-to-sharp-surge-in-cargo-theft-attacks/",
     "source": "bleepingcomputer.com",
-    "published": "Wed, 29 Apr 2026 18:43:44 -0400"
+    "published": "Thu, 30 Apr 2026 12:32:18 -0400"
   },
   {
     "title": "Student Loan Breach Exposes 2.5M Records",
@@ -105,6 +105,13 @@
     "published": "Mon, 29 Aug 2022 14:56:19 +0000"
   },
   {
+    "title": "Post-quantum encryption for Cloudflare IPsec is generally available",
+    "summary": "Cloudflare IPsec now has generally available support for post-quantum encryption via hybrid ML-KEM. We’ve confirmed interoperability with Cisco and Fortinet.",
+    "url": "https://blog.cloudflare.com/post-quantum-ipsec/",
+    "source": "blog.cloudflare.com",
+    "published": "Thu, 30 Apr 2026 14:00:00 GMT"
+  },
+  {
     "title": "Agents can now create Cloudflare accounts, buy domains, and deploy",
     "summary": "Starting today, agents can now be Cloudflare customers. They can create a Cloudflare account, start a paid subscription, register a domain, and get back an API token to deploy code right away. Humans can be in the loop to grant permission, but there’s no need to go to the dashboard, copy and paste API tokens, or enter credit card details.",
     "url": "https://blog.cloudflare.com/agents-stripe-projects/",
@@ -117,13 +124,6 @@
     "url": "https://blog.cloudflare.com/q1-2026-internet-disruption-summary/",
     "source": "blog.cloudflare.com",
     "published": "Tue, 28 Apr 2026 13:00:00 GMT"
-  },
-  {
-    "title": "Making Rust Workers reliable: panic and abort recovery in wasm‑bindgen",
-    "summary": "Panics in Rust Workers were historically fatal, poisoning the entire instance. By collaborating upstream on the wasm‑bindgen project, Rust Workers now support resilient critical error recovery, including panic unwinding using WebAssembly Exception Handling.",
-    "url": "https://blog.cloudflare.com/making-rust-workers-reliable/",
-    "source": "blog.cloudflare.com",
-    "published": "Wed, 22 Apr 2026 13:00:00 GMT"
   },
   {
     "title": "The npm Threat Landscape: Attack Surface and Mitigations",
@@ -357,6 +357,13 @@
     "published": "Wed, 04 Oct 2023 08:33:19 +1100"
   },
   {
+    "title": "Great responsibility, without great power",
+    "summary": "In this week’s newsletter, Hazel uses International Superhero Day as a springboard to explore why empathy — rather than just technical prowess — is the most essential, underrated superpower for navigating the human side of cybersecurity.",
+    "url": "https://blog.talosintelligence.com/great-responsibility-without-great-power/",
+    "source": "blog.talosintelligence.com",
+    "published": "Thu, 30 Apr 2026 18:00:07 GMT"
+  },
+  {
     "title": "AI-powered honeypots: Turning the tables on malicious AI agents",
     "summary": "Just as AI brings time-saving advantages to our lives, it brings similar advantages to threat actors. We can take the advantage back. This blog shows how generative AI can be used to rapidly deploy adaptive honeypot systems.",
     "url": "https://blog.talosintelligence.com/ai-powered-honeypots-turning-the-tables-on-malicious-ai-agents/",
@@ -371,11 +378,11 @@
     "published": "Tue, 28 Apr 2026 13:23:20 GMT"
   },
   {
-    "title": "It pays to be a forever student",
-    "summary": "In this newsletter, Joe discusses why understanding other disciplines can often flow back into the macro and micro of cybersecurity, especially in a world of AI.",
-    "url": "https://blog.talosintelligence.com/it-pays-to-be-a-forever-student/",
-    "source": "blog.talosintelligence.com",
-    "published": "Thu, 23 Apr 2026 18:00:22 GMT"
+    "title": "CVE-2026-41940",
+    "summary": "CVE-2026-41940 allows unauthenticated access to cPanel and WHM, posing a critical risk to hosting environments and managed infrastructure.",
+    "url": "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-41940/",
+    "source": "horizon3.ai",
+    "published": "Wed, 29 Apr 2026 19:08:39 +0000"
   },
   {
     "title": "Project Glasswing & NodeZero® factsheet",
@@ -390,13 +397,6 @@
     "url": "https://horizon3.ai/news/press-release/horizon3-research-security-gap/",
     "source": "horizon3.ai",
     "published": "Tue, 28 Apr 2026 12:05:00 +0000"
-  },
-  {
-    "title": "The State of Assumed Security",
-    "summary": "Most organizations measure activity, not resistance. This report reveals where security assumptions break and real exposure begins.",
-    "url": "https://horizon3.ai/downloads/research/the-state-of-assumed-security/",
-    "source": "horizon3.ai",
-    "published": "Tue, 28 Apr 2026 11:50:00 +0000"
   },
   {
     "title": "Disabling Security Features in a Locked BIOS",
