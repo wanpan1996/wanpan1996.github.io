@@ -42,6 +42,20 @@
     "published": "2026-04-29T10:12:17Z"
   },
   {
+    "title": "Cybercrime Groups Using Vishing and SSO Abuse in Rapid SaaS Extortion Attacks",
+    "summary": "Cybersecurity researchers are warning of two cybercrime groups that are carrying out \"rapid, high-impact attacks\" operating almost within the confines of SaaS environments, while leaving minimal traces of their actions. The clusters, Cordial Spider (aka BlackFile, CL-CRI-1116, O-UNC-045, and UNC6671) and Snarky Spider (aka O-UNC-025 and UNC6661), have been attributed to high-speed data theft and",
+    "url": "https://thehackernews.com/2026/05/cybercrime-groups-using-vishing-and-sso.html",
+    "source": "feeds.feedburner.com",
+    "published": "Fri, 01 May 2026 19:56:00 +0530"
+  },
+  {
+    "title": "China-Linked Hackers Target Asian Governments, NATO State, Journalists, and Activists",
+    "summary": "Cybersecurity researchers have disclosed details of a new China-aligned espionage campaign targeting government and defense sectors across South, East, and Southeast Asia, along with one European government belonging to NATO. Trend Micro has attributed the activity to a threat activity cluster it tracks under the temporary designation SHADOW-EARTH-053. The adversarial collective is assessed to",
+    "url": "https://thehackernews.com/2026/05/china-linked-hackers-target-asian.html",
+    "source": "feeds.feedburner.com",
+    "published": "Fri, 01 May 2026 19:32:00 +0530"
+  },
+  {
     "title": "Top Five Sales Challenges Costing MSPs Cybersecurity Revenue",
     "summary": "The managed security services market is projected to grow from $38.31 billion in 2025 to $69.16 billion by 2030[1], with cybersecurity being the fastest-growing sector[2]. Despite this opportunity, many MSPs leave revenue on the table because their go-to-market strategy fails to connect technical expertise with business needs. This execution gap is where most deals stall. MSPs often focus on",
     "url": "https://thehackernews.com/2026/05/top-five-sales-challenges-costing-msps.html",
@@ -49,39 +63,25 @@
     "published": "Fri, 01 May 2026 16:00:00 +0530"
   },
   {
-    "title": "Two Cybersecurity Professionals Get 4-Year Sentences in BlackCat Ransomware Attacks",
-    "summary": "The U.S. Department of Justice (DoJ) on Thursday announced the sentencing of two cybersecurity professionals to four years each in prison for their role in facilitating BlackCat ransomware attacks in 2023. Ryan Goldberg, 40, of Georgia, and Kevin Martin, 36, of Texas, were accused of deploying the ransomware against multiple victims located throughout the U.S. between April and December 2023.",
-    "url": "https://thehackernews.com/2026/05/two-cybersecurity-professionals-get-4.html",
-    "source": "feeds.feedburner.com",
-    "published": "Fri, 01 May 2026 15:26:00 +0530"
-  },
-  {
-    "title": "Poisoned Ruby Gems and Go Modules Exploit CI Pipelines for Credential Theft",
-    "summary": "A new software supply chain attack campaign has been observed using sleeper packages as a conduit to subsequently push malicious payloads that enabled credential theft, GitHub Actions tampering, and SSH persistence. The activity has been attributed to the GitHub account \"BufferZoneCorp,\" which has published a set of repositories that are associated with malicious Ruby gems and Go modules. As of",
-    "url": "https://thehackernews.com/2026/05/poisoned-ruby-gems-and-go-modules.html",
-    "source": "feeds.feedburner.com",
-    "published": "Fri, 01 May 2026 15:13:00 +0530"
-  },
-  {
-    "title": "Microsoft fixes Remote Desktop warnings displaying incorrectly",
-    "summary": "Microsoft has fixed a known issue causing newly introduced Windows security warnings to display incorrectly when opening Remote Desktop (.rdp) files. [...]",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-remote-desktop-warnings-displaying-incorrectly/",
+    "title": "15-year-old detained over French govt agency data breach",
+    "summary": "French authorities have detained a 15-year-old suspected of selling data stolen in a cyberattack on France Titres (ANTS), the country's agency for issuing and managing administrative documents. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/15-year-old-detained-over-french-govt-agency-data-breach/",
     "source": "bleepingcomputer.com",
-    "published": "Fri, 01 May 2026 08:46:48 -0400"
+    "published": "Fri, 01 May 2026 13:52:06 -0400"
   },
   {
-    "title": "Microsoft now lets admins choose pre-installed Store apps to uninstall",
-    "summary": "Microsoft has updated a Windows 11 in-box app removal policy introduced in October to include a dynamic list that lets IT admins choose which preinstalled Store apps to uninstall. [...]",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-now-lets-admins-choose-pre-installed-store-apps-to-uninstall/",
+    "title": "Story retracted",
+    "summary": "BleepingComputer initially published a story about a new data breach at Instructure. Shortly after publication, we determined that the information was incorrect and primarily based on outdated details from a prior incident. The article has been retracted, and we regret the error. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/story-retracted/",
     "source": "bleepingcomputer.com",
-    "published": "Fri, 01 May 2026 07:10:07 -0400"
+    "published": "Fri, 01 May 2026 12:26:28 -0400"
   },
   {
-    "title": "Windows 11 KB5083631 update released with 34 changes and fixes",
-    "summary": "Microsoft has released the KB5083631 optional cumulative update for Windows 11, which includes 34 changes, such as a new Xbox mode for Windows PCs, enhanced security and performance for batch files, and performance improvements for launching startup apps. [...]",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5083631-update-released-with-34-changes-and-fixes/",
+    "title": "Criminal IP and Securonix ThreatQ Collaborate to Enhance Threat Intelligence Operations",
+    "summary": "Raw threat intel isn't enough without real-world context. Criminal IP has partnered with Securonix to integrate exposure-based intelligence into ThreatQ, automating analysis and speeding up investigations. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/criminal-ip-and-securonix-threatq-collaborate-to-enhance-threat-intelligence-operations/",
     "source": "bleepingcomputer.com",
-    "published": "Fri, 01 May 2026 06:00:53 -0400"
+    "published": "Fri, 01 May 2026 10:02:12 -0400"
   },
   {
     "title": "Student Loan Breach Exposes 2.5M Records",
@@ -105,6 +105,13 @@
     "published": "Mon, 29 Aug 2022 14:56:19 +0000"
   },
   {
+    "title": "Introducing Dynamic Workflows: durable execution that follows the tenant",
+    "summary": "Dynamic Workflows is a library that lets you route durable execution to tenant-provided code on the fly. Built on Dynamic Workers, it enables platforms to serve millions of unique workflows at near-zero idle cost.",
+    "url": "https://blog.cloudflare.com/dynamic-workflows/",
+    "source": "blog.cloudflare.com",
+    "published": "Fri, 01 May 2026 13:00:00 GMT"
+  },
+  {
     "title": "Post-quantum encryption for Cloudflare IPsec is generally available",
     "summary": "Cloudflare IPsec now has generally available support for post-quantum encryption via hybrid ML-KEM. We’ve confirmed interoperability with Cisco and Fortinet.",
     "url": "https://blog.cloudflare.com/post-quantum-ipsec/",
@@ -117,13 +124,6 @@
     "url": "https://blog.cloudflare.com/agents-stripe-projects/",
     "source": "blog.cloudflare.com",
     "published": "Thu, 30 Apr 2026 13:00:00 GMT"
-  },
-  {
-    "title": "Shutdowns, power outages, and conflict: a review of Q1 2026 Internet disruptions",
-    "summary": "The first quarter of 2026 saw a surge in Internet disruptions, from nationwide shutdowns in Uganda and Iran to unprecedented drone strikes on cloud infrastructure. We explore the data behind these events using Cloudflare Radar.",
-    "url": "https://blog.cloudflare.com/q1-2026-internet-disruption-summary/",
-    "source": "blog.cloudflare.com",
-    "published": "Tue, 28 Apr 2026 13:00:00 GMT"
   },
   {
     "title": "That AI Extension Helping You Write Emails? It’s Reading Them First",
