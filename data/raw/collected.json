@@ -21,6 +21,13 @@
     "published": "Tue, 14 Apr 2026 21:47:59 +0000"
   },
   {
+    "title": "A Ransomware Negotiator Was Working for a Ransomware Gang",
+    "summary": "Someone pleaded guilty to secretly working for a ransomware gang as he negotiated ransomware payments for clients.",
+    "url": "https://www.schneier.com/blog/archives/2026/05/a-ransomware-negotiator-was-working-for-a-ransomware-gang.html",
+    "source": "schneier.com",
+    "published": "2026-05-01T11:18:43Z"
+  },
+  {
     "title": "Fast16 Malware",
     "summary": "Researchers have reverse-engineered a piece of malware named Fast16. It&#8217;s almost certainly state-sponsored, probably US in origin, and was deployed against Iran years before Stuxnet: &#8220;&#8230;the Fast16 malware was designed to carry out the most subtle form of sabotage ever seen in an in-the-wild malware tool: By automatically spreading across networks and then silently manipulating computation processes in certain software applications that perform high-precision mathematical calculations and simulate physical phenomena, Fast16 can alter the results of those programs to cause failures that range from faulty research results to catastrophic damage to real-world equipment.&#8221;...",
     "url": "https://www.schneier.com/blog/archives/2026/04/fast16-malware.html",
@@ -35,53 +42,46 @@
     "published": "2026-04-29T10:12:17Z"
   },
   {
-    "title": "What Anthropic’s Mythos Means for the Future of Cybersecurity",
-    "summary": "Two weeks ago, Anthropic announced that its new model, Claude Mythos Preview, can autonomously find and weaponize software vulnerabilities, turning them into working exploits without expert guidance. These were vulnerabilities in key software like operating systems and internet infrastructure that thousands of software developers working on those systems failed to find. This capability will have major security implications, compromising the devices and services we use every day. As a result, Anthropic is not releasing the model to the general public, but instead to a ...",
-    "url": "https://www.schneier.com/blog/archives/2026/04/what-anthropics-mythos-means-for-the-future-of-cybersecurity.html",
-    "source": "schneier.com",
-    "published": "2026-04-28T11:06:44Z"
-  },
-  {
-    "title": "PyTorch Lightning and Intercom-client Hit in Supply Chain Attacks to Steal Credentials",
-    "summary": "In yet another software supply chain attack, threat actors have managed to compromise the popular Python package Lightning to push two malicious versions to conduct credential theft. According to Aikido Security, OX Security, Socket, and StepSecurity, the two malicious versions are versions 2.6.2 and 2.6.3, both of which were published on April 30, 2026. The campaign is assessed to be an",
-    "url": "https://thehackernews.com/2026/04/pytorch-lightning-compromised-in-pypi.html",
+    "title": "Top Five Sales Challenges Costing MSPs Cybersecurity Revenue",
+    "summary": "The managed security services market is projected to grow from $38.31 billion in 2025 to $69.16 billion by 2030[1], with cybersecurity being the fastest-growing sector[2]. Despite this opportunity, many MSPs leave revenue on the table because their go-to-market strategy fails to connect technical expertise with business needs. This execution gap is where most deals stall. MSPs often focus on",
+    "url": "https://thehackernews.com/2026/05/top-five-sales-challenges-costing-msps.html",
     "source": "feeds.feedburner.com",
-    "published": "Thu, 30 Apr 2026 22:01:00 +0530"
+    "published": "Fri, 01 May 2026 16:00:00 +0530"
   },
   {
-    "title": "ThreatsDay Bulletin: SMS Blaster Busts, OpenEMR Flaws, 600K Roblox Hacks and 25 More Stories",
-    "summary": "The internet is noisy this week. We are seeing some wild new tactics, like people using fake cell towers to send scam texts, while some developers are accidentally downloading tools that peek into their private files during a simple install. It is definitely a busy time to be online. Security is always a moving target. Millions of servers are currently sitting online without any passwords, and",
-    "url": "https://thehackernews.com/2026/04/threatsday-bulletin-sms-blaster-busts.html",
+    "title": "Two Cybersecurity Professionals Get 4-Year Sentences in BlackCat Ransomware Attacks",
+    "summary": "The U.S. Department of Justice (DoJ) on Thursday announced the sentencing of two cybersecurity professionals to four years each in prison for their role in facilitating BlackCat ransomware attacks in 2023. Ryan Goldberg, 40, of Georgia, and Kevin Martin, 36, of Texas, were accused of deploying the ransomware against multiple victims located throughout the U.S. between April and December 2023.",
+    "url": "https://thehackernews.com/2026/05/two-cybersecurity-professionals-get-4.html",
     "source": "feeds.feedburner.com",
-    "published": "Thu, 30 Apr 2026 19:25:00 +0530"
+    "published": "Fri, 01 May 2026 15:26:00 +0530"
   },
   {
-    "title": "New Python Backdoor Uses Tunneling Service to Steal Browser and Cloud Credentials",
-    "summary": "Cybersecurity researchers have disclosed details of a stealthy Python-based backdoor framework called DEEP#DOOR that comes with capabilities to establish persistent access and harvest a wide range of sensitive information from compromised hosts. \"The intrusion chain begins with execution of a batch script ('install_obf.bat') that disables Windows security controls, dynamically extracts an",
-    "url": "https://thehackernews.com/2026/04/new-python-backdoor-uses-tunneling.html",
+    "title": "Poisoned Ruby Gems and Go Modules Exploit CI Pipelines for Credential Theft",
+    "summary": "A new software supply chain attack campaign has been observed using sleeper packages as a conduit to subsequently push malicious payloads that enabled credential theft, GitHub Actions tampering, and SSH persistence. The activity has been attributed to the GitHub account \"BufferZoneCorp,\" which has published a set of repositories that are associated with malicious Ruby gems and Go modules. As of",
+    "url": "https://thehackernews.com/2026/05/poisoned-ruby-gems-and-go-modules.html",
     "source": "feeds.feedburner.com",
-    "published": "Thu, 30 Apr 2026 18:06:00 +0530"
+    "published": "Fri, 01 May 2026 15:13:00 +0530"
   },
   {
-    "title": "US ransomware negotiators get 4 years in prison over BlackCat attacks",
-    "summary": "Two former employees of cybersecurity incident response companies Sygnia and DigitalMint were sentenced to four years in prison each for targeting U.S. companies in BlackCat (ALPHV) ransomware attacks. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/us-ransomware-negotiators-get-4-years-in-prison-over-blackcat-attacks/",
+    "title": "Microsoft fixes Remote Desktop warnings displaying incorrectly",
+    "summary": "Microsoft has fixed a known issue causing newly introduced Windows security warnings to display incorrectly when opening Remote Desktop (.rdp) files. [...]",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-remote-desktop-warnings-displaying-incorrectly/",
     "source": "bleepingcomputer.com",
-    "published": "Fri, 01 May 2026 03:47:11 -0400"
+    "published": "Fri, 01 May 2026 08:46:48 -0400"
   },
   {
-    "title": "New Bluekit phishing service includes an AI assistant, 40 templates",
-    "summary": "A new phishing kit named Bluekit offers more than 40 templates targeting popular services and includes basic AI features for generating campaign drafts. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/new-bluekit-phishing-service-includes-an-ai-assistant-40-templates/",
+    "title": "Microsoft now lets admins choose pre-installed Store apps to uninstall",
+    "summary": "Microsoft has updated a Windows 11 in-box app removal policy introduced in October to include a dynamic list that lets IT admins choose which preinstalled Store apps to uninstall. [...]",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-now-lets-admins-choose-pre-installed-store-apps-to-uninstall/",
     "source": "bleepingcomputer.com",
-    "published": "Thu, 30 Apr 2026 14:58:50 -0400"
+    "published": "Fri, 01 May 2026 07:10:07 -0400"
   },
   {
-    "title": "Romanian leader of online swatting ring gets 4 years in prison",
-    "summary": "A Romanian national who led an online swatting ring that targeted more than 75 public officials, multiple journalists, and four religious institutions was sentenced to 4 years in federal prison. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/romanian-leader-of-online-swatting-ring-gets-4-years-in-prison/",
+    "title": "Windows 11 KB5083631 update released with 34 changes and fixes",
+    "summary": "Microsoft has released the KB5083631 optional cumulative update for Windows 11, which includes 34 changes, such as a new Xbox mode for Windows PCs, enhanced security and performance for batch files, and performance improvements for launching startup apps. [...]",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5083631-update-released-with-34-changes-and-fixes/",
     "source": "bleepingcomputer.com",
-    "published": "Thu, 30 Apr 2026 13:45:12 -0400"
+    "published": "Fri, 01 May 2026 06:00:53 -0400"
   },
   {
     "title": "Student Loan Breach Exposes 2.5M Records",
