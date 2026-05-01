@@ -42,8 +42,8 @@
     "published": "2026-04-28T11:06:44Z"
   },
   {
-    "title": "PyTorch Lightning Compromised in PyPI Supply Chain Attack to Steal Credentials",
-    "summary": "In yet another software supply chain attack, threat actors have managed to compromise the popular Python package Lightning to push two malicious versions to conduct credential theft. According to Aikido Security, Socket, and StepSecurity, the two malicious versions are versions 2.6.2 and 2.6.3, both of which were published on April 30, 2026. The campaign is assessed to be an extension of the",
+    "title": "PyTorch Lightning and Intercom-client Hit in Supply Chain Attacks to Steal Credentials",
+    "summary": "In yet another software supply chain attack, threat actors have managed to compromise the popular Python package Lightning to push two malicious versions to conduct credential theft. According to Aikido Security, OX Security, Socket, and StepSecurity, the two malicious versions are versions 2.6.2 and 2.6.3, both of which were published on April 30, 2026. The campaign is assessed to be an",
     "url": "https://thehackernews.com/2026/04/pytorch-lightning-compromised-in-pypi.html",
     "source": "feeds.feedburner.com",
     "published": "Thu, 30 Apr 2026 22:01:00 +0530"
@@ -126,6 +126,13 @@
     "published": "Tue, 28 Apr 2026 13:00:00 GMT"
   },
   {
+    "title": "That AI Extension Helping You Write Emails? It’s Reading Them First",
+    "summary": "Unit 42 uncovers high-risk AI browser extensions. Disguised as productivity tools, they steal data, intercept prompts, and exfiltrate passwords. Protect your browser. The post That AI Extension Helping You Write Emails? It’s Reading Them First appeared first on Unit 42.",
+    "url": "https://unit42.paloaltonetworks.com/high-risk-gen-ai-browser-extensions/",
+    "source": "unit42.paloaltonetworks.com",
+    "published": "Thu, 30 Apr 2026 22:00:57 +0000"
+  },
+  {
     "title": "The npm Threat Landscape: Attack Surface and Mitigations",
     "summary": "Unit 42 analyzes npm supply chain evolution post-Shai Hulud. Discover wormable malware, CI/CD persistence, multi-stage attacks and more. The post The npm Threat Landscape: Attack Surface and Mitigations appeared first on Unit 42.",
     "url": "https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/",
@@ -138,13 +145,6 @@
     "url": "https://unit42.paloaltonetworks.com/new-activity-central-south-america/",
     "source": "unit42.paloaltonetworks.com",
     "published": "Fri, 24 Apr 2026 20:30:19 +0000"
-  },
-  {
-    "title": "Frontier AI and the Future of Defense: Your Top Questions Answered",
-    "summary": "What are the next steps for security leaders in this new age of frontier AI? We answer the top 10 questions customers are asking. The post Frontier AI and the Future of Defense: Your Top Questions Answered appeared first on Unit 42.",
-    "url": "https://unit42.paloaltonetworks.com/frontier-ai-top-questions-answered/",
-    "source": "unit42.paloaltonetworks.com",
-    "published": "Thu, 23 Apr 2026 20:45:50 +0000"
   },
   {
     "title": "fast16 | Mystery ShadowBrokers Reference Reveals High-Precision Software Sabotage 5 Years Before Stuxnet",
