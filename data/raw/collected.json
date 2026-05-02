@@ -42,6 +42,13 @@
     "published": "2026-04-29T10:12:17Z"
   },
   {
+    "title": "Trellix Confirms Source Code Breach With Unauthorized Repository Access",
+    "summary": "Cybersecurity company Trellix has announced that it suffered a breach that enabled unauthorized access to a \"portion\" of its source code. It said it \"recently identified\" the compromise of its source code repository and that it began working with \"leading forensic experts\" to resolve the matter immediately. It also said it has notified law enforcement of the matter. Trellix did not disclose the",
+    "url": "https://thehackernews.com/2026/05/trellix-confirms-source-code-breach.html",
+    "source": "feeds.feedburner.com",
+    "published": "Sat, 02 May 2026 12:11:00 +0530"
+  },
+  {
     "title": "30,000 Facebook Accounts Hacked via Google AppSheet Phishing Campaign",
     "summary": "A newly discovered Vietnamese-linked operation has been observed using a Google AppSheet as a \"phishing relay\" to distribute phishing emails with an aim to compromise Facebook accounts. The activity has been codenamed AccountDumpling by Guardio, with the scheme selling the stolen accounts back through an illicit storefront run by the threat actors. In all, roughly 30,000 Facebook accounts are",
     "url": "https://thehackernews.com/2026/05/30000-facebook-accounts-hacked-via.html",
@@ -54,13 +61,6 @@
     "url": "https://thehackernews.com/2026/05/cybercrime-groups-using-vishing-and-sso.html",
     "source": "feeds.feedburner.com",
     "published": "Fri, 01 May 2026 19:56:00 +0530"
-  },
-  {
-    "title": "China-Linked Hackers Target Asian Governments, NATO State, Journalists, and Activists",
-    "summary": "Cybersecurity researchers have disclosed details of a new China-aligned espionage campaign targeting government and defense sectors across South, East, and Southeast Asia, along with one European government belonging to NATO. Trend Micro has attributed the activity to a threat activity cluster it tracks under the temporary designation SHADOW-EARTH-053. The adversarial collective is assessed to",
-    "url": "https://thehackernews.com/2026/05/china-linked-hackers-target-asian.html",
-    "source": "feeds.feedburner.com",
-    "published": "Fri, 01 May 2026 19:32:00 +0530"
   },
   {
     "title": "Microsoft tests modern Windows Run, says it's faster than legacy dialog",
