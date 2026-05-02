@@ -63,6 +63,13 @@
     "published": "Fri, 01 May 2026 19:56:00 +0530"
   },
   {
+    "title": "ConsentFix v3 attacks target Azure with automated OAuth abuse",
+    "summary": "A new attack type, dubbed ConsentFix v3, has been circulating on hacker forums, building on the previous technique by adding automation and scaling potential. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/consentfix-v3-attacks-target-azure-with-automated-oauth-abuse/",
+    "source": "bleepingcomputer.com",
+    "published": "Sat, 02 May 2026 10:32:25 -0400"
+  },
+  {
     "title": "Microsoft tests modern Windows Run, says it's faster than legacy dialog",
     "summary": "Microsoft has confirmed that Windows 11 is getting a new modern Run dialog with dark mode support and faster performance in a new preview build. [...]",
     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-modern-windows-run-says-its-faster-than-legacy-dialog/",
@@ -75,13 +82,6 @@
     "url": "https://www.bleepingcomputer.com/news/security/edu-tech-firm-instructure-discloses-cyber-incident-probes-impact/",
     "source": "bleepingcomputer.com",
     "published": "Fri, 01 May 2026 19:43:35 -0400"
-  },
-  {
-    "title": "15-year-old detained over French govt agency data breach",
-    "summary": "French authorities have detained a 15-year-old suspected of selling data stolen in a cyberattack on France Titres (ANTS), the country's agency for issuing and managing administrative documents. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/15-year-old-detained-over-french-govt-agency-data-breach/",
-    "source": "bleepingcomputer.com",
-    "published": "Fri, 01 May 2026 13:52:06 -0400"
   },
   {
     "title": "Student Loan Breach Exposes 2.5M Records",
