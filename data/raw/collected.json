@@ -63,6 +63,13 @@
     "published": "Fri, 01 May 2026 19:56:00 +0530"
   },
   {
+    "title": "Critrical cPanel flaw mass-exploited in \"Sorry\" ransomware attacks",
+    "summary": "A new disclosed cPanel flaw tracked as CVE-2026-41940 is being mass-exploited to breach websites and encrypt data in \"Sorry\" ransomware attacks. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/critrical-cpanel-flaw-mass-exploited-in-sorry-ransomware-attacks/",
+    "source": "bleepingcomputer.com",
+    "published": "Sat, 02 May 2026 17:54:00 -0400"
+  },
+  {
     "title": "ConsentFix v3 attacks target Azure with automated OAuth abuse",
     "summary": "A new attack type, dubbed ConsentFix v3, has been circulating on hacker forums, building on the previous technique by adding automation and scaling potential. [...]",
     "url": "https://www.bleepingcomputer.com/news/security/consentfix-v3-attacks-target-azure-with-automated-oauth-abuse/",
@@ -75,13 +82,6 @@
     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-modern-windows-run-says-its-faster-than-legacy-dialog/",
     "source": "bleepingcomputer.com",
     "published": "Fri, 01 May 2026 20:18:05 -0400"
-  },
-  {
-    "title": "Edu tech firm Instructure discloses cyber incident, probes impact",
-    "summary": "Instructure, the company behind the widely used Canvas learning platform, has disclosed that it recently suffered a cybersecurity incident and is now investigating its impact. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/edu-tech-firm-instructure-discloses-cyber-incident-probes-impact/",
-    "source": "bleepingcomputer.com",
-    "published": "Fri, 01 May 2026 19:43:35 -0400"
   },
   {
     "title": "Student Loan Breach Exposes 2.5M Records",
