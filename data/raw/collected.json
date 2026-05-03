@@ -63,25 +63,25 @@
     "published": "Fri, 01 May 2026 23:39:00 +0530"
   },
   {
+    "title": "Microsoft Defender wrongly flags DigiCert certs as Trojan:Win32/Cerdigent.A!dha",
+    "summary": "Microsoft Defender is detecting legitimate DigiCert root certificates as Trojan:Win32/Cerdigent.A!dha, resulting in widespread false-positive alerts, and in some cases, removing certificates from Windows. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/microsoft-defender-wrongly-flags-digicert-certs-as-trojan-win32-cerdigentadha/",
+    "source": "bleepingcomputer.com",
+    "published": "Sun, 03 May 2026 14:11:25 -0400"
+  },
+  {
+    "title": "Telegram Mini Apps abused for crypto scams, Android malware delivery",
+    "summary": "Cybersecurity researchers have uncovered a large-scale fraud operation that uses Telegram's Mini App feature to run crypto scams, impersonate well-known brands, and distribute Android malware. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/telegram-mini-apps-abused-for-crypto-scams-android-malware-delivery/",
+    "source": "bleepingcomputer.com",
+    "published": "Sun, 03 May 2026 10:11:21 -0400"
+  },
+  {
     "title": "Critrical cPanel flaw mass-exploited in \"Sorry\" ransomware attacks",
     "summary": "A new disclosed cPanel flaw tracked as CVE-2026-41940 is being mass-exploited to breach websites and encrypt data in \"Sorry\" ransomware attacks. [...]",
     "url": "https://www.bleepingcomputer.com/news/security/critrical-cpanel-flaw-mass-exploited-in-sorry-ransomware-attacks/",
     "source": "bleepingcomputer.com",
     "published": "Sat, 02 May 2026 17:54:00 -0400"
-  },
-  {
-    "title": "ConsentFix v3 attacks target Azure with automated OAuth abuse",
-    "summary": "A new attack type, dubbed ConsentFix v3, has been circulating on hacker forums, building on the previous technique by adding automation and scaling potential. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/consentfix-v3-attacks-target-azure-with-automated-oauth-abuse/",
-    "source": "bleepingcomputer.com",
-    "published": "Sat, 02 May 2026 10:32:25 -0400"
-  },
-  {
-    "title": "Microsoft tests modern Windows Run, says it's faster than legacy dialog",
-    "summary": "Microsoft has confirmed that Windows 11 is getting a new modern Run dialog with dark mode support and faster performance in a new preview build. [...]",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-modern-windows-run-says-its-faster-than-legacy-dialog/",
-    "source": "bleepingcomputer.com",
-    "published": "Fri, 01 May 2026 20:18:05 -0400"
   },
   {
     "title": "Student Loan Breach Exposes 2.5M Records",
