@@ -42,6 +42,13 @@
     "published": "2026-04-29T10:12:17Z"
   },
   {
+    "title": "Global Crackdown Arrests 276, Shuts 9 Crypto Scam Centers, Seizes $701M",
+    "summary": "A coordinated international operation involving U.S. and Chinese authorities has arrested at least 276 suspects and shut down nine scam centers used for cryptocurrency investment fraud schemes targeting Americans, resulting in millions of dollars in losses. The crackdown was led by the Dubai Police, under the United Arab Emirates (UAE) Ministry of Interior, in partnership with the U.S. Federal",
+    "url": "https://thehackernews.com/2026/05/global-crackdown-arrests-276-shuts-9.html",
+    "source": "feeds.feedburner.com",
+    "published": "Mon, 04 May 2026 11:29:00 +0530"
+  },
+  {
     "title": "CISA Adds Actively Exploited Linux Root Access Bug CVE-2026-31431 to KEV",
     "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a recently disclosed security flaw impacting various Linux distributions to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation in the wild. The vulnerability, tracked as CVE-2026-31431 (CVSS score: 7.8), is a case of local privilege escalation (LPE) flaw that could allow an",
     "url": "https://thehackernews.com/2026/05/cisa-adds-actively-exploited-linux-root.html",
@@ -54,13 +61,6 @@
     "url": "https://thehackernews.com/2026/05/trellix-confirms-source-code-breach.html",
     "source": "feeds.feedburner.com",
     "published": "Sat, 02 May 2026 12:11:00 +0530"
-  },
-  {
-    "title": "30,000 Facebook Accounts Hacked via Google AppSheet Phishing Campaign",
-    "summary": "A newly discovered Vietnamese-linked operation has been observed using a Google AppSheet as a \"phishing relay\" to distribute phishing emails with an aim to compromise Facebook accounts. The activity has been codenamed AccountDumpling by Guardio, with the scheme selling the stolen accounts back through an illicit storefront run by the threat actors. In all, roughly 30,000 Facebook accounts are",
-    "url": "https://thehackernews.com/2026/05/30000-facebook-accounts-hacked-via.html",
-    "source": "feeds.feedburner.com",
-    "published": "Fri, 01 May 2026 23:39:00 +0530"
   },
   {
     "title": "Instructure confirms data breach, ShinyHunters claims attack",
