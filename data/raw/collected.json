@@ -63,6 +63,13 @@
     "published": "Fri, 01 May 2026 23:39:00 +0530"
   },
   {
+    "title": "Instructure confirms data breach, ShinyHunters claims attack",
+    "summary": "Educational tech giant Instructure has confirmed that data was stolen in a cyberattack, with the ShinyHunters extortion gang claiming responsibility. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/instructure-confirms-data-breach-shinyhunters-claims-attack/",
+    "source": "bleepingcomputer.com",
+    "published": "Sun, 03 May 2026 18:16:27 -0400"
+  },
+  {
     "title": "Microsoft Defender wrongly flags DigiCert certs as Trojan:Win32/Cerdigent.A!dha",
     "summary": "Microsoft Defender is detecting legitimate DigiCert root certificates as Trojan:Win32/Cerdigent.A!dha, resulting in widespread false-positive alerts, and in some cases, removing certificates from Windows. [...]",
     "url": "https://www.bleepingcomputer.com/news/security/microsoft-defender-wrongly-flags-digicert-certs-as-trojan-win32-cerdigentadha/",
@@ -75,13 +82,6 @@
     "url": "https://www.bleepingcomputer.com/news/security/telegram-mini-apps-abused-for-crypto-scams-android-malware-delivery/",
     "source": "bleepingcomputer.com",
     "published": "Sun, 03 May 2026 10:11:21 -0400"
-  },
-  {
-    "title": "Critrical cPanel flaw mass-exploited in \"Sorry\" ransomware attacks",
-    "summary": "A new disclosed cPanel flaw tracked as CVE-2026-41940 is being mass-exploited to breach websites and encrypt data in \"Sorry\" ransomware attacks. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/critrical-cpanel-flaw-mass-exploited-in-sorry-ransomware-attacks/",
-    "source": "bleepingcomputer.com",
-    "published": "Sat, 02 May 2026 17:54:00 -0400"
   },
   {
     "title": "Student Loan Breach Exposes 2.5M Records",
