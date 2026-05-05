@@ -42,46 +42,46 @@
     "published": "2026-05-01T11:18:43Z"
   },
   {
-    "title": "The Back Door Attackers Know About — and Most Security Teams Still Haven’t Closed",
-    "summary": "Every AI tool, workflow automation, and productivity app your employees connected to Google or Microsoft this year left something behind: a persistent OAuth token with no expiration date, no automatic cleanup, and in most organizations, no one watching it. Your perimeter controls don't see it. Your MFA doesn't stop it. And when an attacker gets hold of one, they don't need a password. OAuth",
-    "url": "https://thehackernews.com/2026/05/the-back-door-attackers-know-about-and.html",
+    "title": "Critical Apache HTTP/2 Flaw (CVE-2026-23918) Enables DoS and Potential RCE",
+    "summary": "The Apache Software Foundation (ASF) has released security updates to address several security vulnerabilities in the HTTP Server, including a severe vulnerability that could potentially lead to remote code execution (RCE). The vulnerability, tracked as CVE-2026-23918 (CVSS score: 8.8), has been described as a case of \"double free and possible RCE\" in the HTTP/2 protocol handling. This issue",
+    "url": "https://thehackernews.com/2026/05/critical-apache-http2-flaw-cve-2026.html",
     "source": "feeds.feedburner.com",
-    "published": "Tue, 05 May 2026 17:28:00 +0530"
+    "published": "Tue, 05 May 2026 21:49:00 +0530"
   },
   {
-    "title": "MetInfo CMS CVE-2026-29014 Exploited for Remote Code Execution Attacks",
-    "summary": "Threat actors are actively exploiting a critical security flaw impacting an open-source content management system (CMS) known as MetInfo, according to new findings from VulnCheck. The vulnerability in question is CVE-2026-29014 (CVSS score: 9.8), a code injection flaw that could result in arbitrary code execution. \"MetInfo CMS versions 7.9, 8.0, and 8.1 contain an unauthenticated PHP code",
-    "url": "https://thehackernews.com/2026/05/metinfo-cms-cve-2026-29014-exploited.html",
+    "title": "DAEMON Tools Supply Chain Attack Compromises Official Installers with Malware",
+    "summary": "A newly identified supply chain attack targeting DAEMON Tools software has compromised its installers to serve a malicious payload, according to findings from Kaspersky. \"These installers are distributed from the legitimate website of DAEMON Tools and are signed with digital certificates belonging to DAEMON Tools developers,\" Kaspersky researchers&nbsp; Igor Kuznetsov, Georgy Kucherin, Leonid",
+    "url": "https://thehackernews.com/2026/05/daemon-tools-supply-chain-attack.html",
     "source": "feeds.feedburner.com",
-    "published": "Tue, 05 May 2026 17:26:00 +0530"
+    "published": "Tue, 05 May 2026 21:37:00 +0530"
   },
   {
-    "title": "We Scanned 1 Million Exposed AI Services. Here's How Bad the Security Actually Is",
-    "summary": "While the software industry has made genuine strides over the past few decades to deliver products securely, the furious pace of AI adoption is putting that progress at risk. Businesses are moving fast to self-host LLM infrastructure, drawn by the promise of AI as a force multiplier and the pressure to deliver more value faster. But speed is coming at the expense of security. In the wake of the",
-    "url": "https://thehackernews.com/2026/05/we-scanned-1-million-exposed-ai.html",
+    "title": "China-Linked UAT-8302 Targets Governments Using Shared APT Malware Across Regions",
+    "summary": "A sophisticated China-nexus advanced persistent threat (APT) group has been attributed to attacks targeting government entities in South America since at least late 2024 and government agencies in southeastern Europe in 2025. The activity is being tracked by Cisco Talos under the moniker UAT-8302, with post-exploitation involving the deployment of custom-made malware families that have been put",
+    "url": "https://thehackernews.com/2026/05/china-linked-uat-8302-targets.html",
     "source": "feeds.feedburner.com",
-    "published": "Tue, 05 May 2026 16:00:00 +0530"
+    "published": "Tue, 05 May 2026 19:49:00 +0530"
   },
   {
-    "title": "Vimeo data breach exposes personal information of 119,000 people",
-    "summary": "The ShinyHunters extortion gang stole personal information belonging to over 119,000 people after hacking the Vimeo online video platform in April, according to data breach notification service Have I Been Pwned. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/vimeo-data-breach-exposes-personal-information-of-119-000-people/",
+    "title": "Student hacked Taiwan high-speed rail to trigger emergency brakes",
+    "summary": "A 23-year-old university student in Taiwan was arrested for interfering with the TETRA communication system used by the country's high-speed railway network (THSR). [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/student-hacked-taiwan-high-speed-rail-to-trigger-emergency-brakes/",
     "source": "bleepingcomputer.com",
-    "published": "Tue, 05 May 2026 09:03:46 -0400"
+    "published": "Tue, 05 May 2026 13:34:09 -0400"
   },
   {
-    "title": "Google now offers up to $1.5 million for some Android exploits",
-    "summary": "Google overhauls its Android and Chrome vulnerability rewards programs, offering bounties of up to $1.5 million for the most difficult exploits while scaling back payouts for flaws that artificial intelligence (AI) has made easier to find. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/google-now-offers-up-to-15-million-for-some-android-exploits/",
+    "title": "FTC to ban data broker Kochava from selling Americans’ location data",
+    "summary": "The FTC will ban data broker Kochava and its subsidiary, Collective Data Solutions (CDS), from selling location data without consumers' explicit consent to settle charges alleging that it sold precise geolocation data collected from hundreds of millions of mobile devices. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/ftc-to-ban-data-broker-kochava-from-selling-americans-location-data/",
     "source": "bleepingcomputer.com",
-    "published": "Tue, 05 May 2026 07:24:48 -0400"
+    "published": "Tue, 05 May 2026 10:39:53 -0400"
   },
   {
-    "title": "Karakurt extortion gang ‘cold case’ negotiator gets 8.5 years in prison",
-    "summary": "A Latvian national extradited to the United States was sentenced to 8.5 years in prison for his \"cold case\" negotiator role in the Russian Karakurt ransomware group. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/karakurt-extortion-gang-negotiator-sentenced-to-85-years-in-prison/",
+    "title": "The EOL Blind Spot in Your CVE Feed: What SCA Tools Miss",
+    "summary": "Critical vulnerabilities can exist in open source software your scanners don't check. HeroDevs reveals how EOL software creates blind spots in CVE feeds and SCA tools, and how you can receive a free end-of-life scan for your projects. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/the-eol-blind-spot-in-your-cve-feed-what-sca-tools-miss/",
     "source": "bleepingcomputer.com",
-    "published": "Tue, 05 May 2026 06:13:17 -0400"
+    "published": "Tue, 05 May 2026 10:00:10 -0400"
   },
   {
     "title": "Student Loan Breach Exposes 2.5M Records",
@@ -315,6 +315,13 @@
     "published": "Tue, 11 Nov 2025 19:02:38 +0000"
   },
   {
+    "title": "AI Threat Readiness: Defending Against Attacks Powered by Frontier AI Models",
+    "summary": "A new generation of frontier AI models is fundamentally changing how cyber attacks are created and executed, introducing a level of speed, scale, and accessibility the industry has not faced before. Early testing of advanced models, including Claude’s Mythos model, shows that they can identify vulnerabilities in code, connect them into viable attack paths, and generate working exploits with minimal effort. What once required deep expertise and significant time can now be executed rapidly, and at scale, across a wide range of environments. These are not simply AI-assisted attacks, they are attacks powered by frontier AI models. The new models [&#8230;] The post AI Threat Readiness: Defending Against Attacks Powered by Frontier AI Models appeared first on Check Point Blog.",
+    "url": "https://blog.checkpoint.com/services/ai-threat-readiness-defending-against-attacks-powered-by-frontier-ai-models/",
+    "source": "blog.checkpoint.com",
+    "published": "Tue, 05 May 2026 13:00:05 +0000"
+  },
+  {
     "title": "Check Point Cyber Security Now Available Across All Levels of U.S. Government",
     "summary": "We’re proud to announce that Check Point has earned GovRAMP Authorization for the Check Point Infinity Platform for Government. This is a big milestone for the company and is a reflection of our unparalleled prevention-first capabilities, which were recently ranked #1 for the fourth consecutive year in Miercom&#8217;s 2026 Hybrid Mesh Network Security Assessment (Check Point achieved the top overall security effectiveness score of 99.8%, with 100% phishing detection and 99.9% AI-powered malware prevention versus leading competitors). Combined with FedRAMP Authorization achieved in 2025, this means Check Point now delivers security-vetted protection across federal, state, local, and tribal governments, providing a consistent, trusted cyber security framework across all levels of U.S. public",
     "url": "https://blog.checkpoint.com/security/check-point-cyber-security-now-available-across-all-levels-of-u-s-government/",
@@ -327,13 +334,6 @@
     "url": "https://blog.checkpoint.com/security/vect-ransomware-why-paying-wont-get-your-files-back/",
     "source": "blog.checkpoint.com",
     "published": "Tue, 28 Apr 2026 13:00:08 +0000"
-  },
-  {
-    "title": "Check Point WAF Leads Application Security-Validated by Frost & Sullivan",
-    "summary": "Check Point has been honored Frost &#38; Sullivan’s 2026 Technology Innovation Leadership recognition in WAF and API security, positioning us as a Company to Action shaping the future of cybersecurity. This recognition reflects a major shift in how application security must operate today. Application Security Has Fundamentally Changed Applications are no longer just web apps they now run on APIs, microservices, and AI-driven services, rapidly expanding across hybrid and multi-cloud environments. Each release introduces new components, increasing the attack surface. At the same time, accelerated DevSecOps cycles are making both web and AI applications harder to secure, while threats continue [&#8230;] The post Check Point WAF Leads Application Security-Validated by Frost &#038; Sullivan app",
-    "url": "https://blog.checkpoint.com/securing-the-cloud/check-point-waf-leads-application-security-validated-by-frost-sullivan/",
-    "source": "blog.checkpoint.com",
-    "published": "Thu, 23 Apr 2026 13:00:40 +0000"
   },
   {
     "title": "High Signal Detection and Exploitation of Ivanti's Pulse Connect Secure Auth Bypass & RCE",
@@ -378,6 +378,13 @@
     "published": "Thu, 30 Apr 2026 18:00:07 GMT"
   },
   {
+    "title": "Unifying SOC and ITSM",
+    "summary": "A leadership guide to aligning SOC and ITSM teams using evidence-driven cyber risk management and real-world validation.",
+    "url": "https://horizon3.ai/downloads/whitepapers/unifying-soc-itsm-cyber-risk-guide/",
+    "source": "horizon3.ai",
+    "published": "Tue, 05 May 2026 15:18:23 +0000"
+  },
+  {
     "title": "CVE-2026-41940",
     "summary": "CVE-2026-41940 allows unauthenticated access to cPanel and WHM, posing a critical risk to hosting environments and managed infrastructure.",
     "url": "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-41940/",
@@ -390,13 +397,6 @@
     "url": "https://horizon3.ai/downloads/factsheets/project-glasswing-nodezero-factsheet/",
     "source": "horizon3.ai",
     "published": "Tue, 28 Apr 2026 15:58:27 +0000"
-  },
-  {
-    "title": "Horizon3.ai Research Reveals Growing Divide Between Security Leaders and Practitioners",
-    "summary": "New Horizon3.ai research reveals a disconnect between executive confidence and real-world security risk as validation lags behind activity.",
-    "url": "https://horizon3.ai/news/press-release/horizon3-research-security-gap/",
-    "source": "horizon3.ai",
-    "published": "Tue, 28 Apr 2026 12:05:00 +0000"
   },
   {
     "title": "Disabling Security Features in a Locked BIOS",
