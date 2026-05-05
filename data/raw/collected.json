@@ -21,6 +21,13 @@
     "published": "Tue, 14 Apr 2026 21:47:59 +0000"
   },
   {
+    "title": "DarkSword Malware",
+    "summary": "DarkSword is a sophisticated piece of malware&#8212;probably government designed&#8212;that targets iOS. Google Threat Intelligence Group (GTIG) has identified a new iOS full-chain exploit that leveraged multiple zero-day vulnerabilities to fully compromise devices. Based on toolmarks in recovered payloads, we believe the exploit chain to be called DarkSword. Since at least November 2025, GTIG has observed multiple commercial surveillance vendors and suspected state-sponsored actors utilizing DarkSword in distinct campaigns. These threat actors have deployed the exploit chain against targets in Saudi Arabia, Turkey, Malaysia, and Ukraine...",
+    "url": "https://www.schneier.com/blog/archives/2026/05/darksword-malware.html",
+    "source": "schneier.com",
+    "published": "2026-05-05T10:42:03Z"
+  },
+  {
     "title": "Hacking Polymarket",
     "summary": "Polymarket is a platform where people can bet on real-world events, political and otherwise. Leaving the ethical considerations of this aside (for one, it facilitates assassination), one of the issues with making this work is the verification of these real-world events. Polymarket gamblers have threatened a journalist because his story was being used to verify an event. And now, gamblers are taking hair dryers to weather sensors to rig weather bets. There&#8217;s also insider trading: a lot of it.",
     "url": "https://www.schneier.com/blog/archives/2026/05/hacking-polymarket.html",
@@ -35,53 +42,46 @@
     "published": "2026-05-01T11:18:43Z"
   },
   {
-    "title": "Fast16 Malware",
-    "summary": "Researchers have reverse-engineered a piece of malware named Fast16. It&#8217;s almost certainly state-sponsored, probably US in origin, and was deployed against Iran years before Stuxnet: &#8220;&#8230;the Fast16 malware was designed to carry out the most subtle form of sabotage ever seen in an in-the-wild malware tool: By automatically spreading across networks and then silently manipulating computation processes in certain software applications that perform high-precision mathematical calculations and simulate physical phenomena, Fast16 can alter the results of those programs to cause failures that range from faulty research results to catastrophic damage to real-world equipment.&#8221;...",
-    "url": "https://www.schneier.com/blog/archives/2026/04/fast16-malware.html",
-    "source": "schneier.com",
-    "published": "2026-04-30T10:22:02Z"
-  },
-  {
-    "title": "Phishing Campaign Hits 80+ Orgs Using SimpleHelp and ScreenConnect RMM Tools",
-    "summary": "An active phishing campaign has been observed targeting multiple vectors since at least April 2025 with legitimate Remote Monitoring and Management (RMM) software as a way to establish persistent remote access to compromised hosts. The activity, codenamed VENOMOUS#HELPER, has impacted over 80 organizations, most of which are in the U.S., according to Securonix. It shares overlaps with clusters",
-    "url": "https://thehackernews.com/2026/05/phishing-campaign-hits-80-orgs-using.html",
+    "title": "The Back Door Attackers Know About — and Most Security Teams Still Haven’t Closed",
+    "summary": "Every AI tool, workflow automation, and productivity app your employees connected to Google or Microsoft this year left something behind: a persistent OAuth token with no expiration date, no automatic cleanup, and in most organizations, no one watching it. Your perimeter controls don't see it. Your MFA doesn't stop it. And when an attacker gets hold of one, they don't need a password. OAuth",
+    "url": "https://thehackernews.com/2026/05/the-back-door-attackers-know-about-and.html",
     "source": "feeds.feedburner.com",
-    "published": "Mon, 04 May 2026 23:36:00 +0530"
+    "published": "Tue, 05 May 2026 17:28:00 +0530"
   },
   {
-    "title": "Progress Patches Critical MOVEit Automation Bug Enabling Authentication Bypass",
-    "summary": "Progress Software has released updates to address two security flaws in MOVEit Automation, including a critical bug that could result in an authentication bypass. MOVEit Automation (formerly Central) is a secure, server-based managed file transfer (MFT) solution used to schedule and automate file movement workflows in enterprise environments without requiring any custom scripts.&nbsp; The",
-    "url": "https://thehackernews.com/2026/05/progress-patches-critical-moveit.html",
+    "title": "MetInfo CMS CVE-2026-29014 Exploited for Remote Code Execution Attacks",
+    "summary": "Threat actors are actively exploiting a critical security flaw impacting an open-source content management system (CMS) known as MetInfo, according to new findings from VulnCheck. The vulnerability in question is CVE-2026-29014 (CVSS score: 9.8), a code injection flaw that could result in arbitrary code execution. \"MetInfo CMS versions 7.9, 8.0, and 8.1 contain an unauthenticated PHP code",
+    "url": "https://thehackernews.com/2026/05/metinfo-cms-cve-2026-29014-exploited.html",
     "source": "feeds.feedburner.com",
-    "published": "Mon, 04 May 2026 22:04:00 +0530"
+    "published": "Tue, 05 May 2026 17:26:00 +0530"
   },
   {
-    "title": "⚡ Weekly Recap: AI-Powered Phishing, Android Spying Tool, Linux Exploit, GitHub RCE & More",
-    "summary": "This week, the shadows moved faster than the patches. While most teams were still triaging last month’s alerts, attackers had already turned control panels into kill switches, kernels into open doors, and open-source pipelines into silent delivery systems. The game has shifted from breach to occupation. They’re living inside SaaS sessions, pushing code with trusted commits, and scaling",
-    "url": "https://thehackernews.com/2026/05/weekly-recap-ai-powered-phishing.html",
+    "title": "We Scanned 1 Million Exposed AI Services. Here's How Bad the Security Actually Is",
+    "summary": "While the software industry has made genuine strides over the past few decades to deliver products securely, the furious pace of AI adoption is putting that progress at risk. Businesses are moving fast to self-host LLM infrastructure, drawn by the promise of AI as a force multiplier and the pressure to deliver more value faster. But speed is coming at the expense of security. In the wake of the",
+    "url": "https://thehackernews.com/2026/05/we-scanned-1-million-exposed-ai.html",
     "source": "feeds.feedburner.com",
-    "published": "Mon, 04 May 2026 19:53:00 +0530"
+    "published": "Tue, 05 May 2026 16:00:00 +0530"
   },
   {
-    "title": "Weaver E-cology critical bug exploited in attacks since March",
-    "summary": "Hackers have been exploiting a critical vulnerability (CVE-2026-22679) in the Weaver E-cology office automation since mid-March to run discovery commands. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/weaver-e-cology-critical-bug-exploited-in-attacks-since-march/",
+    "title": "Vimeo data breach exposes personal information of 119,000 people",
+    "summary": "The ShinyHunters extortion gang stole personal information belonging to over 119,000 people after hacking the Vimeo online video platform in April, according to data breach notification service Have I Been Pwned. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/vimeo-data-breach-exposes-personal-information-of-119-000-people/",
     "source": "bleepingcomputer.com",
-    "published": "Mon, 04 May 2026 18:12:57 -0400"
+    "published": "Tue, 05 May 2026 09:03:46 -0400"
   },
   {
-    "title": "Amazon SES increasingly abused in phishing to evade detection",
-    "summary": "The Amazon Simple Email Service (SES) is being increasingly abused to send convincing phishing emails that can bypass standard security filters and render reputation-based blocks ineffective. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/amazon-ses-increasingly-abused-in-phishing-to-evade-detection/",
+    "title": "Google now offers up to $1.5 million for some Android exploits",
+    "summary": "Google overhauls its Android and Chrome vulnerability rewards programs, offering bounties of up to $1.5 million for the most difficult exploits while scaling back payouts for flaws that artificial intelligence (AI) has made easier to find. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/google-now-offers-up-to-15-million-for-some-android-exploits/",
     "source": "bleepingcomputer.com",
-    "published": "Mon, 04 May 2026 16:03:28 -0400"
+    "published": "Tue, 05 May 2026 07:24:48 -0400"
   },
   {
-    "title": "Backdoored PyTorch Lightning package drops credential stealer",
-    "summary": "A malicious version of the PyTorch Lightning package published on the Python Package Index (PyPI) delivers a credential-stealing payload targeting browsers, environment files, and cloud services. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/backdoored-pytorch-lightning-package-drops-credential-stealer/",
+    "title": "Karakurt extortion gang ‘cold case’ negotiator gets 8.5 years in prison",
+    "summary": "A Latvian national extradited to the United States was sentenced to 8.5 years in prison for his \"cold case\" negotiator role in the Russian Karakurt ransomware group. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/karakurt-extortion-gang-negotiator-sentenced-to-85-years-in-prison/",
     "source": "bleepingcomputer.com",
-    "published": "Mon, 04 May 2026 13:15:27 -0400"
+    "published": "Tue, 05 May 2026 06:13:17 -0400"
   },
   {
     "title": "Student Loan Breach Exposes 2.5M Records",
@@ -357,25 +357,25 @@
     "published": "Wed, 04 Oct 2023 08:33:19 +1100"
   },
   {
+    "title": "UAT-8302 and its box full of malware",
+    "summary": "Cisco Talos is disclosing UAT-8302, a sophisticated, China-nexus advanced persistent threat (APT) group targeting government entities in South America since at least late 2024 and government agencies in southeastern Europe in 2025.",
+    "url": "https://blog.talosintelligence.com/uat-8302/",
+    "source": "blog.talosintelligence.com",
+    "published": "Tue, 05 May 2026 10:00:30 GMT"
+  },
+  {
+    "title": "CloudZ RAT potentially steals OTP messages using Pheno plugin",
+    "summary": "Cisco Talos discovered an intrusion, active since at least January 2026, where an unknown attacker implanted a CloudZ remote access tool (RAT) and a previously undocumented plugin called “Pheno.”",
+    "url": "https://blog.talosintelligence.com/cloudz-pheno-infostealer/",
+    "source": "blog.talosintelligence.com",
+    "published": "Tue, 05 May 2026 10:00:18 GMT"
+  },
+  {
     "title": "Great responsibility, without great power",
     "summary": "In this week’s newsletter, Hazel uses International Superhero Day as a springboard to explore why empathy — rather than just technical prowess — is the most essential, underrated superpower for navigating the human side of cybersecurity.",
     "url": "https://blog.talosintelligence.com/great-responsibility-without-great-power/",
     "source": "blog.talosintelligence.com",
     "published": "Thu, 30 Apr 2026 18:00:07 GMT"
-  },
-  {
-    "title": "AI-powered honeypots: Turning the tables on malicious AI agents",
-    "summary": "Just as AI brings time-saving advantages to our lives, it brings similar advantages to threat actors. We can take the advantage back. This blog shows how generative AI can be used to rapidly deploy adaptive honeypot systems.",
-    "url": "https://blog.talosintelligence.com/ai-powered-honeypots-turning-the-tables-on-malicious-ai-agents/",
-    "source": "blog.talosintelligence.com",
-    "published": "Wed, 29 Apr 2026 10:00:42 GMT"
-  },
-  {
-    "title": "Five defender priorities from the Talos Year in Review",
-    "summary": "With attackers moving faster than ever, it’s easy to feel overwhelmed. This blog breaks down five practical priorities from the Cisco Talos 2025 Year in Review to help defenders focus and prioritize, amidst all the noise.",
-    "url": "https://blog.talosintelligence.com/five-defender-priorities-from-the-talos-year-in-review/",
-    "source": "blog.talosintelligence.com",
-    "published": "Tue, 28 Apr 2026 13:23:20 GMT"
   },
   {
     "title": "CVE-2026-41940",
