@@ -63,25 +63,25 @@
     "published": "Mon, 04 May 2026 19:53:00 +0530"
   },
   {
+    "title": "Weaver E-cology critical bug exploited in attacks since March",
+    "summary": "Hackers have been exploiting a critical vulnerability (CVE-2026-22679) in the Weaver E-cology office automation since mid-March to run discovery commands. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/weaver-e-cology-critical-bug-exploited-in-attacks-since-march/",
+    "source": "bleepingcomputer.com",
+    "published": "Mon, 04 May 2026 18:12:57 -0400"
+  },
+  {
+    "title": "Amazon SES increasingly abused in phishing to evade detection",
+    "summary": "The Amazon Simple Email Service (SES) is being increasingly abused to send convincing phishing emails that can bypass standard security filters and render reputation-based blocks ineffective. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/amazon-ses-increasingly-abused-in-phishing-to-evade-detection/",
+    "source": "bleepingcomputer.com",
+    "published": "Mon, 04 May 2026 16:03:28 -0400"
+  },
+  {
     "title": "Backdoored PyTorch Lightning package drops credential stealer",
     "summary": "A malicious version of the PyTorch Lightning package published on the Python Package Index (PyPI) delivers a credential-stealing payload targeting browsers, environment files, and cloud services. [...]",
     "url": "https://www.bleepingcomputer.com/news/security/backdoored-pytorch-lightning-package-drops-credential-stealer/",
     "source": "bleepingcomputer.com",
     "published": "Mon, 04 May 2026 13:15:27 -0400"
-  },
-  {
-    "title": "Trellix discloses data breach after source code repository hack",
-    "summary": "Cybersecurity firm Trellix disclosed a data breach after attackers gained access to \"a portion\" of its source code repository. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/trellix-discloses-data-breach-after-source-code-repository-hack/",
-    "source": "bleepingcomputer.com",
-    "published": "Mon, 04 May 2026 12:25:07 -0400"
-  },
-  {
-    "title": "They don’t hack, they borrow: How fraudsters target credit unions",
-    "summary": "Fraudsters aren't hacking credit unions, they are exploiting normal business processes. Flare reveals how structured loan fraud methods use stolen identities to pass verification and secure funds. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/they-dont-hack-they-borrow-how-fraudsters-target-credit-unions/",
-    "source": "bleepingcomputer.com",
-    "published": "Mon, 04 May 2026 09:42:51 -0400"
   },
   {
     "title": "Student Loan Breach Exposes 2.5M Records",
