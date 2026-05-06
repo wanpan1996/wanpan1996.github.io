@@ -42,6 +42,13 @@
     "published": "2026-05-01T11:18:43Z"
   },
   {
+    "title": "Palo Alto PAN-OS Flaw Under Active Exploitation Enables Remote Code Execution",
+    "summary": "Palo Alto Networks has released an advisory warning that a critical buffer overflow vulnerability in its PAN-OS software has been exploited in the wild. The vulnerability, tracked as CVE-2026-0300, has been described as a case of unauthenticated remote code execution. It carries a CVSS score of 9.3 if the User-ID Authentication Portal is configured to enable access from the internet or any",
+    "url": "https://thehackernews.com/2026/05/palo-alto-pan-os-flaw-under-active.html",
+    "source": "feeds.feedburner.com",
+    "published": "Wed, 06 May 2026 11:44:00 +0530"
+  },
+  {
     "title": "Critical Apache HTTP/2 Flaw (CVE-2026-23918) Enables DoS and Potential RCE",
     "summary": "The Apache Software Foundation (ASF) has released security updates to address several security vulnerabilities in the HTTP Server, including a severe vulnerability that could potentially lead to remote code execution (RCE). The vulnerability, tracked as CVE-2026-23918 (CVSS score: 8.8), has been described as a case of \"double free and possible RCE\" in the HTTP/2 protocol handling. This issue",
     "url": "https://thehackernews.com/2026/05/critical-apache-http2-flaw-cve-2026.html",
@@ -54,13 +61,6 @@
     "url": "https://thehackernews.com/2026/05/daemon-tools-supply-chain-attack.html",
     "source": "feeds.feedburner.com",
     "published": "Tue, 05 May 2026 21:37:00 +0530"
-  },
-  {
-    "title": "China-Linked UAT-8302 Targets Governments Using Shared APT Malware Across Regions",
-    "summary": "A sophisticated China-nexus advanced persistent threat (APT) group has been attributed to attacks targeting government entities in South America since at least late 2024 and government agencies in southeastern Europe in 2025. The activity is being tracked by Cisco Talos under the moniker UAT-8302, with post-exploitation involving the deployment of custom-made malware families that have been put",
-    "url": "https://thehackernews.com/2026/05/china-linked-uat-8302-targets.html",
-    "source": "feeds.feedburner.com",
-    "published": "Tue, 05 May 2026 19:49:00 +0530"
   },
   {
     "title": "New stealthy Quasar Linux malware targets software developers",
