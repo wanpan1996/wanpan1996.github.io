@@ -42,6 +42,13 @@
     "published": "2026-05-04T09:46:31Z"
   },
   {
+    "title": "MuddyWater Uses Microsoft Teams to Steal Credentials in False Flag Ransomware Attack",
+    "summary": "The Iranian state-sponsored hacking group known as MuddyWater (aka Mango Sandstorm, Seedworm, and Static Kitten) has been attributed to a ransomware attack in what has been described as a \"false flag\" operation. The attack, observed by Rapid7 in early 2026, has been found to leverage social engineering techniques via Microsoft Teams to initiate the infection sequence. Although the incident",
+    "url": "https://thehackernews.com/2026/05/muddywater-uses-microsoft-teams-to.html",
+    "source": "feeds.feedburner.com",
+    "published": "Wed, 06 May 2026 18:30:00 +0530"
+  },
+  {
     "title": "The Hacker News Launches 'Cybersecurity Stars Awards 2026' — Submissions Now Open",
     "summary": "For nearly 20 years, we at The Hacker News have mostly told scary stories about cyberspace — big hacks, broken systems, and new threats. But behind every headline, there’s a quieter, better story. It’s the story of leaders making tough calls under pressure, teams building smarter defenses, and security products that keep hunting threats 24/7 — even when it’s hard. Most of the time, this work is",
     "url": "https://thehackernews.com/2026/05/the-hacker-news-launches-cybersecurity.html",
@@ -56,32 +63,25 @@
     "published": "Wed, 06 May 2026 16:27:00 +0530"
   },
   {
-    "title": "Google's Android Apps Get Public Verification to Stop Supply Chain Attacks",
-    "summary": "Google has announced expanded Binary Transparency for Android as a way to safeguard the ecosystem from supply chain attacks. \"This new public ledger ensures the Google apps on your device are exactly what we intended to build and distribute,\" Google's product and security teams said. The initiative builds upon the foundation of Pixel Binary Transparency, which Google introduced in October 2021",
-    "url": "https://thehackernews.com/2026/05/android-apps-get-public-verification.html",
-    "source": "feeds.feedburner.com",
-    "published": "Wed, 06 May 2026 14:43:00 +0530"
+    "title": "Critical vm2 sandbox bug lets attackers execute code on hosts",
+    "summary": "A critical vulnerability in the popular Node.js sandboxing library vm2 allows escaping the sandbox and executing arbitrary code on the host system. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/critical-vm2-sandbox-bug-lets-attackers-execute-code-on-hosts/",
+    "source": "bleepingcomputer.com",
+    "published": "Wed, 06 May 2026 14:38:38 -0400"
   },
   {
-    "title": "MuddyWater hackers use Chaos ransomware as a decoy in attacks",
-    "summary": "The MuddyWater Iranian hackers disguised their operations as a Chaos ransomware attack, relying on Microsoft Teams social engineering to gain access and establish persistence. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/muddywater-hackers-use-chaos-ransomware-as-a-decoy-in-attacks/",
+    "title": "New Cisco DoS flaw requires manual reboot to revive devices",
+    "summary": "Cisco patched a Crosswork Network Controller and Network Services Orchestrator denial-of-service vulnerability that requires manually rebooting targeted systems for recovery. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/new-cisco-dos-flaw-requires-manual-reboot-to-revive-devices/",
     "source": "bleepingcomputer.com",
-    "published": "Wed, 06 May 2026 09:02:52 -0400"
+    "published": "Wed, 06 May 2026 14:06:21 -0400"
   },
   {
-    "title": "Webinar: Why network incidents escalate and how to fix response gaps",
-    "summary": "Most network incidents don't escalate due to a lack of alerts; they escalate when response breaks down. This webinar explores how to fix gaps in triage, enrichment, and coordination. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/webinar-why-network-incidents-escalate-and-how-to-fix-response-gaps/",
+    "title": "DAEMON Tools devs confirm breach, release malware-free version",
+    "summary": "Disc Soft Limited, the maker of DAEMON Tools Lite, confirmed that the software had been trojanized in a supply chain attack and released a new, malware-free version. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/daemon-tools-devs-confirm-breach-release-malware-free-version/",
     "source": "bleepingcomputer.com",
-    "published": "Wed, 06 May 2026 08:56:32 -0400"
-  },
-  {
-    "title": "Palo Alto Networks warns of firewall RCE zero-day exploited in attacks",
-    "summary": "Palo Alto Networks warned customers today that a critical-severity unpatched vulnerability in the PAN-OS User-ID Authentication Portal is being exploited in attacks. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-actively-exploited-firewall-zero-day/",
-    "source": "bleepingcomputer.com",
-    "published": "Wed, 06 May 2026 05:18:16 -0400"
+    "published": "Wed, 06 May 2026 12:43:30 -0400"
   },
   {
     "title": "Student Loan Breach Exposes 2.5M Records",
@@ -105,6 +105,13 @@
     "published": "Mon, 29 Aug 2022 14:56:19 +0000"
   },
   {
+    "title": "When DNSSEC goes wrong: how we responded to the .de TLD outage",
+    "summary": "On May 5, 2026, DENIC published broken DNSSEC signatures for the .de TLD, making millions of domains unreachable. Here's what 1.1.1.1 saw, how serve stale cushioned the impact, and how we restored resolution.",
+    "url": "https://blog.cloudflare.com/de-tld-outage-dnssec/",
+    "source": "blog.cloudflare.com",
+    "published": "Wed, 06 May 2026 17:00:00 GMT"
+  },
+  {
     "title": "Code Orange: Fail Small is complete. The result is a stronger Cloudflare network",
     "summary": "We have completed a massive engineering effort to make our infrastructure more resilient. Through new tools like Snapstone and the Engineering Codex, we've implemented safer configuration changes and automated best practices to prevent future incidents.",
     "url": "https://blog.cloudflare.com/code-orange-fail-small-complete/",
@@ -117,13 +124,6 @@
     "url": "https://blog.cloudflare.com/dynamic-workflows/",
     "source": "blog.cloudflare.com",
     "published": "Fri, 01 May 2026 13:00:00 GMT"
-  },
-  {
-    "title": "Post-quantum encryption for Cloudflare IPsec is generally available",
-    "summary": "Cloudflare IPsec now has generally available support for post-quantum encryption via hybrid ML-KEM. We’ve confirmed interoperability with Cisco and Fortinet.",
-    "url": "https://blog.cloudflare.com/post-quantum-ipsec/",
-    "source": "blog.cloudflare.com",
-    "published": "Thu, 30 Apr 2026 14:00:00 GMT"
   },
   {
     "title": "Copy Fail: What You Need to Know About the Most Severe Linux Threat in Years",
@@ -315,6 +315,13 @@
     "published": "Tue, 11 Nov 2025 19:02:38 +0000"
   },
   {
+    "title": "Resilient by Design: When the Network Itself Becomes the Target",
+    "summary": "Cyber security and operational resilience go hand-in-hand. Organizations have invested heavily in defending against breaches, ransomware, and service disruptions, building layered defenses designed to keep attackers out and systems running. But recent geopolitical developments are forcing a broader and more uncomfortable realization – the next major disruption may originate in the physical world rather than in code. As cloud infrastructure becomes more deeply embedded in the fabric of global economies and national systems, it is no longer just a platform for operations, but an extension of the attack surface. And it is this shift that introduces an entirely new category [&#8230;] The post Resilient by Design: When the Network Itself Becomes the Target appeared first on Check Point Blog.",
+    "url": "https://blog.checkpoint.com/harmony-sase/resilient-by-design-when-the-network-itself-becomes-the-target/",
+    "source": "blog.checkpoint.com",
+    "published": "Wed, 06 May 2026 12:20:50 +0000"
+  },
+  {
     "title": "AI Threat Readiness: Defending Against Attacks Powered by Frontier AI Models",
     "summary": "A new generation of frontier AI models is fundamentally changing how cyber attacks are created and executed, introducing a level of speed, scale, and accessibility the industry has not faced before. Early testing of advanced models, including Claude’s Mythos model, shows that they can identify vulnerabilities in code, connect them into viable attack paths, and generate working exploits with minimal effort. What once required deep expertise and significant time can now be executed rapidly, and at scale, across a wide range of environments. These are not simply AI-assisted attacks, they are attacks powered by frontier AI models. The new models [&#8230;] The post AI Threat Readiness: Defending Against Attacks Powered by Frontier AI Models appeared first on Check Point Blog.",
     "url": "https://blog.checkpoint.com/services/ai-threat-readiness-defending-against-attacks-powered-by-frontier-ai-models/",
@@ -327,13 +334,6 @@
     "url": "https://blog.checkpoint.com/security/check-point-cyber-security-now-available-across-all-levels-of-u-s-government/",
     "source": "blog.checkpoint.com",
     "published": "Thu, 30 Apr 2026 12:00:31 +0000"
-  },
-  {
-    "title": "VECT Ransomware: Why Paying Won’t Get Your Files Back",
-    "summary": "Do not pay the ransom. VECT permanently destroys large files rather than locking them. Even the attackers cannot recover them. Payment will not restore your data VECT partnered with TeamPCP and BreachForums to build one of the largest ransomware affiliate networks ever assembled, giving them a ready-made pipeline to thousands of potential victims The encryption flaw exists across all versions. Windows, Linux, and ESXi variants are all affected. The bug has been present since before the public 2.0 release and has never been fixed Advertised features don’t work. Encryption speed modes, anti-analysis protections, and other capabilities are either unimplemented or broken Check Point Threat Emulation and Harmony Endpoint provide full protection against all known [&#8230;] The post VECT Ransomwa",
-    "url": "https://blog.checkpoint.com/security/vect-ransomware-why-paying-wont-get-your-files-back/",
-    "source": "blog.checkpoint.com",
-    "published": "Tue, 28 Apr 2026 13:00:08 +0000"
   },
   {
     "title": "High Signal Detection and Exploitation of Ivanti's Pulse Connect Secure Auth Bypass & RCE",
