@@ -63,25 +63,25 @@
     "published": "Tue, 05 May 2026 19:49:00 +0530"
   },
   {
-    "title": "Student hacked Taiwan high-speed rail to trigger emergency brakes",
-    "summary": "A 23-year-old university student in Taiwan was arrested for interfering with the TETRA communication system used by the country's high-speed railway network (THSR). [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/student-hacked-taiwan-high-speed-rail-to-trigger-emergency-brakes/",
+    "title": "New stealthy Quasar Linux malware targets software developers",
+    "summary": "A previously undocumented Linux implant named Quasar Linux (QLNX) is targeting developers' systems with a mix of rootkit, backdoor, and credential-stealing capabilities. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/new-stealthy-quasar-linux-malware-targets-software-developers/",
     "source": "bleepingcomputer.com",
-    "published": "Tue, 05 May 2026 13:34:09 -0400"
+    "published": "Tue, 05 May 2026 18:01:39 -0400"
   },
   {
-    "title": "FTC to ban data broker Kochava from selling Americans’ location data",
-    "summary": "The FTC will ban data broker Kochava and its subsidiary, Collective Data Solutions (CDS), from selling location data without consumers' explicit consent to settle charges alleging that it sold precise geolocation data collected from hundreds of millions of mobile devices. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/ftc-to-ban-data-broker-kochava-from-selling-americans-location-data/",
+    "title": "Instructure hacker claims data theft from 8,800 schools, universities",
+    "summary": "The hacker behind a breach at education technology giant Instructure claims to have stolen 280 million data records for students and staff from 8,809 colleges, school districts, and online education platforms. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/instructure-hacker-claims-data-theft-from-8-800-schools-universities/",
     "source": "bleepingcomputer.com",
-    "published": "Tue, 05 May 2026 10:39:53 -0400"
+    "published": "Tue, 05 May 2026 17:20:23 -0400"
   },
   {
-    "title": "The EOL Blind Spot in Your CVE Feed: What SCA Tools Miss",
-    "summary": "Critical vulnerabilities can exist in open source software your scanners don't check. HeroDevs reveals how EOL software creates blind spots in CVE feeds and SCA tools, and how you can receive a free end-of-life scan for your projects. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/the-eol-blind-spot-in-your-cve-feed-what-sca-tools-miss/",
+    "title": "DAEMON Tools trojanized in supply-chain attack to deploy backdoor",
+    "summary": "Hackers trojanized installers for the DAEMON Tools software and since April 8, delivered a backdoor to thousands of systems that downloaded the product from the official website. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/daemon-tools-trojanized-in-supply-chain-attack-to-deploy-backdoor/",
     "source": "bleepingcomputer.com",
-    "published": "Tue, 05 May 2026 10:00:10 -0400"
+    "published": "Tue, 05 May 2026 15:21:18 -0400"
   },
   {
     "title": "Student Loan Breach Exposes 2.5M Records",
@@ -126,6 +126,13 @@
     "published": "Thu, 30 Apr 2026 14:00:00 GMT"
   },
   {
+    "title": "Copy Fail: What You Need to Know About the Most Severe Linux Threat in Years",
+    "summary": "Copy Fail (CVE-2026-31431) is a critical Linux kernel LPE that allows stealthy root access. This flaw impacts millions of systems. Read our analysis. The post Copy Fail: What You Need to Know About the Most Severe Linux Threat in Years appeared first on Unit 42.",
+    "url": "https://unit42.paloaltonetworks.com/cve-2026-31431-copy-fail/",
+    "source": "unit42.paloaltonetworks.com",
+    "published": "Tue, 05 May 2026 23:00:33 +0000"
+  },
+  {
     "title": "The npm Threat Landscape: Attack Surface and Mitigations (Updated May 1)",
     "summary": "Unit 42 analyzes npm supply chain evolution post-Shai Hulud. Discover wormable malware, CI/CD persistence, multi-stage attacks and more. The post The npm Threat Landscape: Attack Surface and Mitigations (Updated May 1) appeared first on Unit 42.",
     "url": "https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/",
@@ -138,13 +145,6 @@
     "url": "https://unit42.paloaltonetworks.com/detection-beyond-the-endpoint/",
     "source": "unit42.paloaltonetworks.com",
     "published": "Fri, 01 May 2026 23:00:13 +0000"
-  },
-  {
-    "title": "That AI Extension Helping You Write Emails? It’s Reading Them First",
-    "summary": "Unit 42 uncovers high-risk AI browser extensions. Disguised as productivity tools, they steal data, intercept prompts, and exfiltrate passwords. Protect your browser. The post That AI Extension Helping You Write Emails? It’s Reading Them First appeared first on Unit 42.",
-    "url": "https://unit42.paloaltonetworks.com/high-risk-gen-ai-browser-extensions/",
-    "source": "unit42.paloaltonetworks.com",
-    "published": "Thu, 30 Apr 2026 22:00:57 +0000"
   },
   {
     "title": "fast16 | Mystery ShadowBrokers Reference Reveals High-Precision Software Sabotage 5 Years Before Stuxnet",
