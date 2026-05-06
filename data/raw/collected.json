@@ -21,6 +21,13 @@
     "published": "Tue, 14 Apr 2026 21:47:59 +0000"
   },
   {
+    "title": "Rowhammer Attack Against NVIDIA Chips",
+    "summary": "A new rowhammer attack gives complete control of NVIDIA CPUs. On Thursday, two research teams, working independently of each other, demonstrated attacks against two cards from Nvidia’s Ampere generation that take GPU rowhammering into new&#8212;­and potentially much more consequential&#8212;­territory: GDDR bitflips that give adversaries full control of CPU memory, resulting in full system compromise of the host machine. For the attack to work, IOMMU memory management must be disabled, as is the default in BIOS settings. “Our work shows that Rowhammer, which is well-studied on CPUs, is a serious threat on GPUs as well,” said Andrew Kwong, co-author of one of the papers. &#8220;...",
+    "url": "https://www.schneier.com/blog/archives/2026/05/rowhammer-attack-against-nvidia-chips.html",
+    "source": "schneier.com",
+    "published": "2026-05-06T10:36:59Z"
+  },
+  {
     "title": "DarkSword Malware",
     "summary": "DarkSword is a sophisticated piece of malware&#8212;probably government designed&#8212;that targets iOS. Google Threat Intelligence Group (GTIG) has identified a new iOS full-chain exploit that leveraged multiple zero-day vulnerabilities to fully compromise devices. Based on toolmarks in recovered payloads, we believe the exploit chain to be called DarkSword. Since at least November 2025, GTIG has observed multiple commercial surveillance vendors and suspected state-sponsored actors utilizing DarkSword in distinct campaigns. These threat actors have deployed the exploit chain against targets in Saudi Arabia, Turkey, Malaysia, and Ukraine...",
     "url": "https://www.schneier.com/blog/archives/2026/05/darksword-malware.html",
@@ -35,53 +42,46 @@
     "published": "2026-05-04T09:46:31Z"
   },
   {
-    "title": "A Ransomware Negotiator Was Working for a Ransomware Gang",
-    "summary": "Someone pleaded guilty to secretly working for a ransomware gang as he negotiated ransomware payments for clients.",
-    "url": "https://www.schneier.com/blog/archives/2026/05/a-ransomware-negotiator-was-working-for-a-ransomware-gang.html",
-    "source": "schneier.com",
-    "published": "2026-05-01T11:18:43Z"
-  },
-  {
-    "title": "Palo Alto PAN-OS Flaw Under Active Exploitation Enables Remote Code Execution",
-    "summary": "Palo Alto Networks has released an advisory warning that a critical buffer overflow vulnerability in its PAN-OS software has been exploited in the wild. The vulnerability, tracked as CVE-2026-0300, has been described as a case of unauthenticated remote code execution. It carries a CVSS score of 9.3 if the User-ID Authentication Portal is configured to enable access from the internet or any",
-    "url": "https://thehackernews.com/2026/05/palo-alto-pan-os-flaw-under-active.html",
+    "title": "The Hacker News Launches 'Cybersecurity Stars Awards 2026' — Submissions Now Open",
+    "summary": "For nearly 20 years, we at The Hacker News have mostly told scary stories about cyberspace — big hacks, broken systems, and new threats. But behind every headline, there’s a quieter, better story. It’s the story of leaders making tough calls under pressure, teams building smarter defenses, and security products that keep hunting threats 24/7 — even when it’s hard. Most of the time, this work is",
+    "url": "https://thehackernews.com/2026/05/the-hacker-news-launches-cybersecurity.html",
     "source": "feeds.feedburner.com",
-    "published": "Wed, 06 May 2026 11:44:00 +0530"
+    "published": "Wed, 06 May 2026 17:33:00 +0530"
   },
   {
-    "title": "Critical Apache HTTP/2 Flaw (CVE-2026-23918) Enables DoS and Potential RCE",
-    "summary": "The Apache Software Foundation (ASF) has released security updates to address several security vulnerabilities in the HTTP Server, including a severe vulnerability that could potentially lead to remote code execution (RCE). The vulnerability, tracked as CVE-2026-23918 (CVSS score: 8.8), has been described as a case of \"double free and possible RCE\" in the HTTP/2 protocol handling. This issue",
-    "url": "https://thehackernews.com/2026/05/critical-apache-http2-flaw-cve-2026.html",
+    "title": "Your AI Agents Are Already Inside the Perimeter. Do You Know What They're Doing?",
+    "summary": "Analysts recently confirmed what identity security teams have quietly feared: AI agents are being deployed faster than enterprises can govern them. In their inaugural Market Guide for Guardian Agents, Gartner states that “enterprise adoption of AI agents is accelerating, outpacing maturity of governance policy controls.” Enterprise leaders can request access to the Gartner Market Guide for",
+    "url": "https://thehackernews.com/2026/05/your-ai-agents-are-already-inside.html",
     "source": "feeds.feedburner.com",
-    "published": "Tue, 05 May 2026 21:49:00 +0530"
+    "published": "Wed, 06 May 2026 16:27:00 +0530"
   },
   {
-    "title": "DAEMON Tools Supply Chain Attack Compromises Official Installers with Malware",
-    "summary": "A newly identified supply chain attack targeting DAEMON Tools software has compromised its installers to serve a malicious payload, according to findings from Kaspersky. \"These installers are distributed from the legitimate website of DAEMON Tools and are signed with digital certificates belonging to DAEMON Tools developers,\" Kaspersky researchers&nbsp; Igor Kuznetsov, Georgy Kucherin, Leonid",
-    "url": "https://thehackernews.com/2026/05/daemon-tools-supply-chain-attack.html",
+    "title": "Google's Android Apps Get Public Verification to Stop Supply Chain Attacks",
+    "summary": "Google has announced expanded Binary Transparency for Android as a way to safeguard the ecosystem from supply chain attacks. \"This new public ledger ensures the Google apps on your device are exactly what we intended to build and distribute,\" Google's product and security teams said. The initiative builds upon the foundation of Pixel Binary Transparency, which Google introduced in October 2021",
+    "url": "https://thehackernews.com/2026/05/android-apps-get-public-verification.html",
     "source": "feeds.feedburner.com",
-    "published": "Tue, 05 May 2026 21:37:00 +0530"
+    "published": "Wed, 06 May 2026 14:43:00 +0530"
   },
   {
-    "title": "New stealthy Quasar Linux malware targets software developers",
-    "summary": "A previously undocumented Linux implant named Quasar Linux (QLNX) is targeting developers' systems with a mix of rootkit, backdoor, and credential-stealing capabilities. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/new-stealthy-quasar-linux-malware-targets-software-developers/",
+    "title": "MuddyWater hackers use Chaos ransomware as a decoy in attacks",
+    "summary": "The MuddyWater Iranian hackers disguised their operations as a Chaos ransomware attack, relying on Microsoft Teams social engineering to gain access and establish persistence. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/muddywater-hackers-use-chaos-ransomware-as-a-decoy-in-attacks/",
     "source": "bleepingcomputer.com",
-    "published": "Tue, 05 May 2026 18:01:39 -0400"
+    "published": "Wed, 06 May 2026 09:02:52 -0400"
   },
   {
-    "title": "Instructure hacker claims data theft from 8,800 schools, universities",
-    "summary": "The hacker behind a breach at education technology giant Instructure claims to have stolen 280 million data records for students and staff from 8,809 colleges, school districts, and online education platforms. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/instructure-hacker-claims-data-theft-from-8-800-schools-universities/",
+    "title": "Webinar: Why network incidents escalate and how to fix response gaps",
+    "summary": "Most network incidents don't escalate due to a lack of alerts; they escalate when response breaks down. This webinar explores how to fix gaps in triage, enrichment, and coordination. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/webinar-why-network-incidents-escalate-and-how-to-fix-response-gaps/",
     "source": "bleepingcomputer.com",
-    "published": "Tue, 05 May 2026 17:20:23 -0400"
+    "published": "Wed, 06 May 2026 08:56:32 -0400"
   },
   {
-    "title": "DAEMON Tools trojanized in supply-chain attack to deploy backdoor",
-    "summary": "Hackers trojanized installers for the DAEMON Tools software and since April 8, delivered a backdoor to thousands of systems that downloaded the product from the official website. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/daemon-tools-trojanized-in-supply-chain-attack-to-deploy-backdoor/",
+    "title": "Palo Alto Networks warns of firewall RCE zero-day exploited in attacks",
+    "summary": "Palo Alto Networks warned customers today that a critical-severity unpatched vulnerability in the PAN-OS User-ID Authentication Portal is being exploited in attacks. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-actively-exploited-firewall-zero-day/",
     "source": "bleepingcomputer.com",
-    "published": "Tue, 05 May 2026 15:21:18 -0400"
+    "published": "Wed, 06 May 2026 05:18:16 -0400"
   },
   {
     "title": "Student Loan Breach Exposes 2.5M Records",
@@ -147,6 +147,13 @@
     "published": "Fri, 01 May 2026 23:00:13 +0000"
   },
   {
+    "title": "LABScon25 Replay | Please Connect to the Foreign Entity to Enhance Your User Experience",
+    "summary": "Joe FitzPatrick reveals how consumer imports of networked devices pose a real security risk to small businesses and critical infrastructure alike.",
+    "url": "https://www.sentinelone.com/labs/labscon25-replay-please-connect-to-the-foreign-entity-to-enhance-your-user-experience/",
+    "source": "labs.sentinelone.com",
+    "published": "Wed, 06 May 2026 13:00:29 +0000"
+  },
+  {
     "title": "fast16 | Mystery ShadowBrokers Reference Reveals High-Precision Software Sabotage 5 Years Before Stuxnet",
     "summary": "A previously unknown 2005 cyber sabotage framework patches high-precision calculation software in memory to silently corrupt results.",
     "url": "https://www.sentinelone.com/labs/fast16-mystery-shadowbrokers-reference-reveals-high-precision-software-sabotage-5-years-before-stuxnet/",
@@ -159,13 +166,6 @@
     "url": "https://www.sentinelone.com/labs/labscon25-replay-are-your-chinese-cameras-spying-for-you-or-on-you/",
     "source": "labs.sentinelone.com",
     "published": "Wed, 22 Apr 2026 22:00:15 +0000"
-  },
-  {
-    "title": "Building an Adversarial Consensus Engine | Multi-Agent LLMs for Automated Malware Analysis",
-    "summary": "Single-tool LLM analysis produces reports that look authoritative but aren't. A serial consensus pipeline catches artifacts and hallucinations at source.",
-    "url": "https://www.sentinelone.com/labs/building-an-adversarial-consensus-engine-multi-agent-llms-for-automated-malware-analysis/",
-    "source": "labs.sentinelone.com",
-    "published": "Thu, 19 Mar 2026 10:00:07 +0000"
   },
   {
     "title": "Three Lazarus RATs coming for your cheese",
@@ -357,6 +357,13 @@
     "published": "Wed, 04 Oct 2023 08:33:19 +1100"
   },
   {
+    "title": "Insights into the clustering and reuse of phone numbers in scam emails",
+    "summary": "Talos has recently started to collect and gather intelligence around phone numbers within emails as an additional indicator of compromise (IOC). In this blog, we discuss new insights into in-the-wild phone number reuse in scam emails.",
+    "url": "https://blog.talosintelligence.com/insights-into-the-clustering-and-reuse-of-phone-numbers-in-scam-emails/",
+    "source": "blog.talosintelligence.com",
+    "published": "Wed, 06 May 2026 10:00:12 GMT"
+  },
+  {
     "title": "UAT-8302 and its box full of malware",
     "summary": "Cisco Talos is disclosing UAT-8302, a sophisticated, China-nexus advanced persistent threat (APT) group targeting government entities in South America since at least late 2024 and government agencies in southeastern Europe in 2025.",
     "url": "https://blog.talosintelligence.com/uat-8302/",
@@ -371,11 +378,18 @@
     "published": "Tue, 05 May 2026 10:00:18 GMT"
   },
   {
-    "title": "Great responsibility, without great power",
-    "summary": "In this week’s newsletter, Hazel uses International Superhero Day as a springboard to explore why empathy — rather than just technical prowess — is the most essential, underrated superpower for navigating the human side of cybersecurity.",
-    "url": "https://blog.talosintelligence.com/great-responsibility-without-great-power/",
-    "source": "blog.talosintelligence.com",
-    "published": "Thu, 30 Apr 2026 18:00:07 GMT"
+    "title": "Autonomous AI Cyber Defense You Can Trust in Production",
+    "summary": "New research reveals how to make AI-powered cyber defense safe, stable, and reliable for real-world deployment.",
+    "url": "https://horizon3.ai/attack-research/disclosures/autonomous-ai-cyber-defense-safe-production/",
+    "source": "horizon3.ai",
+    "published": "Wed, 06 May 2026 12:15:00 +0000"
+  },
+  {
+    "title": "Horizon3.ai Announces Breakthrough Research Making Autonomous AI Cyber Defense Safe to Deploy",
+    "summary": "New Horizon3.ai research makes autonomous AI cyber defense safe, predictable, and deployable in real-world production environments.",
+    "url": "https://horizon3.ai/news/press-release/horizon3-safe-autonomous-ai-cyber-defense/",
+    "source": "horizon3.ai",
+    "published": "Wed, 06 May 2026 12:15:00 +0000"
   },
   {
     "title": "Unifying SOC and ITSM",
@@ -383,20 +397,6 @@
     "url": "https://horizon3.ai/downloads/whitepapers/unifying-soc-itsm-cyber-risk-guide/",
     "source": "horizon3.ai",
     "published": "Tue, 05 May 2026 15:18:23 +0000"
-  },
-  {
-    "title": "CVE-2026-41940",
-    "summary": "CVE-2026-41940 allows unauthenticated access to cPanel and WHM, posing a critical risk to hosting environments and managed infrastructure.",
-    "url": "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-41940/",
-    "source": "horizon3.ai",
-    "published": "Wed, 29 Apr 2026 19:08:39 +0000"
-  },
-  {
-    "title": "Project Glasswing & NodeZero® factsheet",
-    "summary": "See how Glasswing and NodeZero combine to identify vulnerabilities and validate which ones can actually be exploited.",
-    "url": "https://horizon3.ai/downloads/factsheets/project-glasswing-nodezero-factsheet/",
-    "source": "horizon3.ai",
-    "published": "Tue, 28 Apr 2026 15:58:27 +0000"
   },
   {
     "title": "Disabling Security Features in a Locked BIOS",
