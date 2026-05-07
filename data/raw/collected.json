@@ -42,6 +42,13 @@
     "published": "2026-05-04T09:46:31Z"
   },
   {
+    "title": "Mirai-Based xlabs_v1 Botnet Exploits ADB to Hijack IoT Devices for DDoS Attacks",
+    "summary": "Cybersecurity researchers have exposed a new Mirai-derived botnet that self-identifies as xlabs_v1 and targets internet-exposed devices running Android Debug Bridge (ADB) to enlist them in a network capable of carrying out distributed denial-of-service (DDoS) attacks. Hunt.io, which detailed the malware, said it made the discovery after identifying an exposed directory on a Netherlands-hosted",
+    "url": "https://thehackernews.com/2026/05/mirai-based-xlabsv1-botnet-exploits-adb.html",
+    "source": "feeds.feedburner.com",
+    "published": "Thu, 07 May 2026 01:51:00 +0530"
+  },
+  {
     "title": "MuddyWater Uses Microsoft Teams to Steal Credentials in False Flag Ransomware Attack",
     "summary": "The Iranian state-sponsored hacking group known as MuddyWater (aka Mango Sandstorm, Seedworm, and Static Kitten) has been attributed to a ransomware attack in what has been described as a \"false flag\" operation. The attack, observed by Rapid7 in early 2026, has been found to leverage social engineering techniques via Microsoft Teams to initiate the infection sequence. Although the incident",
     "url": "https://thehackernews.com/2026/05/muddywater-uses-microsoft-teams-to.html",
@@ -56,11 +63,11 @@
     "published": "Wed, 06 May 2026 17:33:00 +0530"
   },
   {
-    "title": "Your AI Agents Are Already Inside the Perimeter. Do You Know What They're Doing?",
-    "summary": "Analysts recently confirmed what identity security teams have quietly feared: AI agents are being deployed faster than enterprises can govern them. In their inaugural Market Guide for Guardian Agents, Gartner states that “enterprise adoption of AI agents is accelerating, outpacing maturity of governance policy controls.” Enterprise leaders can request access to the Gartner Market Guide for",
-    "url": "https://thehackernews.com/2026/05/your-ai-agents-are-already-inside.html",
-    "source": "feeds.feedburner.com",
-    "published": "Wed, 06 May 2026 16:27:00 +0530"
+    "title": "Hackers abuse Google ads for GoDaddy ManageWP login phishing",
+    "summary": "A phishing campaign delivered through Google sponsored search results is targeting credentials for ManageWP, GoDaddy's platform for managing fleets of WordPress websites. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-for-godaddy-managewp-login-phishing/",
+    "source": "bleepingcomputer.com",
+    "published": "Wed, 06 May 2026 17:36:06 -0400"
   },
   {
     "title": "Critical vm2 sandbox bug lets attackers execute code on hosts",
@@ -75,13 +82,6 @@
     "url": "https://www.bleepingcomputer.com/news/security/new-cisco-dos-flaw-requires-manual-reboot-to-revive-devices/",
     "source": "bleepingcomputer.com",
     "published": "Wed, 06 May 2026 14:06:21 -0400"
-  },
-  {
-    "title": "DAEMON Tools devs confirm breach, release malware-free version",
-    "summary": "Disc Soft Limited, the maker of DAEMON Tools Lite, confirmed that the software had been trojanized in a supply chain attack and released a new, malware-free version. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/daemon-tools-devs-confirm-breach-release-malware-free-version/",
-    "source": "bleepingcomputer.com",
-    "published": "Wed, 06 May 2026 12:43:30 -0400"
   },
   {
     "title": "Student Loan Breach Exposes 2.5M Records",
@@ -126,6 +126,13 @@
     "published": "Fri, 01 May 2026 13:00:00 GMT"
   },
   {
+    "title": "Threat Brief: Exploitation of PAN-OS Captive Portal Zero-Day for Unauthenticated Remote Code Execution",
+    "summary": "Unit 42 details CVE-2026-0300, a buffer overflow vulnerability in the PAN-OS User-ID Authentication Portal. Read now for details. The post Threat Brief: Exploitation of PAN-OS Captive Portal Zero-Day for Unauthenticated Remote Code Execution appeared first on Unit 42.",
+    "url": "https://unit42.paloaltonetworks.com/captive-portal-zero-day/",
+    "source": "unit42.paloaltonetworks.com",
+    "published": "Thu, 07 May 2026 00:00:53 +0000"
+  },
+  {
     "title": "Copy Fail: What You Need to Know About the Most Severe Linux Threat in Years",
     "summary": "Copy Fail (CVE-2026-31431) is a critical Linux kernel LPE that allows stealthy root access. This flaw impacts millions of systems. Read our analysis. The post Copy Fail: What You Need to Know About the Most Severe Linux Threat in Years appeared first on Unit 42.",
     "url": "https://unit42.paloaltonetworks.com/cve-2026-31431-copy-fail/",
@@ -138,13 +145,6 @@
     "url": "https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/",
     "source": "unit42.paloaltonetworks.com",
     "published": "Sat, 02 May 2026 00:10:33 +0000"
-  },
-  {
-    "title": "Essential Data Sources for Detection Beyond the Endpoint",
-    "summary": "Unit 42 highlights the need for a comprehensive security strategy that spans every IT zone. Explore the full details here. The post Essential Data Sources for Detection Beyond the Endpoint appeared first on Unit 42.",
-    "url": "https://unit42.paloaltonetworks.com/detection-beyond-the-endpoint/",
-    "source": "unit42.paloaltonetworks.com",
-    "published": "Fri, 01 May 2026 23:00:13 +0000"
   },
   {
     "title": "LABScon25 Replay | Please Connect to the Foreign Entity to Enhance Your User Experience",
