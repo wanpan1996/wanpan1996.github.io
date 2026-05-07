@@ -42,46 +42,46 @@
     "published": "2026-05-05T10:42:03Z"
   },
   {
-    "title": "ThreatsDay Bulletin: Edge Plaintext Passwords, ICS 0-Days, Patch-or-Die Alerts and 25+ New Stories",
-    "summary": "Bad week. Turns out the easiest way to get hacked in 2026 is still the same old garbage: shady packages, fake apps, forgotten DNS junk, scam ads, and stolen logins getting dumped into Discord channels like it’s normal. Some of these attack chains don’t even feel sophisticated anymore. More like some tired guy with a Telegram account and too much free time. The worst part is how often this stuff",
-    "url": "https://thehackernews.com/2026/05/threatsday-bulletin-edge-plaintext.html",
+    "title": "Ivanti EPMM CVE-2026-6973 RCE Under Active Exploitation Grants Admin-Level Access",
+    "summary": "Ivanti is warning that a new security flaw impacting Endpoint Manager Mobile (EPMM) has been explored in limited attacks in the wild. The high-severity vulnerability, CVE-2026-6973 (CVSS score: 7.2), is a case of improper input validation affecting EPMM before versions 12.6.1.1, 12.7.0.1, and 12.8.0.1. It allows \"a remotely authenticated user with administrative access to achieve remote code",
+    "url": "https://thehackernews.com/2026/05/ivanti-epmm-cve-2026-6973-rce-under.html",
     "source": "feeds.feedburner.com",
-    "published": "Thu, 07 May 2026 17:03:00 +0530"
+    "published": "Thu, 07 May 2026 23:25:00 +0530"
   },
   {
-    "title": "Day Zero Readiness: The Operational Gaps That Break Incident Response",
-    "summary": "Having an incident response retainer, or even a pre-approved external incident response firm, is not the same as being ready for an incident. A retainer means someone will answer the phone. Operational readiness determines whether that team can do meaningful work the moment they do.&nbsp; That distinction matters far more than many organizations realize. In the first hours of a security incident",
-    "url": "https://thehackernews.com/2026/05/day-zero-readiness-operational-gaps.html",
+    "title": "PCPJack Credential Stealer Exploits 5 CVEs to Spread Worm-Like Across Cloud Systems",
+    "summary": "Cybersecurity researchers have disclosed details of a new credential theft framework dubbed PCPJack that targets exposed cloud infrastructure and ousts any artifacts linked to TeamPCP from the environments. \"The toolset harvests credentials from cloud, container, developer, productivity, and financial services, then exfiltrates the data through attacker-controlled infrastructure while attempting",
+    "url": "https://thehackernews.com/2026/05/pcpjack-credential-stealer-exploits-5.html",
     "source": "feeds.feedburner.com",
-    "published": "Thu, 07 May 2026 16:24:00 +0530"
+    "published": "Thu, 07 May 2026 23:15:00 +0530"
   },
   {
-    "title": "PyPI Packages Deliver ZiChatBot Malware via Zulip APIs on Windows and Linux",
-    "summary": "Cybersecurity researchers have discovered three packages on the Python Package Index (PyPI) repository that are designed to stealthily deliver a previously unknown malware family called&nbsp;ZiChatBot on Windows and Linux systems. \"While these wheel packages do implement the features described on their PyPI web pages, their true purpose is to covertly deliver malicious files,\" Kaspersky&nbsp;",
-    "url": "https://thehackernews.com/2026/05/pypi-packages-deliver-zichatbot-malware.html",
+    "title": "One Click, Total Shutdown: The \"Patient Zero\" Webinar on Killing Stealth Breaches",
+    "summary": "The hardest part of cybersecurity isn't the technology, it’s the people. Every major breach you’ve read about lately usually starts the same way: one employee, one clever email, and one \"Patient Zero\" infection. In 2026, hackers are using AI to make these \"first clicks\" nearly impossible to spot. If a single laptop gets compromised on your watch, do you have a plan to stop it from taking down",
+    "url": "https://thehackernews.com/2026/05/one-click-total-shutdown-patient-zero.html",
     "source": "feeds.feedburner.com",
-    "published": "Thu, 07 May 2026 14:50:00 +0530"
+    "published": "Thu, 07 May 2026 19:20:00 +0530"
   },
   {
-    "title": "Crypto gang member gets 6.5 years for role in $230 million heist",
-    "summary": "A 20-year-old California man was sentenced to 78 months in prison for serving as a home invader and money launderer in a criminal ring that stole over $250 million in cryptocurrency. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/crypto-gang-member-gets-65-years-for-role-in-230-million-heist/",
+    "title": "New PCPJack worm steals credentials, cleans TeamPCP infections",
+    "summary": "A new malware framework called PCPJack is stealing credentials from exposed cloud infrastructure while actively removing TeamPCP's access to the systems. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/new-pcpjack-worm-steals-credentials-cleans-teampcp-infections/",
     "source": "bleepingcomputer.com",
-    "published": "Thu, 07 May 2026 08:11:53 -0400"
+    "published": "Thu, 07 May 2026 14:35:50 -0400"
   },
   {
-    "title": "Webinar: Why modern attacks require both security and recovery",
-    "summary": "Modern attacks don't stop at initial compromise. This webinar explores why security and recovery must work together to reduce downtime and improve resilience. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/webinar-why-modern-attacks-require-both-security-and-recovery/",
+    "title": "Australia warns of ClickFix attacks pushing Vidar Stealer malware",
+    "summary": "The Australian Cyber Security Center (ACSC) is warning organizations of an ongoing malware campaign using the ClickFix social engineering technique to distribute the Vidar Stealer info-stealing malware. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/australia-warns-of-clickfix-attacks-pushing-vidar-stealer-malware/",
     "source": "bleepingcomputer.com",
-    "published": "Thu, 07 May 2026 08:00:08 -0400"
+    "published": "Thu, 07 May 2026 14:00:59 -0400"
   },
   {
-    "title": "Palo Alto Networks firewall zero-day exploited for nearly a month",
-    "summary": "Palo Alto Networks warned customers that suspected state-sponsored hackers have been exploiting a critical-severity PAN-OS firewall zero-day vulnerability for nearly a month. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/pan-os-firewall-rce-zero-day-exploited-in-attacks-since-april-9/",
+    "title": "Ivanti warns of new EPMM flaw exploited in zero-day attacks",
+    "summary": "Ivanti warned customers today to patch a high-severity remote code execution vulnerability in Endpoint Manager Mobile (EPMM) exploited in zero-day attacks. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/ivanti-warns-of-new-epmm-flaw-exploited-in-zero-day-attacks/",
     "source": "bleepingcomputer.com",
-    "published": "Thu, 07 May 2026 06:57:59 -0400"
+    "published": "Thu, 07 May 2026 11:20:51 -0400"
   },
   {
     "title": "Student Loan Breach Exposes 2.5M Records",
@@ -105,6 +105,13 @@
     "published": "Mon, 29 Aug 2022 14:56:19 +0000"
   },
   {
+    "title": "How Cloudflare responded to the “Copy Fail” Linux vulnerability",
+    "summary": "When a critical Linux kernel privilege escalation was publicly disclosed, Cloudflare's security and engineering teams detected, investigated, and mitigated the threat across our global fleet, confirming zero customer impact and no malicious exploitation.",
+    "url": "https://blog.cloudflare.com/copy-fail-linux-vulnerability-mitigation/",
+    "source": "blog.cloudflare.com",
+    "published": "Thu, 07 May 2026 13:00:00 GMT"
+  },
+  {
     "title": "When DNSSEC goes wrong: how we responded to the .de TLD outage",
     "summary": "On May 5, 2026, DENIC published broken DNSSEC signatures for the .de TLD, making millions of domains unreachable. Here's what 1.1.1.1 saw, how serve stale cushioned the impact, and how we restored resolution.",
     "url": "https://blog.cloudflare.com/de-tld-outage-dnssec/",
@@ -117,13 +124,6 @@
     "url": "https://blog.cloudflare.com/code-orange-fail-small-complete/",
     "source": "blog.cloudflare.com",
     "published": "Fri, 01 May 2026 21:07:30 GMT"
-  },
-  {
-    "title": "Introducing Dynamic Workflows: durable execution that follows the tenant",
-    "summary": "Dynamic Workflows is a library that lets you route durable execution to tenant-provided code on the fly. Built on Dynamic Workers, it enables platforms to serve millions of unique workflows at near-zero idle cost.",
-    "url": "https://blog.cloudflare.com/dynamic-workflows/",
-    "source": "blog.cloudflare.com",
-    "published": "Fri, 01 May 2026 13:00:00 GMT"
   },
   {
     "title": "Threat Brief: Exploitation of PAN-OS Captive Portal Zero-Day for Unauthenticated Remote Code Execution",
@@ -161,32 +161,11 @@
     "published": "Wed, 06 May 2026 13:00:29 +0000"
   },
   {
-    "title": "fast16 | Mystery ShadowBrokers Reference Reveals High-Precision Software Sabotage 5 Years Before Stuxnet",
+    "title": "fast16 | Mystery Shadow Brokers Reference Reveals High-Precision Software Sabotage 5 Years Before Stuxnet",
     "summary": "A previously unknown 2005 cyber sabotage framework patches high-precision calculation software in memory to silently corrupt results.",
     "url": "https://www.sentinelone.com/labs/fast16-mystery-shadowbrokers-reference-reveals-high-precision-software-sabotage-5-years-before-stuxnet/",
     "source": "labs.sentinelone.com",
     "published": "Thu, 23 Apr 2026 22:00:45 +0000"
-  },
-  {
-    "title": "Three Lazarus RATs coming for your cheese",
-    "summary": "Authors: Yun Zheng Hu and Mick Koomen Introduction In the past few years, Fox-IT and NCC Group have conducted multiple incident response cases involving a Lazarus subgroup that specifically targets organizations in the financial and cryptocurrency sector. This Lazarus subgroup overlaps with activity linked to AppleJeus, Citrine Sleet, UNC4736, and Gleaming Pisces. This actor uses &#8230; Continue reading Three Lazarus RATs coming for your cheese &#8594;",
-    "url": "https://blog.fox-it.com/2025/09/01/three-lazarus-rats-coming-for-your-cheese/",
-    "source": "blog.fox-it.com",
-    "published": "Mon, 01 Sep 2025 13:00:00 +0000"
-  },
-  {
-    "title": "Decrypting Full Disk Encryption with Dissect",
-    "summary": "Author: Guus Beckers Back in 2022 Fox-IT decided to open source its proprietary incident response tooling known as Dissect. Since then it has been adopted by many different companies in their regular workflow. For those of you who are not yet familiar with Dissect, it is an incident response framework built with incident response engagements of any &#8230; Continue reading Decrypting Full Disk Encryption with Dissect &#8594;",
-    "url": "https://blog.fox-it.com/2024/12/11/decrypting-full-disk-encryption-with-dissect/",
-    "source": "blog.fox-it.com",
-    "published": "Wed, 11 Dec 2024 07:30:00 +0000"
-  },
-  {
-    "title": "Red Teaming in the age of EDR: Evasion of Endpoint Detection Through Malware Virtualisation",
-    "summary": "Authors: Boudewijn Meijer &#38;&#38; Rick Veldhoven Introduction As defensive security products improve, attackers must refine their craft. Gone are the days of executing malicious binaries from disk, especially ones well known to antivirus and Endpoint Detection and Reponse (EDR) vendors. Now, attackers focus on in-memory payload execution for both native and managed applications to evade &#8230; Continue reading Red Teaming in the age of EDR: Evasion of Endpoint Detection Through Malware Virtualisation &#8594;",
-    "url": "https://blog.fox-it.com/2024/09/25/red-teaming-in-the-age-of-edr-evasion-of-endpoint-detection-through-malware-virtualisation/",
-    "source": "blog.fox-it.com",
-    "published": "Wed, 25 Sep 2024 10:36:12 +0000"
   },
   {
     "title": "(繁中) The Art of PHP — My CTF Journey and Untold Stories!",
@@ -315,6 +294,13 @@
     "published": "Tue, 11 Nov 2025 19:02:38 +0000"
   },
   {
+    "title": "World Password Day 2026: Why “Strong Passwords” Can’t Save You from AI, Infostealers, and the Telegram Underground",
+    "summary": "As we recognize World Password Day in 2026, the traditional advice to &#8220;use a complex password with numbers and symbols&#8221; feels hopelessly outdated. Today, a 16-character password is useless if an infostealer malware extracts it directly from a browser cache, or if an employee willingly pastes it into an unmanaged AI chatbot. Welcome to the real World Password Day 2026. Not the one where we remind you to add an exclamation mark to &#8220;Password123.&#8221; The one where we pull back the curtain on the global industrial marketplace that has quietly been built on the back of our collective password failures — a [&#8230;] The post World Password Day 2026: Why &#8220;Strong Passwords&#8221; Can’t Save You from AI, Infostealers, and the Telegram Underground appeared first on Check Po",
+    "url": "https://blog.checkpoint.com/security/world-password-day-2026-why-strong-passwords-cant-save-you-from-ai-infostealers-and-the-telegram-underground/",
+    "source": "blog.checkpoint.com",
+    "published": "Thu, 07 May 2026 13:00:56 +0000"
+  },
+  {
     "title": "Resilient by Design: When the Network Itself Becomes the Target",
     "summary": "Cyber security and operational resilience go hand-in-hand. Organizations have invested heavily in defending against breaches, ransomware, and service disruptions, building layered defenses designed to keep attackers out and systems running. But recent geopolitical developments are forcing a broader and more uncomfortable realization – the next major disruption may originate in the physical world rather than in code. As cloud infrastructure becomes more deeply embedded in the fabric of global economies and national systems, it is no longer just a platform for operations, but an extension of the attack surface. And it is this shift that introduces an entirely new category [&#8230;] The post Resilient by Design: When the Network Itself Becomes the Target appeared first on Check Point Blog.",
     "url": "https://blog.checkpoint.com/harmony-sase/resilient-by-design-when-the-network-itself-becomes-the-target/",
@@ -327,13 +313,6 @@
     "url": "https://blog.checkpoint.com/services/ai-threat-readiness-defending-against-attacks-powered-by-frontier-ai-models/",
     "source": "blog.checkpoint.com",
     "published": "Tue, 05 May 2026 13:00:05 +0000"
-  },
-  {
-    "title": "Check Point Cyber Security Now Available Across All Levels of U.S. Government",
-    "summary": "We’re proud to announce that Check Point has earned GovRAMP Authorization for the Check Point Infinity Platform for Government. This is a big milestone for the company and is a reflection of our unparalleled prevention-first capabilities, which were recently ranked #1 for the fourth consecutive year in Miercom&#8217;s 2026 Hybrid Mesh Network Security Assessment (Check Point achieved the top overall security effectiveness score of 99.8%, with 100% phishing detection and 99.9% AI-powered malware prevention versus leading competitors). Combined with FedRAMP Authorization achieved in 2025, this means Check Point now delivers security-vetted protection across federal, state, local, and tribal governments, providing a consistent, trusted cyber security framework across all levels of U.S. public",
-    "url": "https://blog.checkpoint.com/security/check-point-cyber-security-now-available-across-all-levels-of-u-s-government/",
-    "source": "blog.checkpoint.com",
-    "published": "Thu, 30 Apr 2026 12:00:31 +0000"
   },
   {
     "title": "High Signal Detection and Exploitation of Ivanti's Pulse Connect Secure Auth Bypass & RCE",
@@ -357,6 +336,13 @@
     "published": "Wed, 04 Oct 2023 08:33:19 +1100"
   },
   {
+    "title": "Unplug your way to better code",
+    "summary": "Cybersecurity concepts — logs, packets, DNS exfiltration, and more — are usually intangible, and its practitioners are prone to mental fatigue, Amy takes a second to yell at you to go touch grass.",
+    "url": "https://blog.talosintelligence.com/unplug-your-way-to-better-code/",
+    "source": "blog.talosintelligence.com",
+    "published": "Thu, 07 May 2026 18:00:40 GMT"
+  },
+  {
     "title": "Insights into the clustering and reuse of phone numbers in scam emails",
     "summary": "Talos has recently started to collect and gather intelligence around phone numbers within emails as an additional indicator of compromise (IOC). In this blog, we discuss new insights into in-the-wild phone number reuse in scam emails.",
     "url": "https://blog.talosintelligence.com/insights-into-the-clustering-and-reuse-of-phone-numbers-in-scam-emails/",
@@ -369,13 +355,6 @@
     "url": "https://blog.talosintelligence.com/uat-8302/",
     "source": "blog.talosintelligence.com",
     "published": "Tue, 05 May 2026 10:00:30 GMT"
-  },
-  {
-    "title": "CloudZ RAT potentially steals OTP messages using Pheno plugin",
-    "summary": "Cisco Talos discovered an intrusion, active since at least January 2026, where an unknown attacker implanted a CloudZ remote access tool (RAT) and a previously undocumented plugin called “Pheno.”",
-    "url": "https://blog.talosintelligence.com/cloudz-pheno-infostealer/",
-    "source": "blog.talosintelligence.com",
-    "published": "Tue, 05 May 2026 10:00:18 GMT"
   },
   {
     "title": "Autonomous AI Cyber Defense You Can Trust in Production",
