@@ -21,6 +21,13 @@
     "published": "Tue, 14 Apr 2026 21:47:59 +0000"
   },
   {
+    "title": "Smart Glasses for the Authorities",
+    "summary": "ICE is developing its own version of smart glasses, with facial recognition tied to various databases.",
+    "url": "https://www.schneier.com/blog/archives/2026/05/smart-glasses-for-the-authorities.html",
+    "source": "schneier.com",
+    "published": "2026-05-07T11:07:07Z"
+  },
+  {
     "title": "Rowhammer Attack Against NVIDIA Chips",
     "summary": "A new rowhammer attack gives complete control of NVIDIA CPUs. On Thursday, two research teams, working independently of each other, demonstrated attacks against two cards from Nvidia’s Ampere generation that take GPU rowhammering into new&#8212;­and potentially much more consequential&#8212;­territory: GDDR bitflips that give adversaries full control of CPU memory, resulting in full system compromise of the host machine. For the attack to work, IOMMU memory management must be disabled, as is the default in BIOS settings. “Our work shows that Rowhammer, which is well-studied on CPUs, is a serious threat on GPUs as well,” said Andrew Kwong, co-author of one of the papers. &#8220;...",
     "url": "https://www.schneier.com/blog/archives/2026/05/rowhammer-attack-against-nvidia-chips.html",
@@ -35,53 +42,46 @@
     "published": "2026-05-05T10:42:03Z"
   },
   {
-    "title": "Hacking Polymarket",
-    "summary": "Polymarket is a platform where people can bet on real-world events, political and otherwise. Leaving the ethical considerations of this aside (for one, it facilitates assassination), one of the issues with making this work is the verification of these real-world events. Polymarket gamblers have threatened a journalist because his story was being used to verify an event. And now, gamblers are taking hair dryers to weather sensors to rig weather bets. There&#8217;s also insider trading: a lot of it.",
-    "url": "https://www.schneier.com/blog/archives/2026/05/hacking-polymarket.html",
-    "source": "schneier.com",
-    "published": "2026-05-04T09:46:31Z"
-  },
-  {
-    "title": "vm2 Node.js Library Vulnerabilities Enable Sandbox Escape and Arbitrary Code Execution",
-    "summary": "A dozen critical security vulnerabilities have been disclosed in the vm2 Node.js library that could be exploited by bad actors to break out of the sandbox and execute arbitrary code on susceptible systems. vm2 is an open-source library used to run untrusted JavaScript code inside a secure sandbox by intercepting and proxying JavaScript objects to prevent sandboxed code from accessing the host",
-    "url": "https://thehackernews.com/2026/05/vm2-nodejs-library-vulnerabilities.html",
+    "title": "ThreatsDay Bulletin: Edge Plaintext Passwords, ICS 0-Days, Patch-or-Die Alerts and 25+ New Stories",
+    "summary": "Bad week. Turns out the easiest way to get hacked in 2026 is still the same old garbage: shady packages, fake apps, forgotten DNS junk, scam ads, and stolen logins getting dumped into Discord channels like it’s normal. Some of these attack chains don’t even feel sophisticated anymore. More like some tired guy with a Telegram account and too much free time. The worst part is how often this stuff",
+    "url": "https://thehackernews.com/2026/05/threatsday-bulletin-edge-plaintext.html",
     "source": "feeds.feedburner.com",
-    "published": "Thu, 07 May 2026 09:45:00 +0530"
+    "published": "Thu, 07 May 2026 17:03:00 +0530"
   },
   {
-    "title": "Mirai-Based xlabs_v1 Botnet Exploits ADB to Hijack IoT Devices for DDoS Attacks",
-    "summary": "Cybersecurity researchers have exposed a new Mirai-derived botnet that self-identifies as xlabs_v1 and targets internet-exposed devices running Android Debug Bridge (ADB) to enlist them in a network capable of carrying out distributed denial-of-service (DDoS) attacks. Hunt.io, which detailed the malware, said it made the discovery after identifying an exposed directory on a Netherlands-hosted",
-    "url": "https://thehackernews.com/2026/05/mirai-based-xlabsv1-botnet-exploits-adb.html",
+    "title": "Day Zero Readiness: The Operational Gaps That Break Incident Response",
+    "summary": "Having an incident response retainer, or even a pre-approved external incident response firm, is not the same as being ready for an incident. A retainer means someone will answer the phone. Operational readiness determines whether that team can do meaningful work the moment they do.&nbsp; That distinction matters far more than many organizations realize. In the first hours of a security incident",
+    "url": "https://thehackernews.com/2026/05/day-zero-readiness-operational-gaps.html",
     "source": "feeds.feedburner.com",
-    "published": "Thu, 07 May 2026 01:51:00 +0530"
+    "published": "Thu, 07 May 2026 16:24:00 +0530"
   },
   {
-    "title": "MuddyWater Uses Microsoft Teams to Steal Credentials in False Flag Ransomware Attack",
-    "summary": "The Iranian state-sponsored hacking group known as MuddyWater (aka Mango Sandstorm, Seedworm, and Static Kitten) has been attributed to a ransomware attack in what has been described as a \"false flag\" operation. The attack, observed by Rapid7 in early 2026, has been found to leverage social engineering techniques via Microsoft Teams to initiate the infection sequence. Although the incident",
-    "url": "https://thehackernews.com/2026/05/muddywater-uses-microsoft-teams-to.html",
+    "title": "PyPI Packages Deliver ZiChatBot Malware via Zulip APIs on Windows and Linux",
+    "summary": "Cybersecurity researchers have discovered three packages on the Python Package Index (PyPI) repository that are designed to stealthily deliver a previously unknown malware family called&nbsp;ZiChatBot on Windows and Linux systems. \"While these wheel packages do implement the features described on their PyPI web pages, their true purpose is to covertly deliver malicious files,\" Kaspersky&nbsp;",
+    "url": "https://thehackernews.com/2026/05/pypi-packages-deliver-zichatbot-malware.html",
     "source": "feeds.feedburner.com",
-    "published": "Wed, 06 May 2026 18:30:00 +0530"
+    "published": "Thu, 07 May 2026 14:50:00 +0530"
   },
   {
-    "title": "Hackers abuse Google ads for GoDaddy ManageWP login phishing",
-    "summary": "A phishing campaign delivered through Google sponsored search results is targeting credentials for ManageWP, GoDaddy's platform for managing fleets of WordPress websites. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-for-godaddy-managewp-login-phishing/",
+    "title": "Crypto gang member gets 6.5 years for role in $230 million heist",
+    "summary": "A 20-year-old California man was sentenced to 78 months in prison for serving as a home invader and money launderer in a criminal ring that stole over $250 million in cryptocurrency. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/crypto-gang-member-gets-65-years-for-role-in-230-million-heist/",
     "source": "bleepingcomputer.com",
-    "published": "Wed, 06 May 2026 17:36:06 -0400"
+    "published": "Thu, 07 May 2026 08:11:53 -0400"
   },
   {
-    "title": "Critical vm2 sandbox bug lets attackers execute code on hosts",
-    "summary": "A critical vulnerability in the popular Node.js sandboxing library vm2 allows escaping the sandbox and executing arbitrary code on the host system. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/critical-vm2-sandbox-bug-lets-attackers-execute-code-on-hosts/",
+    "title": "Webinar: Why modern attacks require both security and recovery",
+    "summary": "Modern attacks don't stop at initial compromise. This webinar explores why security and recovery must work together to reduce downtime and improve resilience. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/webinar-why-modern-attacks-require-both-security-and-recovery/",
     "source": "bleepingcomputer.com",
-    "published": "Wed, 06 May 2026 14:38:38 -0400"
+    "published": "Thu, 07 May 2026 08:00:08 -0400"
   },
   {
-    "title": "New Cisco DoS flaw requires manual reboot to revive devices",
-    "summary": "Cisco patched a Crosswork Network Controller and Network Services Orchestrator denial-of-service vulnerability that requires manually rebooting targeted systems for recovery. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/new-cisco-dos-flaw-requires-manual-reboot-to-revive-devices/",
+    "title": "Palo Alto Networks firewall zero-day exploited for nearly a month",
+    "summary": "Palo Alto Networks warned customers that suspected state-sponsored hackers have been exploiting a critical-severity PAN-OS firewall zero-day vulnerability for nearly a month. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/pan-os-firewall-rce-zero-day-exploited-in-attacks-since-april-9/",
     "source": "bleepingcomputer.com",
-    "published": "Wed, 06 May 2026 14:06:21 -0400"
+    "published": "Thu, 07 May 2026 06:57:59 -0400"
   },
   {
     "title": "Student Loan Breach Exposes 2.5M Records",
@@ -147,6 +147,13 @@
     "published": "Sat, 02 May 2026 00:10:33 +0000"
   },
   {
+    "title": "PCPJack | Cloud Worm Evicts TeamPCP and Steals Credentials at Scale",
+    "summary": "Cloud attack framework skips cryptomining, harvests financial, messaging, and enterprise credentials for fraud, spam, and potential extortion.",
+    "url": "https://www.sentinelone.com/labs/cloud-worm-evicts-teampcp-and-steals-credentials-at-scale/",
+    "source": "labs.sentinelone.com",
+    "published": "Thu, 07 May 2026 10:00:17 +0000"
+  },
+  {
     "title": "LABScon25 Replay | Please Connect to the Foreign Entity to Enhance Your User Experience",
     "summary": "Joe FitzPatrick reveals how consumer imports of networked devices pose a real security risk to small businesses and critical infrastructure alike.",
     "url": "https://www.sentinelone.com/labs/labscon25-replay-please-connect-to-the-foreign-entity-to-enhance-your-user-experience/",
@@ -159,13 +166,6 @@
     "url": "https://www.sentinelone.com/labs/fast16-mystery-shadowbrokers-reference-reveals-high-precision-software-sabotage-5-years-before-stuxnet/",
     "source": "labs.sentinelone.com",
     "published": "Thu, 23 Apr 2026 22:00:45 +0000"
-  },
-  {
-    "title": "LABScon25 Replay | Are Your Chinese Cameras Spying For You Or On You?",
-    "summary": "Marc Rogers and Silas Cutler expose how cheap smart home devices conceal a shadow supply chain of shell companies, firmware flaws, and foreign data routing.",
-    "url": "https://www.sentinelone.com/labs/labscon25-replay-are-your-chinese-cameras-spying-for-you-or-on-you/",
-    "source": "labs.sentinelone.com",
-    "published": "Wed, 22 Apr 2026 22:00:15 +0000"
   },
   {
     "title": "Three Lazarus RATs coming for your cheese",
