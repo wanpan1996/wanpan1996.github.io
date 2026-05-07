@@ -42,6 +42,13 @@
     "published": "2026-05-04T09:46:31Z"
   },
   {
+    "title": "vm2 Node.js Library Vulnerabilities Enable Sandbox Escape and Arbitrary Code Execution",
+    "summary": "A dozen critical security vulnerabilities have been disclosed in the vm2 Node.js library that could be exploited by bad actors to break out of the sandbox and execute arbitrary code on susceptible systems. vm2 is an open-source library used to run untrusted JavaScript code inside a secure sandbox by intercepting and proxying JavaScript objects to prevent sandboxed code from accessing the host",
+    "url": "https://thehackernews.com/2026/05/vm2-nodejs-library-vulnerabilities.html",
+    "source": "feeds.feedburner.com",
+    "published": "Thu, 07 May 2026 09:45:00 +0530"
+  },
+  {
     "title": "Mirai-Based xlabs_v1 Botnet Exploits ADB to Hijack IoT Devices for DDoS Attacks",
     "summary": "Cybersecurity researchers have exposed a new Mirai-derived botnet that self-identifies as xlabs_v1 and targets internet-exposed devices running Android Debug Bridge (ADB) to enlist them in a network capable of carrying out distributed denial-of-service (DDoS) attacks. Hunt.io, which detailed the malware, said it made the discovery after identifying an exposed directory on a Netherlands-hosted",
     "url": "https://thehackernews.com/2026/05/mirai-based-xlabsv1-botnet-exploits-adb.html",
@@ -54,13 +61,6 @@
     "url": "https://thehackernews.com/2026/05/muddywater-uses-microsoft-teams-to.html",
     "source": "feeds.feedburner.com",
     "published": "Wed, 06 May 2026 18:30:00 +0530"
-  },
-  {
-    "title": "The Hacker News Launches 'Cybersecurity Stars Awards 2026' — Submissions Now Open",
-    "summary": "For nearly 20 years, we at The Hacker News have mostly told scary stories about cyberspace — big hacks, broken systems, and new threats. But behind every headline, there’s a quieter, better story. It’s the story of leaders making tough calls under pressure, teams building smarter defenses, and security products that keep hunting threats 24/7 — even when it’s hard. Most of the time, this work is",
-    "url": "https://thehackernews.com/2026/05/the-hacker-news-launches-cybersecurity.html",
-    "source": "feeds.feedburner.com",
-    "published": "Wed, 06 May 2026 17:33:00 +0530"
   },
   {
     "title": "Hackers abuse Google ads for GoDaddy ManageWP login phishing",
