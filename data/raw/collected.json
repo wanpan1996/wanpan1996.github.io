@@ -1,5 +1,12 @@
 [
   {
+    "title": "Canvas Breach Disrupts Schools & Colleges Nationwide",
+    "summary": "An ongoing data extortion attack targeting the widely-used education technology platform Canvas disrupted classes and coursework at school districts and universities across the United States today, after a cybercrime group defaced the service's login page with a ransom demand that threatened to leak data from 275 million students and faculty across nearly 9,000 educational institutions.",
+    "url": "https://krebsonsecurity.com/2026/05/canvas-breach-disrupts-schools-colleges-nationwide/",
+    "source": "krebsonsecurity.com",
+    "published": "Fri, 08 May 2026 02:58:46 +0000"
+  },
+  {
     "title": "Anti-DDoS Firm Heaped Attacks on Brazilian ISPs",
     "summary": "A Brazilian tech firm that specializes in protecting networks from distributed denial-of-service (DDoS) attacks has been enabling a botnet responsible for an extended campaign of massive DDoS attacks against other network operators in Brazil, KrebsOnSecurity has learned. The firm's chief executive says the malicious activity resulted from a security breach and was likely the work of a competitor trying to tarnish his company's public image.",
     "url": "https://krebsonsecurity.com/2026/04/anti-ddos-firm-heaped-attacks-on-brazilian-isps/",
@@ -12,13 +19,6 @@
     "url": "https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/",
     "source": "krebsonsecurity.com",
     "published": "Tue, 21 Apr 2026 14:53:59 +0000"
-  },
-  {
-    "title": "Patch Tuesday, April 2026 Edition",
-    "summary": "Microsoft today pushed software updates to fix a staggering 167 security vulnerabilities in its Windows operating systems and related software, including a SharePoint Server zero-day and a publicly disclosed weakness in Windows Defender dubbed \"BlueHammer.\" Separately, Google Chrome fixed its fourth zero-day of 2026, and an emergency update for Adobe Reader nixes an actively exploited flaw that can lead to remote code execution.",
-    "url": "https://krebsonsecurity.com/2026/04/patch-tuesday-april-2026-edition/",
-    "source": "krebsonsecurity.com",
-    "published": "Tue, 14 Apr 2026 21:47:59 +0000"
   },
   {
     "title": "Smart Glasses for the Authorities",
@@ -42,6 +42,13 @@
     "published": "2026-05-05T10:42:03Z"
   },
   {
+    "title": "Linux Kernel Dirty Frag LPE Exploit Enables Root Access Across Major Distributions",
+    "summary": "Details have emerged about a new, unpatched local privilege escalation (LPE) vulnerability impacting the Linux kernel. Dubbed Dirty Frag, it has been described as a successor to Copy Fail (CVE-2026-31431, CVSS score: 7.8), a recently disclosed LPE flaw impacting the Linux kernel that has since come under active exploitation in the wild. The vulnerability was reported to Linux kernel maintainers",
+    "url": "https://thehackernews.com/2026/05/linux-kernel-dirty-frag-lpe-exploit.html",
+    "source": "feeds.feedburner.com",
+    "published": "Fri, 08 May 2026 10:42:00 +0530"
+  },
+  {
     "title": "Ivanti EPMM CVE-2026-6973 RCE Under Active Exploitation Grants Admin-Level Access",
     "summary": "Ivanti is warning that a new security flaw impacting Endpoint Manager Mobile (EPMM) has been explored in limited attacks in the wild. The high-severity vulnerability, CVE-2026-6973 (CVSS score: 7.2), is a case of improper input validation affecting EPMM before versions 12.6.1.1, 12.7.0.1, and 12.8.0.1. It allows \"a remotely authenticated user with administrative access to achieve remote code",
     "url": "https://thehackernews.com/2026/05/ivanti-epmm-cve-2026-6973-rce-under.html",
@@ -54,13 +61,6 @@
     "url": "https://thehackernews.com/2026/05/pcpjack-credential-stealer-exploits-5.html",
     "source": "feeds.feedburner.com",
     "published": "Thu, 07 May 2026 23:15:00 +0530"
-  },
-  {
-    "title": "One Click, Total Shutdown: The \"Patient Zero\" Webinar on Killing Stealth Breaches",
-    "summary": "The hardest part of cybersecurity isn't the technology, it’s the people. Every major breach you’ve read about lately usually starts the same way: one employee, one clever email, and one \"Patient Zero\" infection. In 2026, hackers are using AI to make these \"first clicks\" nearly impossible to spot. If a single laptop gets compromised on your watch, do you have a plan to stop it from taking down",
-    "url": "https://thehackernews.com/2026/05/one-click-total-shutdown-patient-zero.html",
-    "source": "feeds.feedburner.com",
-    "published": "Thu, 07 May 2026 19:20:00 +0530"
   },
   {
     "title": "Canvas login portals hacked in mass ShinyHunters extortion campaign",
