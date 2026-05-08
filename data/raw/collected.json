@@ -63,25 +63,25 @@
     "published": "Thu, 07 May 2026 19:20:00 +0530"
   },
   {
+    "title": "Canvas login portals hacked in mass ShinyHunters extortion campaign",
+    "summary": "The ShinyHunters extortion gang has breached education technology giant Instructure again, this time exploiting another vulnerability to deface Canvas login portals for hundreds of colleges and universities. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/canvas-login-portals-hacked-in-mass-shinyhunters-extortion-campaign/",
+    "source": "bleepingcomputer.com",
+    "published": "Thu, 07 May 2026 18:36:54 -0400"
+  },
+  {
+    "title": "New TCLBanker malware self-spreads over WhatsApp and Outlook",
+    "summary": "A new trojan named TCLBanker, which targets 59 banking, fintech, and cryptocurrency platforms, uses a trojanized MSI installer for Logitech AI Prompt Builder to infect systems. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/new-tclbanker-malware-self-spreads-over-whatsapp-and-outlook/",
+    "source": "bleepingcomputer.com",
+    "published": "Thu, 07 May 2026 18:06:52 -0400"
+  },
+  {
     "title": "New PCPJack worm steals credentials, cleans TeamPCP infections",
     "summary": "A new malware framework called PCPJack is stealing credentials from exposed cloud infrastructure while actively removing TeamPCP's access to the systems. [...]",
     "url": "https://www.bleepingcomputer.com/news/security/new-pcpjack-worm-steals-credentials-cleans-teampcp-infections/",
     "source": "bleepingcomputer.com",
     "published": "Thu, 07 May 2026 14:35:50 -0400"
-  },
-  {
-    "title": "Australia warns of ClickFix attacks pushing Vidar Stealer malware",
-    "summary": "The Australian Cyber Security Center (ACSC) is warning organizations of an ongoing malware campaign using the ClickFix social engineering technique to distribute the Vidar Stealer info-stealing malware. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/australia-warns-of-clickfix-attacks-pushing-vidar-stealer-malware/",
-    "source": "bleepingcomputer.com",
-    "published": "Thu, 07 May 2026 14:00:59 -0400"
-  },
-  {
-    "title": "Ivanti warns of new EPMM flaw exploited in zero-day attacks",
-    "summary": "Ivanti warned customers today to patch a high-severity remote code execution vulnerability in Endpoint Manager Mobile (EPMM) exploited in zero-day attacks. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/ivanti-warns-of-new-epmm-flaw-exploited-in-zero-day-attacks/",
-    "source": "bleepingcomputer.com",
-    "published": "Thu, 07 May 2026 11:20:51 -0400"
   },
   {
     "title": "Student Loan Breach Exposes 2.5M Records",
@@ -105,6 +105,13 @@
     "published": "Mon, 29 Aug 2022 14:56:19 +0000"
   },
   {
+    "title": "Building for the future",
+    "summary": "This afternoon, we sent the following email to our global team. One of our core values at Cloudflare is transparency, and we believe it's important that you hear this directly from us because it’s a major moment at Cloudflare.",
+    "url": "https://blog.cloudflare.com/building-for-the-future/",
+    "source": "blog.cloudflare.com",
+    "published": "Thu, 07 May 2026 20:15:12 GMT"
+  },
+  {
     "title": "How Cloudflare responded to the “Copy Fail” Linux vulnerability",
     "summary": "When a critical Linux kernel privilege escalation was publicly disclosed, Cloudflare's security and engineering teams detected, investigated, and mitigated the threat across our global fleet, confirming zero customer impact and no malicious exploitation.",
     "url": "https://blog.cloudflare.com/copy-fail-linux-vulnerability-mitigation/",
@@ -117,13 +124,6 @@
     "url": "https://blog.cloudflare.com/de-tld-outage-dnssec/",
     "source": "blog.cloudflare.com",
     "published": "Wed, 06 May 2026 17:00:00 GMT"
-  },
-  {
-    "title": "Code Orange: Fail Small is complete. The result is a stronger Cloudflare network",
-    "summary": "We have completed a massive engineering effort to make our infrastructure more resilient. Through new tools like Snapstone and the Engineering Codex, we've implemented safer configuration changes and automated best practices to prevent future incidents.",
-    "url": "https://blog.cloudflare.com/code-orange-fail-small-complete/",
-    "source": "blog.cloudflare.com",
-    "published": "Fri, 01 May 2026 21:07:30 GMT"
   },
   {
     "title": "Threat Brief: Exploitation of PAN-OS Captive Portal Zero-Day for Unauthenticated Remote Code Execution",
