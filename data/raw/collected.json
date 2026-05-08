@@ -42,46 +42,46 @@
     "published": "2026-05-05T10:42:03Z"
   },
   {
-    "title": "Linux Kernel Dirty Frag LPE Exploit Enables Root Access Across Major Distributions",
-    "summary": "Details have emerged about a new, unpatched local privilege escalation (LPE) vulnerability impacting the Linux kernel. Dubbed Dirty Frag, it has been described as a successor to Copy Fail (CVE-2026-31431, CVSS score: 7.8), a recently disclosed LPE flaw impacting the Linux kernel that has since come under active exploitation in the wild. The vulnerability was reported to Linux kernel maintainers",
-    "url": "https://thehackernews.com/2026/05/linux-kernel-dirty-frag-lpe-exploit.html",
+    "title": "Quasar Linux RAT Steals Developer Credentials for Software Supply Chain Compromise",
+    "summary": "A previously undocumented Linux implant codenamed Quasar Linux RAT (QLNX) is targeting developers' systems to establish a silent foothold as well as facilitate a broad range of post-compromise functionality, such as credential harvesting, keylogging, file manipulation, clipboard monitoring, and network tunneling. \"QLNX targets developers and DevOps credentials across the software supply chain,\"",
+    "url": "https://thehackernews.com/2026/05/quasar-linux-rat-steals-developer.html",
     "source": "feeds.feedburner.com",
-    "published": "Fri, 08 May 2026 10:42:00 +0530"
+    "published": "Fri, 08 May 2026 16:30:00 +0530"
   },
   {
-    "title": "Ivanti EPMM CVE-2026-6973 RCE Under Active Exploitation Grants Admin-Level Access",
-    "summary": "Ivanti is warning that a new security flaw impacting Endpoint Manager Mobile (EPMM) has been explored in limited attacks in the wild. The high-severity vulnerability, CVE-2026-6973 (CVSS score: 7.2), is a case of improper input validation affecting EPMM before versions 12.6.1.1, 12.7.0.1, and 12.8.0.1. It allows \"a remotely authenticated user with administrative access to achieve remote code",
-    "url": "https://thehackernews.com/2026/05/ivanti-epmm-cve-2026-6973-rce-under.html",
+    "title": "One Missed Threat Per Week: What 25M Alerts Reveal About Low-Severity Risk",
+    "summary": "The dark secret of enterprise security operations is that defenders have quietly institutionalized the practice of not looking. This is not just anecdotal, but rather backed by a recent report investigating more than 25 million security alerts, including informational and low-severity, across live enterprise environments.&nbsp; The dataset behind these findings includes 10 million monitored",
+    "url": "https://thehackernews.com/2026/05/one-missed-threat-per-week-what-25m.html",
     "source": "feeds.feedburner.com",
-    "published": "Thu, 07 May 2026 23:25:00 +0530"
+    "published": "Fri, 08 May 2026 16:00:00 +0530"
   },
   {
-    "title": "PCPJack Credential Stealer Exploits 5 CVEs to Spread Worm-Like Across Cloud Systems",
-    "summary": "Cybersecurity researchers have disclosed details of a new credential theft framework dubbed PCPJack that targets exposed cloud infrastructure and ousts any artifacts linked to TeamPCP from the environments. \"The toolset harvests credentials from cloud, container, developer, productivity, and financial services, then exfiltrates the data through attacker-controlled infrastructure while attempting",
-    "url": "https://thehackernews.com/2026/05/pcpjack-credential-stealer-exploits-5.html",
+    "title": "New Linux PamDOORa Backdoor Uses PAM Modules to Steal SSH Credentials",
+    "summary": "Cybersecurity researchers have disclosed details of a new Linux backdoor named PamDOORa that's being advertised on the Rehub Russian cybercrime forum for $1,600 by a threat actor called \"darkworm.\" The backdoor is designed as a Pluggable Authentication Module (PAM)-based post-exploitation toolkit that enables persistent SSH access by means of a magic password and specific TCP port combination.",
+    "url": "https://thehackernews.com/2026/05/new-linux-pamdoora-backdoor-uses-pam.html",
     "source": "feeds.feedburner.com",
-    "published": "Thu, 07 May 2026 23:15:00 +0530"
+    "published": "Fri, 08 May 2026 14:11:00 +0530"
   },
   {
-    "title": "Canvas login portals hacked in mass ShinyHunters extortion campaign",
-    "summary": "The ShinyHunters extortion gang has breached education technology giant Instructure again, this time exploiting another vulnerability to deface Canvas login portals for hundreds of colleges and universities. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/canvas-login-portals-hacked-in-mass-shinyhunters-extortion-campaign/",
+    "title": "CISA gives feds four days to patch Ivanti flaw exploited as zero-day",
+    "summary": "CISA has given U.S. federal agencies four days to secure their networks against a high-severity vulnerability in Ivanti Endpoint Manager Mobile (EPMM) exploited in zero-day attacks. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/cisa-gives-feds-four-days-to-patch-ivanti-flaw-exploited-as-zero-day/",
     "source": "bleepingcomputer.com",
-    "published": "Thu, 07 May 2026 18:36:54 -0400"
+    "published": "Fri, 08 May 2026 08:16:32 -0400"
   },
   {
-    "title": "New TCLBanker malware self-spreads over WhatsApp and Outlook",
-    "summary": "A new trojan named TCLBanker, which targets 59 banking, fintech, and cryptocurrency platforms, uses a trojanized MSI installer for Logitech AI Prompt Builder to infect systems. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/new-tclbanker-malware-self-spreads-over-whatsapp-and-outlook/",
+    "title": "Zara data breach exposed personal information of 197,000 people",
+    "summary": "Hackers who gained access to the databases of Spanish fast-fashion retailer Zara stole data belonging to more than 197,000 customers, according to data breach notification service Have I Been Pwned. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/zara-data-breach-exposed-personal-information-of-197-000-people/",
     "source": "bleepingcomputer.com",
-    "published": "Thu, 07 May 2026 18:06:52 -0400"
+    "published": "Fri, 08 May 2026 06:42:22 -0400"
   },
   {
-    "title": "New PCPJack worm steals credentials, cleans TeamPCP infections",
-    "summary": "A new malware framework called PCPJack is stealing credentials from exposed cloud infrastructure while actively removing TeamPCP's access to the systems. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/new-pcpjack-worm-steals-credentials-cleans-teampcp-infections/",
+    "title": "Former govt contractor convicted for wiping dozens of federal databases",
+    "summary": "A 34-year-old Virginia man was found guilty of conspiring to destroy dozens of government databases after getting fired from his job as a federal contractor. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/former-govt-contractor-convicted-for-wiping-dozens-of-federal-databases/",
     "source": "bleepingcomputer.com",
-    "published": "Thu, 07 May 2026 14:35:50 -0400"
+    "published": "Fri, 08 May 2026 04:45:04 -0400"
   },
   {
     "title": "Student Loan Breach Exposes 2.5M Records",
