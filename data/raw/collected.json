@@ -21,6 +21,13 @@
     "published": "Tue, 21 Apr 2026 14:53:59 +0000"
   },
   {
+    "title": "Insider Betting on Polymarket",
+    "summary": "Insider trading is rife on Polymarket: Analysis by the Anti-Corruption Data Collective, a non-profit research and advocacy group, found that long-shot bets&#8212;­defined as wagers of $2,500 or more at odds of 35 percent or less&#8212;­on the platform had an average win rate of around 52 percent in markets on military and defense actions. That compares with a win rate of 25 percent across all politics-focused markets and just 14 percent for all markets on the platform as a whole. It is absolutely insane that this is legal. We already know how insider betting warps sports. Insider betting warping politics&#8212;and military actions&#8212;is orders of magnitude worse...",
+    "url": "https://www.schneier.com/blog/archives/2026/05/insider-betting-on-polymarket.html",
+    "source": "schneier.com",
+    "published": "2026-05-08T17:49:01Z"
+  },
+  {
     "title": "Smart Glasses for the Authorities",
     "summary": "ICE is developing its own version of smart glasses, with facial recognition tied to various databases.",
     "url": "https://www.schneier.com/blog/archives/2026/05/smart-glasses-for-the-authorities.html",
@@ -35,53 +42,46 @@
     "published": "2026-05-06T10:36:59Z"
   },
   {
-    "title": "DarkSword Malware",
-    "summary": "DarkSword is a sophisticated piece of malware&#8212;probably government designed&#8212;that targets iOS. Google Threat Intelligence Group (GTIG) has identified a new iOS full-chain exploit that leveraged multiple zero-day vulnerabilities to fully compromise devices. Based on toolmarks in recovered payloads, we believe the exploit chain to be called DarkSword. Since at least November 2025, GTIG has observed multiple commercial surveillance vendors and suspected state-sponsored actors utilizing DarkSword in distinct campaigns. These threat actors have deployed the exploit chain against targets in Saudi Arabia, Turkey, Malaysia, and Ukraine...",
-    "url": "https://www.schneier.com/blog/archives/2026/05/darksword-malware.html",
-    "source": "schneier.com",
-    "published": "2026-05-05T10:42:03Z"
-  },
-  {
-    "title": "Quasar Linux RAT Steals Developer Credentials for Software Supply Chain Compromise",
-    "summary": "A previously undocumented Linux implant codenamed Quasar Linux RAT (QLNX) is targeting developers' systems to establish a silent foothold as well as facilitate a broad range of post-compromise functionality, such as credential harvesting, keylogging, file manipulation, clipboard monitoring, and network tunneling. \"QLNX targets developers and DevOps credentials across the software supply chain,\"",
-    "url": "https://thehackernews.com/2026/05/quasar-linux-rat-steals-developer.html",
+    "title": "TCLBANKER Banking Trojan Targets Financial Platforms via WhatsApp and Outlook Worms",
+    "summary": "Threat hunters have flagged a previously undocumented Brazilian banking trojan dubbed TCLBANKER that's capable of targeting 59 banking, fintech, and cryptocurrency platforms. The activity is being tracked by Elastic Security Labs under the moniker REF3076. The malware family is assessed to be a major update of the Maverick, which is known to leverage a worm called SORVEPOTEL to spread via",
+    "url": "https://thehackernews.com/2026/05/tclbanker-banking-trojan-targets.html",
     "source": "feeds.feedburner.com",
-    "published": "Fri, 08 May 2026 16:30:00 +0530"
+    "published": "Fri, 08 May 2026 23:42:00 +0530"
   },
   {
-    "title": "One Missed Threat Per Week: What 25M Alerts Reveal About Low-Severity Risk",
-    "summary": "The dark secret of enterprise security operations is that defenders have quietly institutionalized the practice of not looking. This is not just anecdotal, but rather backed by a recent report investigating more than 25 million security alerts, including informational and low-severity, across live enterprise environments.&nbsp; The dataset behind these findings includes 10 million monitored",
-    "url": "https://thehackernews.com/2026/05/one-missed-threat-per-week-what-25m.html",
+    "title": "Fake Call History Apps Stole Payments From Users After 7.3 Million Play Store Downloads",
+    "summary": "Cybersecurity researchers have discovered fraudulent apps on the official Google Play Store for Android that falsely claimed to offer access to call histories for any phone number, only to trick users into joining a subscription that provided fake data and incurred financial loss. The 28 apps have collectively racked up more than 7.3 million downloads, with one of them alone accounting for over",
+    "url": "https://thehackernews.com/2026/05/fake-call-history-apps-stole-payments.html",
     "source": "feeds.feedburner.com",
-    "published": "Fri, 08 May 2026 16:00:00 +0530"
+    "published": "Fri, 08 May 2026 20:38:00 +0530"
   },
   {
-    "title": "New Linux PamDOORa Backdoor Uses PAM Modules to Steal SSH Credentials",
-    "summary": "Cybersecurity researchers have disclosed details of a new Linux backdoor named PamDOORa that's being advertised on the Rehub Russian cybercrime forum for $1,600 by a threat actor called \"darkworm.\" The backdoor is designed as a Pluggable Authentication Module (PAM)-based post-exploitation toolkit that enables persistent SSH access by means of a magic password and specific TCP port combination.",
-    "url": "https://thehackernews.com/2026/05/new-linux-pamdoora-backdoor-uses-pam.html",
+    "title": "One Click, Total Shutdown: The \"Patient Zero\" Webinar on Killing Stealth Breaches",
+    "summary": "The hardest part of cybersecurity isn't the technology, it’s the people. Every major breach you’ve read about lately usually starts the same way: one employee, one clever email, and one \"Patient Zero\" infection. In 2026, hackers are using AI to make these \"first clicks\" nearly impossible to spot. If a single laptop gets compromised on your watch, do you have a plan to stop it from taking down",
+    "url": "https://thehackernews.com/2026/05/one-click-total-shutdown-patient-zero.html",
     "source": "feeds.feedburner.com",
-    "published": "Fri, 08 May 2026 14:11:00 +0530"
+    "published": "Fri, 08 May 2026 19:31:00 +0530"
   },
   {
-    "title": "CISA gives feds four days to patch Ivanti flaw exploited as zero-day",
-    "summary": "CISA has given U.S. federal agencies four days to secure their networks against a high-severity vulnerability in Ivanti Endpoint Manager Mobile (EPMM) exploited in zero-day attacks. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/cisa-gives-feds-four-days-to-patch-ivanti-flaw-exploited-as-zero-day/",
+    "title": "NVIDIA confirms GeForce NOW data breach affecting Armenian users",
+    "summary": "NVIDIA has confirmed in a statement for BleepingComputer that GeForce NOW user information has been exposed in a data breach. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/nvidia-confirms-geforce-now-data-breach-affecting-armenian-users/",
     "source": "bleepingcomputer.com",
-    "published": "Fri, 08 May 2026 08:16:32 -0400"
+    "published": "Fri, 08 May 2026 12:18:31 -0400"
   },
   {
-    "title": "Zara data breach exposed personal information of 197,000 people",
-    "summary": "Hackers who gained access to the databases of Spanish fast-fashion retailer Zara stole data belonging to more than 197,000 customers, according to data breach notification service Have I Been Pwned. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/zara-data-breach-exposed-personal-information-of-197-000-people/",
+    "title": "Why More Analysts Won’t Solve Your SOC’s Alert Problem",
+    "summary": "Attackers move faster than overwhelmed SOC teams can realistically investigate alerts. Prophet Security breaks down how AI can help analysts investigate alerts faster and focus on real threats. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/why-more-analysts-wont-solve-your-socs-alert-problem/",
     "source": "bleepingcomputer.com",
-    "published": "Fri, 08 May 2026 06:42:22 -0400"
+    "published": "Fri, 08 May 2026 10:02:12 -0400"
   },
   {
-    "title": "Former govt contractor convicted for wiping dozens of federal databases",
-    "summary": "A 34-year-old Virginia man was found guilty of conspiring to destroy dozens of government databases after getting fired from his job as a federal contractor. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/former-govt-contractor-convicted-for-wiping-dozens-of-federal-databases/",
+    "title": "Trellix source code breach claimed by RansomHouse hackers",
+    "summary": "The attack on the Trellix source code repository disclosed last week has been claimed by the RansomHouse threat group, which leaked a small set of images as proof of the intrusion. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/trellix-source-code-breach-claimed-by-ransomhouse-hackers/",
     "source": "bleepingcomputer.com",
-    "published": "Fri, 08 May 2026 04:45:04 -0400"
+    "published": "Fri, 08 May 2026 09:23:23 -0400"
   },
   {
     "title": "Student Loan Breach Exposes 2.5M Records",
