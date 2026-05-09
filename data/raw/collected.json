@@ -42,6 +42,13 @@
     "published": "2026-05-07T11:07:07Z"
   },
   {
+    "title": "cPanel, WHM Release Fixes for Three New Vulnerabilities — Patch Now",
+    "summary": "cPanel has released updates to address three vulnerabilities in cPanel and Web Host Manager (WHM) that could be exploited to achieve privilege escalation, code execution, and denial-of-service. The list of vulnerabilities is as follows - CVE-2026-29201 (CVSS score: 4.3) - An insufficient input validation of the feature file name in the \"feature::LOADFEATUREFILE\" adminbin call that could result",
+    "url": "https://thehackernews.com/2026/05/cpanel-whm-patch-3-new-vulnerabilities.html",
+    "source": "feeds.feedburner.com",
+    "published": "Sat, 09 May 2026 12:46:00 +0530"
+  },
+  {
     "title": "TCLBANKER Banking Trojan Targets Financial Platforms via WhatsApp and Outlook Worms",
     "summary": "Threat hunters have flagged a previously undocumented Brazilian banking trojan dubbed TCLBANKER that's capable of targeting 59 banking, fintech, and cryptocurrency platforms. The activity is being tracked by Elastic Security Labs under the moniker REF3076. The malware family is assessed to be a major update of the Maverick, which is known to leverage a worm called SORVEPOTEL to spread via",
     "url": "https://thehackernews.com/2026/05/tclbanker-banking-trojan-targets.html",
@@ -54,13 +61,6 @@
     "url": "https://thehackernews.com/2026/05/fake-call-history-apps-stole-payments.html",
     "source": "feeds.feedburner.com",
     "published": "Fri, 08 May 2026 20:38:00 +0530"
-  },
-  {
-    "title": "One Click, Total Shutdown: The \"Patient Zero\" Webinar on Killing Stealth Breaches",
-    "summary": "The hardest part of cybersecurity isn't the technology, it’s the people. Every major breach you’ve read about lately usually starts the same way: one employee, one clever email, and one \"Patient Zero\" infection. In 2026, hackers are using AI to make these \"first clicks\" nearly impossible to spot. If a single laptop gets compromised on your watch, do you have a plan to stop it from taking down",
-    "url": "https://thehackernews.com/2026/05/one-click-total-shutdown-patient-zero.html",
-    "source": "feeds.feedburner.com",
-    "published": "Fri, 08 May 2026 19:31:00 +0530"
   },
   {
     "title": "NVIDIA confirms GeForce NOW data breach affecting Armenian users",
