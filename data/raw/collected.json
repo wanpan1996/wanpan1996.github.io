@@ -21,6 +21,13 @@
     "published": "Tue, 21 Apr 2026 14:53:59 +0000"
   },
   {
+    "title": "Friday Squid Blogging: Giant Squid Live in the Waters of Western Australia",
+    "summary": "Evidence of them has been found by analyzing DNA in the seawater. As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered. Blog moderation policy.",
+    "url": "https://www.schneier.com/blog/archives/2026/05/friday-squid-blogging-giant-squid-live-in-the-waters-of-western-australia.html",
+    "source": "schneier.com",
+    "published": "2026-05-08T21:03:28Z"
+  },
+  {
     "title": "Insider Betting on Polymarket",
     "summary": "Insider trading is rife on Polymarket: Analysis by the Anti-Corruption Data Collective, a non-profit research and advocacy group, found that long-shot bets&#8212;­defined as wagers of $2,500 or more at odds of 35 percent or less&#8212;­on the platform had an average win rate of around 52 percent in markets on military and defense actions. That compares with a win rate of 25 percent across all politics-focused markets and just 14 percent for all markets on the platform as a whole. It is absolutely insane that this is legal. We already know how insider betting warps sports. Insider betting warping politics&#8212;and military actions&#8212;is orders of magnitude worse...",
     "url": "https://www.schneier.com/blog/archives/2026/05/insider-betting-on-polymarket.html",
@@ -33,13 +40,6 @@
     "url": "https://www.schneier.com/blog/archives/2026/05/smart-glasses-for-the-authorities.html",
     "source": "schneier.com",
     "published": "2026-05-07T11:07:07Z"
-  },
-  {
-    "title": "Rowhammer Attack Against NVIDIA Chips",
-    "summary": "A new rowhammer attack gives complete control of NVIDIA CPUs. On Thursday, two research teams, working independently of each other, demonstrated attacks against two cards from Nvidia’s Ampere generation that take GPU rowhammering into new&#8212;­and potentially much more consequential&#8212;­territory: GDDR bitflips that give adversaries full control of CPU memory, resulting in full system compromise of the host machine. For the attack to work, IOMMU memory management must be disabled, as is the default in BIOS settings. “Our work shows that Rowhammer, which is well-studied on CPUs, is a serious threat on GPUs as well,” said Andrew Kwong, co-author of one of the papers. &#8220;...",
-    "url": "https://www.schneier.com/blog/archives/2026/05/rowhammer-attack-against-nvidia-chips.html",
-    "source": "schneier.com",
-    "published": "2026-05-06T10:36:59Z"
   },
   {
     "title": "TCLBANKER Banking Trojan Targets Financial Platforms via WhatsApp and Outlook Worms",
