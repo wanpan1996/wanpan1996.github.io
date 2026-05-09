@@ -63,6 +63,13 @@
     "published": "Fri, 08 May 2026 20:38:00 +0530"
   },
   {
+    "title": "Fake OpenAI repository on Hugging Face pushes infostealer malware",
+    "summary": "A malicious Hugging Face repository that reached the platform's trending list impersonated OpenAI's \"Privacy Filter\" project to deliver information-stealing malware to Windows users. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/fake-openai-repository-on-hugging-face-pushes-infostealer-malware/",
+    "source": "bleepingcomputer.com",
+    "published": "Sat, 09 May 2026 10:26:03 -0400"
+  },
+  {
     "title": "NVIDIA confirms GeForce NOW data breach affecting Armenian users",
     "summary": "NVIDIA has confirmed in a statement for BleepingComputer that GeForce NOW user information has been exposed in a data breach. [...]",
     "url": "https://www.bleepingcomputer.com/news/security/nvidia-confirms-geforce-now-data-breach-affecting-armenian-users/",
@@ -75,13 +82,6 @@
     "url": "https://www.bleepingcomputer.com/news/security/why-more-analysts-wont-solve-your-socs-alert-problem/",
     "source": "bleepingcomputer.com",
     "published": "Fri, 08 May 2026 10:02:12 -0400"
-  },
-  {
-    "title": "Trellix source code breach claimed by RansomHouse hackers",
-    "summary": "The attack on the Trellix source code repository disclosed last week has been claimed by the RansomHouse threat group, which leaked a small set of images as proof of the intrusion. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/trellix-source-code-breach-claimed-by-ransomhouse-hackers/",
-    "source": "bleepingcomputer.com",
-    "published": "Fri, 08 May 2026 09:23:23 -0400"
   },
   {
     "title": "Student Loan Breach Exposes 2.5M Records",
