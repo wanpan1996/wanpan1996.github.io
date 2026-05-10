@@ -63,25 +63,25 @@
     "published": "Fri, 08 May 2026 23:42:00 +0530"
   },
   {
+    "title": "Hackers abuse Google ads, Claude.ai chats to push Mac malware",
+    "summary": "Attackers are abusing Google Ads and legitimate Claude.ai shared chats in an active malvertising campaign. Users searching for \"Claude mac download\" may come across sponsored search results that list claude.ai as the target website, but lead to instructions that install malware on their Mac. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-claudeai-chats-to-push-mac-malware/",
+    "source": "bleepingcomputer.com",
+    "published": "Sun, 10 May 2026 13:52:15 -0400"
+  },
+  {
+    "title": "Police shut down reboot of Crimenetwork marketplace, arrest admin",
+    "summary": "German authorities have shut down a relaunch version of the criminal marketplace 'Crimenetwork' that generated more than 3.6 million euros, and arrested its operator. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/police-shut-down-reboot-of-crimenetwork-marketplace-arrest-admin/",
+    "source": "bleepingcomputer.com",
+    "published": "Sun, 10 May 2026 10:16:47 -0400"
+  },
+  {
     "title": "JDownloader site hacked to replace installers with Python RAT malware",
     "summary": "The website for the popular JDownloader download manager was compromised earlier this week to distribute malicious Windows and Linux installers, with the Windows payload found deploying a Python-based remote access trojan. [...]",
     "url": "https://www.bleepingcomputer.com/news/security/jdownloader-site-hacked-to-replace-installers-with-python-rat-malware/",
     "source": "bleepingcomputer.com",
     "published": "Sat, 09 May 2026 15:27:58 -0400"
-  },
-  {
-    "title": "Fake OpenAI repository on Hugging Face pushes infostealer malware",
-    "summary": "A malicious Hugging Face repository that reached the platform's trending list impersonated OpenAI's \"Privacy Filter\" project to deliver information-stealing malware to Windows users. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/fake-openai-repository-on-hugging-face-pushes-infostealer-malware/",
-    "source": "bleepingcomputer.com",
-    "published": "Sat, 09 May 2026 10:26:03 -0400"
-  },
-  {
-    "title": "NVIDIA confirms GeForce NOW data breach affecting Armenian users",
-    "summary": "NVIDIA has confirmed in a statement for BleepingComputer that GeForce NOW user information has been exposed in a data breach. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/nvidia-confirms-geforce-now-data-breach-affecting-armenian-users/",
-    "source": "bleepingcomputer.com",
-    "published": "Fri, 08 May 2026 12:18:31 -0400"
   },
   {
     "title": "Student Loan Breach Exposes 2.5M Records",
