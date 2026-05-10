@@ -42,6 +42,13 @@
     "published": "2026-05-07T11:07:07Z"
   },
   {
+    "title": "Ollama Out-of-Bounds Read Vulnerability Allows Remote Process Memory Leak",
+    "summary": "Cybersecurity researchers have disclosed a critical security vulnerability in Ollama that, if successfully exploited, could allow a remote, unauthenticated attacker to leak its entire process memory. The out-of-bounds read flaw, which likely impacts over 300,000 servers globally, is tracked as CVE-2026-7482 (CVSS score: 9.1). It has been codenamed&nbsp;Bleeding Llama by Cyera. Ollama is a",
+    "url": "https://thehackernews.com/2026/05/ollama-out-of-bounds-read-vulnerability.html",
+    "source": "feeds.feedburner.com",
+    "published": "Sun, 10 May 2026 18:11:00 +0530"
+  },
+  {
     "title": "cPanel, WHM Release Fixes for Three New Vulnerabilities — Patch Now",
     "summary": "cPanel has released updates to address three vulnerabilities in cPanel and Web Host Manager (WHM) that could be exploited to achieve privilege escalation, code execution, and denial-of-service. The list of vulnerabilities is as follows - CVE-2026-29201 (CVSS score: 4.3) - An insufficient input validation of the feature file name in the \"feature::LOADFEATUREFILE\" adminbin call that could result",
     "url": "https://thehackernews.com/2026/05/cpanel-whm-patch-3-new-vulnerabilities.html",
@@ -54,13 +61,6 @@
     "url": "https://thehackernews.com/2026/05/tclbanker-banking-trojan-targets.html",
     "source": "feeds.feedburner.com",
     "published": "Fri, 08 May 2026 23:42:00 +0530"
-  },
-  {
-    "title": "Fake Call History Apps Stole Payments From Users After 7.3 Million Play Store Downloads",
-    "summary": "Cybersecurity researchers have discovered fraudulent apps on the official Google Play Store for Android that falsely claimed to offer access to call histories for any phone number, only to trick users into joining a subscription that provided fake data and incurred financial loss. The 28 apps have collectively racked up more than 7.3 million downloads, with one of them alone accounting for over",
-    "url": "https://thehackernews.com/2026/05/fake-call-history-apps-stole-payments.html",
-    "source": "feeds.feedburner.com",
-    "published": "Fri, 08 May 2026 20:38:00 +0530"
   },
   {
     "title": "JDownloader site hacked to replace installers with Python RAT malware",
