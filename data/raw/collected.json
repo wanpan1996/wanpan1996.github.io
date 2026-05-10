@@ -63,6 +63,13 @@
     "published": "Fri, 08 May 2026 20:38:00 +0530"
   },
   {
+    "title": "JDownloader site hacked to replace installers with Python RAT malware",
+    "summary": "The website for the popular JDownloader download manager was compromised earlier this week to distribute malicious Windows and Linux installers, with the Windows payload found deploying a Python-based remote access trojan. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/jdownloader-site-hacked-to-replace-installers-with-python-rat-malware/",
+    "source": "bleepingcomputer.com",
+    "published": "Sat, 09 May 2026 15:27:58 -0400"
+  },
+  {
     "title": "Fake OpenAI repository on Hugging Face pushes infostealer malware",
     "summary": "A malicious Hugging Face repository that reached the platform's trending list impersonated OpenAI's \"Privacy Filter\" project to deliver information-stealing malware to Windows users. [...]",
     "url": "https://www.bleepingcomputer.com/news/security/fake-openai-repository-on-hugging-face-pushes-infostealer-malware/",
@@ -75,13 +82,6 @@
     "url": "https://www.bleepingcomputer.com/news/security/nvidia-confirms-geforce-now-data-breach-affecting-armenian-users/",
     "source": "bleepingcomputer.com",
     "published": "Fri, 08 May 2026 12:18:31 -0400"
-  },
-  {
-    "title": "Why More Analysts Won’t Solve Your SOC’s Alert Problem",
-    "summary": "Attackers move faster than overwhelmed SOC teams can realistically investigate alerts. Prophet Security breaks down how AI can help analysts investigate alerts faster and focus on real threats. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/why-more-analysts-wont-solve-your-socs-alert-problem/",
-    "source": "bleepingcomputer.com",
-    "published": "Fri, 08 May 2026 10:02:12 -0400"
   },
   {
     "title": "Student Loan Breach Exposes 2.5M Records",
