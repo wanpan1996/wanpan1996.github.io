@@ -42,6 +42,13 @@
     "published": "2026-05-07T11:07:07Z"
   },
   {
+    "title": "Fake OpenAI Privacy Filter Repo Hits #1 on Hugging Face, Draws 244K Downloads",
+    "summary": "A malicious Hugging Face repository managed to take a spot in the platform's trending list by impersonating OpenAI's Privacy Filter open-weight model to deliver a Rust-based information stealer to Windows users. The project, named Open-OSS/privacy-filter, masqueraded as its legitimate counterpart, released by OpenAI late last month (openai/privacy-filter), including copying the entire",
+    "url": "https://thehackernews.com/2026/05/fake-openai-privacy-filter-repo-hits-1.html",
+    "source": "feeds.feedburner.com",
+    "published": "Mon, 11 May 2026 12:35:00 +0530"
+  },
+  {
     "title": "Ollama Out-of-Bounds Read Vulnerability Allows Remote Process Memory Leak",
     "summary": "Cybersecurity researchers have disclosed a critical security vulnerability in Ollama that, if successfully exploited, could allow a remote, unauthenticated attacker to leak its entire process memory. The out-of-bounds read flaw, which likely impacts over 300,000 servers globally, is tracked as CVE-2026-7482 (CVSS score: 9.1). It has been codenamed&nbsp;Bleeding Llama by Cyera. Ollama is a",
     "url": "https://thehackernews.com/2026/05/ollama-out-of-bounds-read-vulnerability.html",
@@ -54,13 +61,6 @@
     "url": "https://thehackernews.com/2026/05/cpanel-whm-patch-3-new-vulnerabilities.html",
     "source": "feeds.feedburner.com",
     "published": "Sat, 09 May 2026 12:46:00 +0530"
-  },
-  {
-    "title": "TCLBANKER Banking Trojan Targets Financial Platforms via WhatsApp and Outlook Worms",
-    "summary": "Threat hunters have flagged a previously undocumented Brazilian banking trojan dubbed TCLBANKER that's capable of targeting 59 banking, fintech, and cryptocurrency platforms. The activity is being tracked by Elastic Security Labs under the moniker REF3076. The malware family is assessed to be a major update of the Maverick, which is known to leverage a worm called SORVEPOTEL to spread via",
-    "url": "https://thehackernews.com/2026/05/tclbanker-banking-trojan-targets.html",
-    "source": "feeds.feedburner.com",
-    "published": "Fri, 08 May 2026 23:42:00 +0530"
   },
   {
     "title": "Hackers abuse Google ads, Claude.ai chats to push Mac malware",
