@@ -21,6 +21,13 @@
     "published": "Tue, 21 Apr 2026 14:53:59 +0000"
   },
   {
+    "title": "LLMs and Text-in-Text Steganography",
+    "summary": "Turns out that LLMs are really good at hiding text messages in other text messages.",
+    "url": "https://www.schneier.com/blog/archives/2026/05/llms-and-text-in-text-steganography.html",
+    "source": "schneier.com",
+    "published": "2026-05-11T11:04:29Z"
+  },
+  {
     "title": "Friday Squid Blogging: Giant Squid Live in the Waters of Western Australia",
     "summary": "Evidence of them has been found by analyzing DNA in the seawater. As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered. Blog moderation policy.",
     "url": "https://www.schneier.com/blog/archives/2026/05/friday-squid-blogging-giant-squid-live-in-the-waters-of-western-australia.html",
@@ -35,11 +42,18 @@
     "published": "2026-05-08T17:49:01Z"
   },
   {
-    "title": "Smart Glasses for the Authorities",
-    "summary": "ICE is developing its own version of smart glasses, with facial recognition tied to various databases.",
-    "url": "https://www.schneier.com/blog/archives/2026/05/smart-glasses-for-the-authorities.html",
-    "source": "schneier.com",
-    "published": "2026-05-07T11:07:07Z"
+    "title": "⚡ Weekly Recap: Linux Rootkit, macOS Crypto Stealer, WebSocket Skimmers and More",
+    "summary": "Rough Monday. Somebody poisoned a trusted download again, somebody else turned cloud servers into public housing, and a few crews are still getting into boxes with bugs that should’ve died years ago — the same old holes, same lazy access paths, same “how the hell is this still open” feeling. One report this week basically reads like a guy tripped over root access by accident and decided to stay",
+    "url": "https://thehackernews.com/2026/05/weekly-recap-linux-rootkit-macos-crypto.html",
+    "source": "feeds.feedburner.com",
+    "published": "Mon, 11 May 2026 18:06:00 +0530"
+  },
+  {
+    "title": "Your Purple Team Isn't Purple — It's Just Red and Blue in the Same Room",
+    "summary": "Defending a network at 2 am looks a lot like this: an analyst copy-pasting a hash from a PDF into a SIEM query. A red team script is being rewritten by hand so the blue team can use it. A patch waiting on a change-approval window that's longer than the exploitation window itself. Nobody in that chain is incompetent. Every human is doing their job correctly. The problem is the system, its",
+    "url": "https://thehackernews.com/2026/05/your-purple-team-isnt-purple-its-just.html",
+    "source": "feeds.feedburner.com",
+    "published": "Mon, 11 May 2026 17:00:00 +0530"
   },
   {
     "title": "Fake OpenAI Privacy Filter Repo Hits #1 on Hugging Face, Draws 244K Downloads",
@@ -49,39 +63,25 @@
     "published": "Mon, 11 May 2026 12:35:00 +0530"
   },
   {
-    "title": "Ollama Out-of-Bounds Read Vulnerability Allows Remote Process Memory Leak",
-    "summary": "Cybersecurity researchers have disclosed a critical security vulnerability in Ollama that, if successfully exploited, could allow a remote, unauthenticated attacker to leak its entire process memory. The out-of-bounds read flaw, which likely impacts over 300,000 servers globally, is tracked as CVE-2026-7482 (CVSS score: 9.1). It has been codenamed&nbsp;Bleeding Llama by Cyera. Ollama is a",
-    "url": "https://thehackernews.com/2026/05/ollama-out-of-bounds-read-vulnerability.html",
-    "source": "feeds.feedburner.com",
-    "published": "Sun, 10 May 2026 18:11:00 +0530"
-  },
-  {
-    "title": "cPanel, WHM Release Fixes for Three New Vulnerabilities — Patch Now",
-    "summary": "cPanel has released updates to address three vulnerabilities in cPanel and Web Host Manager (WHM) that could be exploited to achieve privilege escalation, code execution, and denial-of-service. The list of vulnerabilities is as follows - CVE-2026-29201 (CVSS score: 4.3) - An insufficient input validation of the feature file name in the \"feature::LOADFEATUREFILE\" adminbin call that could result",
-    "url": "https://thehackernews.com/2026/05/cpanel-whm-patch-3-new-vulnerabilities.html",
-    "source": "feeds.feedburner.com",
-    "published": "Sat, 09 May 2026 12:46:00 +0530"
-  },
-  {
-    "title": "Hackers abuse Google ads, Claude.ai chats to push Mac malware",
-    "summary": "Attackers are abusing Google Ads and legitimate Claude.ai shared chats in an active malvertising campaign. Users searching for \"Claude mac download\" may come across sponsored search results that list claude.ai as the target website, but lead to instructions that install malware on their Mac. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-claudeai-chats-to-push-mac-malware/",
+    "title": "Why Changing Passwords Doesn’t End an Active Directory Breach",
+    "summary": "Resetting a password doesn't always remove attackers from Active Directory. Specops Software explains how cached credentials and Kerberos tickets can keep attackers authenticated after a reset. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/why-changing-passwords-doesnt-end-an-active-directory-breach/",
     "source": "bleepingcomputer.com",
-    "published": "Sun, 10 May 2026 13:52:15 -0400"
+    "published": "Mon, 11 May 2026 09:53:56 -0400"
   },
   {
-    "title": "Police shut down reboot of Crimenetwork marketplace, arrest admin",
-    "summary": "German authorities have shut down a relaunch version of the criminal marketplace 'Crimenetwork' that generated more than 3.6 million euros, and arrested its operator. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/police-shut-down-reboot-of-crimenetwork-marketplace-arrest-admin/",
+    "title": "Google: Hackers used AI to develop zero-day exploit for web admin tool",
+    "summary": "Researchers at Google Threat Intelligence Group (GTIG) say that a zero-day exploit targeting a popular open-source web administration tool was likely generated using AI. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/google-hackers-used-ai-to-develop-zero-day-exploit-for-web-admin-tool/",
     "source": "bleepingcomputer.com",
-    "published": "Sun, 10 May 2026 10:16:47 -0400"
+    "published": "Mon, 11 May 2026 09:02:30 -0400"
   },
   {
-    "title": "JDownloader site hacked to replace installers with Python RAT malware",
-    "summary": "The website for the popular JDownloader download manager was compromised earlier this week to distribute malicious Windows and Linux installers, with the Windows payload found deploying a Python-based remote access trojan. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/jdownloader-site-hacked-to-replace-installers-with-python-rat-malware/",
+    "title": "Webinar this week: Prevention alone is not enough against modern attacks",
+    "summary": "This upcoming webinar explores how organizations need to combine security, backups, and recovery planning to reduce the impact of modern cyberattacks. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/webinar-this-week-prevention-alone-is-not-enough-against-modern-attacks/",
     "source": "bleepingcomputer.com",
-    "published": "Sat, 09 May 2026 15:27:58 -0400"
+    "published": "Mon, 11 May 2026 08:30:00 -0400"
   },
   {
     "title": "Student Loan Breach Exposes 2.5M Records",
@@ -168,6 +168,27 @@
     "published": "Thu, 23 Apr 2026 22:00:45 +0000"
   },
   {
+    "title": "Three Lazarus RATs coming for your cheese",
+    "summary": "Authors: Yun Zheng Hu and Mick Koomen Introduction In the past few years, Fox-IT and NCC Group have conducted multiple incident response cases involving a Lazarus subgroup that specifically targets organizations in the financial and cryptocurrency sector. This Lazarus subgroup overlaps with activity linked to AppleJeus, Citrine Sleet, UNC4736, and Gleaming Pisces. This actor uses &#8230; Continue reading Three Lazarus RATs coming for your&#160;cheese &#8594;",
+    "url": "https://foxitsecurity.wordpress.com/2025/09/01/three-lazarus-rats-coming-for-your-cheese/",
+    "source": "blog.fox-it.com",
+    "published": "Mon, 01 Sep 2025 13:00:00 +0000"
+  },
+  {
+    "title": "Decrypting Full Disk Encryption with Dissect",
+    "summary": "Author: Guus Beckers Back in 2022 Fox-IT decided to open source its proprietary incident response tooling known as Dissect. Since then it has been adopted by many different companies in their regular workflow. For those of you who are not yet familiar with Dissect, it is an incident response framework built with incident response engagements of any &#8230; Continue reading Decrypting Full Disk Encryption with&#160;Dissect &#8594;",
+    "url": "https://foxitsecurity.wordpress.com/2024/12/11/decrypting-full-disk-encryption-with-dissect/",
+    "source": "blog.fox-it.com",
+    "published": "Wed, 11 Dec 2024 07:30:00 +0000"
+  },
+  {
+    "title": "Red Teaming in the age of EDR: Evasion of Endpoint Detection Through Malware Virtualisation",
+    "summary": "Authors: Boudewijn Meijer &#38;&#38; Rick Veldhoven Introduction As defensive security products improve, attackers must refine their craft. Gone are the days of executing malicious binaries from disk, especially ones well known to antivirus and Endpoint Detection and Reponse (EDR) vendors. Now, attackers focus on in-memory payload execution for both native and managed applications to evade &#8230; Continue reading Red Teaming in the age of EDR: Evasion of Endpoint Detection Through Malware&#160;Virtualisation &#8594;",
+    "url": "https://foxitsecurity.wordpress.com/2024/09/25/red-teaming-in-the-age-of-edr-evasion-of-endpoint-detection-through-malware-virtualisation/",
+    "source": "blog.fox-it.com",
+    "published": "Wed, 25 Sep 2024 10:36:12 +0000"
+  },
+  {
     "title": "(繁中) The Art of PHP — My CTF Journey and Untold Stories!",
     "summary": "這是一篇為了《PHRACK》所撰寫的文章！雖然來不及趕上它最輝煌的年代，但也深知其對「駭客文化」不可抹滅的重要性 —— 從計算機第一個揭開 Stack Buffer Overflow 神秘面紗的經典啟蒙，到現今所有 SQL Injection 攻擊的奠基之作，再到 Nmap 第一份原始碼的發布，以及出現在無數影視作品、控訴著「若我有罪，也是好奇心讓我犯罪」的《駭客宣言》…… 時至今日，四十年過去了，不知多少經典由此而生、藉其傳遞著知識，並啟發了一代又一代的駭客！",
     "url": "https://blog.orange.tw/posts/2025-08-the-art-of-php-ch/",
@@ -187,27 +208,6 @@
     "url": "https://blog.orange.tw/posts/2025-07-a-web-dog-guide-to-osee/",
     "source": "blog.orange.tw",
     "published": "2025-07-01T16:00:00.000Z"
-  },
-  {
-    "title": "TAG Bulletin: Q4 2025",
-    "summary": "An overview of coordinated influence operation campaigns terminated on our platforms in Q4 2025.",
-    "url": "https://blog.google/threat-analysis-group/tag-bulletin-q4-2025/",
-    "source": "blog.google",
-    "published": "Thu, 29 Jan 2026 19:30:00 +0000"
-  },
-  {
-    "title": "TAG Bulletin: Q3 2025",
-    "summary": "Our bulletin covering coordinated influence operation campaigns terminated on our platforms in Q3 2025.",
-    "url": "https://blog.google/threat-analysis-group/tag-bulletin-q3-2025/",
-    "source": "blog.google",
-    "published": "Thu, 13 Nov 2025 16:00:00 +0000"
-  },
-  {
-    "title": "TAG Bulletin: Q2 2025",
-    "summary": "Our bulletin covering coordinated influence operation campaigns terminated on our platforms in Q2 2025.",
-    "url": "https://blog.google/threat-analysis-group/tag-bulletin-q2-2025/",
-    "source": "blog.google",
-    "published": "Mon, 21 Jul 2025 17:45:00 +0000"
   },
   {
     "title": "AI threats in the wild: The current state of prompt injections on the web",
@@ -294,6 +294,13 @@
     "published": "Tue, 11 Nov 2025 19:02:38 +0000"
   },
   {
+    "title": "Q1 2026 Ransomware Report: Fewer Groups, Higher Impact",
+    "summary": "Ransomware activity remained elevated in Q1 2026, continuing the trend established over the past year. According to the State of Ransomware Q1 2026 report from Check Point Research, overall attack volume stayed near historic highs. At the same time, the structure of the ransomware ecosystem changed materially. After two years of increasing fragmentation, activity is consolidating around a smaller number of dominant groups. For organizations, this shift reduces the number of active actors but increases the potential impact of individual incidents. Key Findings: 2,122 organizations were listed on ransomware data leak sites in Q1 2026, making it the second-highest Q1 on record The top [&#8230;] The post Q1 2026 Ransomware Report: Fewer Groups, Higher Impact appeared first on Check Point Blog.",
+    "url": "https://blog.checkpoint.com/research/q1-2026-ransomware-report-fewer-groups-higher-impact/",
+    "source": "blog.checkpoint.com",
+    "published": "Mon, 11 May 2026 10:00:39 +0000"
+  },
+  {
     "title": "World Password Day 2026: Why “Strong Passwords” Can’t Save You from AI, Infostealers, and the Telegram Underground",
     "summary": "As we recognize World Password Day in 2026, the traditional advice to &#8220;use a complex password with numbers and symbols&#8221; feels hopelessly outdated. Today, a 16-character password is useless if an infostealer malware extracts it directly from a browser cache, or if an employee willingly pastes it into an unmanaged AI chatbot. Welcome to the real World Password Day 2026. Not the one where we remind you to add an exclamation mark to &#8220;Password123.&#8221; The one where we pull back the curtain on the global industrial marketplace that has quietly been built on the back of our collective password failures — a [&#8230;] The post World Password Day 2026: Why &#8220;Strong Passwords&#8221; Can’t Save You from AI, Infostealers, and the Telegram Underground appeared first on Check Po",
     "url": "https://blog.checkpoint.com/security/world-password-day-2026-why-strong-passwords-cant-save-you-from-ai-infostealers-and-the-telegram-underground/",
@@ -306,13 +313,6 @@
     "url": "https://blog.checkpoint.com/harmony-sase/resilient-by-design-when-the-network-itself-becomes-the-target/",
     "source": "blog.checkpoint.com",
     "published": "Wed, 06 May 2026 12:20:50 +0000"
-  },
-  {
-    "title": "AI Threat Readiness: Defending Against Attacks Powered by Frontier AI Models",
-    "summary": "A new generation of frontier AI models is fundamentally changing how cyber attacks are created and executed, introducing a level of speed, scale, and accessibility the industry has not faced before. Early testing of advanced models, including Claude’s Mythos model, shows that they can identify vulnerabilities in code, connect them into viable attack paths, and generate working exploits with minimal effort. What once required deep expertise and significant time can now be executed rapidly, and at scale, across a wide range of environments. These are not simply AI-assisted attacks, they are attacks powered by frontier AI models. The new models [&#8230;] The post AI Threat Readiness: Defending Against Attacks Powered by Frontier AI Models appeared first on Check Point Blog.",
-    "url": "https://blog.checkpoint.com/services/ai-threat-readiness-defending-against-attacks-powered-by-frontier-ai-models/",
-    "source": "blog.checkpoint.com",
-    "published": "Tue, 05 May 2026 13:00:05 +0000"
   },
   {
     "title": "High Signal Detection and Exploitation of Ivanti's Pulse Connect Secure Auth Bypass & RCE",
