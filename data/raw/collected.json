@@ -63,25 +63,25 @@
     "published": "Mon, 11 May 2026 21:15:00 +0530"
   },
   {
-    "title": "Instructure confirms hackers used Canvas flaw to deface portals",
-    "summary": "Education technology giant Instructure has confirmed that a security vulnerability allowed hackers to modify Canvas login portals and leave an extortion message. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/instructure-confirms-hackers-used-canvas-flaw-to-deface-portals/",
+    "title": "GM agrees to $12.75M California settlement over sale of drivers’ data",
+    "summary": "California Attorney General Rob Bonta announced a proposed $12.75 million settlement agreement with General Motors (GM) over allegations that the company violated the California Consumer Privacy Act (CCPA). [...]",
+    "url": "https://www.bleepingcomputer.com/news/legal/gm-agrees-to-1275m-california-settlement-over-sale-of-drivers-data/",
     "source": "bleepingcomputer.com",
-    "published": "Mon, 11 May 2026 11:26:26 -0400"
+    "published": "Mon, 11 May 2026 18:40:34 -0400"
   },
   {
-    "title": "Why Changing Passwords Doesn’t End an Active Directory Breach",
-    "summary": "Resetting a password doesn't always remove attackers from Active Directory. Specops Software explains how cached credentials and Kerberos tickets can keep attackers authenticated after a reset. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/why-changing-passwords-doesnt-end-an-active-directory-breach/",
+    "title": "Official CheckMarx Jenkins package compromised with infostealer",
+    "summary": "Checkmarx warned over the weekend that a rogue version of its Jenkins Application Security Testing (AST) plugin had been published on the Jenkins Marketplace. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/official-checkmarx-jenkins-package-compromised-with-infostealer/",
     "source": "bleepingcomputer.com",
-    "published": "Mon, 11 May 2026 09:53:56 -0400"
+    "published": "Mon, 11 May 2026 18:03:06 -0400"
   },
   {
-    "title": "Google: Hackers used AI to develop zero-day exploit for web admin tool",
-    "summary": "Researchers at Google Threat Intelligence Group (GTIG) say that a zero-day exploit targeting a popular open-source web administration tool was likely generated using AI. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/google-hackers-used-ai-to-develop-zero-day-exploit-for-web-admin-tool/",
+    "title": "New GhostLock tool abuses Windows API to block file access",
+    "summary": "A security researcher has released a proof-of-concept tool named GhostLock that demonstrates how a legitimate Windows file API can be abused in attacks to block access to files stored locally or on SMB network shares. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/new-ghostlock-tool-abuses-windows-api-to-block-file-access/",
     "source": "bleepingcomputer.com",
-    "published": "Mon, 11 May 2026 09:02:30 -0400"
+    "published": "Mon, 11 May 2026 18:02:00 -0400"
   },
   {
     "title": "Student Loan Breach Exposes 2.5M Records",
@@ -126,6 +126,13 @@
     "published": "Wed, 06 May 2026 17:00:00 GMT"
   },
   {
+    "title": "Inside AD CS Escalation: Unpacking Advanced Misuse Techniques and Tools",
+    "summary": "Unit 42 analyzes AD CS exploitation through template misconfigurations and shadow credential misuse while offering behavioral detection for defenders. The post Inside AD CS Escalation: Unpacking Advanced Misuse Techniques and Tools appeared first on Unit 42.",
+    "url": "https://unit42.paloaltonetworks.com/active-directory-certificate-services-exploitation/",
+    "source": "unit42.paloaltonetworks.com",
+    "published": "Mon, 11 May 2026 22:00:43 +0000"
+  },
+  {
     "title": "Threat Brief: Exploitation of PAN-OS Captive Portal Zero-Day for Unauthenticated Remote Code Execution",
     "summary": "Unit 42 details CVE-2026-0300, a buffer overflow vulnerability in the PAN-OS User-ID Authentication Portal. Read now for details. The post Threat Brief: Exploitation of PAN-OS Captive Portal Zero-Day for Unauthenticated Remote Code Execution appeared first on Unit 42.",
     "url": "https://unit42.paloaltonetworks.com/captive-portal-zero-day/",
@@ -138,13 +145,6 @@
     "url": "https://unit42.paloaltonetworks.com/cve-2026-31431-copy-fail/",
     "source": "unit42.paloaltonetworks.com",
     "published": "Tue, 05 May 2026 23:00:33 +0000"
-  },
-  {
-    "title": "The npm Threat Landscape: Attack Surface and Mitigations (Updated May 1)",
-    "summary": "Unit 42 analyzes npm supply chain evolution post-Shai Hulud. Discover wormable malware, CI/CD persistence, multi-stage attacks and more. The post The npm Threat Landscape: Attack Surface and Mitigations (Updated May 1) appeared first on Unit 42.",
-    "url": "https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/",
-    "source": "unit42.paloaltonetworks.com",
-    "published": "Sat, 02 May 2026 00:10:33 +0000"
   },
   {
     "title": "PCPJack | Cloud Worm Evicts TeamPCP and Steals Credentials at Scale",
