@@ -42,6 +42,20 @@
     "published": "2026-05-08T21:03:28Z"
   },
   {
+    "title": "New Exim BDAT Vulnerability Exposes GnuTLS Builds to Potential Code Execution",
+    "summary": "Exim has released security updates to address a severe security issue affecting certain configurations that could enable memory corruption and potential code execution. Exim is an open-source Mail Transfer Agent (MTA) designed for Unix-like systems to receive, route, and deliver email. The vulnerability, tracked as CVE-2026-45185, aka Dead.Letter, has been described as a use-after-free",
+    "url": "https://thehackernews.com/2026/05/new-exim-bdat-vulnerability-exposes.html",
+    "source": "feeds.feedburner.com",
+    "published": "Tue, 12 May 2026 22:14:00 +0530"
+  },
+  {
+    "title": "RubyGems Suspends New Signups After Hundreds of Malicious Packages Are Uploaded",
+    "summary": "RubyGems, the standard package manager for the Ruby programming language, has temporarily paused account sign ups following what has been described as a \"major malicious attack.\" \"We're dealing with a major malicious attack on Ruby Gems right now,\" Maciej Mensfeld, senior product manager for software supply chain security at Mend.io, said in a post on X. \"Signups are paused for the time being.",
+    "url": "https://thehackernews.com/2026/05/rubygems-suspends-new-signups-after.html",
+    "source": "feeds.feedburner.com",
+    "published": "Tue, 12 May 2026 20:17:00 +0530"
+  },
+  {
     "title": "New TrickMo Variant Uses TON C2 and SOCKS5 to Create Android Network Pivots",
     "summary": "Cybersecurity researchers have flagged a new version of the TrickMo Android banking trojan that uses The Open Network (TON) for command-and-control (C2). The new variant, observed by ThreatFabric between January and February 2026, has been observed actively targeting banking and cryptocurrency wallet users in France, Italy, and Austria. \"TrickMo relies on a runtime-loaded APK&nbsp; (dex.module),",
     "url": "https://thehackernews.com/2026/05/new-trickmo-variant-uses-ton-c2-and.html",
@@ -49,39 +63,25 @@
     "published": "Tue, 12 May 2026 18:20:00 +0530"
   },
   {
-    "title": "Webinar: What the Riskiest SOC Alerts Go Unanswered - and How Radiant Security Can Help",
-    "summary": "Why do the Riskiest SOC Alerts Go Unanswered? Security operations teams are drowning in alerts. But the real problem isn't always alert volume; it's the blind spots. The most dangerous alerts are the ones no one is investigating. A recent report from The Hacker News examined why certain high-risk alert categories - WAF, DLP, OT/IoT, dark web intelligence, and supply chain signals- consistently",
-    "url": "https://thehackernews.com/2026/05/webinar-what-riskiest-soc-alerts-go.html",
-    "source": "feeds.feedburner.com",
-    "published": "Tue, 12 May 2026 17:28:00 +0530"
-  },
-  {
-    "title": "Mini Shai-Hulud Worm Compromises TanStack, Mistral AI, Guardrails AI & More Packages",
-    "summary": "TeamPCP, the threat actor behind the recent&nbsp;supply chain attack spree, has been linked to the compromise of the npm and PyPI packages from TanStack, UiPath, Mistral AI, OpenSearch, and Guardrails AI as part of a fresh Mini Shai-Hulud campaign. The affected npm packages have been modified to include an obfuscated JavaScript file (\"router_init.js\") that's designed to profile the execution",
-    "url": "https://thehackernews.com/2026/05/mini-shai-hulud-worm-compromises.html",
-    "source": "feeds.feedburner.com",
-    "published": "Tue, 12 May 2026 17:16:00 +0530"
-  },
-  {
-    "title": "Shai Hulud attack ships signed malicious TanStack, Mistral npm packages",
-    "summary": "Hundreds of packages across npm and PyPI have been compromised in a new Shai-Hulud supply-chain campaign delivering credential-stealing malware targeting developers. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/shai-hulud-attack-ships-signed-malicious-tanstack-mistral-npm-packages/",
+    "title": "Microsoft releases Windows 10 KB5087544 extended security update",
+    "summary": "Microsoft has released the Windows 10 KB5087544 extended security update to fix the May 2026 Patch Tuesday vulnerabilities and resolve an issue with the new Remote Desktop warnings. [...]",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5087544-extended-security-update/",
     "source": "bleepingcomputer.com",
-    "published": "Tue, 12 May 2026 07:29:36 -0400"
+    "published": "Tue, 12 May 2026 14:58:34 -0400"
   },
   {
-    "title": "SAP fixes critical vulnerabilities in Commerce Cloud and S/4HANA",
-    "summary": "SAP has released the May 2026 security updates addressing 15 vulnerabilities across multiple products, including two critical flaws in the Commerce Cloud enterprise-grade e-commerce platform and the S/4HANA ERP suite. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/sap-fixes-critical-vulnerabilities-in-commerce-cloud-and-s-4hana/",
+    "title": "Fortinet warns of critical RCE flaws in FortiSandbox and FortiAuthenticator",
+    "summary": "Fortinet has released security patches for two critical vulnerabilities in FortiSandbox and FortiAuthenticator that could enable attackers to run commands or arbitrary code. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-rce-flaws-in-fortisandbox-and-fortiauthenticator/",
     "source": "bleepingcomputer.com",
-    "published": "Tue, 12 May 2026 07:04:55 -0400"
+    "published": "Tue, 12 May 2026 14:23:09 -0400"
   },
   {
-    "title": "Instructure reaches 'agreement' with ShinyHunters to stop data leak",
-    "summary": "Instructure, the edtech giant behind the widely popular Canvas learning management system (LMS), has reached an \"agreement\" with the ShinyHunters extortion group to prevent the data stolen in a recent breach from being leaked online. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/instructure-reaches-agreement-with-shinyhunters-to-stop-data-leak/",
+    "title": "Windows 11 KB5089549 & KB5087420 cumulative updates released",
+    "summary": "Microsoft has released Windows 11 KB5089549 and KB5087420 cumulative updates for versions 25H2/24H2 and 23H2 to fix security vulnerabilities, bugs, and add new features. [...]",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5089549-and-kb5087420-cumulative-updates-released/",
     "source": "bleepingcomputer.com",
-    "published": "Tue, 12 May 2026 05:23:56 -0400"
+    "published": "Tue, 12 May 2026 14:09:12 -0400"
   },
   {
     "title": "Student Loan Breach Exposes 2.5M Records",
