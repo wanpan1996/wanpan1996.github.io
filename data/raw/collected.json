@@ -42,25 +42,25 @@
     "published": "2026-05-08T17:49:01Z"
   },
   {
-    "title": "TeamPCP Compromises Checkmarx Jenkins AST Plugin Weeks After KICS Supply Chain Attack",
-    "summary": "Checkmarx has confirmed that a modified version of the Jenkins AST plugin was published to the Jenkins Marketplace. \"If you are using Checkmarx Jenkins AST plugin, you need to ensure that you are using the version 2.0.13-829.vc72453fa_1c16 that was published on December 17, 2025 or previously,\" the cybersecurity company said in a statement over the weekend. As of writing, Checkmarx has released",
-    "url": "https://thehackernews.com/2026/05/teampcp-compromises-checkmarx-jenkins.html",
+    "title": "Instructure Reaches Ransom Agreement with ShinyHunters to Stop 3.65TB Canvas Leak",
+    "summary": "American educational technology company Instructure, the parent company of Canvas, said it reached an \"agreement\" with a decentralized cybercrime extortion group after it breached its network and threatened to leak stolen information from thousands of schools and universities. In an update shared on Monday, the Utah-based firm said it \"reached an agreement with the unauthorized actor involved in",
+    "url": "https://thehackernews.com/2026/05/instructure-reaches-ransom-agreement.html",
     "source": "feeds.feedburner.com",
-    "published": "Tue, 12 May 2026 00:00:00 +0530"
+    "published": "Tue, 12 May 2026 13:07:00 +0530"
   },
   {
-    "title": "cPanel CVE-2026-41940 Under Active Exploitation to Deploy Filemanager Backdoor",
-    "summary": "A threat actor named Mr_Rot13 has been attributed to the exploitation of a recently disclosed critical cPanel flaw to deploy a backdoor codenamed Filemanager on compromised environments. The attack exploits CVE-2026-41940, a vulnerability impacting cPanel and WebHost Manager (WHM) that could result in an authentication bypass and allow remote attackers to gain elevated control of the control",
-    "url": "https://thehackernews.com/2026/05/cpanel-cve-2026-41940-under-active.html",
+    "title": "OpenAI Launches Daybreak for AI-Powered Vulnerability Detection and Patch Validation",
+    "summary": "OpenAI has launched Daybreak, a new cybersecurity initiative that brings together frontier artificial intelligence (AI) model capabilities and Codex Security to help organizations identify and patch vulnerabilities before attackers find a way in using the same issues. \"Daybreak combines the intelligence of OpenAI models, the extensibility of Codex as an agentic harness, and our partners across",
+    "url": "https://thehackernews.com/2026/05/openai-launches-daybreak-for-ai-powered.html",
     "source": "feeds.feedburner.com",
-    "published": "Mon, 11 May 2026 23:24:00 +0530"
+    "published": "Tue, 12 May 2026 12:25:00 +0530"
   },
   {
-    "title": "Hackers Used AI to Develop First Known Zero-Day 2FA Bypass for Mass Exploitation",
-    "summary": "Google on Monday disclosed that it identified an unknown threat actor using a zero-day exploit that it said was likely developed with an artificial intelligence (AI) system, marking the first time the technology has been put to use in the wild in a malicious context for vulnerability discovery and exploit generation. The activity is said to be the work of cybercrime threat actors who appear to",
-    "url": "https://thehackernews.com/2026/05/hackers-used-ai-to-develop-first-known.html",
+    "title": "iOS 26.5 Brings Default End-to-End Encrypted RCS Messaging Between iPhone and Android",
+    "summary": "Apple on Monday officially released iOS 26.5 with support for end-to-end encryption (E2EE) to Rich Communication Services (RCS) in beta as part of a \"cross-industry effort\" to replace traditional SMS with a more secure alternative. To that end, E2EE RCS messaging is rolling out to iPhone users running iOS 26.5 with supported carriers and Android users on the latest version of Google Messages.",
+    "url": "https://thehackernews.com/2026/05/ios-265-brings-default-end-to-end.html",
     "source": "feeds.feedburner.com",
-    "published": "Mon, 11 May 2026 21:15:00 +0530"
+    "published": "Tue, 12 May 2026 10:48:00 +0530"
   },
   {
     "title": "GM agrees to $12.75M California settlement over sale of drivers’ data",
