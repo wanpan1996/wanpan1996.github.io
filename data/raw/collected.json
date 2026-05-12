@@ -21,6 +21,13 @@
     "published": "Tue, 21 Apr 2026 14:53:59 +0000"
   },
   {
+    "title": "Copy.Fail Linux Vulnerability",
+    "summary": "This is the worst Linux vulnerability in years. TL;DR copy.fail is a Linux kernel local privilege escalation, not a browser or clipboard attack. Disclosed by Theori on 29 April 2026 with a working PoC. It abuses the kernel crypto API (AF_ALG sockets) plus splice() to write four bytes at a time straight into the page cache of a file the attacker does not own. The exploit works unmodified across Ubuntu, RHEL, Debian, SUSE, Amazon Linux, Fedora and most others. No race condition, no per-distro offsets. The file on disk is never modified. AIDE, Tripwire and checksum-based monitoring see nothing. ...",
+    "url": "https://www.schneier.com/blog/archives/2026/05/copy-fail-linux-vulnerability.html",
+    "source": "schneier.com",
+    "published": "2026-05-12T11:06:12Z"
+  },
+  {
     "title": "LLMs and Text-in-Text Steganography",
     "summary": "Turns out that LLMs are really good at hiding text messages in other text messages.",
     "url": "https://www.schneier.com/blog/archives/2026/05/llms-and-text-in-text-steganography.html",
@@ -35,53 +42,46 @@
     "published": "2026-05-08T21:03:28Z"
   },
   {
-    "title": "Insider Betting on Polymarket",
-    "summary": "Insider trading is rife on Polymarket: Analysis by the Anti-Corruption Data Collective, a non-profit research and advocacy group, found that long-shot bets&#8212;­defined as wagers of $2,500 or more at odds of 35 percent or less&#8212;­on the platform had an average win rate of around 52 percent in markets on military and defense actions. That compares with a win rate of 25 percent across all politics-focused markets and just 14 percent for all markets on the platform as a whole. It is absolutely insane that this is legal. We already know how insider betting warps sports. Insider betting warping politics&#8212;and military actions&#8212;is orders of magnitude worse...",
-    "url": "https://www.schneier.com/blog/archives/2026/05/insider-betting-on-polymarket.html",
-    "source": "schneier.com",
-    "published": "2026-05-08T17:49:01Z"
-  },
-  {
-    "title": "Instructure Reaches Ransom Agreement with ShinyHunters to Stop 3.65TB Canvas Leak",
-    "summary": "American educational technology company Instructure, the parent company of Canvas, said it reached an \"agreement\" with a decentralized cybercrime extortion group after it breached its network and threatened to leak stolen information from thousands of schools and universities. In an update shared on Monday, the Utah-based firm said it \"reached an agreement with the unauthorized actor involved in",
-    "url": "https://thehackernews.com/2026/05/instructure-reaches-ransom-agreement.html",
+    "title": "New TrickMo Variant Uses TON C2 and SOCKS5 to Create Android Network Pivots",
+    "summary": "Cybersecurity researchers have flagged a new version of the TrickMo Android banking trojan that uses The Open Network (TON) for command-and-control (C2). The new variant, observed by ThreatFabric between January and February 2026, has been observed actively targeting banking and cryptocurrency wallet users in France, Italy, and Austria. \"TrickMo relies on a runtime-loaded APK&nbsp; (dex.module),",
+    "url": "https://thehackernews.com/2026/05/new-trickmo-variant-uses-ton-c2-and.html",
     "source": "feeds.feedburner.com",
-    "published": "Tue, 12 May 2026 13:07:00 +0530"
+    "published": "Tue, 12 May 2026 18:20:00 +0530"
   },
   {
-    "title": "OpenAI Launches Daybreak for AI-Powered Vulnerability Detection and Patch Validation",
-    "summary": "OpenAI has launched Daybreak, a new cybersecurity initiative that brings together frontier artificial intelligence (AI) model capabilities and Codex Security to help organizations identify and patch vulnerabilities before attackers find a way in using the same issues. \"Daybreak combines the intelligence of OpenAI models, the extensibility of Codex as an agentic harness, and our partners across",
-    "url": "https://thehackernews.com/2026/05/openai-launches-daybreak-for-ai-powered.html",
+    "title": "Webinar: What the Riskiest SOC Alerts Go Unanswered - and How Radiant Security Can Help",
+    "summary": "Why do the Riskiest SOC Alerts Go Unanswered? Security operations teams are drowning in alerts. But the real problem isn't always alert volume; it's the blind spots. The most dangerous alerts are the ones no one is investigating. A recent report from The Hacker News examined why certain high-risk alert categories - WAF, DLP, OT/IoT, dark web intelligence, and supply chain signals- consistently",
+    "url": "https://thehackernews.com/2026/05/webinar-what-riskiest-soc-alerts-go.html",
     "source": "feeds.feedburner.com",
-    "published": "Tue, 12 May 2026 12:25:00 +0530"
+    "published": "Tue, 12 May 2026 17:28:00 +0530"
   },
   {
-    "title": "iOS 26.5 Brings Default End-to-End Encrypted RCS Messaging Between iPhone and Android",
-    "summary": "Apple on Monday officially released iOS 26.5 with support for end-to-end encryption (E2EE) to Rich Communication Services (RCS) in beta as part of a \"cross-industry effort\" to replace traditional SMS with a more secure alternative. To that end, E2EE RCS messaging is rolling out to iPhone users running iOS 26.5 with supported carriers and Android users on the latest version of Google Messages.",
-    "url": "https://thehackernews.com/2026/05/ios-265-brings-default-end-to-end.html",
+    "title": "Mini Shai-Hulud Worm Compromises TanStack, Mistral AI, Guardrails AI & More Packages",
+    "summary": "TeamPCP, the threat actor behind the recent&nbsp;supply chain attack spree, has been linked to the compromise of the npm and PyPI packages from TanStack, UiPath, Mistral AI, OpenSearch, and Guardrails AI as part of a fresh Mini Shai-Hulud campaign. The affected npm packages have been modified to include an obfuscated JavaScript file (\"router_init.js\") that's designed to profile the execution",
+    "url": "https://thehackernews.com/2026/05/mini-shai-hulud-worm-compromises.html",
     "source": "feeds.feedburner.com",
-    "published": "Tue, 12 May 2026 10:48:00 +0530"
+    "published": "Tue, 12 May 2026 17:16:00 +0530"
   },
   {
-    "title": "GM agrees to $12.75M California settlement over sale of drivers’ data",
-    "summary": "California Attorney General Rob Bonta announced a proposed $12.75 million settlement agreement with General Motors (GM) over allegations that the company violated the California Consumer Privacy Act (CCPA). [...]",
-    "url": "https://www.bleepingcomputer.com/news/legal/gm-agrees-to-1275m-california-settlement-over-sale-of-drivers-data/",
+    "title": "Shai Hulud attack ships signed malicious TanStack, Mistral npm packages",
+    "summary": "Hundreds of packages across npm and PyPI have been compromised in a new Shai-Hulud supply-chain campaign delivering credential-stealing malware targeting developers. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/shai-hulud-attack-ships-signed-malicious-tanstack-mistral-npm-packages/",
     "source": "bleepingcomputer.com",
-    "published": "Mon, 11 May 2026 18:40:34 -0400"
+    "published": "Tue, 12 May 2026 07:29:36 -0400"
   },
   {
-    "title": "Official CheckMarx Jenkins package compromised with infostealer",
-    "summary": "Checkmarx warned over the weekend that a rogue version of its Jenkins Application Security Testing (AST) plugin had been published on the Jenkins Marketplace. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/official-checkmarx-jenkins-package-compromised-with-infostealer/",
+    "title": "SAP fixes critical vulnerabilities in Commerce Cloud and S/4HANA",
+    "summary": "SAP has released the May 2026 security updates addressing 15 vulnerabilities across multiple products, including two critical flaws in the Commerce Cloud enterprise-grade e-commerce platform and the S/4HANA ERP suite. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/sap-fixes-critical-vulnerabilities-in-commerce-cloud-and-s-4hana/",
     "source": "bleepingcomputer.com",
-    "published": "Mon, 11 May 2026 18:03:06 -0400"
+    "published": "Tue, 12 May 2026 07:04:55 -0400"
   },
   {
-    "title": "New GhostLock tool abuses Windows API to block file access",
-    "summary": "A security researcher has released a proof-of-concept tool named GhostLock that demonstrates how a legitimate Windows file API can be abused in attacks to block access to files stored locally or on SMB network shares. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/new-ghostlock-tool-abuses-windows-api-to-block-file-access/",
+    "title": "Instructure reaches 'agreement' with ShinyHunters to stop data leak",
+    "summary": "Instructure, the edtech giant behind the widely popular Canvas learning management system (LMS), has reached an \"agreement\" with the ShinyHunters extortion group to prevent the data stolen in a recent breach from being leaked online. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/instructure-reaches-agreement-with-shinyhunters-to-stop-data-leak/",
     "source": "bleepingcomputer.com",
-    "published": "Mon, 11 May 2026 18:02:00 -0400"
+    "published": "Tue, 12 May 2026 05:23:56 -0400"
   },
   {
     "title": "Student Loan Breach Exposes 2.5M Records",
@@ -105,6 +105,13 @@
     "published": "Mon, 29 Aug 2022 14:56:19 +0000"
   },
   {
+    "title": "When \"idle\" isn't idle: how a Linux kernel optimization became a QUIC bug",
+    "summary": "We investigated a bug where CUBIC's congestion window became pinned at its minimum floor, causing a performance to plummet. The fix involved correctly measuring idle periods to distinguish RTT wait times from actual application idleness.",
+    "url": "https://blog.cloudflare.com/quic-death-spiral-fix/",
+    "source": "blog.cloudflare.com",
+    "published": "Tue, 12 May 2026 13:00:00 GMT"
+  },
+  {
     "title": "Building for the future",
     "summary": "This afternoon, we sent the following email to our global team. One of our core values at Cloudflare is transparency, and we believe it's important that you hear this directly from us because it’s a major moment at Cloudflare.",
     "url": "https://blog.cloudflare.com/building-for-the-future/",
@@ -117,13 +124,6 @@
     "url": "https://blog.cloudflare.com/copy-fail-linux-vulnerability-mitigation/",
     "source": "blog.cloudflare.com",
     "published": "Thu, 07 May 2026 13:00:00 GMT"
-  },
-  {
-    "title": "When DNSSEC goes wrong: how we responded to the .de TLD outage",
-    "summary": "On May 5, 2026, DENIC published broken DNSSEC signatures for the .de TLD, making millions of domains unreachable. Here's what 1.1.1.1 saw, how serve stale cushioned the impact, and how we restored resolution.",
-    "url": "https://blog.cloudflare.com/de-tld-outage-dnssec/",
-    "source": "blog.cloudflare.com",
-    "published": "Wed, 06 May 2026 17:00:00 GMT"
   },
   {
     "title": "Inside AD CS Escalation: Unpacking Advanced Misuse Techniques and Tools",
@@ -294,6 +294,13 @@
     "published": "Tue, 11 Nov 2025 19:02:38 +0000"
   },
   {
+    "title": "Cyber Threats Spike in April 2026 as Ransomware Expands and Attack Volumes Climb After Short-Lived Moderation",
+    "summary": "Every Region Recorded Higher Attack Volumes in April In April 2026, global cyber-attack activity rebounded sharply following the brief moderation observed in March. Organizations experienced an average of 2,201 weekly cyber-attacks, representing a 10% increase month over month and an 8% increase year over year. This reversal underscores the volatility of today’s threat landscape. After three consecutive months of gradual decline, April’s data confirms that the earlier easing was temporary rather than structural. Attackers continue to leverage automation, expanded digital footprints, and exposed cloud and GenAI environments to sustain elevated pressure across industries and regions. Check Point Research data shows [&#8230;] The post Cyber Threats Spike in April 2026 as Ransomware Expands an",
+    "url": "https://blog.checkpoint.com/research/cyber-threats-spike-in-april-2026-as-ransomware-expands-and-attack-volumes-climb-after-short-lived-moderation/",
+    "source": "blog.checkpoint.com",
+    "published": "Tue, 12 May 2026 13:00:02 +0000"
+  },
+  {
     "title": "Q1 2026 Ransomware Report: Fewer Groups, Higher Impact",
     "summary": "Ransomware activity remained elevated in Q1 2026, continuing the trend established over the past year. According to the State of Ransomware Q1 2026 report from Check Point Research, overall attack volume stayed near historic highs. At the same time, the structure of the ransomware ecosystem changed materially. After two years of increasing fragmentation, activity is consolidating around a smaller number of dominant groups. For organizations, this shift reduces the number of active actors but increases the potential impact of individual incidents. Key Findings: 2,122 organizations were listed on ransomware data leak sites in Q1 2026, making it the second-highest Q1 on record The top [&#8230;] The post Q1 2026 Ransomware Report: Fewer Groups, Higher Impact appeared first on Check Point Blog.",
     "url": "https://blog.checkpoint.com/research/q1-2026-ransomware-report-fewer-groups-higher-impact/",
@@ -306,13 +313,6 @@
     "url": "https://blog.checkpoint.com/security/world-password-day-2026-why-strong-passwords-cant-save-you-from-ai-infostealers-and-the-telegram-underground/",
     "source": "blog.checkpoint.com",
     "published": "Thu, 07 May 2026 13:00:56 +0000"
-  },
-  {
-    "title": "Resilient by Design: When the Network Itself Becomes the Target",
-    "summary": "Cyber security and operational resilience go hand-in-hand. Organizations have invested heavily in defending against breaches, ransomware, and service disruptions, building layered defenses designed to keep attackers out and systems running. But recent geopolitical developments are forcing a broader and more uncomfortable realization – the next major disruption may originate in the physical world rather than in code. As cloud infrastructure becomes more deeply embedded in the fabric of global economies and national systems, it is no longer just a platform for operations, but an extension of the attack surface. And it is this shift that introduces an entirely new category [&#8230;] The post Resilient by Design: When the Network Itself Becomes the Target appeared first on Check Point Blog.",
-    "url": "https://blog.checkpoint.com/harmony-sase/resilient-by-design-when-the-network-itself-becomes-the-target/",
-    "source": "blog.checkpoint.com",
-    "published": "Wed, 06 May 2026 12:20:50 +0000"
   },
   {
     "title": "High Signal Detection and Exploitation of Ivanti's Pulse Connect Secure Auth Bypass & RCE",
@@ -336,6 +336,13 @@
     "published": "Wed, 04 Oct 2023 08:33:19 +1100"
   },
   {
+    "title": "State-sponsored actors, better known as the friends you don’t want",
+    "summary": "Responding to a state-sponsored threat is nothing like responding to ransomware, and the differences can make or break the outcome. Learn why your IR plan might need revisiting, and the factors you should consider.",
+    "url": "https://blog.talosintelligence.com/state-sponsored-actors-better-known-as-the-friends-you-dont-want/",
+    "source": "blog.talosintelligence.com",
+    "published": "Tue, 12 May 2026 10:00:54 GMT"
+  },
+  {
     "title": "Unplug your way to better code",
     "summary": "Cybersecurity concepts — logs, packets, DNS exfiltration, and more — are usually intangible, and its practitioners are prone to mental fatigue, Amy takes a second to yell at you to go touch grass.",
     "url": "https://blog.talosintelligence.com/unplug-your-way-to-better-code/",
@@ -348,13 +355,6 @@
     "url": "https://blog.talosintelligence.com/insights-into-the-clustering-and-reuse-of-phone-numbers-in-scam-emails/",
     "source": "blog.talosintelligence.com",
     "published": "Wed, 06 May 2026 10:00:12 GMT"
-  },
-  {
-    "title": "UAT-8302 and its box full of malware",
-    "summary": "Cisco Talos is disclosing UAT-8302, a sophisticated, China-nexus advanced persistent threat (APT) group targeting government entities in South America since at least late 2024 and government agencies in southeastern Europe in 2025.",
-    "url": "https://blog.talosintelligence.com/uat-8302/",
-    "source": "blog.talosintelligence.com",
-    "published": "Tue, 05 May 2026 10:00:30 GMT"
   },
   {
     "title": "Autonomous AI Cyber Defense You Can Trust in Production",
