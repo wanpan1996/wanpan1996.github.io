@@ -42,6 +42,13 @@
     "published": "2026-05-08T21:03:28Z"
   },
   {
+    "title": "Android Adds Intrusion Logging for Sophisticated Spyware Forensics",
+    "summary": "Google on Tuesday unveiled a new opt-in Android feature called Intrusion Logging for storing forensic logs to better analyze sophisticated spyware attacks. Intrusion Logging, available as part of Advanced Protection Mode, enables \"persistent and privacy-preserving forensics logging to allow for investigation of devices in the event of a suspected compromise,\" the company said. The feature, it",
+    "url": "https://thehackernews.com/2026/05/android-adds-intrusion-logging-for.html",
+    "source": "feeds.feedburner.com",
+    "published": "Wed, 13 May 2026 12:25:42 +0530"
+  },
+  {
     "title": "New Exim BDAT Vulnerability Exposes GnuTLS Builds to Potential Code Execution",
     "summary": "Exim has released security updates to address a severe security issue affecting certain configurations that could enable memory corruption and potential code execution. Exim is an open-source Mail Transfer Agent (MTA) designed for Unix-like systems to receive, route, and deliver email. The vulnerability, tracked as CVE-2026-45185, aka Dead.Letter, has been described as a use-after-free",
     "url": "https://thehackernews.com/2026/05/new-exim-bdat-vulnerability-exposes.html",
@@ -50,17 +57,10 @@
   },
   {
     "title": "RubyGems Suspends New Signups After Hundreds of Malicious Packages Are Uploaded",
-    "summary": "RubyGems, the standard package manager for the Ruby programming language, has temporarily paused account sign ups following what has been described as a \"major malicious attack.\" \"We're dealing with a major malicious attack on Ruby Gems right now,\" Maciej Mensfeld, senior product manager for software supply chain security at Mend.io, said in a post on X. \"Signups are paused for the time being.",
+    "summary": "RubyGems, the standard package manager for the Ruby programming language, has temporarily paused account sign ups following what has been described as a \"major malicious attack.\" \"We're dealing with a major malicious attack on RubyGems right now,\" Maciej Mensfeld, senior product manager for software supply chain security at Mend.io, said in a post on X. \"Signups are paused for the time being.",
     "url": "https://thehackernews.com/2026/05/rubygems-suspends-new-signups-after.html",
     "source": "feeds.feedburner.com",
     "published": "Tue, 12 May 2026 20:17:00 +0530"
-  },
-  {
-    "title": "New TrickMo Variant Uses TON C2 and SOCKS5 to Create Android Network Pivots",
-    "summary": "Cybersecurity researchers have flagged a new version of the TrickMo Android banking trojan that uses The Open Network (TON) for command-and-control (C2). The new variant, observed by ThreatFabric between January and February 2026, has been observed actively targeting banking and cryptocurrency wallet users in France, Italy, and Austria. \"TrickMo relies on a runtime-loaded APK&nbsp; (dex.module),",
-    "url": "https://thehackernews.com/2026/05/new-trickmo-variant-uses-ton-c2-and.html",
-    "source": "feeds.feedburner.com",
-    "published": "Tue, 12 May 2026 18:20:00 +0530"
   },
   {
     "title": "US govt seeks Instructure testimony on massive Canvas cyberattack",
