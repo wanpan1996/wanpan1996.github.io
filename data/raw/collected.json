@@ -56,32 +56,32 @@
     "published": "Wed, 13 May 2026 18:30:00 +0530"
   },
   {
-    "title": "[Webinar] Why Your AppSec Tools Miss the \"Lethal Path\" (and How to Fix It)",
-    "summary": "TL;DR: Stop chasing thousands of \"toast\" alerts. Join experts from Wiz and Okta/GitLab to learn how hackers connect tiny flaws to build a \"Lethal Chain\" to your data—and how to break it. Register for the Strategic Briefing Here. Most security tools work like a smoke alarm that goes off every time you burn a piece of toast. You get so many alerts that you eventually start to ignore them. The real",
+    "title": "[Webinar] How Modern Attack Paths Cross Code, Pipelines, and Cloud",
+    "summary": "TL;DR: Stop chasing thousands of \"toast\" alerts. Join experts from Wiz to learn how hackers connect tiny flaws to build a \"Lethal Chain\" to your data—and how to break it. Register for the Strategic Briefing Here. Most security tools work like a smoke alarm that goes off every time you burn a piece of toast. You get so many alerts that you eventually start to ignore them. The real danger? While",
     "url": "https://thehackernews.com/2026/05/webinar-why-your-appsec-tools-miss.html",
     "source": "feeds.feedburner.com",
     "published": "Wed, 13 May 2026 17:22:43 +0530"
   },
   {
-    "title": "Foxconn confirms cyberattack claimed by Nitrogen ransomware gang",
-    "summary": "Foxconn, the world's largest electronics manufacturer, says some of its North American factories are now working to resume normal operations after a cyberattack. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/electronics-giant-foxconn-confirms-cyberattack-on-north-american-factories/",
+    "title": "Windows BitLocker zero-day gives access to protected drives, PoC released",
+    "summary": "A cybersecurity researcher has published proof-of-concept (PoC) exploits for two unpatched Microsoft Windows vulnerabilities named YellowKey and GreenPlasma, which are a BitLocker bypass and a privilege-escalation flaw. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/windows-bitlocker-zero-day-gives-access-to-protected-drives-poc-released/",
     "source": "bleepingcomputer.com",
-    "published": "Wed, 13 May 2026 08:49:54 -0400"
+    "published": "Wed, 13 May 2026 12:37:49 -0400"
   },
   {
-    "title": "73 Seconds to Breach, 24 Hours to Patch: The Case for Autonomous Validation",
-    "summary": "Attackers can compromise systems in minutes while patching and response still take hours or days. Picus Security breaks down why autonomous validation is becoming critical for modern defense strategies. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/73-seconds-to-breach-24-hours-to-patch-the-case-for-autonomous-validation/",
+    "title": "Webinar tomorrow: Why security alone won't stop modern attacks",
+    "summary": "Tomorrow's webinar examines why prevention alone is no longer enough against modern cyberattacks. The session explores how organizations combine security, backups, and recovery planning to improve cyber resilience after attacks. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/webinar-tomorrow-why-security-alone-wont-stop-modern-attacks/",
     "source": "bleepingcomputer.com",
-    "published": "Wed, 13 May 2026 08:30:38 -0400"
+    "published": "Wed, 13 May 2026 11:45:56 -0400"
   },
   {
-    "title": "Microsoft says some users can't install Office on Windows 365 devices",
-    "summary": "Microsoft says some customers are experiencing issues downloading and installing Office on their Windows 365 devices. [...]",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-some-users-cant-install-office-on-windows-365-devices/",
+    "title": "Microsoft fixes BitLocker recovery issue only for Windows 11 users",
+    "summary": "Microsoft has addressed a known issue causing some Windows 11 systems to boot into BitLocker recovery after installing the April 2026 Windows security updates. [...]",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bitlocker-recovery-issue-only-for-windows-11-users/",
     "source": "bleepingcomputer.com",
-    "published": "Wed, 13 May 2026 07:53:54 -0400"
+    "published": "Wed, 13 May 2026 11:42:46 -0400"
   },
   {
     "title": "Student Loan Breach Exposes 2.5M Records",
@@ -344,7 +344,7 @@
   },
   {
     "title": "Microsoft Patch Tuesday for May 2026 — Snort rules and prominent vulnerabilities",
-    "summary": "Microsoft has released its monthly security update for May 2026, which includes 112 vulnerabilities affecting a range of products, including 16 that Microsoft marked as “critical”.",
+    "summary": "Microsoft has released its monthly security update for May 2026, which includes 137 vulnerabilities affecting a range of products, including 16 that Microsoft marked as “critical”.",
     "url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-may-2026/",
     "source": "blog.talosintelligence.com",
     "published": "Tue, 12 May 2026 19:57:04 GMT"
