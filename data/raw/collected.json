@@ -21,6 +21,13 @@
     "published": "Thu, 30 Apr 2026 14:04:26 +0000"
   },
   {
+    "title": "OpenAI’s GPT-5.5 is as Good as Mythos at Finding Security Vulnerabilities",
+    "summary": "The UK&#8217;s AI Security Institute evaluated GPT-5.5&#8217;s ability to find security vulnerabilities, and found that it is comparable to Claude Mythos. Note that the OpenAI model is generally available. Here is the Institute&#8217;s evaluation of Mythos. And here is an analysis of a smaller, cheaper model. It requires more scaffolding from the prompter, but it is also just as good.",
+    "url": "https://www.schneier.com/blog/archives/2026/05/openais-gpt-5-5-is-as-good-as-mythos-at-finding-security-vulnerabilities.html",
+    "source": "schneier.com",
+    "published": "2026-05-13T11:03:03Z"
+  },
+  {
     "title": "Copy.Fail Linux Vulnerability",
     "summary": "This is the worst Linux vulnerability in years. TL;DR copy.fail is a Linux kernel local privilege escalation, not a browser or clipboard attack. Disclosed by Theori on 29 April 2026 with a working PoC. It abuses the kernel crypto API (AF_ALG sockets) plus splice() to write four bytes at a time straight into the page cache of a file the attacker does not own. The exploit works unmodified across Ubuntu, RHEL, Debian, SUSE, Amazon Linux, Fedora and most others. No race condition, no per-distro offsets. The file on disk is never modified. AIDE, Tripwire and checksum-based monitoring see nothing. ...",
     "url": "https://www.schneier.com/blog/archives/2026/05/copy-fail-linux-vulnerability.html",
@@ -35,53 +42,46 @@
     "published": "2026-05-11T11:04:29Z"
   },
   {
-    "title": "Friday Squid Blogging: Giant Squid Live in the Waters of Western Australia",
-    "summary": "Evidence of them has been found by analyzing DNA in the seawater. As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered. Blog moderation policy.",
-    "url": "https://www.schneier.com/blog/archives/2026/05/friday-squid-blogging-giant-squid-live-in-the-waters-of-western-australia.html",
-    "source": "schneier.com",
-    "published": "2026-05-08T21:03:28Z"
-  },
-  {
-    "title": "Android Adds Intrusion Logging for Sophisticated Spyware Forensics",
-    "summary": "Google on Tuesday unveiled a new opt-in Android feature called Intrusion Logging for storing forensic logs to better analyze sophisticated spyware attacks. Intrusion Logging, available as part of Advanced Protection Mode, enables \"persistent and privacy-preserving forensics logging to allow for investigation of devices in the event of a suspected compromise,\" the company said. The feature, it",
-    "url": "https://thehackernews.com/2026/05/android-adds-intrusion-logging-for.html",
+    "title": "Microsoft's MDASH AI System Finds 16 Windows Flaws Fixed in Patch Tuesday",
+    "summary": "Microsoft has unveiled a new multi-model artificial intelligence (AI)-driven system called MDASH to facilitate vulnerability discovery and remediation at scale, adding that it's being tested by some customers as part of a limited private preview. MDASH, short for multi-model agentic scanning harness, is designed as a model-agnostic system that uses bespoke AI agents for different vulnerability",
+    "url": "https://thehackernews.com/2026/05/microsofts-mdash-ai-system-finds-16.html",
     "source": "feeds.feedburner.com",
-    "published": "Wed, 13 May 2026 12:25:42 +0530"
+    "published": "Wed, 13 May 2026 19:16:02 +0530"
   },
   {
-    "title": "New Exim BDAT Vulnerability Exposes GnuTLS Builds to Potential Code Execution",
-    "summary": "Exim has released security updates to address a severe security issue affecting certain configurations that could enable memory corruption and potential code execution. Exim is an open-source Mail Transfer Agent (MTA) designed for Unix-like systems to receive, route, and deliver email. The vulnerability, tracked as CVE-2026-45185, aka Dead.Letter, has been described as a use-after-free",
-    "url": "https://thehackernews.com/2026/05/new-exim-bdat-vulnerability-exposes.html",
+    "title": "Azerbaijani Energy Firm Hit by Repeated Microsoft Exchange Exploitation",
+    "summary": "A threat actor with affiliations to China has been linked to a \"multi-wave intrusion\" targeting an unnamed Azerbaijani oil and gas company between late December 2025 and late February 2026, marking an expansion of its targeting. The activity has been attributed by Bitdefender with moderate-to-high confidence to a hacking group known as FamousSparrow (aka UAT-9244), which shares some level of",
+    "url": "https://thehackernews.com/2026/05/azerbaijani-energy-firm-hit-by-repeated.html",
     "source": "feeds.feedburner.com",
-    "published": "Tue, 12 May 2026 22:14:00 +0530"
+    "published": "Wed, 13 May 2026 18:30:00 +0530"
   },
   {
-    "title": "RubyGems Suspends New Signups After Hundreds of Malicious Packages Are Uploaded",
-    "summary": "RubyGems, the standard package manager for the Ruby programming language, has temporarily paused account sign ups following what has been described as a \"major malicious attack.\" \"We're dealing with a major malicious attack on RubyGems right now,\" Maciej Mensfeld, senior product manager for software supply chain security at Mend.io, said in a post on X. \"Signups are paused for the time being.",
-    "url": "https://thehackernews.com/2026/05/rubygems-suspends-new-signups-after.html",
+    "title": "[Webinar] Why Your AppSec Tools Miss the \"Lethal Path\" (and How to Fix It)",
+    "summary": "TL;DR: Stop chasing thousands of \"toast\" alerts. Join experts from Wiz and Okta/GitLab to learn how hackers connect tiny flaws to build a \"Lethal Chain\" to your data—and how to break it. Register for the Strategic Briefing Here. Most security tools work like a smoke alarm that goes off every time you burn a piece of toast. You get so many alerts that you eventually start to ignore them. The real",
+    "url": "https://thehackernews.com/2026/05/webinar-why-your-appsec-tools-miss.html",
     "source": "feeds.feedburner.com",
-    "published": "Tue, 12 May 2026 20:17:00 +0530"
+    "published": "Wed, 13 May 2026 17:22:43 +0530"
   },
   {
-    "title": "US govt seeks Instructure testimony on massive Canvas cyberattack",
-    "summary": "The U.S. House Committee on Homeland Security is calling on Instructure executives to testify about two cyberattacks by the ShinyHunters extortion group that targeted the company's Canvas platform, allowing threat actors to steal student data and disrupt schools during final exams. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/us-govt-seeks-instructure-testimony-on-massive-canvas-cyberattack/",
+    "title": "Foxconn confirms cyberattack claimed by Nitrogen ransomware gang",
+    "summary": "Foxconn, the world's largest electronics manufacturer, says some of its North American factories are now working to resume normal operations after a cyberattack. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/electronics-giant-foxconn-confirms-cyberattack-on-north-american-factories/",
     "source": "bleepingcomputer.com",
-    "published": "Tue, 12 May 2026 19:09:55 -0400"
+    "published": "Wed, 13 May 2026 08:49:54 -0400"
   },
   {
-    "title": "UK fines water supplier $1.3M for exposing data of 664k customers",
-    "summary": "The Information Commissioner's Office has fined South Staffordshire Water Plc and parent company South Staffordshire Plc £963,900 ($1.3 million) over a cyberattack that exposed the personal data of 663,887 customers and employees. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/uk-fines-water-supplier-13m-for-exposing-data-of-664k-customers/",
+    "title": "73 Seconds to Breach, 24 Hours to Patch: The Case for Autonomous Validation",
+    "summary": "Attackers can compromise systems in minutes while patching and response still take hours or days. Picus Security breaks down why autonomous validation is becoming critical for modern defense strategies. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/73-seconds-to-breach-24-hours-to-patch-the-case-for-autonomous-validation/",
     "source": "bleepingcomputer.com",
-    "published": "Tue, 12 May 2026 16:17:19 -0400"
+    "published": "Wed, 13 May 2026 08:30:38 -0400"
   },
   {
-    "title": "Webinar: Fixing the gaps in network incident response",
-    "summary": "IT teams often struggle to quickly coordinate responses across disparate systems during network incidents. This upcoming webinar explores how automation and AI-assisted workflows can reduce response times and help prevent outages. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/webinar-fixing-the-gaps-in-network-incident-response/",
+    "title": "Microsoft says some users can't install Office on Windows 365 devices",
+    "summary": "Microsoft says some customers are experiencing issues downloading and installing Office on their Windows 365 devices. [...]",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-some-users-cant-install-office-on-windows-365-devices/",
     "source": "bleepingcomputer.com",
-    "published": "Tue, 12 May 2026 15:46:04 -0400"
+    "published": "Wed, 13 May 2026 07:53:54 -0400"
   },
   {
     "title": "Student Loan Breach Exposes 2.5M Records",
@@ -105,6 +105,13 @@
     "published": "Mon, 29 Aug 2022 14:56:19 +0000"
   },
   {
+    "title": "Browser Run: now running on Cloudflare Containers, it’s faster and more scalable",
+    "summary": "We’ve enabled higher usage limits, faster performance, better reliability, and increased shipping velocity for our Browser Run product by rebuilding on top of Cloudflare’s Containers. Here’s how.",
+    "url": "https://blog.cloudflare.com/browser-run-containers/",
+    "source": "blog.cloudflare.com",
+    "published": "Wed, 13 May 2026 13:00:00 GMT"
+  },
+  {
     "title": "When \"idle\" isn't idle: how a Linux kernel optimization became a QUIC bug",
     "summary": "We investigated a bug where CUBIC's congestion window became pinned at its minimum floor, causing a performance to plummet. The fix involved correctly measuring idle periods to distinguish RTT wait times from actual application idleness.",
     "url": "https://blog.cloudflare.com/quic-death-spiral-fix/",
@@ -117,13 +124,6 @@
     "url": "https://blog.cloudflare.com/building-for-the-future/",
     "source": "blog.cloudflare.com",
     "published": "Thu, 07 May 2026 20:15:12 GMT"
-  },
-  {
-    "title": "How Cloudflare responded to the “Copy Fail” Linux vulnerability",
-    "summary": "When a critical Linux kernel privilege escalation was publicly disclosed, Cloudflare's security and engineering teams detected, investigated, and mitigated the threat across our global fleet, confirming zero customer impact and no malicious exploitation.",
-    "url": "https://blog.cloudflare.com/copy-fail-linux-vulnerability-mitigation/",
-    "source": "blog.cloudflare.com",
-    "published": "Thu, 07 May 2026 13:00:00 GMT"
   },
   {
     "title": "Inside AD CS Escalation: Unpacking Advanced Misuse Techniques and Tools",
@@ -294,6 +294,13 @@
     "published": "Tue, 11 Nov 2025 19:02:38 +0000"
   },
   {
+    "title": "When the Ransomware Gang Gets Hacked: What the Gentlemen Leak Reveals About Modern Ransomware Risk",
+    "summary": "Key Findings The Gentlemen RaaS has 400+ public victims and is the #2 most active ransomware group globally in 2026 Their internal systems were breached in May 2026, exposing their full operational structure The group is run by approximately nine named operators organized around a single administrator (zeta88 / hastalamuerte), who not only manages the platform but personally participates in encryption events That administrator has been identified as a former affiliate of the Qilin ransomware program — a career criminal who learned the trade under an established operation before building a competing one Initial access is almost exclusively via unpatched edge devices or purchased credentials Data stolen from one [&#8230;] The post When the Ransomware Gang Gets Hacked: What the Gentlemen Leak",
+    "url": "https://blog.checkpoint.com/research/when-the-ransomware-gang-gets-hacked-what-the-gentlemen-leak-reveals-about-modern-ransomware-risk/",
+    "source": "blog.checkpoint.com",
+    "published": "Wed, 13 May 2026 12:55:22 +0000"
+  },
+  {
     "title": "Cyber Threats Spike in April 2026 as Ransomware Expands and Attack Volumes Climb After Short-Lived Moderation",
     "summary": "Every Region Recorded Higher Attack Volumes in April In April 2026, global cyber-attack activity rebounded sharply following the brief moderation observed in March. Organizations experienced an average of 2,201 weekly cyber-attacks, representing a 10% increase month over month and an 8% increase year over year. This reversal underscores the volatility of today’s threat landscape. After three consecutive months of gradual decline, April’s data confirms that the earlier easing was temporary rather than structural. Attackers continue to leverage automation, expanded digital footprints, and exposed cloud and GenAI environments to sustain elevated pressure across industries and regions. Check Point Research data shows [&#8230;] The post Cyber Threats Spike in April 2026 as Ransomware Expands an",
     "url": "https://blog.checkpoint.com/research/cyber-threats-spike-in-april-2026-as-ransomware-expands-and-attack-volumes-climb-after-short-lived-moderation/",
@@ -306,13 +313,6 @@
     "url": "https://blog.checkpoint.com/research/q1-2026-ransomware-report-fewer-groups-higher-impact/",
     "source": "blog.checkpoint.com",
     "published": "Mon, 11 May 2026 10:00:39 +0000"
-  },
-  {
-    "title": "World Password Day 2026: Why “Strong Passwords” Can’t Save You from AI, Infostealers, and the Telegram Underground",
-    "summary": "As we recognize World Password Day in 2026, the traditional advice to &#8220;use a complex password with numbers and symbols&#8221; feels hopelessly outdated. Today, a 16-character password is useless if an infostealer malware extracts it directly from a browser cache, or if an employee willingly pastes it into an unmanaged AI chatbot. Welcome to the real World Password Day 2026. Not the one where we remind you to add an exclamation mark to &#8220;Password123.&#8221; The one where we pull back the curtain on the global industrial marketplace that has quietly been built on the back of our collective password failures — a [&#8230;] The post World Password Day 2026: Why &#8220;Strong Passwords&#8221; Can’t Save You from AI, Infostealers, and the Telegram Underground appeared first on Check Po",
-    "url": "https://blog.checkpoint.com/security/world-password-day-2026-why-strong-passwords-cant-save-you-from-ai-infostealers-and-the-telegram-underground/",
-    "source": "blog.checkpoint.com",
-    "published": "Thu, 07 May 2026 13:00:56 +0000"
   },
   {
     "title": "High Signal Detection and Exploitation of Ivanti's Pulse Connect Secure Auth Bypass & RCE",
@@ -336,6 +336,13 @@
     "published": "Wed, 04 Oct 2023 08:33:19 +1100"
   },
   {
+    "title": "Breaking things to keep them safe with Philippe Laulheret",
+    "summary": "Philippe shares his unique journey from French engineering school to the front lines of cybersecurity, explaining how his lifelong love for solving puzzles helps him uncover critical security flaws before they can be exploited.",
+    "url": "https://blog.talosintelligence.com/breaking-things-to-keep-them-safe-with-philippe-laulheret/",
+    "source": "blog.talosintelligence.com",
+    "published": "Wed, 13 May 2026 10:00:54 GMT"
+  },
+  {
     "title": "Microsoft Patch Tuesday for May 2026 — Snort rules and prominent vulnerabilities",
     "summary": "Microsoft has released its monthly security update for May 2026, which includes 112 vulnerabilities affecting a range of products, including 16 that Microsoft marked as “critical”.",
     "url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-may-2026/",
@@ -350,11 +357,11 @@
     "published": "Tue, 12 May 2026 10:00:54 GMT"
   },
   {
-    "title": "Unplug your way to better code",
-    "summary": "Cybersecurity concepts — logs, packets, DNS exfiltration, and more — are usually intangible, and its practitioners are prone to mental fatigue, Amy takes a second to yell at you to go touch grass.",
-    "url": "https://blog.talosintelligence.com/unplug-your-way-to-better-code/",
-    "source": "blog.talosintelligence.com",
-    "published": "Thu, 07 May 2026 18:00:40 GMT"
+    "title": "From Patch Tuesday to Pentest Wednesday®: How a Software Provider Closed Unknown Paths to Cloud Compromise",
+    "summary": "A healthcare software provider uncovered hidden attack paths to AWS compromise and transformed security operations through continuous validation.",
+    "url": "https://horizon3.ai/intelligence/blogs/patch-tuesday-to-pentest-wednesday-cloud-compromise/",
+    "source": "horizon3.ai",
+    "published": "Wed, 13 May 2026 12:02:00 +0000"
   },
   {
     "title": "Autonomous AI Cyber Defense You Can Trust in Production",
@@ -369,13 +376,6 @@
     "url": "https://horizon3.ai/news/press-release/horizon3-safe-autonomous-ai-cyber-defense/",
     "source": "horizon3.ai",
     "published": "Wed, 06 May 2026 12:15:00 +0000"
-  },
-  {
-    "title": "Unifying SOC and ITSM",
-    "summary": "A leadership guide to aligning SOC and ITSM teams using evidence-driven cyber risk management and real-world validation.",
-    "url": "https://horizon3.ai/downloads/whitepapers/unifying-soc-itsm-cyber-risk-guide/",
-    "source": "horizon3.ai",
-    "published": "Tue, 05 May 2026 15:18:23 +0000"
   },
   {
     "title": "Disabling Security Features in a Locked BIOS",
