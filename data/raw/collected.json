@@ -1,5 +1,12 @@
 [
   {
+    "title": "Patch Tuesday, May 2026 Edition",
+    "summary": "Artificial intelligence platforms may be just as susceptible to social engineering as human beings, but they are proving remarkably good at finding security vulnerabilities in human-made computer code. That reality is on full display this month with some of the more widely-used software makers -- including Apple, Google, Microsoft, Mozilla and Oracle -- fixing near record volumes of security bugs, and/or quickening the tempo of their patch releases.",
+    "url": "https://krebsonsecurity.com/2026/05/patch-tuesday-may-2026-edition/",
+    "source": "krebsonsecurity.com",
+    "published": "Tue, 12 May 2026 21:46:45 +0000"
+  },
+  {
     "title": "Canvas Breach Disrupts Schools & Colleges Nationwide",
     "summary": "An ongoing data extortion attack targeting the widely-used education technology platform Canvas disrupted classes and coursework at school districts and universities across the United States today, after a cybercrime group defaced the service's login page with a ransom demand that threatened to leak data from 275 million students and faculty across nearly 9,000 educational institutions.",
     "url": "https://krebsonsecurity.com/2026/05/canvas-breach-disrupts-schools-colleges-nationwide/",
@@ -12,13 +19,6 @@
     "url": "https://krebsonsecurity.com/2026/04/anti-ddos-firm-heaped-attacks-on-brazilian-isps/",
     "source": "krebsonsecurity.com",
     "published": "Thu, 30 Apr 2026 14:04:26 +0000"
-  },
-  {
-    "title": "‘Scattered Spider’ Member ‘Tylerb’ Pleads Guilty",
-    "summary": "A 24-year-old British national and senior member of the cybercrime group \"Scattered Spider\" has pleaded guilty to wire fraud conspiracy and aggravated identity theft. Tyler Robert Buchanan admitted his role in a series of text-message phishing attacks in the summer of 2022 that allowed the group to hack into at least a dozen major technology companies and steal tens of millions of dollars worth of cryptocurrency from investors.",
-    "url": "https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/",
-    "source": "krebsonsecurity.com",
-    "published": "Tue, 21 Apr 2026 14:53:59 +0000"
   },
   {
     "title": "Copy.Fail Linux Vulnerability",
@@ -63,25 +63,25 @@
     "published": "Tue, 12 May 2026 18:20:00 +0530"
   },
   {
-    "title": "Microsoft releases Windows 10 KB5087544 extended security update",
-    "summary": "Microsoft has released the Windows 10 KB5087544 extended security update to fix the May 2026 Patch Tuesday vulnerabilities and resolve an issue with the new Remote Desktop warnings. [...]",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5087544-extended-security-update/",
+    "title": "US govt seeks Instructure testimony on massive Canvas cyberattack",
+    "summary": "The U.S. House Committee on Homeland Security is calling on Instructure executives to testify about two cyberattacks by the ShinyHunters extortion group that targeted the company's Canvas platform, allowing threat actors to steal student data and disrupt schools during final exams. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/us-govt-seeks-instructure-testimony-on-massive-canvas-cyberattack/",
     "source": "bleepingcomputer.com",
-    "published": "Tue, 12 May 2026 14:58:34 -0400"
+    "published": "Tue, 12 May 2026 19:09:55 -0400"
   },
   {
-    "title": "Fortinet warns of critical RCE flaws in FortiSandbox and FortiAuthenticator",
-    "summary": "Fortinet has released security patches for two critical vulnerabilities in FortiSandbox and FortiAuthenticator that could enable attackers to run commands or arbitrary code. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-rce-flaws-in-fortisandbox-and-fortiauthenticator/",
+    "title": "UK fines water supplier $1.3M for exposing data of 664k customers",
+    "summary": "The Information Commissioner's Office has fined South Staffordshire Water Plc and parent company South Staffordshire Plc £963,900 ($1.3 million) over a cyberattack that exposed the personal data of 663,887 customers and employees. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/uk-fines-water-supplier-13m-for-exposing-data-of-664k-customers/",
     "source": "bleepingcomputer.com",
-    "published": "Tue, 12 May 2026 14:23:09 -0400"
+    "published": "Tue, 12 May 2026 16:17:19 -0400"
   },
   {
-    "title": "Windows 11 KB5089549 & KB5087420 cumulative updates released",
-    "summary": "Microsoft has released Windows 11 KB5089549 and KB5087420 cumulative updates for versions 25H2/24H2 and 23H2 to fix security vulnerabilities, bugs, and add new features. [...]",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5089549-and-kb5087420-cumulative-updates-released/",
+    "title": "Webinar: Fixing the gaps in network incident response",
+    "summary": "IT teams often struggle to quickly coordinate responses across disparate systems during network incidents. This upcoming webinar explores how automation and AI-assisted workflows can reduce response times and help prevent outages. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/webinar-fixing-the-gaps-in-network-incident-response/",
     "source": "bleepingcomputer.com",
-    "published": "Tue, 12 May 2026 14:09:12 -0400"
+    "published": "Tue, 12 May 2026 15:46:04 -0400"
   },
   {
     "title": "Student Loan Breach Exposes 2.5M Records",
@@ -336,6 +336,13 @@
     "published": "Wed, 04 Oct 2023 08:33:19 +1100"
   },
   {
+    "title": "Microsoft Patch Tuesday for May 2026 — Snort rules and prominent vulnerabilities",
+    "summary": "Microsoft has released its monthly security update for May 2026, which includes 112 vulnerabilities affecting a range of products, including 16 that Microsoft marked as “critical”.",
+    "url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-may-2026/",
+    "source": "blog.talosintelligence.com",
+    "published": "Tue, 12 May 2026 19:57:04 GMT"
+  },
+  {
     "title": "State-sponsored actors, better known as the friends you don’t want",
     "summary": "Responding to a state-sponsored threat is nothing like responding to ransomware, and the differences can make or break the outcome. Learn why your IR plan might need revisiting, and the factors you should consider.",
     "url": "https://blog.talosintelligence.com/state-sponsored-actors-better-known-as-the-friends-you-dont-want/",
@@ -348,13 +355,6 @@
     "url": "https://blog.talosintelligence.com/unplug-your-way-to-better-code/",
     "source": "blog.talosintelligence.com",
     "published": "Thu, 07 May 2026 18:00:40 GMT"
-  },
-  {
-    "title": "Insights into the clustering and reuse of phone numbers in scam emails",
-    "summary": "Talos has recently started to collect and gather intelligence around phone numbers within emails as an additional indicator of compromise (IOC). In this blog, we discuss new insights into in-the-wild phone number reuse in scam emails.",
-    "url": "https://blog.talosintelligence.com/insights-into-the-clustering-and-reuse-of-phone-numbers-in-scam-emails/",
-    "source": "blog.talosintelligence.com",
-    "published": "Wed, 06 May 2026 10:00:12 GMT"
   },
   {
     "title": "Autonomous AI Cyber Defense You Can Trust in Production",
