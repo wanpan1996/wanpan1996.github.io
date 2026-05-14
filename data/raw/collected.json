@@ -21,6 +21,13 @@
     "published": "Thu, 30 Apr 2026 14:04:26 +0000"
   },
   {
+    "title": "How Dangerous Is Anthropic’s Mythos AI?",
+    "summary": "Last month, Anthropic made a remarkable announcement about its new model, Claude Mythos Preview: it was so good at finding security vulnerabilities in software that the company would not release it to the general public. Instead, it would only be available to a select group of companies to scan and fix their own software. The announcement requires context&#8212;but it contained an essential truth. While Anthropic&#8217;s model is really good at finding software vulnerabilities, so are other models. The UK&#8217;s AI Security Institute found that OpenAI&#8217;s GPT-5.5, already generally available, is comparable in capability. The company Aisle ...",
+    "url": "https://www.schneier.com/blog/archives/2026/05/how-dangerous-is-anthropics-mythos-ai.html",
+    "source": "schneier.com",
+    "published": "2026-05-14T11:04:27Z"
+  },
+  {
     "title": "OpenAI’s GPT-5.5 is as Good as Mythos at Finding Security Vulnerabilities",
     "summary": "The UK&#8217;s AI Security Institute evaluated GPT-5.5&#8217;s ability to find security vulnerabilities, and found that it is comparable to Claude Mythos. Note that the OpenAI model is generally available. Here is the Institute&#8217;s evaluation of Mythos. And here is an analysis of a smaller, cheaper model. It requires more scaffolding from the prompter, but it is also just as good.",
     "url": "https://www.schneier.com/blog/archives/2026/05/openais-gpt-5-5-is-as-good-as-mythos-at-finding-security-vulnerabilities.html",
@@ -35,53 +42,46 @@
     "published": "2026-05-12T11:06:12Z"
   },
   {
-    "title": "LLMs and Text-in-Text Steganography",
-    "summary": "Turns out that LLMs are really good at hiding text messages in other text messages.",
-    "url": "https://www.schneier.com/blog/archives/2026/05/llms-and-text-in-text-steganography.html",
-    "source": "schneier.com",
-    "published": "2026-05-11T11:04:29Z"
-  },
-  {
-    "title": "New Fragnesia Linux Kernel LPE Grants Root Access via Page Cache Corruption",
-    "summary": "Details have emerged about a new variant of the recent Dirty Frag Linux local privilege escalation (LPE) vulnerability that allows local attackers to gain root access, making it the third such bug to be identified in the kernel within a span of two weeks. Codenamed Fragnesia, the security vulnerability is tracked as CVE-2026-46300 (CVSS score: 7.8) and is rooted in the Linux kernel's XFRM",
-    "url": "https://thehackernews.com/2026/05/new-fragnesia-linux-kernel-lpe-grants.html",
+    "title": "PraisonAI CVE-2026-44338 Auth Bypass Targeted Within Hours of Disclosure",
+    "summary": "Threat actors have been observed attempting to exploit a recently disclosed security vulnerability in PraisonAI, an open-source multi-agent orchestration framework, within four hours of public disclosure. The vulnerability in question is CVE-2026-44338 (CVSS score: 7.3), a case of missing authentication that exposes sensitive endpoints to anyone, potentially allowing an attacker to invoke the",
+    "url": "https://thehackernews.com/2026/05/praisonai-cve-2026-44338-auth-bypass.html",
     "source": "feeds.feedburner.com",
-    "published": "Thu, 14 May 2026 12:36:15 +0530"
+    "published": "Thu, 14 May 2026 17:10:14 +0530"
   },
   {
-    "title": "18-Year-Old NGINX Rewrite Module Flaw Enables Unauthenticated RCE",
-    "summary": "Cybersecurity researchers have disclosed multiple security vulnerabilities impacting NGINX Plus and NGINX Open, including a critical flaw that remained undetected for 18 years. The vulnerability, discovered by depthfirst, is a heap buffer overflow issue impacting ngx_http_rewrite_module (CVE-2026-42945, CVSS v4 score: 9.2) that could allow an attacker to achieve remote code execution or cause a",
-    "url": "https://thehackernews.com/2026/05/18-year-old-nginx-rewrite-module-flaw.html",
+    "title": "How AI Hallucinations Are Creating Real Security Risks",
+    "summary": "AI hallucinations are introducing serious security risks into critical infrastructure decision-making by exploiting human trust through highly confident yet incorrect outputs. When an AI model lacks certainty, it doesn’t have a mechanism to recognize that. Instead, it generates the most probable response based on patterns in its training data, even if that response is inaccurate. These outputs",
+    "url": "https://thehackernews.com/2026/05/how-ai-hallucinations-are-creating-real.html",
     "source": "feeds.feedburner.com",
-    "published": "Thu, 14 May 2026 11:30:09 +0530"
+    "published": "Thu, 14 May 2026 17:00:00 +0530"
   },
   {
-    "title": "Microsoft's MDASH AI System Finds 16 Windows Flaws Fixed in Patch Tuesday",
-    "summary": "Microsoft has unveiled a new multi-model artificial intelligence (AI)-driven system called MDASH to facilitate vulnerability discovery and remediation at scale, adding that it's being tested by some customers as part of a limited private preview. MDASH, short for multi-model agentic scanning harness, is designed as a model-agnostic system that uses bespoke AI agents for different vulnerability",
-    "url": "https://thehackernews.com/2026/05/microsofts-mdash-ai-system-finds-16.html",
+    "title": "Windows Zero-Days Expose BitLocker Bypasses And CTFMON Privilege Escalation",
+    "summary": "An anonymous cybersecurity researcher who disclosed three Microsoft Defender vulnerabilities has returned with two more zero-days involving a BitLocker bypass and a privilege escalation impacting Windows Collaborative Translation Framework (CTFMON). The security defects have been codenamed YellowKey and GreenPlasma, respectively, by the researcher, who goes by the online aliases Chaotic Eclipse",
+    "url": "https://thehackernews.com/2026/05/windows-zero-days-expose-bitlocker.html",
     "source": "feeds.feedburner.com",
-    "published": "Wed, 13 May 2026 19:16:02 +0530"
+    "published": "Thu, 14 May 2026 14:55:50 +0530"
   },
   {
-    "title": "New Fragnesia Linux flaw lets attackers gain root privileges",
-    "summary": "Linux distros are rolling out patches for a new high-severity kernel privilege escalation vulnerability (known as Fragnasia and tracked as CVE-2026-46300) that allows attackers to run malicious code as root. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/new-fragnesia-linux-flaw-lets-attackers-gain-root-privileges/",
+    "title": "KongTuke hackers now use Microsoft Teams for corporate breaches",
+    "summary": "Initial access broker KongTuke has moved to Microsoft Teams for social engineering attacks, taking as little as five minutes to gain persistent access to corporate networks. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/kongtuke-hackers-now-use-microsoft-teams-for-corporate-breaches/",
     "source": "bleepingcomputer.com",
-    "published": "Thu, 14 May 2026 03:34:19 -0400"
+    "published": "Thu, 14 May 2026 08:12:40 -0400"
   },
   {
-    "title": "West Pharmaceutical says hackers stole data, encrypted systems",
-    "summary": "West Pharmaceutical Services disclosed that it was the target of a cyberattack that resulted in data exfiltration and system encryption. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/west-pharmaceutical-says-hackers-stole-data-encrypted-systems/",
+    "title": "Dell confirms its SupportAssist software causes Windows BSOD crashes",
+    "summary": "Dell confirmed that its SupportAssist software is causing blue-screen crashes on some Windows systems following a wave of user reports about random reboots affecting Dell devices since Friday. [...]",
+    "url": "https://www.bleepingcomputer.com/news/software/dell-confirms-its-supportassist-software-causes-windows-bsod-crashes/",
     "source": "bleepingcomputer.com",
-    "published": "Wed, 13 May 2026 18:23:31 -0400"
+    "published": "Thu, 14 May 2026 06:03:39 -0400"
   },
   {
-    "title": "Iranian hackers targeted major South Korean electronics maker",
-    "summary": "The Iran-linked hacking group MuddyWater (a.k.a. Seedworm, Static Kitten) launched a broad cyber-espionage campaign targeting at least nine high-profile organizations across multiple sectors and countries. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/iranian-hackers-targeted-major-south-korean-electronics-maker/",
+    "title": "US charges suspected Dream Market admin arrested in Germany",
+    "summary": "The alleged main administrator of Dream Market Incognito Market, one of the largest dark web marketplaces before its shutdown, has been indicted in the United States on money laundering charges. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/us-charges-suspected-dream-market-admin-arrested-in-germany/",
     "source": "bleepingcomputer.com",
-    "published": "Wed, 13 May 2026 17:59:33 -0400"
+    "published": "Thu, 14 May 2026 04:55:46 -0400"
   },
   {
     "title": "Student Loan Breach Exposes 2.5M Records",
@@ -147,6 +147,13 @@
     "published": "Tue, 05 May 2026 23:00:33 +0000"
   },
   {
+    "title": "LABScon25 Replay | Breach Alpha: Trading on Cyber Fallout",
+    "summary": "Mick Baccio and Scott Roberts examine whether public breach signals and market timing models can turn cyber incidents into actionable trading opportunities.",
+    "url": "https://www.sentinelone.com/labs/labscon25-replay-breach-alpha-trading-on-cyber-fallout/",
+    "source": "labs.sentinelone.com",
+    "published": "Thu, 14 May 2026 13:00:44 +0000"
+  },
+  {
     "title": "PCPJack | Cloud Worm Evicts TeamPCP and Steals Credentials at Scale",
     "summary": "Cloud attack framework skips cryptomining, harvests financial, messaging, and enterprise credentials for fraud, spam, and potential extortion.",
     "url": "https://www.sentinelone.com/labs/cloud-worm-evicts-teampcp-and-steals-credentials-at-scale/",
@@ -159,13 +166,6 @@
     "url": "https://www.sentinelone.com/labs/labscon25-replay-please-connect-to-the-foreign-entity-to-enhance-your-user-experience/",
     "source": "labs.sentinelone.com",
     "published": "Wed, 06 May 2026 13:00:29 +0000"
-  },
-  {
-    "title": "fast16 | Mystery Shadow Brokers Reference Reveals High-Precision Software Sabotage 5 Years Before Stuxnet",
-    "summary": "A previously unknown 2005 cyber sabotage framework patches high-precision calculation software in memory to silently corrupt results.",
-    "url": "https://www.sentinelone.com/labs/fast16-mystery-shadowbrokers-reference-reveals-high-precision-software-sabotage-5-years-before-stuxnet/",
-    "source": "labs.sentinelone.com",
-    "published": "Thu, 23 Apr 2026 22:00:45 +0000"
   },
   {
     "title": "Three Lazarus RATs coming for your cheese",
@@ -294,6 +294,13 @@
     "published": "Tue, 11 Nov 2025 19:02:38 +0000"
   },
   {
+    "title": "Before the First Whistle: How Cyber Criminals Are Targeting World Cup 2026",
+    "summary": "The FIFA World Cup 2026 is one of the most anticipated sporting events in history, and cyber criminals are already capitalizing on excitement. As matches kick off across the United States, Canada, and Mexico, threat actors are flooding the internet with fake merchandise stores, fraudulent betting platforms, and phishing domains designed to steal your money and personal data. This report breaks down the latest threat landscape so fans can stay safe while enjoying the beautiful game. As the host countries of the FIFA World Cup 2026, the United States, Canada, and Mexico all recorded an increase in the weekly average number of cyber-attacks per organization in April 2026 compared to both [&#8230;] The post Before the First Whistle: How Cyber Criminals Are Targeting World Cup 2026 appeared fir",
+    "url": "https://blog.checkpoint.com/research/before-the-first-whistle-how-cyber-criminals-are-targeting-world-cup-2026/",
+    "source": "blog.checkpoint.com",
+    "published": "Thu, 14 May 2026 12:55:03 +0000"
+  },
+  {
     "title": "When the Ransomware Gang Gets Hacked: What the Gentlemen Leak Reveals About Modern Ransomware Risk",
     "summary": "Key Findings The Gentlemen RaaS has 400+ public victims and is the #2 most active ransomware group globally in 2026 Their internal systems were breached in May 2026, exposing their full operational structure The group is run by approximately nine named operators organized around a single administrator (zeta88 / hastalamuerte), who not only manages the platform but personally participates in encryption events That administrator has been identified as a former affiliate of the Qilin ransomware program — a career criminal who learned the trade under an established operation before building a competing one Initial access is almost exclusively via unpatched edge devices or purchased credentials Data stolen from one [&#8230;] The post When the Ransomware Gang Gets Hacked: What the Gentlemen Leak",
     "url": "https://blog.checkpoint.com/research/when-the-ransomware-gang-gets-hacked-what-the-gentlemen-leak-reveals-about-modern-ransomware-risk/",
@@ -306,13 +313,6 @@
     "url": "https://blog.checkpoint.com/research/cyber-threats-spike-in-april-2026-as-ransomware-expands-and-attack-volumes-climb-after-short-lived-moderation/",
     "source": "blog.checkpoint.com",
     "published": "Tue, 12 May 2026 13:00:02 +0000"
-  },
-  {
-    "title": "Q1 2026 Ransomware Report: Fewer Groups, Higher Impact",
-    "summary": "Ransomware activity remained elevated in Q1 2026, continuing the trend established over the past year. According to the State of Ransomware Q1 2026 report from Check Point Research, overall attack volume stayed near historic highs. At the same time, the structure of the ransomware ecosystem changed materially. After two years of increasing fragmentation, activity is consolidating around a smaller number of dominant groups. For organizations, this shift reduces the number of active actors but increases the potential impact of individual incidents. Key Findings: 2,122 organizations were listed on ransomware data leak sites in Q1 2026, making it the second-highest Q1 on record The top [&#8230;] The post Q1 2026 Ransomware Report: Fewer Groups, Higher Impact appeared first on Check Point Blog.",
-    "url": "https://blog.checkpoint.com/research/q1-2026-ransomware-report-fewer-groups-higher-impact/",
-    "source": "blog.checkpoint.com",
-    "published": "Mon, 11 May 2026 10:00:39 +0000"
   },
   {
     "title": "High Signal Detection and Exploitation of Ivanti's Pulse Connect Secure Auth Bypass & RCE",
@@ -357,25 +357,25 @@
     "published": "Tue, 12 May 2026 10:00:54 GMT"
   },
   {
+    "title": "Horizon3.ai NodeZero® Achieves “Awardable” Status in the Tradewinds Solutions Marketplace",
+    "summary": "NodeZero achieved Awardable status in the Tradewinds Solutions Marketplace, accelerating access to AI-native proactive security for government organizations.",
+    "url": "https://horizon3.ai/news/awards/nodezero-tradewinds-awardable/",
+    "source": "horizon3.ai",
+    "published": "Thu, 14 May 2026 12:16:00 +0000"
+  },
+  {
+    "title": "Horizon3.ai NodeZero® Assessed “Awardable” for Department of War Work in the Tradewinds Solutions Marketplace",
+    "summary": "NodeZero has achieved “Awardable” status in the Tradewinds Solutions Marketplace, accelerating access to AI-native proactive security for government organizations.",
+    "url": "https://horizon3.ai/news/press-release/nodezero-tradewinds-awardable-status/",
+    "source": "horizon3.ai",
+    "published": "Thu, 14 May 2026 12:15:00 +0000"
+  },
+  {
     "title": "From Patch Tuesday to Pentest Wednesday®: How a Software Provider Closed Unknown Paths to Cloud Compromise",
     "summary": "A healthcare software provider uncovered hidden attack paths to AWS compromise and transformed security operations through continuous validation.",
     "url": "https://horizon3.ai/intelligence/blogs/patch-tuesday-to-pentest-wednesday-cloud-compromise/",
     "source": "horizon3.ai",
     "published": "Wed, 13 May 2026 12:02:00 +0000"
-  },
-  {
-    "title": "Autonomous AI Cyber Defense You Can Trust in Production",
-    "summary": "New research reveals how to make AI-powered cyber defense safe, stable, and reliable for real-world deployment.",
-    "url": "https://horizon3.ai/attack-research/disclosures/autonomous-ai-cyber-defense-safe-production/",
-    "source": "horizon3.ai",
-    "published": "Wed, 06 May 2026 12:15:00 +0000"
-  },
-  {
-    "title": "Horizon3.ai Announces Breakthrough Research Making Autonomous AI Cyber Defense Safe to Deploy",
-    "summary": "New Horizon3.ai research makes autonomous AI cyber defense safe, predictable, and deployable in real-world production environments.",
-    "url": "https://horizon3.ai/news/press-release/horizon3-safe-autonomous-ai-cyber-defense/",
-    "source": "horizon3.ai",
-    "published": "Wed, 06 May 2026 12:15:00 +0000"
   },
   {
     "title": "Disabling Security Features in a Locked BIOS",
