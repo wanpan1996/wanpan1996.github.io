@@ -21,6 +21,13 @@
     "published": "Thu, 30 Apr 2026 14:04:26 +0000"
   },
   {
+    "title": "Upcoming Speaking Engagements",
+    "summary": "This is a current list of where and when I am scheduled to speak: I’m giving a virtual talk on “The Security of Trust in the Age of AI,” hosted by the Financial Women’s Association of New York, at 6:00 PM ET on May 21, 2026. I’m speaking at the Potsdam Conference on National Cybersecurity at the Hasso Plattner Institut in Potsdam, Germany. The event runs June 24–25, 2026, and my talk will be the evening of June 24. I’m speaking at the Digital Humanism Conference in Vienna, Austria, on Tuesday, June 26, 2026. I’m speaking at the ...",
+    "url": "https://www.schneier.com/blog/archives/2026/05/upcoming-speaking-engagements-56.html",
+    "source": "schneier.com",
+    "published": "2026-05-14T16:01:06Z"
+  },
+  {
     "title": "How Dangerous Is Anthropic’s Mythos AI?",
     "summary": "Last month, Anthropic made a remarkable announcement about its new model, Claude Mythos Preview: it was so good at finding security vulnerabilities in software that the company would not release it to the general public. Instead, it would only be available to a select group of companies to scan and fix their own software. The announcement requires context&#8212;but it contained an essential truth. While Anthropic&#8217;s model is really good at finding software vulnerabilities, so are other models. The UK&#8217;s AI Security Institute found that OpenAI&#8217;s GPT-5.5, already generally available, is comparable in capability. The company Aisle ...",
     "url": "https://www.schneier.com/blog/archives/2026/05/how-dangerous-is-anthropics-mythos-ai.html",
@@ -35,53 +42,46 @@
     "published": "2026-05-13T11:03:03Z"
   },
   {
-    "title": "Copy.Fail Linux Vulnerability",
-    "summary": "This is the worst Linux vulnerability in years. TL;DR copy.fail is a Linux kernel local privilege escalation, not a browser or clipboard attack. Disclosed by Theori on 29 April 2026 with a working PoC. It abuses the kernel crypto API (AF_ALG sockets) plus splice() to write four bytes at a time straight into the page cache of a file the attacker does not own. The exploit works unmodified across Ubuntu, RHEL, Debian, SUSE, Amazon Linux, Fedora and most others. No race condition, no per-distro offsets. The file on disk is never modified. AIDE, Tripwire and checksum-based monitoring see nothing. ...",
-    "url": "https://www.schneier.com/blog/archives/2026/05/copy-fail-linux-vulnerability.html",
-    "source": "schneier.com",
-    "published": "2026-05-12T11:06:12Z"
-  },
-  {
-    "title": "PraisonAI CVE-2026-44338 Auth Bypass Targeted Within Hours of Disclosure",
-    "summary": "Threat actors have been observed attempting to exploit a recently disclosed security vulnerability in PraisonAI, an open-source multi-agent orchestration framework, within four hours of public disclosure. The vulnerability in question is CVE-2026-44338 (CVSS score: 7.3), a case of missing authentication that exposes sensitive endpoints to anyone, potentially allowing an attacker to invoke the",
-    "url": "https://thehackernews.com/2026/05/praisonai-cve-2026-44338-auth-bypass.html",
+    "title": "Cisco Catalyst SD-WAN Controller Auth Bypass Actively Exploited to Gain Admin Access",
+    "summary": "Cisco has released updates to address a maximum-severity authentication bypass flaw in Catalyst SD-WAN Controller that it said has been exploited in limited attacks. The vulnerability, tracked as CVE-2026-20182, carries a CVSS score of 10.0. \"A vulnerability in the peering authentication in Cisco Catalyst SD-WAN Controller, formerly SD-WAN vSmart, and Cisco Catalyst SD-WAN Manager, formerly",
+    "url": "https://thehackernews.com/2026/05/cisco-catalyst-sd-wan-controller-auth.html",
     "source": "feeds.feedburner.com",
-    "published": "Thu, 14 May 2026 17:10:14 +0530"
+    "published": "Thu, 14 May 2026 23:15:20 +0530"
   },
   {
-    "title": "How AI Hallucinations Are Creating Real Security Risks",
-    "summary": "AI hallucinations are introducing serious security risks into critical infrastructure decision-making by exploiting human trust through highly confident yet incorrect outputs. When an AI model lacks certainty, it doesn’t have a mechanism to recognize that. Instead, it generates the most probable response based on patterns in its training data, even if that response is inaccurate. These outputs",
-    "url": "https://thehackernews.com/2026/05/how-ai-hallucinations-are-creating-real.html",
+    "title": "Stealer Backdoor Found in 3 Node-IPC Versions Targeting Developer Secrets",
+    "summary": "Cybersecurity researchers are sounding the alarm about what has been described as \"malicious activity\" in newly published versions of node-ipc. According to Socket and StepSecurity, three different versions of the npm package have been confirmed as malicious - node-ipc@9.1.6 node-ipc@9.2.3 node-ipc@12.0.1 \"Early analysis indicates that node-ipc@9.1.6, node-ipc@9.2.3, and node-ipc@12.0.1",
+    "url": "https://thehackernews.com/2026/05/stealer-backdoor-found-in-3-node-ipc.html",
     "source": "feeds.feedburner.com",
-    "published": "Thu, 14 May 2026 17:00:00 +0530"
+    "published": "Thu, 14 May 2026 22:52:43 +0530"
   },
   {
-    "title": "Windows Zero-Days Expose BitLocker Bypasses And CTFMON Privilege Escalation",
-    "summary": "An anonymous cybersecurity researcher who disclosed three Microsoft Defender vulnerabilities has returned with two more zero-days involving a BitLocker bypass and a privilege escalation impacting Windows Collaborative Translation Framework (CTFMON). The security defects have been codenamed YellowKey and GreenPlasma, respectively, by the researcher, who goes by the online aliases Chaotic Eclipse",
-    "url": "https://thehackernews.com/2026/05/windows-zero-days-expose-bitlocker.html",
+    "title": "ThreatsDay Bulletin: PAN-OS RCE, Mythos cURL Bug, AI Tokenizer Attacks, and 10+ Stories",
+    "summary": "Everything is still on fire. This week feels dumb in the worst way — bad links, weak checks, fake help desks, shady forum posts, and people turning supply chain attacks into some cursed little game for clout and cash. Half of it feels new. Half of it feels like crap we should have fixed years ago. The mess keeps getting louder: users get tricked, boxes get popped, tools meant for normal work",
+    "url": "https://thehackernews.com/2026/05/threatsday-bulletin-pan-os-rce-mythos.html",
     "source": "feeds.feedburner.com",
-    "published": "Thu, 14 May 2026 14:55:50 +0530"
+    "published": "Thu, 14 May 2026 21:37:46 +0530"
   },
   {
-    "title": "KongTuke hackers now use Microsoft Teams for corporate breaches",
-    "summary": "Initial access broker KongTuke has moved to Microsoft Teams for social engineering attacks, taking as little as five minutes to gain persistent access to corporate networks. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/kongtuke-hackers-now-use-microsoft-teams-for-corporate-breaches/",
+    "title": "OpenAI confirms security breach in TanStack supply chain attack",
+    "summary": "OpenAI says two employees' devices were breached in the recent TanStack supply chain attack that impacted hundreds of npm and PyPI packages, causing the company to rotate code-signing certificates for its applications as a precaution. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/openai-confirms-security-breach-in-tanstack-supply-chain-attack/",
     "source": "bleepingcomputer.com",
-    "published": "Thu, 14 May 2026 08:12:40 -0400"
+    "published": "Thu, 14 May 2026 15:07:24 -0400"
   },
   {
-    "title": "Dell confirms its SupportAssist software causes Windows BSOD crashes",
-    "summary": "Dell confirmed that its SupportAssist software is causing blue-screen crashes on some Windows systems following a wave of user reports about random reboots affecting Dell devices since Friday. [...]",
-    "url": "https://www.bleepingcomputer.com/news/software/dell-confirms-its-supportassist-software-causes-windows-bsod-crashes/",
+    "title": "Windows 11 and Microsoft Edge hacked at Pwn2Own Berlin 2026",
+    "summary": "On the first day of Pwn2Own Berlin 2026, security researchers collected $523,000 in cash awards after exploiting 24 unique zero-days. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/windows-11-and-microsoft-edge-hacked-on-first-day-of-pwn2own-berlin-2026/",
     "source": "bleepingcomputer.com",
-    "published": "Thu, 14 May 2026 06:03:39 -0400"
+    "published": "Thu, 14 May 2026 14:53:50 -0400"
   },
   {
-    "title": "US charges suspected Dream Market admin arrested in Germany",
-    "summary": "The alleged main administrator of Dream Market Incognito Market, one of the largest dark web marketplaces before its shutdown, has been indicted in the United States on money laundering charges. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/us-charges-suspected-dream-market-admin-arrested-in-germany/",
+    "title": "18-year-old NGINX vulnerability allows DoS, potential RCE",
+    "summary": "An 18-year-old flaw in the NGINX open-source web server, discovered using an autonomous scanning system, can be exploited for denial of service and, under certain conditions, remote code execution. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/18-year-old-nginx-vulnerability-allows-dos-potential-rce/",
     "source": "bleepingcomputer.com",
-    "published": "Thu, 14 May 2026 04:55:46 -0400"
+    "published": "Thu, 14 May 2026 11:43:41 -0400"
   },
   {
     "title": "Student Loan Breach Exposes 2.5M Records",
@@ -105,6 +105,13 @@
     "published": "Mon, 29 Aug 2022 14:56:19 +0000"
   },
   {
+    "title": "Our billing pipeline was suddenly slow. The culprit was a hidden bottleneck in ClickHouse",
+    "summary": "When a partitioning change to our petabyte-scale ClickHouse cluster caused critical billing jobs to stall, standard metrics showed no obvious errors. This post explores how we identified severe lock contention in ClickHouse's query planner and built upstream patches to fix it.",
+    "url": "https://blog.cloudflare.com/clickhouse-query-plan-contention/",
+    "source": "blog.cloudflare.com",
+    "published": "Thu, 14 May 2026 13:00:00 GMT"
+  },
+  {
     "title": "Browser Run: now running on Cloudflare Containers, it’s faster and more scalable",
     "summary": "We’ve enabled higher usage limits, faster performance, better reliability, and increased shipping velocity for our Browser Run product by rebuilding on top of Cloudflare’s Containers. Here’s how.",
     "url": "https://blog.cloudflare.com/browser-run-containers/",
@@ -117,13 +124,6 @@
     "url": "https://blog.cloudflare.com/quic-death-spiral-fix/",
     "source": "blog.cloudflare.com",
     "published": "Tue, 12 May 2026 13:00:00 GMT"
-  },
-  {
-    "title": "Building for the future",
-    "summary": "This afternoon, we sent the following email to our global team. One of our core values at Cloudflare is transparency, and we believe it's important that you hear this directly from us because it’s a major moment at Cloudflare.",
-    "url": "https://blog.cloudflare.com/building-for-the-future/",
-    "source": "blog.cloudflare.com",
-    "published": "Thu, 07 May 2026 20:15:12 GMT"
   },
   {
     "title": "Inside AD CS Escalation: Unpacking Advanced Misuse Techniques and Tools",
@@ -336,25 +336,25 @@
     "published": "Wed, 04 Oct 2023 08:33:19 +1100"
   },
   {
+    "title": "The time of much patching is coming",
+    "summary": "In this week’s newsletter, Martin reflects on what the next iteration of AI tools means for vulnerability discovery and our ability to manage large-scale patch releases.",
+    "url": "https://blog.talosintelligence.com/the-time-of-much-patching-is-coming/",
+    "source": "blog.talosintelligence.com",
+    "published": "Thu, 14 May 2026 18:00:24 GMT"
+  },
+  {
+    "title": "Ongoing exploitation of Cisco Catalyst SD-WAN vulnerabilities",
+    "summary": "Cisco Talos is tracking the active exploitation of CVE-2026-20182, an authentication bypass vulnerability in Cisco Catalyst SD-WAN Controller, formerly SD-WAN vSmart, and Cisco Catalyst SD-WAN Manager, formerly SD-WAN vManage.",
+    "url": "https://blog.talosintelligence.com/sd-wan-ongoing-exploitation/",
+    "source": "blog.talosintelligence.com",
+    "published": "Thu, 14 May 2026 16:02:36 GMT"
+  },
+  {
     "title": "Breaking things to keep them safe with Philippe Laulheret",
     "summary": "Philippe shares his unique journey from French engineering school to the front lines of cybersecurity, explaining how his lifelong love for solving puzzles helps him uncover critical security flaws before they can be exploited.",
     "url": "https://blog.talosintelligence.com/breaking-things-to-keep-them-safe-with-philippe-laulheret/",
     "source": "blog.talosintelligence.com",
     "published": "Wed, 13 May 2026 10:00:54 GMT"
-  },
-  {
-    "title": "Microsoft Patch Tuesday for May 2026 — Snort rules and prominent vulnerabilities",
-    "summary": "Microsoft has released its monthly security update for May 2026, which includes 137 vulnerabilities affecting a range of products, including 16 that Microsoft marked as “critical”.",
-    "url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-may-2026/",
-    "source": "blog.talosintelligence.com",
-    "published": "Tue, 12 May 2026 19:57:04 GMT"
-  },
-  {
-    "title": "State-sponsored actors, better known as the friends you don’t want",
-    "summary": "Responding to a state-sponsored threat is nothing like responding to ransomware, and the differences can make or break the outcome. Learn why your IR plan might need revisiting, and the factors you should consider.",
-    "url": "https://blog.talosintelligence.com/state-sponsored-actors-better-known-as-the-friends-you-dont-want/",
-    "source": "blog.talosintelligence.com",
-    "published": "Tue, 12 May 2026 10:00:54 GMT"
   },
   {
     "title": "Horizon3.ai NodeZero® Achieves “Awardable” Status in the Tradewinds Solutions Marketplace",
