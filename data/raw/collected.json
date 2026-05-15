@@ -63,25 +63,25 @@
     "published": "Thu, 14 May 2026 21:37:46 +0530"
   },
   {
-    "title": "OpenAI confirms security breach in TanStack supply chain attack",
-    "summary": "OpenAI says two employees' devices were breached in the recent TanStack supply chain attack that impacted hundreds of npm and PyPI packages, causing the company to rotate code-signing certificates for its applications as a precaution. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/openai-confirms-security-breach-in-tanstack-supply-chain-attack/",
+    "title": "TeamPCP hackers advertise Mistral AI code repos for sale",
+    "summary": "The TeamPCP hacker group is threatening to leak source code from the Mistral AI project unless a buyer is found for the data. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/teampcp-hackers-advertise-mistral-ai-code-repos-for-sale/",
     "source": "bleepingcomputer.com",
-    "published": "Thu, 14 May 2026 15:07:24 -0400"
+    "published": "Thu, 14 May 2026 18:50:36 -0400"
   },
   {
-    "title": "Windows 11 and Microsoft Edge hacked at Pwn2Own Berlin 2026",
-    "summary": "On the first day of Pwn2Own Berlin 2026, security researchers collected $523,000 in cash awards after exploiting 24 unique zero-days. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/windows-11-and-microsoft-edge-hacked-on-first-day-of-pwn2own-berlin-2026/",
+    "title": "Hackers exploit auth bypass flaw in Burst Statistics WordPress plugin",
+    "summary": "Hackers are leveraging a critical authentication bypass vulnerability in the WordPress plugin Burst Statistics to obtain admin-level access to websites. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-auth-bypass-flaw-in-burst-statistics-wordpress-plugin/",
     "source": "bleepingcomputer.com",
-    "published": "Thu, 14 May 2026 14:53:50 -0400"
+    "published": "Thu, 14 May 2026 17:07:17 -0400"
   },
   {
-    "title": "18-year-old NGINX vulnerability allows DoS, potential RCE",
-    "summary": "An 18-year-old flaw in the NGINX open-source web server, discovered using an autonomous scanning system, can be exploited for denial of service and, under certain conditions, remote code execution. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/18-year-old-nginx-vulnerability-allows-dos-potential-rce/",
+    "title": "Cisco warns of new critical SD-WAN flaw exploited in zero-day attacks",
+    "summary": "Cisco is warning that a critical Catalyst SD-WAN Controller authentication bypass flaw, tracked as CVE-2026-20182, was actively exploited in zero-day attacks that allowed attackers to gain administrative privileges on compromised devices. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-new-critical-sd-wan-flaw-exploited-in-zero-day-attacks/",
     "source": "bleepingcomputer.com",
-    "published": "Thu, 14 May 2026 11:43:41 -0400"
+    "published": "Thu, 14 May 2026 16:09:56 -0400"
   },
   {
     "title": "Student Loan Breach Exposes 2.5M Records",
