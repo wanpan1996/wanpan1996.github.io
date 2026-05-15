@@ -42,6 +42,20 @@
     "published": "2026-05-14T11:04:27Z"
   },
   {
+    "title": "Turla Turns Kazuar Backdoor Into Modular P2P Botnet for Persistent Access",
+    "summary": "The Russian state-sponsored hacking group known as Turla has transformed its custom backdoor Kazuar into a modular peer-to-peer (P2P) botnet that's engineered for stealth and persistent access to compromised hosts. Turla, per the U.S. Cybersecurity and Infrastructure Security Agency (CISA), is assessed to be affiliated with Center 16 of Russia's Federal Security Service (FSB)",
+    "url": "https://thehackernews.com/2026/05/turla-turns-kazuar-backdoor-into.html",
+    "source": "feeds.feedburner.com",
+    "published": "Fri, 15 May 2026 22:40:25 +0530"
+  },
+  {
+    "title": "Four OpenClaw Flaws Enable Data Theft, Privilege Escalation, and Persistence",
+    "summary": "Cybersecurity researchers have disclosed a set of four security flaws in OpenClaw that could be chained to achieve data theft, privilege escalation, and persistence. The vulnerabilities, collectively dubbed Claw Chain by Cyera, can permit an attacker to establish a foothold, expose sensitive data, and plant backdoors. A brief description of the flaws is below -",
+    "url": "https://thehackernews.com/2026/05/four-openclaw-flaws-enable-data-theft.html",
+    "source": "feeds.feedburner.com",
+    "published": "Fri, 15 May 2026 19:05:04 +0530"
+  },
+  {
     "title": "What 45 Days of Watching Your Own Tools Will Tell You About Your Real Attack Surface",
     "summary": "In Your Biggest Security Risk Isn't Malware — It's What You Already Trust, we made a simple argument: the most dangerous activity inside most organizations no longer looks like an attack. It looks like administration. PowerShell, WMIC, netsh, Certutil, MSBuild — the same trusted utilities your IT team uses every day are also the preferred toolkit of modern threat actors. Bitdefender's analysis",
     "url": "https://thehackernews.com/2026/05/what-45-days-of-watching-your-own-tools.html",
@@ -49,39 +63,25 @@
     "published": "Fri, 15 May 2026 16:30:00 +0530"
   },
   {
-    "title": "TanStack Supply Chain Attack Hits Two OpenAI Employee Devices, Forces macOS Updates",
-    "summary": "OpenAI has disclosed that two of its employee devices in its corporate environment were impacted via the Mini Shai-Hulud supply chain attack on TanStack, but noted that no user data, production systems, or intellectual property were compromised or modified in an unauthorized manner. \"Upon identification of the malicious activity, we worked quickly to investigate, contain, and take steps to",
-    "url": "https://thehackernews.com/2026/05/tanstack-supply-chain-attack-hits-two.html",
-    "source": "feeds.feedburner.com",
-    "published": "Fri, 15 May 2026 16:24:44 +0530"
-  },
-  {
-    "title": "On-Prem Microsoft Exchange Server CVE-2026-42897 Exploited via Crafted Email",
-    "summary": "Microsoft has disclosed a new security vulnerability impacting on-premise versions of Exchange Server that it said has come under active exploitation in the wild. The vulnerability, tracked as CVE-2026-42897 (CVSS score: 8.1), has been described as a spoofing bug stemming from a cross-site scripting flaw. An anonymous researcher has been credited with discovering and reporting the issue. \"",
-    "url": "https://thehackernews.com/2026/05/on-prem-microsoft-exchange-server-cve.html",
-    "source": "feeds.feedburner.com",
-    "published": "Fri, 15 May 2026 11:49:04 +0530"
-  },
-  {
-    "title": "Microsoft to automatically roll back faulty Windows drivers",
-    "summary": "Microsoft is introducing a new capability that will allow it to remotely roll back problematic Windows drivers delivered through Windows Update. [...]",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-automatically-roll-back-faulty-windows-drivers/",
+    "title": "Microsoft Exchange, Windows 11 hacked on second day of Pwn2Own",
+    "summary": "​During the second day of Pwn2Own Berlin 2026, competitors collected $385,750 in cash awards after exploiting 15 unique zero-day vulnerabilities in multiple products, including Windows 11, Microsoft Exchange, and Red Hat Enterprise Linux for Workstations. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/pwn2own-day-two-hackers-demo-microsoft-exchange-windows-11-red-had-enterprise-linux-zero-days/",
     "source": "bleepingcomputer.com",
-    "published": "Fri, 15 May 2026 08:29:48 -0400"
+    "published": "Fri, 15 May 2026 13:47:25 -0400"
   },
   {
-    "title": "Microsoft warns of Exchange zero-day flaw exploited in attacks",
-    "summary": "On Thursday, Microsoft shared mitigations for a high-severity Exchange Server vulnerability exploited in attacks that allow threat actors to execute arbitrary code via cross-site scripting (XSS) while targeting Outlook on the web users. [...]",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-exchange-zero-day-flaw-exploited-in-attacks/",
+    "title": "Popular node-ipc npm package compromised to steal credentials",
+    "summary": "Hackers have injected credential-stealing malware into newly published versions of node-ipc, a popular inter-process communication package, in a new supply chain attack targeting npm. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/popular-node-ipc-npm-package-compromised-to-steal-credentials/",
     "source": "bleepingcomputer.com",
-    "published": "Fri, 15 May 2026 05:40:42 -0400"
+    "published": "Fri, 15 May 2026 13:10:42 -0400"
   },
   {
-    "title": "TeamPCP hackers advertise Mistral AI code repos for sale",
-    "summary": "The TeamPCP hacker group is threatening to leak source code from the Mistral AI project unless a buyer is found for the data. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/teampcp-hackers-advertise-mistral-ai-code-repos-for-sale/",
+    "title": "Avada Builder WordPress plugin flaws allow site credential theft",
+    "summary": "Two vulnerabilities in the Avada Builder plugin for WordPress, with an estimated one million active installations, allow hackers to read arbitrary files and extract sensitive information from the database. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/avada-builder-wordpress-plugin-flaws-allow-site-credential-theft/",
     "source": "bleepingcomputer.com",
-    "published": "Thu, 14 May 2026 18:50:36 -0400"
+    "published": "Fri, 15 May 2026 11:56:56 -0400"
   },
   {
     "title": "Student Loan Breach Exposes 2.5M Records",
@@ -357,6 +357,13 @@
     "published": "Wed, 13 May 2026 10:00:54 GMT"
   },
   {
+    "title": "CVE-2026-0300 | Palo Alto Networks PAN-OS Remote Code Execution | Critical Remote Access Risk",
+    "summary": "CVE-2026-0300 enables unauthenticated remote code execution in PAN-OS, posing a critical risk to enterprise and government networks.",
+    "url": "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-0300/",
+    "source": "horizon3.ai",
+    "published": "Fri, 15 May 2026 17:12:21 +0000"
+  },
+  {
     "title": "Horizon3.ai NodeZero® Achieves “Awardable” Status in the Tradewinds Solutions Marketplace",
     "summary": "NodeZero achieved Awardable status in the Tradewinds Solutions Marketplace, accelerating access to AI-native proactive security for government organizations.",
     "url": "https://horizon3.ai/news/awards/nodezero-tradewinds-awardable/",
@@ -369,13 +376,6 @@
     "url": "https://horizon3.ai/news/press-release/nodezero-tradewinds-awardable-status/",
     "source": "horizon3.ai",
     "published": "Thu, 14 May 2026 12:15:00 +0000"
-  },
-  {
-    "title": "From Patch Tuesday to Pentest Wednesday®: How a Software Provider Closed Unknown Paths to Cloud Compromise",
-    "summary": "A healthcare software provider uncovered hidden attack paths to AWS compromise and transformed security operations through continuous validation.",
-    "url": "https://horizon3.ai/intelligence/blogs/patch-tuesday-to-pentest-wednesday-cloud-compromise/",
-    "source": "horizon3.ai",
-    "published": "Wed, 13 May 2026 12:02:00 +0000"
   },
   {
     "title": "Disabling Security Features in a Locked BIOS",
