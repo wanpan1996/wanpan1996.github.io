@@ -42,6 +42,13 @@
     "published": "2026-05-14T16:01:06Z"
   },
   {
+    "title": "Funnel Builder Flaw Under Active Exploitation Enables WooCommerce Checkout Skimming",
+    "summary": "A critical security vulnerability impacting the Funnel Builder plugin for WordPress has come under active exploitation in the wild to inject malicious JavaScript code into WooCommerce checkout pages with the goal of stealing payment data. Details of the activity were published by Sansec this week. The vulnerability currently does not have an official CVE identifier. It",
+    "url": "https://thehackernews.com/2026/05/funnel-builder-flaw-under-active.html",
+    "source": "feeds.feedburner.com",
+    "published": "Sat, 16 May 2026 20:50:48 +0530"
+  },
+  {
     "title": "Turla Turns Kazuar Backdoor Into Modular P2P Botnet for Persistent Access",
     "summary": "The Russian state-sponsored hacking group known as Turla has transformed its custom backdoor Kazuar into a modular peer-to-peer (P2P) botnet that's engineered for stealth and persistent access to compromised hosts. Turla, per the U.S. Cybersecurity and Infrastructure Security Agency (CISA), is assessed to be affiliated with Center 16 of Russia's Federal Security Service (FSB)",
     "url": "https://thehackernews.com/2026/05/turla-turns-kazuar-backdoor-into.html",
@@ -56,11 +63,11 @@
     "published": "Fri, 15 May 2026 19:05:04 +0530"
   },
   {
-    "title": "What 45 Days of Watching Your Own Tools Will Tell You About Your Real Attack Surface",
-    "summary": "In Your Biggest Security Risk Isn't Malware — It's What You Already Trust, we made a simple argument: the most dangerous activity inside most organizations no longer looks like an attack. It looks like administration. PowerShell, WMIC, netsh, Certutil, MSBuild — the same trusted utilities your IT team uses every day are also the preferred toolkit of modern threat actors. Bitdefender's analysis",
-    "url": "https://thehackernews.com/2026/05/what-45-days-of-watching-your-own-tools.html",
-    "source": "feeds.feedburner.com",
-    "published": "Fri, 15 May 2026 16:30:00 +0530"
+    "title": "Russian hackers turn Kazuar backdoor into modular P2P botnet",
+    "summary": "The Russian hacker group Secret Blizzard has developed its long-running Kazuar backdoor into a modular peer-to-peer (P2P) botnet designed for long-term persistence, stealth, and data collection. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/russian-hackers-turn-kazuar-backdoor-into-modular-p2p-botnet/",
+    "source": "bleepingcomputer.com",
+    "published": "Sat, 16 May 2026 10:15:37 -0400"
   },
   {
     "title": "Funnel Builder WordPress plugin bug exploited to steal credit cards",
@@ -75,13 +82,6 @@
     "url": "https://www.bleepingcomputer.com/news/security/pwn2own-day-two-hackers-demo-microsoft-exchange-windows-11-red-had-enterprise-linux-zero-days/",
     "source": "bleepingcomputer.com",
     "published": "Fri, 15 May 2026 13:47:25 -0400"
-  },
-  {
-    "title": "Popular node-ipc npm package compromised to steal credentials",
-    "summary": "Hackers have injected credential-stealing malware into newly published versions of node-ipc, a popular inter-process communication package, in a new supply chain attack targeting npm. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/popular-node-ipc-npm-package-compromised-to-steal-credentials/",
-    "source": "bleepingcomputer.com",
-    "published": "Fri, 15 May 2026 13:10:42 -0400"
   },
   {
     "title": "Student Loan Breach Exposes 2.5M Records",
