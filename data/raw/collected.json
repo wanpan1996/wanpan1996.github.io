@@ -21,6 +21,13 @@
     "published": "Thu, 30 Apr 2026 14:04:26 +0000"
   },
   {
+    "title": "Friday Squid Blogging: Bigfin Squid",
+    "summary": "Article about the bigfin squid. As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered. Blog moderation policy.",
+    "url": "https://www.schneier.com/blog/archives/2026/05/friday-squid-blogging-bigfin-squid.html",
+    "source": "schneier.com",
+    "published": "2026-05-16T01:03:31Z"
+  },
+  {
     "title": "Bypassing On-Camera Age-Verification Checks",
     "summary": "Some AI-based video age-verification checks can be fooled with a fake mustache.",
     "url": "https://www.schneier.com/blog/archives/2026/05/bypassing-on-camera-age-verification-checks.html",
@@ -33,13 +40,6 @@
     "url": "https://www.schneier.com/blog/archives/2026/05/upcoming-speaking-engagements-56.html",
     "source": "schneier.com",
     "published": "2026-05-14T16:01:06Z"
-  },
-  {
-    "title": "How Dangerous Is Anthropic’s Mythos AI?",
-    "summary": "Last month, Anthropic made a remarkable announcement about its new model, Claude Mythos Preview: it was so good at finding security vulnerabilities in software that the company would not release it to the general public. Instead, it would only be available to a select group of companies to scan and fix their own software. The announcement requires context&#8212;but it contained an essential truth. While Anthropic&#8217;s model is really good at finding software vulnerabilities, so are other models. The UK&#8217;s AI Security Institute found that OpenAI&#8217;s GPT-5.5, already generally available, is comparable in capability. The company Aisle ...",
-    "url": "https://www.schneier.com/blog/archives/2026/05/how-dangerous-is-anthropics-mythos-ai.html",
-    "source": "schneier.com",
-    "published": "2026-05-14T11:04:27Z"
   },
   {
     "title": "Turla Turns Kazuar Backdoor Into Modular P2P Botnet for Persistent Access",
@@ -63,6 +63,13 @@
     "published": "Fri, 15 May 2026 16:30:00 +0530"
   },
   {
+    "title": "Funnel Builder WordPress plugin bug exploited to steal credit cards",
+    "summary": "A critical vulnerability in the Funnel Builder plugin for WordPress is being actively exploited to inject malicious JavaScript snippets into WooCommerce checkout pages. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/funnel-builder-wordpress-plugin-bug-exploited-to-steal-credit-cards/",
+    "source": "bleepingcomputer.com",
+    "published": "Fri, 15 May 2026 15:30:33 -0400"
+  },
+  {
     "title": "Microsoft Exchange, Windows 11 hacked on second day of Pwn2Own",
     "summary": "​During the second day of Pwn2Own Berlin 2026, competitors collected $385,750 in cash awards after exploiting 15 unique zero-day vulnerabilities in multiple products, including Windows 11, Microsoft Exchange, and Red Hat Enterprise Linux for Workstations. [...]",
     "url": "https://www.bleepingcomputer.com/news/security/pwn2own-day-two-hackers-demo-microsoft-exchange-windows-11-red-had-enterprise-linux-zero-days/",
@@ -75,13 +82,6 @@
     "url": "https://www.bleepingcomputer.com/news/security/popular-node-ipc-npm-package-compromised-to-steal-credentials/",
     "source": "bleepingcomputer.com",
     "published": "Fri, 15 May 2026 13:10:42 -0400"
-  },
-  {
-    "title": "Avada Builder WordPress plugin flaws allow site credential theft",
-    "summary": "Two vulnerabilities in the Avada Builder plugin for WordPress, with an estimated one million active installations, allow hackers to read arbitrary files and extract sensitive information from the database. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/avada-builder-wordpress-plugin-flaws-allow-site-credential-theft/",
-    "source": "bleepingcomputer.com",
-    "published": "Fri, 15 May 2026 11:56:56 -0400"
   },
   {
     "title": "Student Loan Breach Exposes 2.5M Records",
