@@ -63,6 +63,13 @@
     "published": "Fri, 15 May 2026 19:05:04 +0530"
   },
   {
+    "title": "Microsoft rejects critical Azure vulnerability report, no CVE issued",
+    "summary": "A security researcher claims Microsoft quietly fixed an Azure Backup for AKS vulnerability after rejecting his report, and without issuing a CVE. Microsoft disputes the claim, telling BleepingComputer the behavior was expected and that \"no product changes were made,\" despite the researcher documenting a silent fix. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/microsoft-rejects-critical-azure-vulnerability-report-no-cve-issued/",
+    "source": "bleepingcomputer.com",
+    "published": "Sat, 16 May 2026 16:55:44 -0400"
+  },
+  {
     "title": "Russian hackers turn Kazuar backdoor into modular P2P botnet",
     "summary": "The Russian hacker group Secret Blizzard has developed its long-running Kazuar backdoor into a modular peer-to-peer (P2P) botnet designed for long-term persistence, stealth, and data collection. [...]",
     "url": "https://www.bleepingcomputer.com/news/security/russian-hackers-turn-kazuar-backdoor-into-modular-p2p-botnet/",
@@ -75,13 +82,6 @@
     "url": "https://www.bleepingcomputer.com/news/security/funnel-builder-wordpress-plugin-bug-exploited-to-steal-credit-cards/",
     "source": "bleepingcomputer.com",
     "published": "Fri, 15 May 2026 15:30:33 -0400"
-  },
-  {
-    "title": "Microsoft Exchange, Windows 11 hacked on second day of Pwn2Own",
-    "summary": "​During the second day of Pwn2Own Berlin 2026, competitors collected $385,750 in cash awards after exploiting 15 unique zero-day vulnerabilities in multiple products, including Windows 11, Microsoft Exchange, and Red Hat Enterprise Linux for Workstations. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/pwn2own-day-two-hackers-demo-microsoft-exchange-windows-11-red-had-enterprise-linux-zero-days/",
-    "source": "bleepingcomputer.com",
-    "published": "Fri, 15 May 2026 13:47:25 -0400"
   },
   {
     "title": "Student Loan Breach Exposes 2.5M Records",
