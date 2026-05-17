@@ -42,6 +42,13 @@
     "published": "2026-05-14T16:01:06Z"
   },
   {
+    "title": "Grafana GitHub Token Breach Led to Codebase Download and Extortion Attempt",
+    "summary": "Grafana has disclosed that an \"unauthorized party\" obtained a token that granted them the ability to access the company's GitHub environment and download its codebase. \"Our investigation has determined that no customer data or personal information was accessed during this incident, and we have found no evidence of impact to customer systems or operations,\" Grafana said in a series of",
+    "url": "https://thehackernews.com/2026/05/grafana-github-token-breach-led-to.html",
+    "source": "feeds.feedburner.com",
+    "published": "Sun, 17 May 2026 12:43:33 +0530"
+  },
+  {
     "title": "Funnel Builder Flaw Under Active Exploitation Enables WooCommerce Checkout Skimming",
     "summary": "A critical security vulnerability impacting the Funnel Builder plugin for WordPress has come under active exploitation in the wild to inject malicious JavaScript code into WooCommerce checkout pages with the goal of stealing payment data. Details of the activity were published by Sansec this week. The vulnerability currently does not have an official CVE identifier. It",
     "url": "https://thehackernews.com/2026/05/funnel-builder-flaw-under-active.html",
@@ -54,13 +61,6 @@
     "url": "https://thehackernews.com/2026/05/turla-turns-kazuar-backdoor-into.html",
     "source": "feeds.feedburner.com",
     "published": "Fri, 15 May 2026 22:40:25 +0530"
-  },
-  {
-    "title": "Four OpenClaw Flaws Enable Data Theft, Privilege Escalation, and Persistence",
-    "summary": "Cybersecurity researchers have disclosed a set of four security flaws in OpenClaw that could be chained to achieve data theft, privilege escalation, and persistence. The vulnerabilities, collectively dubbed Claw Chain by Cyera, can permit an attacker to establish a foothold, expose sensitive data, and plant backdoors. A brief description of the flaws is below -",
-    "url": "https://thehackernews.com/2026/05/four-openclaw-flaws-enable-data-theft.html",
-    "source": "feeds.feedburner.com",
-    "published": "Fri, 15 May 2026 19:05:04 +0530"
   },
   {
     "title": "Microsoft rejects critical Azure vulnerability report, no CVE issued",
