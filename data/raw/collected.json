@@ -42,6 +42,13 @@
     "published": "2026-05-14T16:01:06Z"
   },
   {
+    "title": "NGINX CVE-2026-42945 Exploited in the Wild, Causing Worker Crashes and Possible RCE",
+    "summary": "A newly disclosed security flaw impacting NGINX Plus and NGINX Open has come under active exploitation in the wild, days after its public disclosure, according to VulnCheck. The vulnerability, tracked as CVE-2026-42945 (CVSS score: 9.2), is a heap buffer overflow in ngx_http_rewrite_module affecting NGINX versions 0.6.27 through 1.30.0. According to AI-native security company depthfirst, the",
+    "url": "https://thehackernews.com/2026/05/nginx-cve-2026-42945-exploited-in-wild.html",
+    "source": "feeds.feedburner.com",
+    "published": "Sun, 17 May 2026 17:27:53 +0530"
+  },
+  {
     "title": "Grafana GitHub Token Breach Led to Codebase Download and Extortion Attempt",
     "summary": "Grafana has disclosed that an \"unauthorized party\" obtained a token that granted them the ability to access the company's GitHub environment and download its codebase. \"Our investigation has determined that no customer data or personal information was accessed during this incident, and we have found no evidence of impact to customer systems or operations,\" Grafana said in a series of",
     "url": "https://thehackernews.com/2026/05/grafana-github-token-breach-led-to.html",
@@ -56,11 +63,11 @@
     "published": "Sat, 16 May 2026 20:50:48 +0530"
   },
   {
-    "title": "Turla Turns Kazuar Backdoor Into Modular P2P Botnet for Persistent Access",
-    "summary": "The Russian state-sponsored hacking group known as Turla has transformed its custom backdoor Kazuar into a modular peer-to-peer (P2P) botnet that's engineered for stealth and persistent access to compromised hosts. Turla, per the U.S. Cybersecurity and Infrastructure Security Agency (CISA), is assessed to be affiliated with Center 16 of Russia's Federal Security Service (FSB)",
-    "url": "https://thehackernews.com/2026/05/turla-turns-kazuar-backdoor-into.html",
-    "source": "feeds.feedburner.com",
-    "published": "Fri, 15 May 2026 22:40:25 +0530"
+    "title": "Tycoon2FA hijacks Microsoft 365 accounts via device-code phishing",
+    "summary": "The Tycoon2FA phishing kit now supports device-code phishing attacks and abuses Trustifi click-tracking URLs to hijack Microsoft 365 accounts. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/tycoon2fa-hijacks-microsoft-365-accounts-via-device-code-phishing/",
+    "source": "bleepingcomputer.com",
+    "published": "Sun, 17 May 2026 10:43:10 -0400"
   },
   {
     "title": "Microsoft rejects critical Azure vulnerability report, no CVE issued",
@@ -75,13 +82,6 @@
     "url": "https://www.bleepingcomputer.com/news/security/russian-hackers-turn-kazuar-backdoor-into-modular-p2p-botnet/",
     "source": "bleepingcomputer.com",
     "published": "Sat, 16 May 2026 10:15:37 -0400"
-  },
-  {
-    "title": "Funnel Builder WordPress plugin bug exploited to steal credit cards",
-    "summary": "A critical vulnerability in the Funnel Builder plugin for WordPress is being actively exploited to inject malicious JavaScript snippets into WooCommerce checkout pages. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/funnel-builder-wordpress-plugin-bug-exploited-to-steal-credit-cards/",
-    "source": "bleepingcomputer.com",
-    "published": "Fri, 15 May 2026 15:30:33 -0400"
   },
   {
     "title": "Student Loan Breach Exposes 2.5M Records",
