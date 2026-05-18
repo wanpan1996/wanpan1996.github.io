@@ -42,6 +42,20 @@
     "published": "2026-05-14T16:01:06Z"
   },
   {
+    "title": "Pre-Stuxnet Fast16 Malware Tampered with Nuclear Weapons Simulations",
+    "summary": "A new analysis of the Lua-based fast16 malware has confirmed that it was a cyber sabotage tool designed to tamper with nuclear weapons testing simulations. According to Broadcom-owned Symantec and Carbon Black teams, the pre-Stuxnet tool was engineered to corrupt uranium-compression simulations that are central to nuclear weapon design. \"Fast16's hook engine is selectively interested in",
+    "url": "https://thehackernews.com/2026/05/pre-stuxnet-fast16-malware-tampered.html",
+    "source": "feeds.feedburner.com",
+    "published": "Mon, 18 May 2026 12:16:37 +0530"
+  },
+  {
+    "title": "MiniPlasma Windows 0-Day Enables SYSTEM Privilege Escalation on Fully Patched Systems",
+    "summary": "Chaotic Eclipse, the security researcher behind the recently disclosed Windows flaws, YellowKey and GreenPlasma, has released a proof-of-concept (PoC) for a Windows privilege escalation zero-day flaw that grants attackers SYSTEM privileges on fully patched Windows systems. Codenamed MiniPlasma, the vulnerability impacts \"cldflt.sys,\" which refers to the Windows Cloud Files Mini Filter Driver,",
+    "url": "https://thehackernews.com/2026/05/miniplasma-windows-0-day-enables-system.html",
+    "source": "feeds.feedburner.com",
+    "published": "Mon, 18 May 2026 10:29:21 +0530"
+  },
+  {
     "title": "NGINX CVE-2026-42945 Exploited in the Wild, Causing Worker Crashes and Possible RCE",
     "summary": "A newly disclosed security flaw impacting NGINX Plus and NGINX Open has come under active exploitation in the wild, days after its public disclosure, according to VulnCheck. The vulnerability, tracked as CVE-2026-42945 (CVSS score: 9.2), is a heap buffer overflow in ngx_http_rewrite_module affecting NGINX versions 0.6.27 through 1.30.0. According to AI-native security company depthfirst, the",
     "url": "https://thehackernews.com/2026/05/nginx-cve-2026-42945-exploited-in-wild.html",
@@ -49,39 +63,25 @@
     "published": "Sun, 17 May 2026 17:27:53 +0530"
   },
   {
-    "title": "Grafana GitHub Token Breach Led to Codebase Download and Extortion Attempt",
-    "summary": "Grafana has disclosed that an \"unauthorized party\" obtained a token that granted them the ability to access the company's GitHub environment and download its codebase. \"Our investigation has determined that no customer data or personal information was accessed during this incident, and we have found no evidence of impact to customer systems or operations,\" Grafana said in a series of",
-    "url": "https://thehackernews.com/2026/05/grafana-github-token-breach-led-to.html",
-    "source": "feeds.feedburner.com",
-    "published": "Sun, 17 May 2026 12:43:33 +0530"
-  },
-  {
-    "title": "Funnel Builder Flaw Under Active Exploitation Enables WooCommerce Checkout Skimming",
-    "summary": "A critical security vulnerability impacting the Funnel Builder plugin for WordPress has come under active exploitation in the wild to inject malicious JavaScript code into WooCommerce checkout pages with the goal of stealing payment data. Details of the activity were published by Sansec this week. The vulnerability currently does not have an official CVE identifier. It",
-    "url": "https://thehackernews.com/2026/05/funnel-builder-flaw-under-active.html",
-    "source": "feeds.feedburner.com",
-    "published": "Sat, 16 May 2026 20:50:48 +0530"
-  },
-  {
-    "title": "New Windows 'MiniPlasma' zero-day exploit gives SYSTEM access, PoC released",
-    "summary": "A cybersecurity researcher has released a proof-of-concept exploit for a Windows privilege escalation zero-day dubbed \"MiniPlasma\" that lets attackers gain SYSTEM privileges on fully patched Windows systems. [...]",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/new-windows-miniplasma-zero-day-exploit-gives-system-access-poc-released/",
+    "title": "Microsoft confirms Windows 11 security update install issues",
+    "summary": "Microsoft has confirmed that the May 2026 Windows 11 security update (KB5089549) fails to install on some systems and triggers 0x800f0922 errors. [...]",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-kb5089549-windows-11-security-update-install-issues/",
     "source": "bleepingcomputer.com",
-    "published": "Sun, 17 May 2026 18:30:08 -0400"
+    "published": "Mon, 18 May 2026 04:33:14 -0400"
   },
   {
-    "title": "Tycoon2FA hijacks Microsoft 365 accounts via device-code phishing",
-    "summary": "The Tycoon2FA phishing kit now supports device-code phishing attacks and abuses Trustifi click-tracking URLs to hijack Microsoft 365 accounts. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/tycoon2fa-hijacks-microsoft-365-accounts-via-device-code-phishing/",
+    "title": "Exploit available for new DirtyDecrypt Linux root escalation flaw",
+    "summary": "A recently patched local privilege escalation vulnerability in the Linux kernel's rxgk module now has a proof-of-concept exploit that allows attackers to gain root access on some Linux systems. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/exploit-available-for-new-dirtydecrypt-linux-root-escalation-flaw/",
     "source": "bleepingcomputer.com",
-    "published": "Sun, 17 May 2026 10:43:10 -0400"
+    "published": "Mon, 18 May 2026 03:18:33 -0400"
   },
   {
-    "title": "Microsoft rejects critical Azure vulnerability report, no CVE issued",
-    "summary": "A security researcher claims Microsoft quietly fixed an Azure Backup for AKS vulnerability after rejecting his report, and without issuing a CVE. Microsoft disputes the claim, telling BleepingComputer the behavior was expected and that \"no product changes were made,\" despite the researcher documenting a silent fix. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/microsoft-rejects-critical-azure-vulnerability-report-no-cve-issued/",
+    "title": "Hackers earn $1,298,250 for 47 zero-days at Pwn2Own Berlin 2026",
+    "summary": "The Pwn2Own Berlin 2026 hacking contest has concluded, with security researchers collecting $1,298,250 in rewards after exploiting 47 zero-day flaws. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-earn-1-298-250-for-47-zero-days-at-pwn2own-berlin-2026/",
     "source": "bleepingcomputer.com",
-    "published": "Sat, 16 May 2026 16:55:44 -0400"
+    "published": "Mon, 18 May 2026 01:33:20 -0400"
   },
   {
     "title": "Student Loan Breach Exposes 2.5M Records",
