@@ -63,6 +63,13 @@
     "published": "Sat, 16 May 2026 20:50:48 +0530"
   },
   {
+    "title": "New Windows 'MiniPlasma' zero-day exploit gives SYSTEM access, PoC released",
+    "summary": "A cybersecurity researcher has released a proof-of-concept exploit for a Windows privilege escalation zero-day dubbed \"MiniPlasma\" that lets attackers gain SYSTEM privileges on fully patched Windows systems. [...]",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/new-windows-miniplasma-zero-day-exploit-gives-system-access-poc-released/",
+    "source": "bleepingcomputer.com",
+    "published": "Sun, 17 May 2026 18:30:08 -0400"
+  },
+  {
     "title": "Tycoon2FA hijacks Microsoft 365 accounts via device-code phishing",
     "summary": "The Tycoon2FA phishing kit now supports device-code phishing attacks and abuses Trustifi click-tracking URLs to hijack Microsoft 365 accounts. [...]",
     "url": "https://www.bleepingcomputer.com/news/security/tycoon2fa-hijacks-microsoft-365-accounts-via-device-code-phishing/",
@@ -75,13 +82,6 @@
     "url": "https://www.bleepingcomputer.com/news/security/microsoft-rejects-critical-azure-vulnerability-report-no-cve-issued/",
     "source": "bleepingcomputer.com",
     "published": "Sat, 16 May 2026 16:55:44 -0400"
-  },
-  {
-    "title": "Russian hackers turn Kazuar backdoor into modular P2P botnet",
-    "summary": "The Russian hacker group Secret Blizzard has developed its long-running Kazuar backdoor into a modular peer-to-peer (P2P) botnet designed for long-term persistence, stealth, and data collection. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/russian-hackers-turn-kazuar-backdoor-into-modular-p2p-botnet/",
-    "source": "bleepingcomputer.com",
-    "published": "Sat, 16 May 2026 10:15:37 -0400"
   },
   {
     "title": "Student Loan Breach Exposes 2.5M Records",
