@@ -21,6 +21,13 @@
     "published": "Thu, 30 Apr 2026 14:04:26 +0000"
   },
   {
+    "title": "Zero-Day Exploit Against Windows BitLocker",
+    "summary": "It&#8217;s nasty, but it requires physical access to the computer: The exploit, named YellowKey, was published earlier this week by a researcher who goes by the alias Nightmare-Eclipse. It reliably bypasses default Windows 11 deployments of BitLocker, the full-volume encryption protection Microsoft provides to make disk contents off-limits to anyone without the decryption key, which is stored in a secured piece of hardware known as a trusted platform module (TPM). BitLocker is a mandatory protection for many organizations, including those that contract with governments...",
+    "url": "https://www.schneier.com/blog/archives/2026/05/zero-day-exploit-against-windows-bitlocker.html",
+    "source": "schneier.com",
+    "published": "2026-05-18T11:08:13Z"
+  },
+  {
     "title": "Friday Squid Blogging: Bigfin Squid",
     "summary": "Article about the bigfin squid. As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered. Blog moderation policy.",
     "url": "https://www.schneier.com/blog/archives/2026/05/friday-squid-blogging-bigfin-squid.html",
@@ -35,32 +42,39 @@
     "published": "2026-05-15T11:06:32Z"
   },
   {
-    "title": "Upcoming Speaking Engagements",
-    "summary": "This is a current list of where and when I am scheduled to speak: I’m giving a virtual talk on “The Security of Trust in the Age of AI,” hosted by the Financial Women’s Association of New York, at 6:00 PM ET on May 21, 2026. I’m speaking at the Potsdam Conference on National Cybersecurity at the Hasso Plattner Institut in Potsdam, Germany. The event runs June 24–25, 2026, and my talk will be the evening of June 24. I’m speaking at the Digital Humanism Conference in Vienna, Austria, on Tuesday, June 26, 2026. I’m speaking at the ...",
-    "url": "https://www.schneier.com/blog/archives/2026/05/upcoming-speaking-engagements-56.html",
-    "source": "schneier.com",
-    "published": "2026-05-14T16:01:06Z"
+    "title": "How to Reduce Phishing Exposure Before It Turns into Business Disruption",
+    "summary": "What happens when a phishing email looks clean enough to pass through security, but dangerous enough to expose the business after one click? That is the gap many SOCs still struggle with: the attacks that leave teams unsure what was exposed, who else was targeted, and how far the risk has spread. Early phishing detection closes that gap. It helps teams move from uncertainty to evidence faster,",
+    "url": "https://thehackernews.com/2026/05/how-to-reduce-phishing-exposure-before.html",
+    "source": "feeds.feedburner.com",
+    "published": "Mon, 18 May 2026 18:30:00 +0530"
   },
   {
-    "title": "Pre-Stuxnet Fast16 Malware Tampered with Nuclear Weapons Simulations",
-    "summary": "A new analysis of the Lua-based fast16 malware has confirmed that it was a cyber sabotage tool designed to tamper with nuclear weapons testing simulations. According to Broadcom-owned Symantec and Carbon Black teams, the pre-Stuxnet tool was engineered to corrupt uranium-compression simulations that are central to nuclear weapon design. \"Fast16's hook engine is selectively interested in",
-    "url": "https://thehackernews.com/2026/05/pre-stuxnet-fast16-malware-tampered.html",
+    "title": "Developer Workstations Are Now Part of the Software Supply Chain",
+    "summary": "Supply chain attackers are not only trying to slip malicious code into trusted software. They are trying to steal the access that makes trusted software possible. Recently, three separate campaigns hit npm, PyPI, and Docker Hub in a 48-hour window, and all three targeted secrets from developer environments and CI/CD pipelines, including API keys, cloud credentials, SSH keys, and tokens. This is",
+    "url": "https://thehackernews.com/2026/05/developer-workstations-are-now-part-of.html",
     "source": "feeds.feedburner.com",
-    "published": "Mon, 18 May 2026 12:16:37 +0530"
+    "published": "Mon, 18 May 2026 16:53:41 +0530"
   },
   {
-    "title": "MiniPlasma Windows 0-Day Enables SYSTEM Privilege Escalation on Fully Patched Systems",
-    "summary": "Chaotic Eclipse, the security researcher behind the recently disclosed Windows flaws, YellowKey and GreenPlasma, has released a proof-of-concept (PoC) for a Windows privilege escalation zero-day flaw that grants attackers SYSTEM privileges on fully patched Windows systems. Codenamed MiniPlasma, the vulnerability impacts \"cldflt.sys,\" which refers to the Windows Cloud Files Mini Filter Driver,",
-    "url": "https://thehackernews.com/2026/05/miniplasma-windows-0-day-enables-system.html",
+    "title": "Ivanti, Fortinet, SAP, VMware, n8n Patch RCE, SQL Injection, Privilege Escalation Flaws",
+    "summary": "Ivanti, Fortinet, n8n, SAP, and VMware have released security fixes for various vulnerabilities that could be exploited by bad actors to bypass authentication and execute arbitrary code. Topping the list is a critical flaw impacting Ivanti Xtraction (CVE-2026-8043, CVSS score: 9.6) that could be exploited to achieve information disclosure or client-side attacks. \"External control of a file name",
+    "url": "https://thehackernews.com/2026/05/ivanti-fortinet-sap-vmware-n8n-patch.html",
     "source": "feeds.feedburner.com",
-    "published": "Mon, 18 May 2026 10:29:21 +0530"
+    "published": "Mon, 18 May 2026 16:24:05 +0530"
   },
   {
-    "title": "NGINX CVE-2026-42945 Exploited in the Wild, Causing Worker Crashes and Possible RCE",
-    "summary": "A newly disclosed security flaw impacting NGINX Plus and NGINX Open has come under active exploitation in the wild, days after its public disclosure, according to VulnCheck. The vulnerability, tracked as CVE-2026-42945 (CVSS score: 9.2), is a heap buffer overflow in ngx_http_rewrite_module affecting NGINX versions 0.6.27 through 1.30.0. According to AI-native security company depthfirst, the",
-    "url": "https://thehackernews.com/2026/05/nginx-cve-2026-42945-exploited-in-wild.html",
-    "source": "feeds.feedburner.com",
-    "published": "Sun, 17 May 2026 17:27:53 +0530"
+    "title": "Grafana says stolen GitHub token let hackers steal codebase",
+    "summary": "Grafana Labs disclosed that hackers have downloaded its source code after breaching its GitHub environment using a stolen access token. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/grafana-says-stolen-github-token-let-hackers-steal-codebase/",
+    "source": "bleepingcomputer.com",
+    "published": "Mon, 18 May 2026 09:46:26 -0400"
+  },
+  {
+    "title": "Microsoft testing adjustable taskbar, Start menu in Windows 11",
+    "summary": "Microsoft has finally brought back the resizable taskbar and Start menu to Windows 11 in the latest preview version rolling out to Insiders in the Experimental channel. [...]",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-finally-gets-a-resizable-taskbar-and-start-menu/",
+    "source": "bleepingcomputer.com",
+    "published": "Mon, 18 May 2026 07:14:28 -0400"
   },
   {
     "title": "Microsoft confirms Windows 11 security update install issues",
@@ -68,20 +82,6 @@
     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-kb5089549-windows-11-security-update-install-issues/",
     "source": "bleepingcomputer.com",
     "published": "Mon, 18 May 2026 04:33:14 -0400"
-  },
-  {
-    "title": "Exploit available for new DirtyDecrypt Linux root escalation flaw",
-    "summary": "A recently patched local privilege escalation vulnerability in the Linux kernel's rxgk module now has a proof-of-concept exploit that allows attackers to gain root access on some Linux systems. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/exploit-available-for-new-dirtydecrypt-linux-root-escalation-flaw/",
-    "source": "bleepingcomputer.com",
-    "published": "Mon, 18 May 2026 03:18:33 -0400"
-  },
-  {
-    "title": "Hackers earn $1,298,250 for 47 zero-days at Pwn2Own Berlin 2026",
-    "summary": "The Pwn2Own Berlin 2026 hacking contest has concluded, with security researchers collecting $1,298,250 in rewards after exploiting 47 zero-day flaws. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-earn-1-298-250-for-47-zero-days-at-pwn2own-berlin-2026/",
-    "source": "bleepingcomputer.com",
-    "published": "Mon, 18 May 2026 01:33:20 -0400"
   },
   {
     "title": "Student Loan Breach Exposes 2.5M Records",
@@ -105,6 +105,13 @@
     "published": "Mon, 29 Aug 2022 14:56:19 +0000"
   },
   {
+    "title": "Project Glasswing: what Mythos showed us",
+    "summary": "In recent weeks, we pointed Mythos and other security-focused LLMs at live code across critical parts of our infrastructure. We share what we observed, the models’ strengths and weaknesses, and what the work around them needs to look like before any of it can scale.",
+    "url": "https://blog.cloudflare.com/cyber-frontier-models/",
+    "source": "blog.cloudflare.com",
+    "published": "Mon, 18 May 2026 06:00:00 GMT"
+  },
+  {
     "title": "Our billing pipeline was suddenly slow. The culprit was a hidden bottleneck in ClickHouse",
     "summary": "When a partitioning change to our petabyte-scale ClickHouse cluster caused critical billing jobs to stall, standard metrics showed no obvious errors. This post explores how we identified severe lock contention in ClickHouse's query planner and built upstream patches to fix it.",
     "url": "https://blog.cloudflare.com/clickhouse-query-plan-contention/",
@@ -117,13 +124,6 @@
     "url": "https://blog.cloudflare.com/browser-run-containers/",
     "source": "blog.cloudflare.com",
     "published": "Wed, 13 May 2026 13:00:00 GMT"
-  },
-  {
-    "title": "When \"idle\" isn't idle: how a Linux kernel optimization became a QUIC bug",
-    "summary": "We investigated a bug where CUBIC's congestion window became pinned at its minimum floor, causing a performance to plummet. The fix involved correctly measuring idle periods to distinguish RTT wait times from actual application idleness.",
-    "url": "https://blog.cloudflare.com/quic-death-spiral-fix/",
-    "source": "blog.cloudflare.com",
-    "published": "Tue, 12 May 2026 13:00:00 GMT"
   },
   {
     "title": "Gremlin Stealer's Evolved Tactics: Hiding in Plain Sight With Resource Files",
@@ -294,6 +294,13 @@
     "published": "Tue, 11 Nov 2025 19:02:38 +0000"
   },
   {
+    "title": "Hacktivists, Ransomware, and a 124% Surge Across DACH",
+    "summary": "Hacktivism and ransomware targeting organizations across Germany, Austria, and Switzerland increased 124% in 2025, according to Check Point Exposure Management (based on published attacks on the web and dark web). Three distinct dynamics drove the surge, each with its own logic and its own implications for security teams in 2026. Germany Absorbed Most of It Germany accounted for more than 80% of regional incidents, with Switzerland at 12% and Austria at 8%. Across Europe, the DACH region represented 18% of all recorded attacks, placing Germany above France, Spain, and Italy by individual country share. The concentration reflects Germany&#8217;s economic and [&#8230;] The post Hacktivists, Ransomware, and a 124% Surge Across DACH appeared first on Check Point Blog.",
+    "url": "https://blog.checkpoint.com/exposure-management/hacktivists-ransomware-and-a-124-surge-the-dach-threat-picture/",
+    "source": "blog.checkpoint.com",
+    "published": "Mon, 18 May 2026 13:00:27 +0000"
+  },
+  {
     "title": "The Case for a Vulnerability Operations Center",
     "summary": "Vulnerability remediation has become an execution problem. Security teams are generating more findings than ever, but too often those findings do not translate into timely risk reduction. The gap between newly introduced exposure and effective remediation continues to widen. Addressing that gap requires more than improved scanning, better dashboards, or additional tooling. It requires a dedicated operating model. This is the role of the Vulnerability Operations Center, or VOC. As Dr. Natalie Foster Johnson, Executive Director of the CyberMINDS Research Institute, explains, “Operationalizing a VOC is a maturity step that allows organizations to address exposure concerns earlier, reducing risk before incidents occur rather than reacting afterward.” A VOC centralizes how organizations [&#8230",
     "url": "https://blog.checkpoint.com/exposure-management/the-case-for-a-vulnerability-operations-center/",
@@ -306,13 +313,6 @@
     "url": "https://blog.checkpoint.com/research/before-the-first-whistle-how-cyber-criminals-are-targeting-world-cup-2026/",
     "source": "blog.checkpoint.com",
     "published": "Thu, 14 May 2026 12:55:03 +0000"
-  },
-  {
-    "title": "When the Ransomware Gang Gets Hacked: What the Gentlemen Leak Reveals About Modern Ransomware Risk",
-    "summary": "Key Findings The Gentlemen RaaS has 400+ public victims and is the #2 most active ransomware group globally in 2026 Their internal systems were breached in May 2026, exposing their full operational structure The group is run by approximately nine named operators organized around a single administrator (zeta88 / hastalamuerte), who not only manages the platform but personally participates in encryption events That administrator has been identified as a former affiliate of the Qilin ransomware program — a career criminal who learned the trade under an established operation before building a competing one Initial access is almost exclusively via unpatched edge devices or purchased credentials Data stolen from one [&#8230;] The post When the Ransomware Gang Gets Hacked: What the Gentlemen Leak",
-    "url": "https://blog.checkpoint.com/research/when-the-ransomware-gang-gets-hacked-what-the-gentlemen-leak-reveals-about-modern-ransomware-risk/",
-    "source": "blog.checkpoint.com",
-    "published": "Wed, 13 May 2026 12:55:22 +0000"
   },
   {
     "title": "High Signal Detection and Exploitation of Ivanti's Pulse Connect Secure Auth Bypass & RCE",
@@ -357,25 +357,25 @@
     "published": "Wed, 13 May 2026 10:00:54 GMT"
   },
   {
+    "title": "Strengthen Supply Chain Security for CMMC",
+    "summary": "This whitepaper explains how organizations can move beyond CMMC compliance to continuously validate real-world security across the supply chain.",
+    "url": "https://horizon3.ai/downloads/whitepapers/strengthen-supply-chain-security-cmmc/",
+    "source": "horizon3.ai",
+    "published": "Mon, 18 May 2026 12:00:00 +0000"
+  },
+  {
+    "title": "You’re Only as Secure as Your Last Evaluation",
+    "summary": "CMMC is shifting cybersecurity from periodic compliance to continuous validation across the Defense Industrial Base supply chain.",
+    "url": "https://horizon3.ai/intelligence/blogs/cmmc-supply-chain-risk-validation/",
+    "source": "horizon3.ai",
+    "published": "Mon, 18 May 2026 12:00:00 +0000"
+  },
+  {
     "title": "CVE-2026-0300 | Palo Alto Networks PAN-OS Remote Code Execution | Critical Remote Access Risk",
     "summary": "CVE-2026-0300 enables unauthenticated remote code execution in PAN-OS, posing a critical risk to enterprise and government networks.",
     "url": "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-0300/",
     "source": "horizon3.ai",
     "published": "Fri, 15 May 2026 17:12:21 +0000"
-  },
-  {
-    "title": "Horizon3.ai NodeZero® Achieves “Awardable” Status in the Tradewinds Solutions Marketplace",
-    "summary": "NodeZero achieved Awardable status in the Tradewinds Solutions Marketplace, accelerating access to AI-native proactive security for government organizations.",
-    "url": "https://horizon3.ai/news/awards/nodezero-tradewinds-awardable/",
-    "source": "horizon3.ai",
-    "published": "Thu, 14 May 2026 12:16:00 +0000"
-  },
-  {
-    "title": "Horizon3.ai NodeZero® Assessed “Awardable” for Department of War Work in the Tradewinds Solutions Marketplace",
-    "summary": "NodeZero has achieved “Awardable” status in the Tradewinds Solutions Marketplace, accelerating access to AI-native proactive security for government organizations.",
-    "url": "https://horizon3.ai/news/press-release/nodezero-tradewinds-awardable-status/",
-    "source": "horizon3.ai",
-    "published": "Thu, 14 May 2026 12:15:00 +0000"
   },
   {
     "title": "Disabling Security Features in a Locked BIOS",
