@@ -42,25 +42,25 @@
     "published": "2026-05-15T11:06:32Z"
   },
   {
-    "title": "INTERPOL Operation Ramz Disrupts MENA Cybercrime Networks with 201 Arrests",
-    "summary": "INTERPOL has coordinated a first-of-its-kind cybercrime crackdown across the Middle East and North Africa (MENA) that led to 201 arrests and the identification of an additional 382 suspects. The initiative involved the efforts of 13 countries from the region between October 2025 and February 2026, aiming to investigate and neutralize malicious infrastructure, arrest perpetrators behind these",
-    "url": "https://thehackernews.com/2026/05/interpol-operation-ramz-disrupts-mena.html",
+    "title": "Compromised Nx Console 18.95.0 Targeted VS Code Developers with Credential Stealer",
+    "summary": "Cybersecurity researchers have flagged a compromised version of the Nx Console extension that was published to the Microsoft Visual Studio Code (VS Code) Marketplace. The extension in question is rwl.angular-console (version 18.95.0), a popular user interface and plugin for code editors like VS Code, Cursor, and JetBrains. The VS Code extension has more than 2.2 million installations. The Open",
+    "url": "https://thehackernews.com/2026/05/compromised-nx-console-18950-targeted.html",
     "source": "feeds.feedburner.com",
-    "published": "Mon, 18 May 2026 22:51:18 +0530"
+    "published": "Tue, 19 May 2026 13:19:23 +0530"
   },
   {
-    "title": "⚡ Weekly Recap: Exchange 0-Day, npm Worm, Fake AI Repo, Cisco Exploit and More",
-    "summary": "Monday opens with a trust problem. A mail server flaw is under active use. A network control system was targeted. Trusted packages were poisoned. A fake model page pushed a stealer. Then came the familiar ransom claim: the data was returned and deleted. The pattern is clear. One weak dependency can leak keys. One leaked key can open cloud access. One cloud foothold can become a production",
-    "url": "https://thehackernews.com/2026/05/weekly-recap-exchange-0-day-npm-worm.html",
+    "title": "Popular GitHub Action Tags Redirected to Imposter Commit to Steal CI/CD Credentials",
+    "summary": "In yet another software supply chain attack, threat actors have compromised the popular GitHub Actions workflow, actions-cool/issues-helper, to run malicious code that harvests sensitive credentials and exfiltrates them to an attacker-controlled server. \"Every existing tag in the repository has been moved to point to an imposter commit that does not appear in the action's normal commit history,",
+    "url": "https://thehackernews.com/2026/05/github-actions-supply-chain-attack.html",
     "source": "feeds.feedburner.com",
-    "published": "Mon, 18 May 2026 19:20:17 +0530"
+    "published": "Tue, 19 May 2026 10:58:06 +0530"
   },
   {
-    "title": "How to Reduce Phishing Exposure Before It Turns into Business Disruption",
-    "summary": "What happens when a phishing email looks clean enough to pass through security, but dangerous enough to expose the business after one click? That is the gap many SOCs still struggle with: the attacks that leave teams unsure what was exposed, who else was targeted, and how far the risk has spread. Early phishing detection closes that gap. It helps teams move from uncertainty to evidence faster,",
-    "url": "https://thehackernews.com/2026/05/how-to-reduce-phishing-exposure-before.html",
+    "title": "Mini Shai-Hulud Pushes Malicious AntV npm Packages via Compromised Maintainer Account",
+    "summary": "Cybersecurity researchers have discovered a fresh software supply chain attack campaign that has compromised various npm packages associated with the @antv ecosystem as part of the ongoing Mini Shai-Hulud attack wave. \"The attack affects packages tied to the npm maintainer account atool, including echarts-for-react, a widely used React wrapper for Apache ECharts with roughly 1.1 million weekly",
+    "url": "https://thehackernews.com/2026/05/mini-shai-hulud-pushes-malicious-antv.html",
     "source": "feeds.feedburner.com",
-    "published": "Mon, 18 May 2026 18:30:00 +0530"
+    "published": "Tue, 19 May 2026 10:24:17 +0530"
   },
   {
     "title": "INTERPOL ‘Operation Ramz’ seizes 53 malware, phishing servers",
