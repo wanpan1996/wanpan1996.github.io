@@ -1,5 +1,12 @@
 [
   {
+    "title": "CISA Admin Leaked AWS GovCloud Keys on Github",
+    "summary": "Until this past weekend, a contractor for the Cybersecurity &#038; Infrastructure Security Agency (CISA) maintained a public GitHub repository that exposed credentials to several highly privileged AWS GovCloud accounts and a large number of internal CISA systems. Security experts said the public archive included files detailing how CISA builds, tests and deploys software internally, and that it represents one of the most egregious government data leaks in recent history.",
+    "url": "https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/",
+    "source": "krebsonsecurity.com",
+    "published": "Mon, 18 May 2026 20:48:21 +0000"
+  },
+  {
     "title": "Patch Tuesday, May 2026 Edition",
     "summary": "Artificial intelligence platforms may be just as susceptible to social engineering as human beings, but they are proving remarkably good at finding security vulnerabilities in human-made computer code. That reality is on full display this month with some of the more widely-used software makers -- including Apple, Google, Microsoft, Mozilla and Oracle -- fixing near record volumes of security bugs, and/or quickening the tempo of their patch releases.",
     "url": "https://krebsonsecurity.com/2026/05/patch-tuesday-may-2026-edition/",
@@ -12,13 +19,6 @@
     "url": "https://krebsonsecurity.com/2026/05/canvas-breach-disrupts-schools-colleges-nationwide/",
     "source": "krebsonsecurity.com",
     "published": "Fri, 08 May 2026 02:58:46 +0000"
-  },
-  {
-    "title": "Anti-DDoS Firm Heaped Attacks on Brazilian ISPs",
-    "summary": "A Brazilian tech firm that specializes in protecting networks from distributed denial-of-service (DDoS) attacks has been enabling a botnet responsible for an extended campaign of massive DDoS attacks against other network operators in Brazil, KrebsOnSecurity has learned. The firm's chief executive says the malicious activity resulted from a security breach and was likely the work of a competitor trying to tarnish his company's public image.",
-    "url": "https://krebsonsecurity.com/2026/04/anti-ddos-firm-heaped-attacks-on-brazilian-isps/",
-    "source": "krebsonsecurity.com",
-    "published": "Thu, 30 Apr 2026 14:04:26 +0000"
   },
   {
     "title": "Zero-Day Exploit Against Windows BitLocker",
@@ -63,25 +63,25 @@
     "published": "Mon, 18 May 2026 18:30:00 +0530"
   },
   {
+    "title": "INTERPOL ‘Operation Ramz’ seizes 53 malware, phishing servers",
+    "summary": "More than 200 individuals were arrested for cybercrime activities during INTERPOL's Operation Ramz, which focused on the Middle East and North Africa. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/interpol-operation-ramz-seizes-53-malware-phishing-servers/",
+    "source": "bleepingcomputer.com",
+    "published": "Mon, 18 May 2026 18:15:30 -0400"
+  },
+  {
+    "title": "SHub macOS infostealer variant spoofs Apple security updates",
+    "summary": "A new variant of the 'SHub' macOS infostealer uses AppleScript to show a fake security update message and installs a backdoor. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/shub-macos-infostealer-variant-spoofs-apple-security-updates/",
+    "source": "bleepingcomputer.com",
+    "published": "Mon, 18 May 2026 17:42:20 -0400"
+  },
+  {
     "title": "5 Steps to Managing Shadow AI Tools Without Slowing Down Employees",
     "summary": "Many employees already use shadow AI tools at work without security review. Adaptive Security breaks down how teams can build practical AI governance without adding friction for employees. [...]",
     "url": "https://www.bleepingcomputer.com/news/security/5-steps-to-managing-shadow-ai-tools-without-slowing-down-employees/",
     "source": "bleepingcomputer.com",
     "published": "Mon, 18 May 2026 14:45:35 -0400"
-  },
-  {
-    "title": "Leaked Shai-Hulud malware fuels new npm infostealer campaign",
-    "summary": "The Shai-Hulud malware leaked last week is now used in new attacks on the Node Package Manager (npm) index, as infected packages emerged over the weekend. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/leaked-shai-hulud-malware-fuels-new-npm-infostealer-campaign/",
-    "source": "bleepingcomputer.com",
-    "published": "Mon, 18 May 2026 13:28:02 -0400"
-  },
-  {
-    "title": "Grafana says stolen GitHub token let hackers steal codebase",
-    "summary": "Grafana Labs disclosed that hackers have downloaded its source code after breaching its GitHub environment using a stolen access token. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/grafana-says-stolen-github-token-let-hackers-steal-codebase/",
-    "source": "bleepingcomputer.com",
-    "published": "Mon, 18 May 2026 09:46:26 -0400"
   },
   {
     "title": "Student Loan Breach Exposes 2.5M Records",
@@ -357,6 +357,13 @@
     "published": "Wed, 13 May 2026 10:00:54 GMT"
   },
   {
+    "title": "From Point-in-Time Testing to Continuous Security Validation",
+    "summary": "Learn how Mid Devon District Council moved beyond annual pentests to continuously validate exploitable risk, strengthen identity security, and accelerate remediation with autonomous pentesting.",
+    "url": "https://horizon3.ai/customer-story/continuous-security-validation-public-sector/",
+    "source": "horizon3.ai",
+    "published": "Mon, 18 May 2026 19:43:23 +0000"
+  },
+  {
     "title": "Strengthen Supply Chain Security for CMMC",
     "summary": "This whitepaper explains how organizations can move beyond CMMC compliance to continuously validate real-world security across the supply chain.",
     "url": "https://horizon3.ai/downloads/whitepapers/strengthen-supply-chain-security-cmmc/",
@@ -369,13 +376,6 @@
     "url": "https://horizon3.ai/intelligence/blogs/cmmc-supply-chain-risk-validation/",
     "source": "horizon3.ai",
     "published": "Mon, 18 May 2026 12:00:00 +0000"
-  },
-  {
-    "title": "CVE-2026-0300 | Palo Alto Networks PAN-OS Remote Code Execution | Critical Remote Access Risk",
-    "summary": "CVE-2026-0300 enables unauthenticated remote code execution in PAN-OS, posing a critical risk to enterprise and government networks.",
-    "url": "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-0300/",
-    "source": "horizon3.ai",
-    "published": "Fri, 15 May 2026 17:12:21 +0000"
   },
   {
     "title": "Disabling Security Features in a Locked BIOS",
