@@ -42,6 +42,20 @@
     "published": "2026-05-16T01:03:31Z"
   },
   {
+    "title": "Trapdoor Android Ad Fraud Scheme Hit 659 Million Daily Bid Requests Using 455 Apps",
+    "summary": "Cybersecurity researchers have disclosed details of a new ad fraud and malvertising operation dubbed Trapdoor targeting Android device users. The activity, per HUMAN's Satori Threat Intelligence and Research Team, encompassed 455 malicious Android apps and 183 threat actor-owned command-and-control (C2) domains, turning the infrastructure into a pipeline for multi-stage fraud. \"Users",
+    "url": "https://thehackernews.com/2026/05/trapdoor-android-ad-fraud-scheme-hit.html",
+    "source": "feeds.feedburner.com",
+    "published": "Tue, 19 May 2026 22:08:12 +0530"
+  },
+  {
+    "title": "DirtyDecrypt PoC Released for Linux Kernel CVE-2026-31635 LPE Vulnerability",
+    "summary": "Proof-of-concept (PoC) exploit code has now been released for a recently patched security flaw in the Linux kernel that could allow for local privilege escalation (LPE). Dubbed DirtyDecrypt (aka DirtyCBC), the vulnerability was discovered and reported by the Zellic and V12 security team on May 9, 2026, only to be informed by the maintainers that it was a duplicate of a vulnerability that had",
+    "url": "https://thehackernews.com/2026/05/dirtydecrypt-poc-released-for-linux.html",
+    "source": "feeds.feedburner.com",
+    "published": "Tue, 19 May 2026 20:26:26 +0530"
+  },
+  {
     "title": "The New Phishing Click: How OAuth Consent Bypasses MFA",
     "summary": "In February 2026, a phishing-as-a-service (PhaaS) platform called EvilTokens went live. Within five weeks, it had compromised more than 340 Microsoft 365 organizations across five countries.&nbsp; The targets of the platform received a message asking them to enter a short code at microsoft.com/devicelogin and complete their normal MFA challenge, then walked away believing they had verified a",
     "url": "https://thehackernews.com/2026/05/the-new-phishing-click-how-oauth.html",
@@ -49,39 +63,25 @@
     "published": "Tue, 19 May 2026 17:00:00 +0530"
   },
   {
-    "title": "Drupal to Release Urgent Core Security Updates on May 20, Sites Told to Prepare",
-    "summary": "Drupal has issued an alert stating that it intends to release a \"core security release\" for all supported branches on May 20, 2026, from 5-9 p.m. UTC. \"The Drupal Security Team urges you to reserve time for core updates at that time because exploits might be developed within hours or days,\" the maintainers of the PHP-based content management system (CMS) said. \"Not all configurations are",
-    "url": "https://thehackernews.com/2026/05/drupal-to-release-urgent-core-security.html",
-    "source": "feeds.feedburner.com",
-    "published": "Tue, 19 May 2026 16:14:45 +0530"
-  },
-  {
-    "title": "SEPPMail Secure E-Mail Gateway Vulnerabilities Enable RCE and Mail Traffic Access",
-    "summary": "Critical security vulnerabilities have been disclosed in SEPPMail Secure E-Mail Gateway, an enterprise-grade email security solution, that could be exploited to achieve remote code execution and enable an attacker to read arbitrary mails from the virtual appliance. \"These vulnerabilities could have been exploited to read all mail traffic or as an entry vector into the internal network,\"",
-    "url": "https://thehackernews.com/2026/05/seppmail-secure-e-mail-gateway.html",
-    "source": "feeds.feedburner.com",
-    "published": "Tue, 19 May 2026 14:53:15 +0530"
-  },
-  {
-    "title": "New Shai-Hulud malware wave compromises 600 npm packages",
-    "summary": "Threat actors earlier today published more than 600 malicious packages to the Node Package Manager (npm) index as part of a new Shai-Hulud supply-chain campaign. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/new-shai-hulud-malware-wave-compromises-600-npm-packages/",
+    "title": "Microsoft Self-Service Password Reset abused in Azure data theft attacks",
+    "summary": "A threat actor targeting Microsoft 365 and Azure production environments is stealing data in attacks that abuse legitimate applications and administration features. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/microsoft-self-service-password-reset-abused-in-azure-data-theft-attacks/",
     "source": "bleepingcomputer.com",
-    "published": "Tue, 19 May 2026 10:30:22 -0400"
+    "published": "Tue, 19 May 2026 15:35:32 -0400"
   },
   {
-    "title": "7-Eleven confirms data breach claimed by the ShinyHunters gang",
-    "summary": "Convenience store chain giant 7-Eleven confirmed that its systems were breached in a cyberattack claimed by the ShinyHunters extortion group last month. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/7-eleven-confirms-data-breach-claimed-by-the-shinyhunters-gang/",
+    "title": "Microsoft plans to improve Windows 11 driver quality in 2026",
+    "summary": "Microsoft plans to raise the quality bar of Windows 11 drivers, as drivers \"sit at the heart of every Windows experience\" and connect the OS to the \"silicon, components, and peripherals.\" [...]",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-plans-to-improve-windows-11-driver-quality-in-2026/",
     "source": "bleepingcomputer.com",
-    "published": "Tue, 19 May 2026 10:16:41 -0400"
+    "published": "Tue, 19 May 2026 12:22:30 -0400"
   },
   {
-    "title": "Critical Microsoft Vulnerabilities Doubled: From Exposure to Escalation",
-    "summary": "Microsoft's total vulnerability count stayed steady in 2025, but critical flaws surged year over year. BeyondTrust breaks down why attackers are increasingly focused on privilege escalation and identity abuse. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/critical-microsoft-vulnerabilities-doubled-from-exposure-to-escalation/",
+    "title": "Microsoft blames macOS update for undismissible Teams location prompts",
+    "summary": "Microsoft has confirmed user reports that the Teams team collaboration app is displaying non-dismissible location prompts on some macOS systems. [...]",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-blames-undismissible-teams-location-prompts-on-macos-update/",
     "source": "bleepingcomputer.com",
-    "published": "Tue, 19 May 2026 10:00:10 -0400"
+    "published": "Tue, 19 May 2026 12:10:47 -0400"
   },
   {
     "title": "Student Loan Breach Exposes 2.5M Records",
@@ -105,6 +105,13 @@
     "published": "Mon, 29 Aug 2022 14:56:19 +0000"
   },
   {
+    "title": "Announcing Claude Managed Agents on Cloudflare",
+    "summary": "Cloudflare has integrated with Anthropic's Claude Managed Agents to provide a fast, isolated execution environment for autonomous code delivery. This means builders can scale agent workflows globally while strictly controlling access to private backends and easily customizing their agent’s tools and runtimes.",
+    "url": "https://blog.cloudflare.com/claude-managed-agents/",
+    "source": "blog.cloudflare.com",
+    "published": "Tue, 19 May 2026 13:00:00 GMT"
+  },
+  {
     "title": "Project Glasswing: what Mythos showed us",
     "summary": "In recent weeks, we pointed Mythos and other security-focused LLMs at live code across critical parts of our infrastructure. We share what we observed, the models’ strengths and weaknesses, and what the work around them needs to look like before any of it can scale.",
     "url": "https://blog.cloudflare.com/cyber-frontier-models/",
@@ -117,13 +124,6 @@
     "url": "https://blog.cloudflare.com/clickhouse-query-plan-contention/",
     "source": "blog.cloudflare.com",
     "published": "Thu, 14 May 2026 13:00:00 GMT"
-  },
-  {
-    "title": "Browser Run: now running on Cloudflare Containers, it’s faster and more scalable",
-    "summary": "We’ve enabled higher usage limits, faster performance, better reliability, and increased shipping velocity for our Browser Run product by rebuilding on top of Cloudflare’s Containers. Here’s how.",
-    "url": "https://blog.cloudflare.com/browser-run-containers/",
-    "source": "blog.cloudflare.com",
-    "published": "Wed, 13 May 2026 13:00:00 GMT"
   },
   {
     "title": "Gremlin Stealer's Evolved Tactics: Hiding in Plain Sight With Resource Files",
@@ -336,6 +336,13 @@
     "published": "Wed, 04 Oct 2023 08:33:19 +1100"
   },
   {
+    "title": "TP-Link, Photoshop, OpenVPN, Norton VPN vulnerabilities",
+    "summary": "Cisco Talos&#x2019; Vulnerability Discovery &amp; Research team recently disclosed eight vulnerabilities in TP-Link, and one each in Adobe Photoshop, OpenVPN, and Gen Digital&apos;s Norton VPN.The vulnerabilities mentioned in this blog post have been patched by their respective vendors, in adherence to Cisco&#x2019;s third-party vulnerability",
+    "url": "https://blog.talosintelligence.com/tp-link-photoshop-openvpn-norton-vpn-vulnerabilities/",
+    "source": "blog.talosintelligence.com",
+    "published": "Tue, 19 May 2026 15:39:37 GMT"
+  },
+  {
     "title": "From PDB strings to MaaS: Tracking a commodity BadIIS ecosystem used by Chinese-speaking threat",
     "summary": "Cisco Talos has uncovered a BadIIS variant — identifiable by its embedded \"demo.pdb\" strings — that functions as commodity malware, likely sold or shared among multiple Chinese-speaking cyber crime groups operating under a malware-as-a-service (MaaS) model for continuous monetization.",
     "url": "https://blog.talosintelligence.com/from-pdb-strings-to-maas-tracking-a-commodity-badiis-ecosystem/",
@@ -348,13 +355,6 @@
     "url": "https://blog.talosintelligence.com/the-time-of-much-patching-is-coming/",
     "source": "blog.talosintelligence.com",
     "published": "Thu, 14 May 2026 18:00:24 GMT"
-  },
-  {
-    "title": "Ongoing exploitation of Cisco Catalyst SD-WAN vulnerabilities",
-    "summary": "Cisco Talos is tracking the active exploitation of CVE-2026-20182, an authentication bypass vulnerability in Cisco Catalyst SD-WAN Controller, formerly SD-WAN vSmart, and Cisco Catalyst SD-WAN Manager, formerly SD-WAN vManage.",
-    "url": "https://blog.talosintelligence.com/sd-wan-ongoing-exploitation/",
-    "source": "blog.talosintelligence.com",
-    "published": "Thu, 14 May 2026 16:02:36 GMT"
   },
   {
     "title": "From Point-in-Time Testing to Continuous Security Validation",
