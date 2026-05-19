@@ -21,6 +21,13 @@
     "published": "Fri, 08 May 2026 02:58:46 +0000"
   },
   {
+    "title": "Laurie Anderson Is Quoting Me",
+    "summary": "Not by name, but Laurie Anderson quotes me in one of the tracks of her new album: My favorite quote is from a cryptologist who said &#8220;If you think technology will solve your problems, you don&#8217;t understand technology and you don&#8217;t understand your problems.&#8221; Also in interviews: &#8220;Of course, it&#8217;s ridiculous, outrageous, blah, blah, blah,&#8221; Anderson says about the ad. &#8216;But, I mean, my favorite quote on this is from a cryptologist who said, &#8216;If you think technology will solve your problems, you don&#8217;t understand technology ­ and you don&#8217;t understand your problems.&#8217; And I think I&#8217;m completely on board with that.&#8221;...",
+    "url": "https://www.schneier.com/blog/archives/2026/05/laurie-anderson-is-quoting-me.html",
+    "source": "schneier.com",
+    "published": "2026-05-19T11:00:01Z"
+  },
+  {
     "title": "Zero-Day Exploit Against Windows BitLocker",
     "summary": "It&#8217;s nasty, but it requires physical access to the computer: The exploit, named YellowKey, was published earlier this week by a researcher who goes by the alias Nightmare-Eclipse. It reliably bypasses default Windows 11 deployments of BitLocker, the full-volume encryption protection Microsoft provides to make disk contents off-limits to anyone without the decryption key, which is stored in a secured piece of hardware known as a trusted platform module (TPM). BitLocker is a mandatory protection for many organizations, including those that contract with governments...",
     "url": "https://www.schneier.com/blog/archives/2026/05/zero-day-exploit-against-windows-bitlocker.html",
@@ -35,53 +42,46 @@
     "published": "2026-05-16T01:03:31Z"
   },
   {
-    "title": "Bypassing On-Camera Age-Verification Checks",
-    "summary": "Some AI-based video age-verification checks can be fooled with a fake mustache.",
-    "url": "https://www.schneier.com/blog/archives/2026/05/bypassing-on-camera-age-verification-checks.html",
-    "source": "schneier.com",
-    "published": "2026-05-15T11:06:32Z"
-  },
-  {
-    "title": "Compromised Nx Console 18.95.0 Targeted VS Code Developers with Credential Stealer",
-    "summary": "Cybersecurity researchers have flagged a compromised version of the Nx Console extension that was published to the Microsoft Visual Studio Code (VS Code) Marketplace. The extension in question is rwl.angular-console (version 18.95.0), a popular user interface and plugin for code editors like VS Code, Cursor, and JetBrains. The VS Code extension has more than 2.2 million installations. The Open",
-    "url": "https://thehackernews.com/2026/05/compromised-nx-console-18950-targeted.html",
+    "title": "The New Phishing Click: How OAuth Consent Bypasses MFA",
+    "summary": "In February 2026, a phishing-as-a-service (PhaaS) platform called EvilTokens went live. Within five weeks, it had compromised more than 340 Microsoft 365 organizations across five countries.&nbsp; The targets of the platform received a message asking them to enter a short code at microsoft.com/devicelogin and complete their normal MFA challenge, then walked away believing they had verified a",
+    "url": "https://thehackernews.com/2026/05/the-new-phishing-click-how-oauth.html",
     "source": "feeds.feedburner.com",
-    "published": "Tue, 19 May 2026 13:19:23 +0530"
+    "published": "Tue, 19 May 2026 17:00:00 +0530"
   },
   {
-    "title": "Popular GitHub Action Tags Redirected to Imposter Commit to Steal CI/CD Credentials",
-    "summary": "In yet another software supply chain attack, threat actors have compromised the popular GitHub Actions workflow, actions-cool/issues-helper, to run malicious code that harvests sensitive credentials and exfiltrates them to an attacker-controlled server. \"Every existing tag in the repository has been moved to point to an imposter commit that does not appear in the action's normal commit history,",
-    "url": "https://thehackernews.com/2026/05/github-actions-supply-chain-attack.html",
+    "title": "Drupal to Release Urgent Core Security Updates on May 20, Sites Told to Prepare",
+    "summary": "Drupal has issued an alert stating that it intends to release a \"core security release\" for all supported branches on May 20, 2026, from 5-9 p.m. UTC. \"The Drupal Security Team urges you to reserve time for core updates at that time because exploits might be developed within hours or days,\" the maintainers of the PHP-based content management system (CMS) said. \"Not all configurations are",
+    "url": "https://thehackernews.com/2026/05/drupal-to-release-urgent-core-security.html",
     "source": "feeds.feedburner.com",
-    "published": "Tue, 19 May 2026 10:58:06 +0530"
+    "published": "Tue, 19 May 2026 16:14:45 +0530"
   },
   {
-    "title": "Mini Shai-Hulud Pushes Malicious AntV npm Packages via Compromised Maintainer Account",
-    "summary": "Cybersecurity researchers have discovered a fresh software supply chain attack campaign that has compromised various npm packages associated with the @antv ecosystem as part of the ongoing Mini Shai-Hulud attack wave. \"The attack affects packages tied to the npm maintainer account atool, including echarts-for-react, a widely used React wrapper for Apache ECharts with roughly 1.1 million weekly",
-    "url": "https://thehackernews.com/2026/05/mini-shai-hulud-pushes-malicious-antv.html",
+    "title": "SEPPMail Secure E-Mail Gateway Vulnerabilities Enable RCE and Mail Traffic Access",
+    "summary": "Critical security vulnerabilities have been disclosed in SEPPMail Secure E-Mail Gateway, an enterprise-grade email security solution, that could be exploited to achieve remote code execution and enable an attacker to read arbitrary mails from the virtual appliance. \"These vulnerabilities could have been exploited to read all mail traffic or as an entry vector into the internal network,\"",
+    "url": "https://thehackernews.com/2026/05/seppmail-secure-e-mail-gateway.html",
     "source": "feeds.feedburner.com",
-    "published": "Tue, 19 May 2026 10:24:17 +0530"
+    "published": "Tue, 19 May 2026 14:53:15 +0530"
   },
   {
-    "title": "INTERPOL ‘Operation Ramz’ seizes 53 malware, phishing servers",
-    "summary": "More than 200 individuals were arrested for cybercrime activities during INTERPOL's Operation Ramz, which focused on the Middle East and North Africa. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/interpol-operation-ramz-seizes-53-malware-phishing-servers/",
+    "title": "New Shai-Hulud malware wave compromises 600 npm packages",
+    "summary": "Threat actors earlier today published more than 600 malicious packages to the Node Package Manager (npm) index as part of a new Shai-Hulud supply-chain campaign. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/new-shai-hulud-malware-wave-compromises-600-npm-packages/",
     "source": "bleepingcomputer.com",
-    "published": "Mon, 18 May 2026 18:15:30 -0400"
+    "published": "Tue, 19 May 2026 10:30:22 -0400"
   },
   {
-    "title": "SHub macOS infostealer variant spoofs Apple security updates",
-    "summary": "A new variant of the 'SHub' macOS infostealer uses AppleScript to show a fake security update message and installs a backdoor. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/shub-macos-infostealer-variant-spoofs-apple-security-updates/",
+    "title": "7-Eleven confirms data breach claimed by the ShinyHunters gang",
+    "summary": "Convenience store chain giant 7-Eleven confirmed that its systems were breached in a cyberattack claimed by the ShinyHunters extortion group last month. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/7-eleven-confirms-data-breach-claimed-by-the-shinyhunters-gang/",
     "source": "bleepingcomputer.com",
-    "published": "Mon, 18 May 2026 17:42:20 -0400"
+    "published": "Tue, 19 May 2026 10:16:41 -0400"
   },
   {
-    "title": "5 Steps to Managing Shadow AI Tools Without Slowing Down Employees",
-    "summary": "Many employees already use shadow AI tools at work without security review. Adaptive Security breaks down how teams can build practical AI governance without adding friction for employees. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/5-steps-to-managing-shadow-ai-tools-without-slowing-down-employees/",
+    "title": "Critical Microsoft Vulnerabilities Doubled: From Exposure to Escalation",
+    "summary": "Microsoft's total vulnerability count stayed steady in 2025, but critical flaws surged year over year. BeyondTrust breaks down why attackers are increasingly focused on privilege escalation and identity abuse. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/critical-microsoft-vulnerabilities-doubled-from-exposure-to-escalation/",
     "source": "bleepingcomputer.com",
-    "published": "Mon, 18 May 2026 14:45:35 -0400"
+    "published": "Tue, 19 May 2026 10:00:10 -0400"
   },
   {
     "title": "Student Loan Breach Exposes 2.5M Records",
@@ -294,6 +294,13 @@
     "published": "Tue, 11 Nov 2025 19:02:38 +0000"
   },
   {
+    "title": "The Network Security Problem No One Could Solve – Until Now.",
+    "summary": "Networks used to be simple. A perimeter. A data center. A set of rules a single engineer could hold in their head. That world is long gone. Every wave of enterprise transformation &#8211; cloud migration, M&#38;A, hybrid multi-cloud, IoT, remote work &#8211; added another layer of complexity. Each with its own topology, traffic patterns, and security assumptions. The complexity grew exponentially. And security followed, manually &#8211; more policies to author, more configurations to validate, more vendors to manage. The part that doesn&#8217;t show up in vendor presentations is that modern network security runs on institutional know-how. It lives in the [&#8230;] The post The Network Security Problem No One Could Solve &#8211; Until Now. appeared first on Check Point Blog.",
+    "url": "https://blog.checkpoint.com/security/the-network-security-problem-no-one-could-solve-until-now/",
+    "source": "blog.checkpoint.com",
+    "published": "Tue, 19 May 2026 13:00:16 +0000"
+  },
+  {
     "title": "Hacktivists, Ransomware, and a 124% Surge Across DACH",
     "summary": "Hacktivism and ransomware targeting organizations across Germany, Austria, and Switzerland increased 124% in 2025, according to Check Point Exposure Management (based on published attacks on the web and dark web). Three distinct dynamics drove the surge, each with its own logic and its own implications for security teams in 2026. Germany Absorbed Most of It Germany accounted for more than 80% of regional incidents, with Switzerland at 12% and Austria at 8%. Across Europe, the DACH region represented 18% of all recorded attacks, placing Germany above France, Spain, and Italy by individual country share. The concentration reflects Germany&#8217;s economic and [&#8230;] The post Hacktivists, Ransomware, and a 124% Surge Across DACH appeared first on Check Point Blog.",
     "url": "https://blog.checkpoint.com/exposure-management/hacktivists-ransomware-and-a-124-surge-the-dach-threat-picture/",
@@ -306,13 +313,6 @@
     "url": "https://blog.checkpoint.com/exposure-management/the-case-for-a-vulnerability-operations-center/",
     "source": "blog.checkpoint.com",
     "published": "Fri, 15 May 2026 12:40:42 +0000"
-  },
-  {
-    "title": "Before the First Whistle: How Cyber Criminals Are Targeting World Cup 2026",
-    "summary": "The FIFA World Cup 2026 is one of the most anticipated sporting events in history, and cyber criminals are already capitalizing on excitement. As matches kick off across the United States, Canada, and Mexico, threat actors are flooding the internet with fake merchandise stores, fraudulent betting platforms, and phishing domains designed to steal your money and personal data. This report breaks down the latest threat landscape so fans can stay safe while enjoying the beautiful game. As the host countries of the FIFA World Cup 2026, the United States, Canada, and Mexico all recorded an increase in the weekly average number of cyber-attacks per organization in April 2026 compared to both [&#8230;] The post Before the First Whistle: How Cyber Criminals Are Targeting World Cup 2026 appeared fir",
-    "url": "https://blog.checkpoint.com/research/before-the-first-whistle-how-cyber-criminals-are-targeting-world-cup-2026/",
-    "source": "blog.checkpoint.com",
-    "published": "Thu, 14 May 2026 12:55:03 +0000"
   },
   {
     "title": "High Signal Detection and Exploitation of Ivanti's Pulse Connect Secure Auth Bypass & RCE",
@@ -336,6 +336,13 @@
     "published": "Wed, 04 Oct 2023 08:33:19 +1100"
   },
   {
+    "title": "From PDB strings to MaaS: Tracking a commodity BadIIS ecosystem used by Chinese-speaking threat",
+    "summary": "Cisco Talos has uncovered a BadIIS variant — identifiable by its embedded \"demo.pdb\" strings — that functions as commodity malware, likely sold or shared among multiple Chinese-speaking cyber crime groups operating under a malware-as-a-service (MaaS) model for continuous monetization.",
+    "url": "https://blog.talosintelligence.com/from-pdb-strings-to-maas-tracking-a-commodity-badiis-ecosystem/",
+    "source": "blog.talosintelligence.com",
+    "published": "Tue, 19 May 2026 10:00:20 GMT"
+  },
+  {
     "title": "The time of much patching is coming",
     "summary": "In this week’s newsletter, Martin reflects on what the next iteration of AI tools means for vulnerability discovery and our ability to manage large-scale patch releases.",
     "url": "https://blog.talosintelligence.com/the-time-of-much-patching-is-coming/",
@@ -348,13 +355,6 @@
     "url": "https://blog.talosintelligence.com/sd-wan-ongoing-exploitation/",
     "source": "blog.talosintelligence.com",
     "published": "Thu, 14 May 2026 16:02:36 GMT"
-  },
-  {
-    "title": "Breaking things to keep them safe with Philippe Laulheret",
-    "summary": "Philippe shares his unique journey from French engineering school to the front lines of cybersecurity, explaining how his lifelong love for solving puzzles helps him uncover critical security flaws before they can be exploited.",
-    "url": "https://blog.talosintelligence.com/breaking-things-to-keep-them-safe-with-philippe-laulheret/",
-    "source": "blog.talosintelligence.com",
-    "published": "Wed, 13 May 2026 10:00:54 GMT"
   },
   {
     "title": "From Point-in-Time Testing to Continuous Security Validation",
