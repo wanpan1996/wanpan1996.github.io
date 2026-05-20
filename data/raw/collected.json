@@ -63,25 +63,25 @@
     "published": "Tue, 19 May 2026 17:00:00 +0530"
   },
   {
-    "title": "Microsoft Self-Service Password Reset abused in Azure data theft attacks",
-    "summary": "A threat actor targeting Microsoft 365 and Azure production environments is stealing data in attacks that abuse legitimate applications and administration features. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/microsoft-self-service-password-reset-abused-in-azure-data-theft-attacks/",
+    "title": "Max-severity flaw in ChromaDB for AI apps allows server hijacking",
+    "summary": "A max-severity vulnerability in the latest Python FastAPI version of the ChromaDB project allows unauthenticated attackers to run arbitrary code on exposed servers. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/max-severity-flaw-in-chromadb-for-ai-apps-allows-server-hijacking/",
     "source": "bleepingcomputer.com",
-    "published": "Tue, 19 May 2026 15:35:32 -0400"
+    "published": "Tue, 19 May 2026 18:25:49 -0400"
   },
   {
-    "title": "Microsoft plans to improve Windows 11 driver quality in 2026",
-    "summary": "Microsoft plans to raise the quality bar of Windows 11 drivers, as drivers \"sit at the heart of every Windows experience\" and connect the OS to the \"silicon, components, and peripherals.\" [...]",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-plans-to-improve-windows-11-driver-quality-in-2026/",
+    "title": "Cybercrime service disrupted for abusing Microsoft platform to sign malware",
+    "summary": "Microsoft says it has disrupted a malware-signing-as-a-service (MSaaS) operation that abused the company's Artifact Signing service to generate fraudulent code-signing certificates used by ransomware gangs and other cybercriminals. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/cybercrime-service-disrupted-for-abusing-microsoft-platform-to-sign-malware/",
     "source": "bleepingcomputer.com",
-    "published": "Tue, 19 May 2026 12:22:30 -0400"
+    "published": "Tue, 19 May 2026 17:47:31 -0400"
   },
   {
-    "title": "Microsoft blames macOS update for undismissible Teams location prompts",
-    "summary": "Microsoft has confirmed user reports that the Teams team collaboration app is displaying non-dismissible location prompts on some macOS systems. [...]",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-blames-undismissible-teams-location-prompts-on-macos-update/",
+    "title": "Discord rolls out end-to-end encryption on voice, video calls",
+    "summary": "Discord announced that all voice and video calls through the communication platform are now protected by default with end-to-end encryption (E2EE). [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/discord-rolls-out-end-to-end-encryption-on-voice-video-calls/",
     "source": "bleepingcomputer.com",
-    "published": "Tue, 19 May 2026 12:10:47 -0400"
+    "published": "Tue, 19 May 2026 16:37:45 -0400"
   },
   {
     "title": "Student Loan Breach Exposes 2.5M Records",
