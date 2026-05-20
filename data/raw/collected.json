@@ -21,6 +21,13 @@
     "published": "Fri, 08 May 2026 02:58:46 +0000"
   },
   {
+    "title": "On AI Security",
+    "summary": "Good report: Executive Summary: Let&#8217;s say you wanted to make sure that your AI is secure. Can you just maximize the security and privacy benchmark and call it a day? Nope, because benchmarks don&#8217;t actually work for measuring AI capabilities (even when they are NOT emergent systemic properties like security). So let&#8217;s take a step back: how do you measure security in the first place? Good question. Over the last 30 years, security engineering for software evolved from black box penetration testing, through whitebox code analysis and architectural risk analysis to de facto process-driven standards like the Building Security In Maturity Model (BSIMM). Software had a very deep impact on business operations, and it appears that AI is going to have an even deeper impact. Will a ",
+    "url": "https://www.schneier.com/blog/archives/2026/05/on-ai-security.html",
+    "source": "schneier.com",
+    "published": "2026-05-20T14:21:20Z"
+  },
+  {
     "title": "Laurie Anderson Is Quoting Me",
     "summary": "Not by name, but Laurie Anderson quotes me in one of the tracks of her new album: My favorite quote is from a cryptologist who said &#8220;If you think technology will solve your problems, you don&#8217;t understand technology and you don&#8217;t understand your problems.&#8221; Also in interviews: &#8220;Of course, it&#8217;s ridiculous, outrageous, blah, blah, blah,&#8221; Anderson says about the ad. &#8216;But, I mean, my favorite quote on this is from a cryptologist who said, &#8216;If you think technology will solve your problems, you don&#8217;t understand technology ­ and you don&#8217;t understand your problems.&#8217; And I think I&#8217;m completely on board with that.&#8221;...",
     "url": "https://www.schneier.com/blog/archives/2026/05/laurie-anderson-is-quoting-me.html",
@@ -35,53 +42,46 @@
     "published": "2026-05-18T11:08:13Z"
   },
   {
-    "title": "Friday Squid Blogging: Bigfin Squid",
-    "summary": "Article about the bigfin squid. As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered. Blog moderation policy.",
-    "url": "https://www.schneier.com/blog/archives/2026/05/friday-squid-blogging-bigfin-squid.html",
-    "source": "schneier.com",
-    "published": "2026-05-16T01:03:31Z"
-  },
-  {
-    "title": "Grafana GitHub Breach Exposes Source Code via TanStack npm Attack",
-    "summary": "Grafana Labs, on May 19, 2026, said an investigation into its recent breach found no evidence of customer production systems or operations being compromised. It said the scope of the incident is limited to the Grafana Labs GitHub environment, which includes public and private source code along with internal GitHub repositories. \"After the initial assessment, we found that in addition to source",
-    "url": "https://thehackernews.com/2026/05/grafana-github-breach-exposes-source.html",
+    "title": "Webworm Deploys EchoCreep and GraphWorm Backdoors Using Discord and MS Graph API",
+    "summary": "Cybersecurity researchers have flagged fresh activity from a China-aligned threat actor known as Webworm in 2025, deploying custom backdoors that employ Discord and Microsoft Graph API for command-and-control (C2 or C&amp;C) communications. Webworm, first publicly documented by Broadcom-owned Symantec in September 2022, is assessed to be active since at least 2022, targeting government agencies",
+    "url": "https://thehackernews.com/2026/05/webworm-deploys-echocreep-and-graphworm.html",
     "source": "feeds.feedburner.com",
-    "published": "Wed, 20 May 2026 10:42:06 +0530"
+    "published": "Wed, 20 May 2026 18:21:43 +0530"
   },
   {
-    "title": "GitHub Investigating TeamPCP Claimed Breach of ~4,000 Internal Repositories",
+    "title": "Agent AI is Coming. Are You Ready?",
+    "summary": "New Industry Data Just Released Suggests Not. On May 19th, 2026, Orchid Security released the results of our Identity Gap: Snapshot 2026. Among the findings, \"identity dark matter\" (the unseen, unmanaged elements of identity) now overshadows the visible elements 57% vs. 43%. And it couldn't have occurred at a worse time, with enterprises embracing Agent AI with both arms (and unfortunately, as",
+    "url": "https://thehackernews.com/2026/05/agent-ai-is-coming-are-you-ready.html",
+    "source": "feeds.feedburner.com",
+    "published": "Wed, 20 May 2026 17:28:00 +0530"
+  },
+  {
+    "title": "GitHub Breached — Employee Device Hack Led to Exfiltration of 3,800+ Internal Repos",
     "summary": "GitHub on Tuesday said it's investigating unauthorized access to its internal repositories after the notorious threat actor known as TeamPCP listed the platform's source code and internal organizations for sale on a cybercrime forum. \"While we currently have no evidence of impact to customer information stored outside of GitHub's internal repositories (such as our customers' enterprises,",
     "url": "https://thehackernews.com/2026/05/github-investigating-teampcp-claimed.html",
     "source": "feeds.feedburner.com",
-    "published": "Wed, 20 May 2026 09:31:15 +0530"
+    "published": "Wed, 20 May 2026 17:08:43 +0530"
   },
   {
-    "title": "Trapdoor Android Ad Fraud Scheme Hit 659 Million Daily Bid Requests Using 455 Apps",
-    "summary": "Cybersecurity researchers have disclosed details of a new ad fraud and malvertising operation dubbed Trapdoor targeting Android device users. The activity, per HUMAN's Satori Threat Intelligence and Research Team, encompassed 455 malicious Android apps and 183 threat actor-owned command-and-control (C2) domains, turning the infrastructure into a pipeline for multi-stage fraud. \"Users",
-    "url": "https://thehackernews.com/2026/05/trapdoor-android-ad-fraud-scheme-hit.html",
-    "source": "feeds.feedburner.com",
-    "published": "Tue, 19 May 2026 22:08:12 +0530"
-  },
-  {
-    "title": "GitHub confirms breach of 3,800 repos via malicious VSCode extension",
-    "summary": "GitHub has confirmed that roughly 3,800 internal repositories were breached after one of its employees installed a malicious VS Code extension. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/github-confirms-breach-of-3-800-repos-via-malicious-vscode-extension/",
+    "title": "Identity Alone Isn't Enough: Why Device Security Has to Share the Load",
+    "summary": "Identity checks alone can't stop attackers using stolen session tokens and compromised devices. Specops Software outlines why Zero Trust strategies increasingly depend on continuous device verification. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/identity-alone-isnt-enough-why-device-security-has-to-share-the-load/",
     "source": "bleepingcomputer.com",
-    "published": "Wed, 20 May 2026 04:14:08 -0400"
+    "published": "Wed, 20 May 2026 10:02:12 -0400"
   },
   {
-    "title": "Microsoft shares mitigation for YellowKey Windows zero-day",
-    "summary": "Microsoft has shared mitigations for YellowKey, a recently disclosed Windows BitLocker zero-day vulnerability that grants access to protected drives. [...]",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-mitigation-for-yellowkey-windows-zero-day/",
+    "title": "Drupal critical update to fix bug with high exploitation risk",
+    "summary": "Drupal has announced a \"core security release\" scheduled for later today, warning that threat actors might develop exploits within hours of the update disclosure. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/drupal-critical-update-to-fix-bug-with-high-exploitation-risk/",
     "source": "bleepingcomputer.com",
-    "published": "Wed, 20 May 2026 03:31:15 -0400"
+    "published": "Wed, 20 May 2026 08:52:29 -0400"
   },
   {
-    "title": "GitHub investigates internal repositories breach claimed by TeamPCP",
-    "summary": "GitHub is investigating a breach of its internal repositories after the TeamPCP hacker group claimed to have accessed approximately 4,000 repositories containing private code. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/github-investigates-internal-repositories-breach-claimed-by-teampcp/",
+    "title": "Exploit released for new PinTheft Arch Linux root escalation flaw",
+    "summary": "PinTheft, a recently patched Linux privilege escalation vulnerability, now has a publicly available proof-of-concept (PoC) exploit that allows local attackers to gain root privileges on Arch Linux systems. [...]",
+    "url": "https://www.bleepingcomputer.com/news/linux/exploit-released-for-new-pintheft-arch-linux-root-escalation-flaw/",
     "source": "bleepingcomputer.com",
-    "published": "Wed, 20 May 2026 01:08:42 -0400"
+    "published": "Wed, 20 May 2026 06:52:31 -0400"
   },
   {
     "title": "Student Loan Breach Exposes 2.5M Records",
@@ -126,6 +126,13 @@
     "published": "Thu, 14 May 2026 13:00:00 GMT"
   },
   {
+    "title": "Tracking TamperedChef Clusters via Certificate and Code Reuse",
+    "summary": "Unit 42 analyzes TamperedChef malware clusters that use trojanized productivity apps and malvertising to deliver stealthy payloads to targets. The post Tracking TamperedChef Clusters via Certificate and Code Reuse appeared first on Unit 42.",
+    "url": "https://unit42.paloaltonetworks.com/tracking-tampered-chef-clusters/",
+    "source": "unit42.paloaltonetworks.com",
+    "published": "Wed, 20 May 2026 10:00:46 +0000"
+  },
+  {
     "title": "Gremlin Stealer's Evolved Tactics: Hiding in Plain Sight With Resource Files",
     "summary": "Unit 42 analyzes the evolution of Gremlin stealer. This variant uses advanced obfuscation, crypto clipping and session hijacking to compromise data. The post Gremlin Stealer&#039;s Evolved Tactics: Hiding in Plain Sight With Resource Files appeared first on Unit 42.",
     "url": "https://unit42.paloaltonetworks.com/gremlin-stealer-evolution/",
@@ -138,13 +145,6 @@
     "url": "https://unit42.paloaltonetworks.com/active-directory-certificate-services-exploitation/",
     "source": "unit42.paloaltonetworks.com",
     "published": "Mon, 11 May 2026 22:00:43 +0000"
-  },
-  {
-    "title": "Threat Brief: Exploitation of PAN-OS Captive Portal Zero-Day for Unauthenticated Remote Code Execution",
-    "summary": "Unit 42 details CVE-2026-0300, a buffer overflow vulnerability in the PAN-OS User-ID Authentication Portal. Read now for details. The post Threat Brief: Exploitation of PAN-OS Captive Portal Zero-Day for Unauthenticated Remote Code Execution appeared first on Unit 42.",
-    "url": "https://unit42.paloaltonetworks.com/captive-portal-zero-day/",
-    "source": "unit42.paloaltonetworks.com",
-    "published": "Thu, 07 May 2026 00:00:53 +0000"
   },
   {
     "title": "LABScon25 Replay | Breach Alpha: Trading on Cyber Fallout",
