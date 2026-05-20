@@ -42,6 +42,20 @@
     "published": "2026-05-16T01:03:31Z"
   },
   {
+    "title": "Grafana GitHub Breach Exposes Source Code via TanStack npm Attack",
+    "summary": "Grafana Labs, on May 19, 2026, said an investigation into its recent breach found no evidence of customer production systems or operations being compromised. It said the scope of the incident is limited to the Grafana Labs GitHub environment, which includes public and private source code along with internal GitHub repositories. \"After the initial assessment, we found that in addition to source",
+    "url": "https://thehackernews.com/2026/05/grafana-github-breach-exposes-source.html",
+    "source": "feeds.feedburner.com",
+    "published": "Wed, 20 May 2026 10:42:06 +0530"
+  },
+  {
+    "title": "GitHub Investigating TeamPCP Claimed Breach of ~4,000 Internal Repositories",
+    "summary": "GitHub on Tuesday said it's investigating unauthorized access to its internal repositories after the notorious threat actor known as TeamPCP listed the platform's source code and internal organizations for sale on a cybercrime forum. \"While we currently have no evidence of impact to customer information stored outside of GitHub's internal repositories (such as our customers' enterprises,",
+    "url": "https://thehackernews.com/2026/05/github-investigating-teampcp-claimed.html",
+    "source": "feeds.feedburner.com",
+    "published": "Wed, 20 May 2026 09:31:15 +0530"
+  },
+  {
     "title": "Trapdoor Android Ad Fraud Scheme Hit 659 Million Daily Bid Requests Using 455 Apps",
     "summary": "Cybersecurity researchers have disclosed details of a new ad fraud and malvertising operation dubbed Trapdoor targeting Android device users. The activity, per HUMAN's Satori Threat Intelligence and Research Team, encompassed 455 malicious Android apps and 183 threat actor-owned command-and-control (C2) domains, turning the infrastructure into a pipeline for multi-stage fraud. \"Users",
     "url": "https://thehackernews.com/2026/05/trapdoor-android-ad-fraud-scheme-hit.html",
@@ -49,39 +63,25 @@
     "published": "Tue, 19 May 2026 22:08:12 +0530"
   },
   {
-    "title": "DirtyDecrypt PoC Released for Linux Kernel CVE-2026-31635 LPE Vulnerability",
-    "summary": "Proof-of-concept (PoC) exploit code has now been released for a recently patched security flaw in the Linux kernel that could allow for local privilege escalation (LPE). Dubbed DirtyDecrypt (aka DirtyCBC), the vulnerability was discovered and reported by the Zellic and V12 security team on May 9, 2026, only to be informed by the maintainers that it was a duplicate of a vulnerability that had",
-    "url": "https://thehackernews.com/2026/05/dirtydecrypt-poc-released-for-linux.html",
-    "source": "feeds.feedburner.com",
-    "published": "Tue, 19 May 2026 20:26:26 +0530"
-  },
-  {
-    "title": "The New Phishing Click: How OAuth Consent Bypasses MFA",
-    "summary": "In February 2026, a phishing-as-a-service (PhaaS) platform called EvilTokens went live. Within five weeks, it had compromised more than 340 Microsoft 365 organizations across five countries.&nbsp; The targets of the platform received a message asking them to enter a short code at microsoft.com/devicelogin and complete their normal MFA challenge, then walked away believing they had verified a",
-    "url": "https://thehackernews.com/2026/05/the-new-phishing-click-how-oauth.html",
-    "source": "feeds.feedburner.com",
-    "published": "Tue, 19 May 2026 17:00:00 +0530"
-  },
-  {
-    "title": "Max-severity flaw in ChromaDB for AI apps allows server hijacking",
-    "summary": "A max-severity vulnerability in the latest Python FastAPI version of the ChromaDB project allows unauthenticated attackers to run arbitrary code on exposed servers. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/max-severity-flaw-in-chromadb-for-ai-apps-allows-server-hijacking/",
+    "title": "GitHub confirms breach of 3,800 repos via malicious VSCode extension",
+    "summary": "GitHub has confirmed that roughly 3,800 internal repositories were breached after one of its employees installed a malicious VS Code extension. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/github-confirms-breach-of-3-800-repos-via-malicious-vscode-extension/",
     "source": "bleepingcomputer.com",
-    "published": "Tue, 19 May 2026 18:25:49 -0400"
+    "published": "Wed, 20 May 2026 04:14:08 -0400"
   },
   {
-    "title": "Cybercrime service disrupted for abusing Microsoft platform to sign malware",
-    "summary": "Microsoft says it has disrupted a malware-signing-as-a-service (MSaaS) operation that abused the company's Artifact Signing service to generate fraudulent code-signing certificates used by ransomware gangs and other cybercriminals. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/cybercrime-service-disrupted-for-abusing-microsoft-platform-to-sign-malware/",
+    "title": "Microsoft shares mitigation for YellowKey Windows zero-day",
+    "summary": "Microsoft has shared mitigations for YellowKey, a recently disclosed Windows BitLocker zero-day vulnerability that grants access to protected drives. [...]",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-mitigation-for-yellowkey-windows-zero-day/",
     "source": "bleepingcomputer.com",
-    "published": "Tue, 19 May 2026 17:47:31 -0400"
+    "published": "Wed, 20 May 2026 03:31:15 -0400"
   },
   {
-    "title": "Discord rolls out end-to-end encryption on voice, video calls",
-    "summary": "Discord announced that all voice and video calls through the communication platform are now protected by default with end-to-end encryption (E2EE). [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/discord-rolls-out-end-to-end-encryption-on-voice-video-calls/",
+    "title": "GitHub investigates internal repositories breach claimed by TeamPCP",
+    "summary": "GitHub is investigating a breach of its internal repositories after the TeamPCP hacker group claimed to have accessed approximately 4,000 repositories containing private code. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/github-investigates-internal-repositories-breach-claimed-by-teampcp/",
     "source": "bleepingcomputer.com",
-    "published": "Tue, 19 May 2026 16:37:45 -0400"
+    "published": "Wed, 20 May 2026 01:08:42 -0400"
   },
   {
     "title": "Student Loan Breach Exposes 2.5M Records",
