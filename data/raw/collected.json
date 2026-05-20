@@ -42,6 +42,20 @@
     "published": "2026-05-18T11:08:13Z"
   },
   {
+    "title": "Microsoft Open-Sources RAMPART and Clarity to Secure AI Agents During Development",
+    "summary": "Microsoft has unveiled two new open-source tools called RAMPART and Clarity to assist developers in better testing the security of artificial intelligence (AI) agents. RAMPART, short for Risk Assessment and Measurement Platform for Agentic Red Teaming, functions as a Pytest-native safety and security testing framework for writing and running safety and security tests for AI agents, covering",
+    "url": "https://thehackernews.com/2026/05/microsoft-open-sources-rampart-and.html",
+    "source": "feeds.feedburner.com",
+    "published": "Wed, 20 May 2026 22:36:54 +0530"
+  },
+  {
+    "title": "Microsoft Takes Down Malware-Signing Service Behind Ransomware Attacks",
+    "summary": "Microsoft on Tuesday said it disrupted a malware-signing-as-a-service (MSaaS) operation that weaponized the company's Artifact Signing system to deliver malicious code and conduct ransomware and other attacks, compromising thousands of machines and networks across the world. The tech giant attributed the activity to a threat actor it calls Fox Tempest, which it said offered the MSaaS scheme",
+    "url": "https://thehackernews.com/2026/05/microsoft-takes-down-malware-signing.html",
+    "source": "feeds.feedburner.com",
+    "published": "Wed, 20 May 2026 20:06:44 +0530"
+  },
+  {
     "title": "Webworm Deploys EchoCreep and GraphWorm Backdoors Using Discord and MS Graph API",
     "summary": "Cybersecurity researchers have flagged fresh activity from a China-aligned threat actor known as Webworm in 2025, deploying custom backdoors that employ Discord and Microsoft Graph API for command-and-control (C2 or C&amp;C) communications. Webworm, first publicly documented by Broadcom-owned Symantec in September 2022, is assessed to be active since at least 2022, targeting government agencies",
     "url": "https://thehackernews.com/2026/05/webworm-deploys-echocreep-and-graphworm.html",
@@ -49,18 +63,11 @@
     "published": "Wed, 20 May 2026 18:21:43 +0530"
   },
   {
-    "title": "Agent AI is Coming. Are You Ready?",
-    "summary": "New Industry Data Just Released Suggests Not. On May 19th, 2026, Orchid Security released the results of our Identity Gap: Snapshot 2026. Among the findings, \"identity dark matter\" (the unseen, unmanaged elements of identity) now overshadows the visible elements 57% vs. 43%. And it couldn't have occurred at a worse time, with enterprises embracing Agent AI with both arms (and unfortunately, as",
-    "url": "https://thehackernews.com/2026/05/agent-ai-is-coming-are-you-ready.html",
-    "source": "feeds.feedburner.com",
-    "published": "Wed, 20 May 2026 17:28:00 +0530"
-  },
-  {
-    "title": "GitHub Breached — Employee Device Hack Led to Exfiltration of 3,800+ Internal Repos",
-    "summary": "GitHub on Tuesday said it's investigating unauthorized access to its internal repositories after the notorious threat actor known as TeamPCP listed the platform's source code and internal organizations for sale on a cybercrime forum. \"While we currently have no evidence of impact to customer information stored outside of GitHub's internal repositories (such as our customers' enterprises,",
-    "url": "https://thehackernews.com/2026/05/github-investigating-teampcp-claimed.html",
-    "source": "feeds.feedburner.com",
-    "published": "Wed, 20 May 2026 17:08:43 +0530"
+    "title": "Grafana breach caused by missed token rotation after TanStack attack",
+    "summary": "The Grafana data breach was caused by a single GitHub workflow token that slipped through the rotation process following the TanStack npm supply-chain attack last week. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/grafana-breach-caused-by-missed-token-rotation-after-tanstack-attack/",
+    "source": "bleepingcomputer.com",
+    "published": "Wed, 20 May 2026 11:46:37 -0400"
   },
   {
     "title": "Identity Alone Isn't Enough: Why Device Security Has to Share the Load",
@@ -75,13 +82,6 @@
     "url": "https://www.bleepingcomputer.com/news/security/drupal-critical-update-to-fix-bug-with-high-exploitation-risk/",
     "source": "bleepingcomputer.com",
     "published": "Wed, 20 May 2026 08:52:29 -0400"
-  },
-  {
-    "title": "Exploit released for new PinTheft Arch Linux root escalation flaw",
-    "summary": "PinTheft, a recently patched Linux privilege escalation vulnerability, now has a publicly available proof-of-concept (PoC) exploit that allows local attackers to gain root privileges on Arch Linux systems. [...]",
-    "url": "https://www.bleepingcomputer.com/news/linux/exploit-released-for-new-pintheft-arch-linux-root-escalation-flaw/",
-    "source": "bleepingcomputer.com",
-    "published": "Wed, 20 May 2026 06:52:31 -0400"
   },
   {
     "title": "Student Loan Breach Exposes 2.5M Records",
@@ -126,6 +126,13 @@
     "published": "Thu, 14 May 2026 13:00:00 GMT"
   },
   {
+    "title": "The npm Threat Landscape: Attack Surface and Mitigations (Updated May 20)",
+    "summary": "Unit 42 analyzes npm supply chain evolution post-Shai Hulud. Discover wormable malware, CI/CD persistence, multi-stage attacks and more. The post The npm Threat Landscape: Attack Surface and Mitigations (Updated May 20) appeared first on Unit 42.",
+    "url": "https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/",
+    "source": "unit42.paloaltonetworks.com",
+    "published": "Wed, 20 May 2026 19:30:33 +0000"
+  },
+  {
     "title": "Tracking TamperedChef Clusters via Certificate and Code Reuse",
     "summary": "Unit 42 analyzes TamperedChef malware clusters that use trojanized productivity apps and malvertising to deliver stealthy payloads to targets. The post Tracking TamperedChef Clusters via Certificate and Code Reuse appeared first on Unit 42.",
     "url": "https://unit42.paloaltonetworks.com/tracking-tampered-chef-clusters/",
@@ -138,13 +145,6 @@
     "url": "https://unit42.paloaltonetworks.com/gremlin-stealer-evolution/",
     "source": "unit42.paloaltonetworks.com",
     "published": "Fri, 15 May 2026 10:00:52 +0000"
-  },
-  {
-    "title": "Inside AD CS Escalation: Unpacking Advanced Misuse Techniques and Tools",
-    "summary": "Unit 42 analyzes AD CS exploitation through template misconfigurations and shadow credential misuse while offering behavioral detection for defenders. The post Inside AD CS Escalation: Unpacking Advanced Misuse Techniques and Tools appeared first on Unit 42.",
-    "url": "https://unit42.paloaltonetworks.com/active-directory-certificate-services-exploitation/",
-    "source": "unit42.paloaltonetworks.com",
-    "published": "Mon, 11 May 2026 22:00:43 +0000"
   },
   {
     "title": "LABScon25 Replay | Breach Alpha: Trading on Cyber Fallout",
@@ -357,25 +357,25 @@
     "published": "Thu, 14 May 2026 18:00:24 GMT"
   },
   {
+    "title": "CVE-2026-44578 | Next.js Server-Side Request Forgery Vulnerability",
+    "summary": "CVE-2026-44578 is a high-severity server-side request forgery vulnerability affecting self-hosted Next.js applications using the built-in Node.js server.",
+    "url": "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-44578/",
+    "source": "horizon3.ai",
+    "published": "Wed, 20 May 2026 19:00:24 +0000"
+  },
+  {
+    "title": "The 2026 Buyer’s Guide to Penetration Testing",
+    "summary": "The 2026 Buyer’s Guide to Penetration Testing explains how security leaders are reevaluating pentesting based on exploitability, validation, and real-world attack paths.",
+    "url": "https://horizon3.ai/downloads/whitepapers/2026-buyers-guide-penetration-testing/",
+    "source": "horizon3.ai",
+    "published": "Wed, 20 May 2026 16:25:56 +0000"
+  },
+  {
     "title": "From Point-in-Time Testing to Continuous Security Validation",
     "summary": "Learn how Mid Devon District Council moved beyond annual pentests to continuously validate exploitable risk, strengthen identity security, and accelerate remediation with autonomous pentesting.",
     "url": "https://horizon3.ai/customer-story/continuous-security-validation-public-sector/",
     "source": "horizon3.ai",
     "published": "Mon, 18 May 2026 19:43:23 +0000"
-  },
-  {
-    "title": "Strengthen Supply Chain Security for CMMC",
-    "summary": "This whitepaper explains how organizations can move beyond CMMC compliance to continuously validate real-world security across the supply chain.",
-    "url": "https://horizon3.ai/downloads/whitepapers/strengthen-supply-chain-security-cmmc/",
-    "source": "horizon3.ai",
-    "published": "Mon, 18 May 2026 12:00:00 +0000"
-  },
-  {
-    "title": "You’re Only as Secure as Your Last Evaluation",
-    "summary": "CMMC is shifting cybersecurity from periodic compliance to continuous validation across the Defense Industrial Base supply chain.",
-    "url": "https://horizon3.ai/intelligence/blogs/cmmc-supply-chain-risk-validation/",
-    "source": "horizon3.ai",
-    "published": "Mon, 18 May 2026 12:00:00 +0000"
   },
   {
     "title": "Disabling Security Features in a Locked BIOS",
