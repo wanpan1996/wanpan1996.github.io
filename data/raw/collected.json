@@ -63,25 +63,25 @@
     "published": "Wed, 20 May 2026 18:21:43 +0530"
   },
   {
+    "title": "Ukraine identifies infostealer operator tied to 28,000 stolen accounts",
+    "summary": "The Ukrainian cyberpolice, working in conjunction with U.S. law enforcement, has identified an 18-year-old man from Odesa suspected of running an infostealer malware operation targeting users of an online store in California. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/ukraine-identifies-infostealer-operator-tied-to-28-000-stolen-accounts/",
+    "source": "bleepingcomputer.com",
+    "published": "Wed, 20 May 2026 17:36:24 -0400"
+  },
+  {
+    "title": "Hackers bypass SonicWall VPN MFA due to incomplete patching",
+    "summary": "Threat actors brute-forced VPN credentials and bypassed multi-factor authentication (MFA) on SonicWall Gen6 SSL-VPN appliances to deploy tools used in ransomware attacks. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-bypass-sonicwall-vpn-mfa-due-to-incomplete-patching/",
+    "source": "bleepingcomputer.com",
+    "published": "Wed, 20 May 2026 17:19:17 -0400"
+  },
+  {
     "title": "Grafana breach caused by missed token rotation after TanStack attack",
     "summary": "The Grafana data breach was caused by a single GitHub workflow token that slipped through the rotation process following the TanStack npm supply-chain attack last week. [...]",
     "url": "https://www.bleepingcomputer.com/news/security/grafana-breach-caused-by-missed-token-rotation-after-tanstack-attack/",
     "source": "bleepingcomputer.com",
     "published": "Wed, 20 May 2026 11:46:37 -0400"
-  },
-  {
-    "title": "Identity Alone Isn't Enough: Why Device Security Has to Share the Load",
-    "summary": "Identity checks alone can't stop attackers using stolen session tokens and compromised devices. Specops Software outlines why Zero Trust strategies increasingly depend on continuous device verification. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/identity-alone-isnt-enough-why-device-security-has-to-share-the-load/",
-    "source": "bleepingcomputer.com",
-    "published": "Wed, 20 May 2026 10:02:12 -0400"
-  },
-  {
-    "title": "Drupal critical update to fix bug with high exploitation risk",
-    "summary": "Drupal has announced a \"core security release\" scheduled for later today, warning that threat actors might develop exploits within hours of the update disclosure. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/drupal-critical-update-to-fix-bug-with-high-exploitation-risk/",
-    "source": "bleepingcomputer.com",
-    "published": "Wed, 20 May 2026 08:52:29 -0400"
   },
   {
     "title": "Student Loan Breach Exposes 2.5M Records",
