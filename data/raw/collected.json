@@ -42,46 +42,46 @@
     "published": "2026-05-18T11:08:13Z"
   },
   {
-    "title": "9-Year-Old Linux Kernel Flaw Enables Root Command Execution on Major Distros",
-    "summary": "Cybersecurity researchers have disclosed details of a vulnerability in the Linux kernel that remained undetected for nine years. The vulnerability, tracked as CVE-2026-46333 (CVSS score: 5.5), is a case of improper privilege management that could permit an unprivileged local user to disclose sensitive files and execute arbitrary commands as root on default installations of several major",
-    "url": "https://thehackernews.com/2026/05/9-year-old-linux-kernel-flaw-enables.html",
+    "title": "ThreatsDay Bulletin: Linux Rootkits, Router 0-Day, AI Intrusions, Scam Kits and 25 New Stories",
+    "summary": "This week starts small. A token leaks. A bad package slips in. A login trick works. An old tool shows up again. At first, it feels like the usual mess. Then you see the pattern: attackers are not always breaking in. They are using the parts we already trust. That is what makes it worrying. The danger is in normal things now - updates, apps, cloud buttons, support chats, trusted accounts. AI",
+    "url": "https://thehackernews.com/2026/05/threatsday-bulletin-linux-rootkits.html",
     "source": "feeds.feedburner.com",
-    "published": "Thu, 21 May 2026 13:05:53 +0530"
+    "published": "Thu, 21 May 2026 17:22:14 +0530"
   },
   {
-    "title": "GitHub Internal Repositories Breached via Malicious Nx Console VS Code Extension",
-    "summary": "GitHub on Wednesday officially confirmed that the breach of its internal repositories was the result of a compromise of an employee device involving a poisoned version of the Nx Console Microsoft Visual Studio Code (VS Code) extension.&nbsp; The development comes as the Nx team revealed that the extension, nrwl.angular-console, was breached after one of its developers' systems was hacked in the",
-    "url": "https://thehackernews.com/2026/05/github-internal-repositories-breached.html",
+    "title": "Microsoft Warns of Two Actively Exploited Defender Vulnerabilities",
+    "summary": "Microsoft has disclosed that a privilege escalation and a denial-of-service flaw in Defender has come under active exploitation in the wild. The former, tracked as CVE-2026-41091, is rated 7.8 on the CVSS scoring system. Successful exploitation of the flaw could allow an attacker to gain SYSTEM privileges. \"Improper link resolution before file access ('link following') in Microsoft Defender",
+    "url": "https://thehackernews.com/2026/05/microsoft-warns-of-two-actively.html",
     "source": "feeds.feedburner.com",
-    "published": "Thu, 21 May 2026 09:57:01 +0530"
+    "published": "Thu, 21 May 2026 16:25:57 +0530"
   },
   {
-    "title": "Highly Critical Drupal Core Flaw Exposes PostgreSQL Sites to RCE Attacks",
-    "summary": "Drupal has released security updates for a \"highly critical\" security vulnerability in Drupal Core that could be exploited by attackers to achieve remote code execution, privilege escalation, or information disclosure. The vulnerability, now tracked as CVE-2026-9082, carries a CVSS score of 6.5 out of 10.0, per CVE.org. Drupal said the vulnerability resides in a database abstraction API that is",
-    "url": "https://thehackernews.com/2026/05/highly-critical-drupal-core-flaw.html",
+    "title": "When Identity is the Attack Path",
+    "summary": "Consider a cached access key on a single Windows machine. It got there the way most cached credentials do - a user logged in, and the key stored itself automatically. Standard AWS behavior. No one misconfigured anything or violated a policy. Yet that single key, which was easily accessible to a minor-league attacker, could have opened a path to some 98% of entities in the company's cloud",
+    "url": "https://thehackernews.com/2026/05/when-identity-is-attack-path.html",
     "source": "feeds.feedburner.com",
-    "published": "Thu, 21 May 2026 09:14:11 +0530"
+    "published": "Thu, 21 May 2026 16:00:00 +0530"
   },
   {
-    "title": "Microsoft warns of new Defender zero-days exploited in attacks",
-    "summary": "On Wednesday, Microsoft started rolling out security patches for two Defender vulnerabilities that have been exploited in zero-day attacks. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/microsoft-warns-of-new-defender-zero-days-exploited-in-attacks/",
+    "title": "Inside a Crypto Drainer: How to Spot it Before it Empties Your Wallet",
+    "summary": "Modern crypto drainers don't hack wallets. They trick users into approving malicious transactions. Flare explores how the Lucifer DaaS platform scales wallet theft through phishing and automation. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/inside-a-crypto-drainer-how-to-spot-it-before-it-empties-your-wallet/",
     "source": "bleepingcomputer.com",
-    "published": "Thu, 21 May 2026 03:49:48 -0400"
+    "published": "Thu, 21 May 2026 10:00:10 -0400"
   },
   {
-    "title": "GitHub links repo breach to TanStack npm supply-chain attack",
-    "summary": "GitHub says the hackers who breached 3,800 internal repositories gained access via a malicious version of the Nx Console VS Code extension, compromised in last week's TanStack npm supply-chain attack. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/github-links-repo-breach-to-tanstack-npm-supply-chain-attack/",
+    "title": "Chinese hackers target telcos with new Linux, Windows malware",
+    "summary": "A Chinese cyber-espionage campaign has been targeting telecommunications providers with newly discovered Linux and Windows malware dubbed Showboat and JFMBackdoor, respectively. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/chinese-hackers-target-telcos-with-new-linux-windows-malware/",
     "source": "bleepingcomputer.com",
-    "published": "Thu, 21 May 2026 02:54:01 -0400"
+    "published": "Thu, 21 May 2026 10:00:00 -0400"
   },
   {
-    "title": "Ukraine identifies infostealer operator tied to 28,000 stolen accounts",
-    "summary": "The Ukrainian cyberpolice, working in conjunction with U.S. law enforcement, has identified an 18-year-old man from Odesa suspected of running an infostealer malware operation targeting users of an online store in California. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/ukraine-identifies-infostealer-operator-tied-to-28-000-stolen-accounts/",
+    "title": "Max severity Cisco Secure Workload flaw gives Site Admin privileges",
+    "summary": "Cisco has released security updates to address a maximum-severity vulnerability in Secure Workload that allows attackers to gain Site Admin privileges. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/cisco-max-severity-secure-workload-flaw-gives-hackers-site-admin-privileges/",
     "source": "bleepingcomputer.com",
-    "published": "Wed, 20 May 2026 17:36:24 -0400"
+    "published": "Thu, 21 May 2026 09:58:33 -0400"
   },
   {
     "title": "Student Loan Breach Exposes 2.5M Records",
@@ -170,21 +170,21 @@
   {
     "title": "Three Lazarus RATs coming for your cheese",
     "summary": "Authors: Yun Zheng Hu and Mick Koomen Introduction In the past few years, Fox-IT and NCC Group have conducted multiple incident response cases involving a Lazarus subgroup that specifically targets organizations in the financial and cryptocurrency sector. This Lazarus subgroup overlaps with activity linked to AppleJeus, Citrine Sleet, UNC4736, and Gleaming Pisces. This actor uses &#8230; Continue reading Three Lazarus RATs coming for your&#160;cheese &#8594;",
-    "url": "https://foxitsecurity.wordpress.com/2025/09/01/three-lazarus-rats-coming-for-your-cheese/",
+    "url": "https://blog.fox-it.com/2025/09/01/three-lazarus-rats-coming-for-your-cheese/",
     "source": "blog.fox-it.com",
     "published": "Mon, 01 Sep 2025 13:00:00 +0000"
   },
   {
     "title": "Decrypting Full Disk Encryption with Dissect",
     "summary": "Author: Guus Beckers Back in 2022 Fox-IT decided to open source its proprietary incident response tooling known as Dissect. Since then it has been adopted by many different companies in their regular workflow. For those of you who are not yet familiar with Dissect, it is an incident response framework built with incident response engagements of any &#8230; Continue reading Decrypting Full Disk Encryption with&#160;Dissect &#8594;",
-    "url": "https://foxitsecurity.wordpress.com/2024/12/11/decrypting-full-disk-encryption-with-dissect/",
+    "url": "https://blog.fox-it.com/2024/12/11/decrypting-full-disk-encryption-with-dissect/",
     "source": "blog.fox-it.com",
     "published": "Wed, 11 Dec 2024 07:30:00 +0000"
   },
   {
     "title": "Red Teaming in the age of EDR: Evasion of Endpoint Detection Through Malware Virtualisation",
     "summary": "Authors: Boudewijn Meijer &#38;&#38; Rick Veldhoven Introduction As defensive security products improve, attackers must refine their craft. Gone are the days of executing malicious binaries from disk, especially ones well known to antivirus and Endpoint Detection and Reponse (EDR) vendors. Now, attackers focus on in-memory payload execution for both native and managed applications to evade &#8230; Continue reading Red Teaming in the age of EDR: Evasion of Endpoint Detection Through Malware&#160;Virtualisation &#8594;",
-    "url": "https://foxitsecurity.wordpress.com/2024/09/25/red-teaming-in-the-age-of-edr-evasion-of-endpoint-detection-through-malware-virtualisation/",
+    "url": "https://blog.fox-it.com/2024/09/25/red-teaming-in-the-age-of-edr-evasion-of-endpoint-detection-through-malware-virtualisation/",
     "source": "blog.fox-it.com",
     "published": "Wed, 25 Sep 2024 10:36:12 +0000"
   },
@@ -294,6 +294,13 @@
     "published": "Tue, 11 Nov 2025 19:02:38 +0000"
   },
   {
+    "title": "Protect GenAI Chatbots with Check Point WAF",
+    "summary": "Generative AI chatbots are quickly becoming the new front door to your business. They answer customer questions, support employees, guide buyers, and increasingly connect to internal documents, APIs, knowledge bases, and business workflows. That convenience creates a new risk for you, chatbot may now speak on behalf of your brand, access sensitive information, or influence customer decisions. Some of the Chatbot incidents show how quickly this can go wrong A car dealership chatbot was manipulated into a $1 car offer Air Canada faced liability after its chatbot gave misleading refund guidance Sears Home Services had millions of records of customers [&#8230;] The post Protect GenAI Chatbots with Check Point WAF appeared first on Check Point Blog.",
+    "url": "https://blog.checkpoint.com/hybrid-mesh/protect-genai-chatbots-with-check-point-waf/",
+    "source": "blog.checkpoint.com",
+    "published": "Thu, 21 May 2026 13:00:32 +0000"
+  },
+  {
     "title": "The Network Security Problem No One Could Solve – Until Now.",
     "summary": "Networks used to be simple. A perimeter. A data center. A set of rules a single engineer could hold in their head. That world is long gone. Every wave of enterprise transformation &#8211; cloud migration, M&#38;A, hybrid multi-cloud, IoT, remote work &#8211; added another layer of complexity. Each with its own topology, traffic patterns, and security assumptions. The complexity grew exponentially. And security followed, manually &#8211; more policies to author, more configurations to validate, more vendors to manage. The part that doesn&#8217;t show up in vendor presentations is that modern network security runs on institutional know-how. It lives in the [&#8230;] The post The Network Security Problem No One Could Solve &#8211; Until Now. appeared first on Check Point Blog.",
     "url": "https://blog.checkpoint.com/security/the-network-security-problem-no-one-could-solve-until-now/",
@@ -306,13 +313,6 @@
     "url": "https://blog.checkpoint.com/exposure-management/hacktivists-ransomware-and-a-124-surge-the-dach-threat-picture/",
     "source": "blog.checkpoint.com",
     "published": "Mon, 18 May 2026 13:00:27 +0000"
-  },
-  {
-    "title": "The Case for a Vulnerability Operations Center",
-    "summary": "Vulnerability remediation has become an execution problem. Security teams are generating more findings than ever, but too often those findings do not translate into timely risk reduction. The gap between newly introduced exposure and effective remediation continues to widen. Addressing that gap requires more than improved scanning, better dashboards, or additional tooling. It requires a dedicated operating model. This is the role of the Vulnerability Operations Center, or VOC. As Dr. Natalie Foster Johnson, Executive Director of the CyberMINDS Research Institute, explains, “Operationalizing a VOC is a maturity step that allows organizations to address exposure concerns earlier, reducing risk before incidents occur rather than reacting afterward.” A VOC centralizes how organizations [&#8230",
-    "url": "https://blog.checkpoint.com/exposure-management/the-case-for-a-vulnerability-operations-center/",
-    "source": "blog.checkpoint.com",
-    "published": "Fri, 15 May 2026 12:40:42 +0000"
   },
   {
     "title": "High Signal Detection and Exploitation of Ivanti's Pulse Connect Secure Auth Bypass & RCE",
