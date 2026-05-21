@@ -42,25 +42,39 @@
     "published": "2026-05-18T11:08:13Z"
   },
   {
-    "title": "Microsoft Open-Sources RAMPART and Clarity to Secure AI Agents During Development",
-    "summary": "Microsoft has unveiled two new open-source tools called RAMPART and Clarity to assist developers in better testing the security of artificial intelligence (AI) agents. RAMPART, short for Risk Assessment and Measurement Platform for Agentic Red Teaming, functions as a Pytest-native safety and security testing framework for writing and running safety and security tests for AI agents, covering",
-    "url": "https://thehackernews.com/2026/05/microsoft-open-sources-rampart-and.html",
+    "title": "9-Year-Old Linux Kernel Flaw Enables Root Command Execution on Major Distros",
+    "summary": "Cybersecurity researchers have disclosed details of a vulnerability in the Linux kernel that remained undetected for nine years. The vulnerability, tracked as CVE-2026-46333 (CVSS score: 5.5), is a case of improper privilege management that could permit an unprivileged local user to disclose sensitive files and execute arbitrary commands as root on default installations of several major",
+    "url": "https://thehackernews.com/2026/05/9-year-old-linux-kernel-flaw-enables.html",
     "source": "feeds.feedburner.com",
-    "published": "Wed, 20 May 2026 22:36:54 +0530"
+    "published": "Thu, 21 May 2026 13:05:53 +0530"
   },
   {
-    "title": "Microsoft Takes Down Malware-Signing Service Behind Ransomware Attacks",
-    "summary": "Microsoft on Tuesday said it disrupted a malware-signing-as-a-service (MSaaS) operation that weaponized the company's Artifact Signing system to deliver malicious code and conduct ransomware and other attacks, compromising thousands of machines and networks across the world. The tech giant attributed the activity to a threat actor it calls Fox Tempest, which it said offered the MSaaS scheme",
-    "url": "https://thehackernews.com/2026/05/microsoft-takes-down-malware-signing.html",
+    "title": "GitHub Internal Repositories Breached via Malicious Nx Console VS Code Extension",
+    "summary": "GitHub on Wednesday officially confirmed that the breach of its internal repositories was the result of a compromise of an employee device involving a poisoned version of the Nx Console Microsoft Visual Studio Code (VS Code) extension.&nbsp; The development comes as the Nx team revealed that the extension, nrwl.angular-console, was breached after one of its developers' systems was hacked in the",
+    "url": "https://thehackernews.com/2026/05/github-internal-repositories-breached.html",
     "source": "feeds.feedburner.com",
-    "published": "Wed, 20 May 2026 20:06:44 +0530"
+    "published": "Thu, 21 May 2026 09:57:01 +0530"
   },
   {
-    "title": "Webworm Deploys EchoCreep and GraphWorm Backdoors Using Discord and MS Graph API",
-    "summary": "Cybersecurity researchers have flagged fresh activity from a China-aligned threat actor known as Webworm in 2025, deploying custom backdoors that employ Discord and Microsoft Graph API for command-and-control (C2 or C&amp;C) communications. Webworm, first publicly documented by Broadcom-owned Symantec in September 2022, is assessed to be active since at least 2022, targeting government agencies",
-    "url": "https://thehackernews.com/2026/05/webworm-deploys-echocreep-and-graphworm.html",
+    "title": "Highly Critical Drupal Core Flaw Exposes PostgreSQL Sites to RCE Attacks",
+    "summary": "Drupal has released security updates for a \"highly critical\" security vulnerability in Drupal Core that could be exploited by attackers to achieve remote code execution, privilege escalation, or information disclosure. The vulnerability, now tracked as CVE-2026-9082, carries a CVSS score of 6.5 out of 10.0, per CVE.org. Drupal said the vulnerability resides in a database abstraction API that is",
+    "url": "https://thehackernews.com/2026/05/highly-critical-drupal-core-flaw.html",
     "source": "feeds.feedburner.com",
-    "published": "Wed, 20 May 2026 18:21:43 +0530"
+    "published": "Thu, 21 May 2026 09:14:11 +0530"
+  },
+  {
+    "title": "Microsoft warns of new Defender zero-days exploited in attacks",
+    "summary": "On Wednesday, Microsoft started rolling out security patches for two Defender vulnerabilities that have been exploited in zero-day attacks. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/microsoft-warns-of-new-defender-zero-days-exploited-in-attacks/",
+    "source": "bleepingcomputer.com",
+    "published": "Thu, 21 May 2026 03:49:48 -0400"
+  },
+  {
+    "title": "GitHub links repo breach to TanStack npm supply-chain attack",
+    "summary": "GitHub says the hackers who breached 3,800 internal repositories gained access via a malicious version of the Nx Console VS Code extension, compromised in last week's TanStack npm supply-chain attack. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/github-links-repo-breach-to-tanstack-npm-supply-chain-attack/",
+    "source": "bleepingcomputer.com",
+    "published": "Thu, 21 May 2026 02:54:01 -0400"
   },
   {
     "title": "Ukraine identifies infostealer operator tied to 28,000 stolen accounts",
@@ -68,20 +82,6 @@
     "url": "https://www.bleepingcomputer.com/news/security/ukraine-identifies-infostealer-operator-tied-to-28-000-stolen-accounts/",
     "source": "bleepingcomputer.com",
     "published": "Wed, 20 May 2026 17:36:24 -0400"
-  },
-  {
-    "title": "Hackers bypass SonicWall VPN MFA due to incomplete patching",
-    "summary": "Threat actors brute-forced VPN credentials and bypassed multi-factor authentication (MFA) on SonicWall Gen6 SSL-VPN appliances to deploy tools used in ransomware attacks. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-bypass-sonicwall-vpn-mfa-due-to-incomplete-patching/",
-    "source": "bleepingcomputer.com",
-    "published": "Wed, 20 May 2026 17:19:17 -0400"
-  },
-  {
-    "title": "Grafana breach caused by missed token rotation after TanStack attack",
-    "summary": "The Grafana data breach was caused by a single GitHub workflow token that slipped through the rotation process following the TanStack npm supply-chain attack last week. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/grafana-breach-caused-by-missed-token-rotation-after-tanstack-attack/",
-    "source": "bleepingcomputer.com",
-    "published": "Wed, 20 May 2026 11:46:37 -0400"
   },
   {
     "title": "Student Loan Breach Exposes 2.5M Records",
