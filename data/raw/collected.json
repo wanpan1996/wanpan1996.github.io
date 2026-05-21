@@ -21,6 +21,13 @@
     "published": "Fri, 08 May 2026 02:58:46 +0000"
   },
   {
+    "title": "macOS Kernel Memory Corruption Exploit",
+    "summary": "A group used Anthropic&#8217;s Mythos AI model to help find a kernel memory corruption vulnerability and exploit on Apple&#8217;s M5. News article.",
+    "url": "https://www.schneier.com/blog/archives/2026/05/macos-kernel-memory-corruption-exploit.html",
+    "source": "schneier.com",
+    "published": "2026-05-21T16:03:37Z"
+  },
+  {
     "title": "On AI Security",
     "summary": "Good report: Executive Summary: Let&#8217;s say you wanted to make sure that your AI is secure. Can you just maximize the security and privacy benchmark and call it a day? Nope, because benchmarks don&#8217;t actually work for measuring AI capabilities (even when they are NOT emergent systemic properties like security). So let&#8217;s take a step back: how do you measure security in the first place? Good question. Over the last 30 years, security engineering for software evolved from black box penetration testing, through whitebox code analysis and architectural risk analysis to de facto process-driven standards like the Building Security In Maturity Model (BSIMM). Software had a very deep impact on business operations, and it appears that AI is going to have an even deeper impact. Will a ",
     "url": "https://www.schneier.com/blog/archives/2026/05/on-ai-security.html",
@@ -35,11 +42,11 @@
     "published": "2026-05-19T11:00:01Z"
   },
   {
-    "title": "Zero-Day Exploit Against Windows BitLocker",
-    "summary": "It&#8217;s nasty, but it requires physical access to the computer: The exploit, named YellowKey, was published earlier this week by a researcher who goes by the alias Nightmare-Eclipse. It reliably bypasses default Windows 11 deployments of BitLocker, the full-volume encryption protection Microsoft provides to make disk contents off-limits to anyone without the decryption key, which is stored in a secured piece of hardware known as a trusted platform module (TPM). BitLocker is a mandatory protection for many organizations, including those that contract with governments...",
-    "url": "https://www.schneier.com/blog/archives/2026/05/zero-day-exploit-against-windows-bitlocker.html",
-    "source": "schneier.com",
-    "published": "2026-05-18T11:08:13Z"
+    "title": "Showboat Linux Malware Hits Middle East Telecom with SOCKS5 Proxy Backdoor",
+    "summary": "Cybersecurity researchers have disclosed details of a new Linux malware dubbed Showboat that has been put to use in a campaign targeting a telecommunications provider in the Middle East since at least mid-2022. \"Showboat is a modular post-exploitation framework designed for Linux systems, capable of spawning a remote shell, transferring files, and functioning as a SOCKS5 proxy,\" Lumen",
+    "url": "https://thehackernews.com/2026/05/showboat-linux-malware-hits-middle-east.html",
+    "source": "feeds.feedburner.com",
+    "published": "Thu, 21 May 2026 19:47:09 +0530"
   },
   {
     "title": "ThreatsDay Bulletin: Linux Rootkits, Router 0-Day, AI Intrusions, Scam Kits and 25 New Stories",
@@ -56,11 +63,18 @@
     "published": "Thu, 21 May 2026 16:25:57 +0530"
   },
   {
-    "title": "When Identity is the Attack Path",
-    "summary": "Consider a cached access key on a single Windows machine. It got there the way most cached credentials do - a user logged in, and the key stored itself automatically. Standard AWS behavior. No one misconfigured anything or violated a policy. Yet that single key, which was easily accessible to a minor-league attacker, could have opened a path to some 98% of entities in the company's cloud",
-    "url": "https://thehackernews.com/2026/05/when-identity-is-attack-path.html",
-    "source": "feeds.feedburner.com",
-    "published": "Thu, 21 May 2026 16:00:00 +0530"
+    "title": "Google accidentally exposed details of unfixed Chromium flaw",
+    "summary": "Google has accidentally leaked details about an unfixed issue in Chromium that keeps JavaScript running in the background even when the browser is closed, allowing remote code execution on the device. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/google-accidentally-exposed-details-of-unfixed-chromium-flaw/",
+    "source": "bleepingcomputer.com",
+    "published": "Thu, 21 May 2026 14:13:50 -0400"
+  },
+  {
+    "title": "Apple blocked over $11 billion in App Store fraud in 6 years",
+    "summary": "Apple revealed that it blocked over $11 billion in fraudulent App Store transactions over the last six years, more than $2.2 billion in potentially fraudulent App Store transactions in 2025 alone. [...]",
+    "url": "https://www.bleepingcomputer.com/news/apple/apple-blocked-22-billion-in-fraudulent-app-store-transactions-in-2025/",
+    "source": "bleepingcomputer.com",
+    "published": "Thu, 21 May 2026 11:11:08 -0400"
   },
   {
     "title": "Inside a Crypto Drainer: How to Spot it Before it Empties Your Wallet",
@@ -68,20 +82,6 @@
     "url": "https://www.bleepingcomputer.com/news/security/inside-a-crypto-drainer-how-to-spot-it-before-it-empties-your-wallet/",
     "source": "bleepingcomputer.com",
     "published": "Thu, 21 May 2026 10:00:10 -0400"
-  },
-  {
-    "title": "Chinese hackers target telcos with new Linux, Windows malware",
-    "summary": "A Chinese cyber-espionage campaign has been targeting telecommunications providers with newly discovered Linux and Windows malware dubbed Showboat and JFMBackdoor, respectively. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/chinese-hackers-target-telcos-with-new-linux-windows-malware/",
-    "source": "bleepingcomputer.com",
-    "published": "Thu, 21 May 2026 10:00:00 -0400"
-  },
-  {
-    "title": "Max severity Cisco Secure Workload flaw gives Site Admin privileges",
-    "summary": "Cisco has released security updates to address a maximum-severity vulnerability in Secure Workload that allows attackers to gain Site Admin privileges. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/cisco-max-severity-secure-workload-flaw-gives-hackers-site-admin-privileges/",
-    "source": "bleepingcomputer.com",
-    "published": "Thu, 21 May 2026 09:58:33 -0400"
   },
   {
     "title": "Student Loan Breach Exposes 2.5M Records",
@@ -105,6 +105,13 @@
     "published": "Mon, 29 Aug 2022 14:56:19 +0000"
   },
   {
+    "title": "Announcing Claude Compliance API support with Cloudflare CASB",
+    "summary": "Cloudflare now integrates with the Claude Compliance API, so that security teams can monitor Claude Enterprise activity directly in the Cloudflare Dashboard.",
+    "url": "https://blog.cloudflare.com/casb-anthropic-integration/",
+    "source": "blog.cloudflare.com",
+    "published": "Thu, 21 May 2026 17:00:00 GMT"
+  },
+  {
     "title": "Announcing Claude Managed Agents on Cloudflare",
     "summary": "Cloudflare has integrated with Anthropic's Claude Managed Agents to provide a fast, isolated execution environment for autonomous code delivery. This means builders can scale agent workflows globally while strictly controlling access to private backends and easily customizing their agent’s tools and runtimes.",
     "url": "https://blog.cloudflare.com/claude-managed-agents/",
@@ -119,18 +126,11 @@
     "published": "Mon, 18 May 2026 06:00:00 GMT"
   },
   {
-    "title": "Our billing pipeline was suddenly slow. The culprit was a hidden bottleneck in ClickHouse",
-    "summary": "When a partitioning change to our petabyte-scale ClickHouse cluster caused critical billing jobs to stall, standard metrics showed no obvious errors. This post explores how we identified severe lock contention in ClickHouse's query planner and built upstream patches to fix it.",
-    "url": "https://blog.cloudflare.com/clickhouse-query-plan-contention/",
-    "source": "blog.cloudflare.com",
-    "published": "Thu, 14 May 2026 13:00:00 GMT"
-  },
-  {
-    "title": "The npm Threat Landscape: Attack Surface and Mitigations (Updated May 20)",
-    "summary": "Unit 42 analyzes npm supply chain evolution post-Shai Hulud. Discover wormable malware, CI/CD persistence, multi-stage attacks and more. The post The npm Threat Landscape: Attack Surface and Mitigations (Updated May 20) appeared first on Unit 42.",
+    "title": "The npm Threat Landscape: Attack Surface and Mitigations (Updated May 21)",
+    "summary": "Unit 42 analyzes npm supply chain evolution post-Shai Hulud. Discover wormable malware, CI/CD persistence, multi-stage attacks and more. The post The npm Threat Landscape: Attack Surface and Mitigations (Updated May 21) appeared first on Unit 42.",
     "url": "https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/",
     "source": "unit42.paloaltonetworks.com",
-    "published": "Wed, 20 May 2026 19:30:33 +0000"
+    "published": "Thu, 21 May 2026 15:30:33 +0000"
   },
   {
     "title": "Tracking TamperedChef Clusters via Certificate and Code Reuse",
@@ -336,6 +336,13 @@
     "published": "Wed, 04 Oct 2023 08:33:19 +1100"
   },
   {
+    "title": "The art of being ungovernable",
+    "summary": "In this edition of the Threat Source newsletter, William explores the value of being \"ungovernable\" in a professional setting, sharing how challenging the status quo and seeking out the smartest people in the room can lead to a more fulfilling and successful career.",
+    "url": "https://blog.talosintelligence.com/the-art-of-being-ungovernable/",
+    "source": "blog.talosintelligence.com",
+    "published": "Thu, 21 May 2026 18:00:14 GMT"
+  },
+  {
     "title": "TP-Link, Photoshop, OpenVPN, Norton VPN vulnerabilities",
     "summary": "Cisco Talos&#x2019; Vulnerability Discovery &amp; Research team recently disclosed eight vulnerabilities in TP-Link, and one each in Adobe Photoshop, OpenVPN, and Gen Digital&apos;s Norton VPN.The vulnerabilities mentioned in this blog post have been patched by their respective vendors, in adherence to Cisco&#x2019;s third-party vulnerability",
     "url": "https://blog.talosintelligence.com/tp-link-photoshop-openvpn-norton-vpn-vulnerabilities/",
@@ -348,13 +355,6 @@
     "url": "https://blog.talosintelligence.com/from-pdb-strings-to-maas-tracking-a-commodity-badiis-ecosystem/",
     "source": "blog.talosintelligence.com",
     "published": "Tue, 19 May 2026 10:00:20 GMT"
-  },
-  {
-    "title": "The time of much patching is coming",
-    "summary": "In this week’s newsletter, Martin reflects on what the next iteration of AI tools means for vulnerability discovery and our ability to manage large-scale patch releases.",
-    "url": "https://blog.talosintelligence.com/the-time-of-much-patching-is-coming/",
-    "source": "blog.talosintelligence.com",
-    "published": "Thu, 14 May 2026 18:00:24 GMT"
   },
   {
     "title": "CVE-2026-44578 | Next.js Server-Side Request Forgery Vulnerability",
