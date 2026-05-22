@@ -21,6 +21,13 @@
     "published": "Tue, 12 May 2026 21:46:45 +0000"
   },
   {
+    "title": "CISA Security Leak",
+    "summary": "Crazy story: Until this past weekend, a contractor for the Cybersecurity &#038; Infrastructure Security Agency (CISA) maintained a public GitHub repository that exposed credentials to several highly privileged AWS GovCloud accounts and a large number of internal CISA systems. Security experts said the public archive included files detailing how CISA builds, tests and deploys software internally, and that it represents one of the most egregious government data leaks in recent history. News article.",
+    "url": "https://www.schneier.com/blog/archives/2026/05/cisa-security-leak.html",
+    "source": "schneier.com",
+    "published": "2026-05-22T13:58:30Z"
+  },
+  {
     "title": "macOS Kernel Memory Corruption Exploit",
     "summary": "A group used Anthropic&#8217;s Mythos AI model to help find a kernel memory corruption vulnerability and exploit on Apple&#8217;s M5. News article.",
     "url": "https://www.schneier.com/blog/archives/2026/05/macos-kernel-memory-corruption-exploit.html",
@@ -35,53 +42,46 @@
     "published": "2026-05-20T14:21:20Z"
   },
   {
-    "title": "Laurie Anderson Is Quoting Me",
-    "summary": "Not by name, but Laurie Anderson quotes me in one of the tracks of her new album: My favorite quote is from a cryptologist who said &#8220;If you think technology will solve your problems, you don&#8217;t understand technology and you don&#8217;t understand your problems.&#8221; Also in interviews: &#8220;Of course, it&#8217;s ridiculous, outrageous, blah, blah, blah,&#8221; Anderson says about the ad. &#8216;But, I mean, my favorite quote on this is from a cryptologist who said, &#8216;If you think technology will solve your problems, you don&#8217;t understand technology ­ and you don&#8217;t understand your problems.&#8217; And I think I&#8217;m completely on board with that.&#8221;...",
-    "url": "https://www.schneier.com/blog/archives/2026/05/laurie-anderson-is-quoting-me.html",
-    "source": "schneier.com",
-    "published": "2026-05-19T11:00:01Z"
-  },
-  {
-    "title": "CISA Adds Exploited Langflow and Trend Micro Apex One Vulnerabilities to KEV",
-    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added two security flaws impacting Langflow and Trend Micro Apex One to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerabilities in question are listed below - CVE-2025-34291 (CVSS score: 9.4) - An origin validation error vulnerability in Langflow that could",
-    "url": "https://thehackernews.com/2026/05/cisa-adds-exploited-langflow-and-trend.html",
+    "title": "Megalodon GitHub Attack Targets 5,561 Repos with Malicious CI/CD Workflows",
+    "summary": "Cybersecurity researchers have disclosed details of a new automated campaign called Megalodon that has pushed 5,718 malicious commits to 5,561 GitHub repositories within a six-hour window. \"Using throwaway accounts and forged author identities (build-bot, auto-ci, ci-bot, pipeline-bot), the attacker injected GitHub Actions workflows containing base64-encoded bash payloads that exfiltrate CI",
+    "url": "https://thehackernews.com/2026/05/megalodon-github-attack-targets-5561.html",
     "source": "feeds.feedburner.com",
-    "published": "Fri, 22 May 2026 11:17:33 +0530"
+    "published": "Fri, 22 May 2026 17:25:24 +0530"
   },
   {
-    "title": "Cisco Patches CVSS 10.0 Secure Workload REST API Flaw Enabling Data Access",
-    "summary": "Cisco has rolled out updates for a maximum-severity security flaw impacting Secure Workload that could allow an unauthenticated, remote attacker to access sensitive data. Tracked as CVE-2026-20223 (CVSS score: 10.0), the vulnerability arises from insufficient validation and authentication when accessing REST API endpoints. \"An attacker could exploit this vulnerability if they are able to send",
-    "url": "https://thehackernews.com/2026/05/cisco-patches-cvss-100-secure-workload.html",
+    "title": "Making Vulnerable Drivers Exploitable Without Hardware - The BYOVD Perspective",
+    "summary": "1 Introduction This article provides a technical analysis of how many Windows kernel mode drivers can be interacted with from user mode without the hardware they were developed for. This work was motivated by driver-oriented vulnerability research and the need to evaluate the exploitability of individual findings, which frequently affect code whose reachability is hardware-gated. The",
+    "url": "https://thehackernews.com/2026/05/making-vulnerable-drivers-exploitable.html",
     "source": "feeds.feedburner.com",
-    "published": "Fri, 22 May 2026 11:06:18 +0530"
+    "published": "Fri, 22 May 2026 17:08:12 +0530"
   },
   {
-    "title": "Showboat Linux Malware Hits Middle East Telecom with SOCKS5 Proxy Backdoor",
-    "summary": "Cybersecurity researchers have disclosed details of a new Linux malware dubbed Showboat that has been put to use in a campaign targeting a telecommunications provider in the Middle East since at least mid-2022. \"Showboat is a modular post-exploitation framework designed for Linux systems, capable of spawning a remote shell, transferring files, and functioning as a SOCKS5 proxy,\" Lumen",
-    "url": "https://thehackernews.com/2026/05/showboat-linux-malware-hits-middle-east.html",
+    "title": "Kimwolf DDoS Botnet Operator Arrested in Canada Over DDoS-for-Hire Attacks",
+    "summary": "The U.S. Department of Justice (DoJ) on Thursday announced the arrest of a Canadian man in connection with allegedly operating a distributed denial-of-service (DDoS) botnet known as Kimwolf. In tandem, Jacob Butler (aka Dort), 23, Ottawa, Canada, has been charged with offenses related to the development and operation of the botnet. Kimwolf is assessed to be a variant of AISURU. \"Kimwolf",
+    "url": "https://thehackernews.com/2026/05/kimwolf-ddos-botnet-operator-arrested.html",
     "source": "feeds.feedburner.com",
-    "published": "Thu, 21 May 2026 19:47:09 +0530"
+    "published": "Fri, 22 May 2026 14:20:18 +0530"
   },
   {
-    "title": "Google accidentally exposed details of unfixed Chromium flaw",
-    "summary": "Google has accidentally leaked details about an unfixed issue in Chromium that keeps JavaScript running in the background even when the browser is closed, allowing remote code execution on the device. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/google-accidentally-exposed-details-of-unfixed-chromium-flaw/",
+    "title": "Trend Micro warns of Apex One zero-day exploited in the wild",
+    "summary": "Japanese cybersecurity software company Trend Micro has addressed an Apex One zero-day vulnerability exploited in attacks targeting Windows systems. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/trend-micro-warns-of-apex-one-zero-day-exploited-in-attacks/",
     "source": "bleepingcomputer.com",
-    "published": "Thu, 21 May 2026 14:13:50 -0400"
+    "published": "Fri, 22 May 2026 09:39:19 -0400"
   },
   {
-    "title": "Apple blocked over $11 billion in App Store fraud in 6 years",
-    "summary": "Apple revealed that it blocked over $11 billion in fraudulent App Store transactions over the last six years, more than $2.2 billion in potentially fraudulent App Store transactions in 2025 alone. [...]",
-    "url": "https://www.bleepingcomputer.com/news/apple/apple-blocked-22-billion-in-fraudulent-app-store-transactions-in-2025/",
+    "title": "Drupal: Critical SQL injection flaw now targeted in attacks",
+    "summary": "Drupal is warning that hackers are attempting to exploit a \"highly critical\" SQL injection vulnerability announced earlier this week. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/drupal-critical-sql-injection-flaw-now-targeted-in-attacks/",
     "source": "bleepingcomputer.com",
-    "published": "Thu, 21 May 2026 11:11:08 -0400"
+    "published": "Fri, 22 May 2026 09:14:40 -0400"
   },
   {
-    "title": "Inside a Crypto Drainer: How to Spot it Before it Empties Your Wallet",
-    "summary": "Modern crypto drainers don't hack wallets. They trick users into approving malicious transactions. Flare explores how the Lucifer DaaS platform scales wallet theft through phishing and automation. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/inside-a-crypto-drainer-how-to-spot-it-before-it-empties-your-wallet/",
+    "title": "Why Chargebacks are Just One Piece of the Fraud Puzzle",
+    "summary": "Fraud losses don't stop at chargebacks. False declines, account takeovers, and abuse also damage revenue and trust. IPQS breaks down why fraud teams need broader visibility into risk and customer impact. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/why-chargebacks-are-just-one-piece-of-the-fraud-puzzle/",
     "source": "bleepingcomputer.com",
-    "published": "Thu, 21 May 2026 10:00:10 -0400"
+    "published": "Fri, 22 May 2026 09:09:18 -0400"
   },
   {
     "title": "Student Loan Breach Exposes 2.5M Records",
@@ -126,25 +126,25 @@
     "published": "Mon, 18 May 2026 06:00:00 GMT"
   },
   {
+    "title": "Tracking Iranian APT Screening Serpens’ 2026 Espionage Campaigns",
+    "summary": "Unit 42 details Screening Serpens' use of AppDomainManager hijacking and new RAT variants to target tech and defense sectors in recent campaigns. The post Tracking Iranian APT Screening Serpens’ 2026 Espionage Campaigns appeared first on Unit 42.",
+    "url": "https://unit42.paloaltonetworks.com/tracking-iran-apt-screening-serpens/",
+    "source": "unit42.paloaltonetworks.com",
+    "published": "Fri, 22 May 2026 13:00:42 +0000"
+  },
+  {
+    "title": "Paved With Intent: ROADtools and Nation-State Tactics in the Cloud",
+    "summary": "Open-source framework ROADtools is being misused by threat actors for cloud intrusions. Learn how to identify its malicious use. The post Paved With Intent: ROADtools and Nation-State Tactics in the Cloud appeared first on Unit 42.",
+    "url": "https://unit42.paloaltonetworks.com/roadtools-cloud-attacks/",
+    "source": "unit42.paloaltonetworks.com",
+    "published": "Fri, 22 May 2026 10:00:24 +0000"
+  },
+  {
     "title": "The npm Threat Landscape: Attack Surface and Mitigations (Updated May 21)",
     "summary": "Unit 42 analyzes npm supply chain evolution post-Shai Hulud. Discover wormable malware, CI/CD persistence, multi-stage attacks and more. The post The npm Threat Landscape: Attack Surface and Mitigations (Updated May 21) appeared first on Unit 42.",
     "url": "https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/",
     "source": "unit42.paloaltonetworks.com",
     "published": "Thu, 21 May 2026 15:30:33 +0000"
-  },
-  {
-    "title": "Tracking TamperedChef Clusters via Certificate and Code Reuse",
-    "summary": "Unit 42 analyzes TamperedChef malware clusters that use trojanized productivity apps and malvertising to deliver stealthy payloads to targets. The post Tracking TamperedChef Clusters via Certificate and Code Reuse appeared first on Unit 42.",
-    "url": "https://unit42.paloaltonetworks.com/tracking-tampered-chef-clusters/",
-    "source": "unit42.paloaltonetworks.com",
-    "published": "Wed, 20 May 2026 10:00:46 +0000"
-  },
-  {
-    "title": "Gremlin Stealer's Evolved Tactics: Hiding in Plain Sight With Resource Files",
-    "summary": "Unit 42 analyzes the evolution of Gremlin stealer. This variant uses advanced obfuscation, crypto clipping and session hijacking to compromise data. The post Gremlin Stealer&#039;s Evolved Tactics: Hiding in Plain Sight With Resource Files appeared first on Unit 42.",
-    "url": "https://unit42.paloaltonetworks.com/gremlin-stealer-evolution/",
-    "source": "unit42.paloaltonetworks.com",
-    "published": "Fri, 15 May 2026 10:00:52 +0000"
   },
   {
     "title": "LABScon25 Replay | Breach Alpha: Trading on Cyber Fallout",
@@ -294,6 +294,13 @@
     "published": "Tue, 11 Nov 2025 19:02:38 +0000"
   },
   {
+    "title": "AI Attacks Are No Longer Experimental: Key Findings from the March-April 2026 AI Threat Landscape",
+    "summary": "Between late December 2025 and mid-February 2026, Gambit found that a single operator compromised nine Mexican government agencies, reaching tax records, civil registry data, patient files, and electoral infrastructure across a two-month campaign. What made it remarkable was not the scope but the method: the attacker ran the entire operation with commercial AI handling the exploitation work, and researchers only discovered what had happened after recovering materials from attacker-controlled servers. AI was not a productivity tool running in the background. It was the operational core of the attack. Check Point Research&#8217;s March-April 2026 Threat Landscape Digest documents this breach alongside [&#8230;] The post AI Attacks Are No Longer Experimental: Key Findings from the March-April",
+    "url": "https://blog.checkpoint.com/research/ai-attacks-are-no-longer-experimental-key-findings-from-the-march-april-2026-ai-threat-landscape/",
+    "source": "blog.checkpoint.com",
+    "published": "Fri, 22 May 2026 13:00:42 +0000"
+  },
+  {
     "title": "Protect GenAI Chatbots with Check Point WAF",
     "summary": "Generative AI chatbots are quickly becoming the new front door to your business. They answer customer questions, support employees, guide buyers, and increasingly connect to internal documents, APIs, knowledge bases, and business workflows. That convenience creates a new risk for you, chatbot may now speak on behalf of your brand, access sensitive information, or influence customer decisions. Some of the Chatbot incidents show how quickly this can go wrong A car dealership chatbot was manipulated into a $1 car offer Air Canada faced liability after its chatbot gave misleading refund guidance Sears Home Services had millions of records of customers [&#8230;] The post Protect GenAI Chatbots with Check Point WAF appeared first on Check Point Blog.",
     "url": "https://blog.checkpoint.com/hybrid-mesh/protect-genai-chatbots-with-check-point-waf/",
@@ -306,13 +313,6 @@
     "url": "https://blog.checkpoint.com/security/the-network-security-problem-no-one-could-solve-until-now/",
     "source": "blog.checkpoint.com",
     "published": "Tue, 19 May 2026 13:00:16 +0000"
-  },
-  {
-    "title": "Hacktivists, Ransomware, and a 124% Surge Across DACH",
-    "summary": "Hacktivism and ransomware targeting organizations across Germany, Austria, and Switzerland increased 124% in 2025, according to Check Point Exposure Management (based on published attacks on the web and dark web). Three distinct dynamics drove the surge, each with its own logic and its own implications for security teams in 2026. Germany Absorbed Most of It Germany accounted for more than 80% of regional incidents, with Switzerland at 12% and Austria at 8%. Across Europe, the DACH region represented 18% of all recorded attacks, placing Germany above France, Spain, and Italy by individual country share. The concentration reflects Germany&#8217;s economic and [&#8230;] The post Hacktivists, Ransomware, and a 124% Surge Across DACH appeared first on Check Point Blog.",
-    "url": "https://blog.checkpoint.com/exposure-management/hacktivists-ransomware-and-a-124-surge-the-dach-threat-picture/",
-    "source": "blog.checkpoint.com",
-    "published": "Mon, 18 May 2026 13:00:27 +0000"
   },
   {
     "title": "High Signal Detection and Exploitation of Ivanti's Pulse Connect Secure Auth Bypass & RCE",
