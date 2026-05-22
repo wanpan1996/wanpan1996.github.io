@@ -1,5 +1,12 @@
 [
   {
+    "title": "Alleged Kimwolf Botmaster ‘Dort’ Arrested, Charged in U.S. and Canada",
+    "summary": "Canadian authorities on Wednesday arrested a 23-year-old Ottawa man on suspicion of building and operating Kimwolf, a fast spreading Internet-of-Things botnet that enslaved millions of devices for use in a series of massive distributed denial-of-service (DDoS) attacks over the past six months. KrebsOnSecurity publicly named the suspect in February 2026 after the accused launched a volley of DDoS, doxing and swatting campaigns against this author and a security researcher. He now faces criminal hacking charges in both Canada and the United States.",
+    "url": "https://krebsonsecurity.com/2026/05/alleged-kimwolf-botmaster-dort-arrested-charged-in-u-s-and-canada/",
+    "source": "krebsonsecurity.com",
+    "published": "Thu, 21 May 2026 21:50:25 +0000"
+  },
+  {
     "title": "CISA Admin Leaked AWS GovCloud Keys on Github",
     "summary": "Until this past weekend, a contractor for the Cybersecurity &#038; Infrastructure Security Agency (CISA) maintained a public GitHub repository that exposed credentials to several highly privileged AWS GovCloud accounts and a large number of internal CISA systems. Security experts said the public archive included files detailing how CISA builds, tests and deploys software internally, and that it represents one of the most egregious government data leaks in recent history.",
     "url": "https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/",
@@ -12,13 +19,6 @@
     "url": "https://krebsonsecurity.com/2026/05/patch-tuesday-may-2026-edition/",
     "source": "krebsonsecurity.com",
     "published": "Tue, 12 May 2026 21:46:45 +0000"
-  },
-  {
-    "title": "Canvas Breach Disrupts Schools & Colleges Nationwide",
-    "summary": "An ongoing data extortion attack targeting the widely-used education technology platform Canvas disrupted classes and coursework at school districts and universities across the United States today, after a cybercrime group defaced the service's login page with a ransom demand that threatened to leak data from 275 million students and faculty across nearly 9,000 educational institutions.",
-    "url": "https://krebsonsecurity.com/2026/05/canvas-breach-disrupts-schools-colleges-nationwide/",
-    "source": "krebsonsecurity.com",
-    "published": "Fri, 08 May 2026 02:58:46 +0000"
   },
   {
     "title": "macOS Kernel Memory Corruption Exploit",
@@ -357,25 +357,25 @@
     "published": "Tue, 19 May 2026 10:00:20 GMT"
   },
   {
+    "title": "CVE-2026-9082 | Drupal SQL Injection Vulnerability",
+    "summary": "CVE-2026-9082 is a highly critical SQL injection vulnerability in Drupal core affecting PostgreSQL-backed deployments. The flaw allows unauthenticated attackers to execute arbitrary SQL queries and potentially compromise affected environments.",
+    "url": "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-9082/",
+    "source": "horizon3.ai",
+    "published": "Thu, 21 May 2026 20:53:27 +0000"
+  },
+  {
+    "title": "CVE-2026-23734 | XWiki Path Traversal Vulnerability",
+    "summary": "CVE-2026-23734 is a critical path traversal vulnerability affecting XWiki’s xwiki-commons-classloader-api component. The flaw may allow unauthenticated attackers to access sensitive configuration files through crafted ssx and jsx endpoint requests.",
+    "url": "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-23734/",
+    "source": "horizon3.ai",
+    "published": "Thu, 21 May 2026 20:52:51 +0000"
+  },
+  {
     "title": "CVE-2026-44578 | Next.js Server-Side Request Forgery Vulnerability",
     "summary": "CVE-2026-44578 is a high-severity server-side request forgery vulnerability affecting self-hosted Next.js applications using the built-in Node.js server.",
     "url": "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-44578/",
     "source": "horizon3.ai",
     "published": "Wed, 20 May 2026 19:00:24 +0000"
-  },
-  {
-    "title": "The 2026 Buyer’s Guide to Penetration Testing",
-    "summary": "The 2026 Buyer’s Guide to Penetration Testing explains how security leaders are reevaluating pentesting based on exploitability, validation, and real-world attack paths.",
-    "url": "https://horizon3.ai/downloads/whitepapers/2026-buyers-guide-penetration-testing/",
-    "source": "horizon3.ai",
-    "published": "Wed, 20 May 2026 16:25:56 +0000"
-  },
-  {
-    "title": "From Point-in-Time Testing to Continuous Security Validation",
-    "summary": "Learn how Mid Devon District Council moved beyond annual pentests to continuously validate exploitable risk, strengthen identity security, and accelerate remediation with autonomous pentesting.",
-    "url": "https://horizon3.ai/customer-story/continuous-security-validation-public-sector/",
-    "source": "horizon3.ai",
-    "published": "Mon, 18 May 2026 19:43:23 +0000"
   },
   {
     "title": "Disabling Security Features in a Locked BIOS",
