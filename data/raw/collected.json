@@ -42,25 +42,25 @@
     "published": "2026-05-19T11:00:01Z"
   },
   {
+    "title": "CISA Adds Exploited Langflow and Trend Micro Apex One Vulnerabilities to KEV",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added two security flaws impacting Langflow and Trend Micro Apex One to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerabilities in question are listed below - CVE-2025-34291 (CVSS score: 9.4) - An origin validation error vulnerability in Langflow that could",
+    "url": "https://thehackernews.com/2026/05/cisa-adds-exploited-langflow-and-trend.html",
+    "source": "feeds.feedburner.com",
+    "published": "Fri, 22 May 2026 11:17:33 +0530"
+  },
+  {
+    "title": "Cisco Patches CVSS 10.0 Secure Workload REST API Flaw Enabling Data Access",
+    "summary": "Cisco has rolled out updates for a maximum-severity security flaw impacting Secure Workload that could allow an unauthenticated, remote attacker to access sensitive data. Tracked as CVE-2026-20223 (CVSS score: 10.0), the vulnerability arises from insufficient validation and authentication when accessing REST API endpoints. \"An attacker could exploit this vulnerability if they are able to send",
+    "url": "https://thehackernews.com/2026/05/cisco-patches-cvss-100-secure-workload.html",
+    "source": "feeds.feedburner.com",
+    "published": "Fri, 22 May 2026 11:06:18 +0530"
+  },
+  {
     "title": "Showboat Linux Malware Hits Middle East Telecom with SOCKS5 Proxy Backdoor",
     "summary": "Cybersecurity researchers have disclosed details of a new Linux malware dubbed Showboat that has been put to use in a campaign targeting a telecommunications provider in the Middle East since at least mid-2022. \"Showboat is a modular post-exploitation framework designed for Linux systems, capable of spawning a remote shell, transferring files, and functioning as a SOCKS5 proxy,\" Lumen",
     "url": "https://thehackernews.com/2026/05/showboat-linux-malware-hits-middle-east.html",
     "source": "feeds.feedburner.com",
     "published": "Thu, 21 May 2026 19:47:09 +0530"
-  },
-  {
-    "title": "ThreatsDay Bulletin: Linux Rootkits, Router 0-Day, AI Intrusions, Scam Kits and 25 New Stories",
-    "summary": "This week starts small. A token leaks. A bad package slips in. A login trick works. An old tool shows up again. At first, it feels like the usual mess. Then you see the pattern: attackers are not always breaking in. They are using the parts we already trust. That is what makes it worrying. The danger is in normal things now - updates, apps, cloud buttons, support chats, trusted accounts. AI",
-    "url": "https://thehackernews.com/2026/05/threatsday-bulletin-linux-rootkits.html",
-    "source": "feeds.feedburner.com",
-    "published": "Thu, 21 May 2026 17:22:14 +0530"
-  },
-  {
-    "title": "Microsoft Warns of Two Actively Exploited Defender Vulnerabilities",
-    "summary": "Microsoft has disclosed that a privilege escalation and a denial-of-service flaw in Defender has come under active exploitation in the wild. The former, tracked as CVE-2026-41091, is rated 7.8 on the CVSS scoring system. Successful exploitation of the flaw could allow an attacker to gain SYSTEM privileges. \"Improper link resolution before file access ('link following') in Microsoft Defender",
-    "url": "https://thehackernews.com/2026/05/microsoft-warns-of-two-actively.html",
-    "source": "feeds.feedburner.com",
-    "published": "Thu, 21 May 2026 16:25:57 +0530"
   },
   {
     "title": "Google accidentally exposed details of unfixed Chromium flaw",
