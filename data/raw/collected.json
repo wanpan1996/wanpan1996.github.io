@@ -1,5 +1,12 @@
 [
   {
+    "title": "Lawmakers Demand Answers as CISA Tries to Contain Data Leak",
+    "summary": "Lawmakers in both houses of Congress are demanding answers from the U.S. Cybersecurity &#038; Infrastructure Security Agency (CISA) after KrebsOnSecurity reported this week that a CISA contractor intentionally published AWS GovCloud keys and a vast trove of other agency secrets on a public GitHub account. The inquiry comes as CISA is still struggling to contain the breach and invalidate the leaked credentials.",
+    "url": "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/",
+    "source": "krebsonsecurity.com",
+    "published": "Fri, 22 May 2026 16:34:24 +0000"
+  },
+  {
     "title": "Alleged Kimwolf Botmaster ‘Dort’ Arrested, Charged in U.S. and Canada",
     "summary": "Canadian authorities on Wednesday arrested a 23-year-old Ottawa man on suspicion of building and operating Kimwolf, a fast spreading Internet-of-Things botnet that enslaved millions of devices for use in a series of massive distributed denial-of-service (DDoS) attacks over the past six months. KrebsOnSecurity publicly named the suspect in February 2026 after the accused launched a volley of DDoS, doxing and swatting campaigns against this author and a security researcher. He now faces criminal hacking charges in both Canada and the United States.",
     "url": "https://krebsonsecurity.com/2026/05/alleged-kimwolf-botmaster-dort-arrested-charged-in-u-s-and-canada/",
@@ -12,13 +19,6 @@
     "url": "https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/",
     "source": "krebsonsecurity.com",
     "published": "Mon, 18 May 2026 20:48:21 +0000"
-  },
-  {
-    "title": "Patch Tuesday, May 2026 Edition",
-    "summary": "Artificial intelligence platforms may be just as susceptible to social engineering as human beings, but they are proving remarkably good at finding security vulnerabilities in human-made computer code. That reality is on full display this month with some of the more widely-used software makers -- including Apple, Google, Microsoft, Mozilla and Oracle -- fixing near record volumes of security bugs, and/or quickening the tempo of their patch releases.",
-    "url": "https://krebsonsecurity.com/2026/05/patch-tuesday-may-2026-edition/",
-    "source": "krebsonsecurity.com",
-    "published": "Tue, 12 May 2026 21:46:45 +0000"
   },
   {
     "title": "CISA Security Leak",
@@ -42,6 +42,20 @@
     "published": "2026-05-20T14:21:20Z"
   },
   {
+    "title": "First VPN Dismantled in Global Takedown Over Use by 25 Ransomware Groups",
+    "summary": "Authorities in Europe and North America have announced the dismantling of a criminal virtual private network (VPN) service used by criminal actors to obscure the origins of ransomware attacks, data theft, scanning, and denial-of-service attacks. The disruption of First VPN Service was led by France and the Netherlands, with several other nations supporting the investigation since December",
+    "url": "https://thehackernews.com/2026/05/first-vpn-dismantled-in-global-takedown.html",
+    "source": "feeds.feedburner.com",
+    "published": "Fri, 22 May 2026 23:05:02 +0530"
+  },
+  {
+    "title": "Ghostwriter Targets Ukraine Government Entities with Prometheus Phishing Malware",
+    "summary": "The Belarus-aligned threat actor known as Ghostwriter (aka UAC-0057 and UNC1151Ukraine's National Security and Defense Council) has been observed using lures related to Prometheus, a Ukrainian online learning platform, to target government organizations in the country. The activity, per the Computer Emergency Response Team of Ukraine (CERT-UA), involves sending phishing emails to government",
+    "url": "https://thehackernews.com/2026/05/ghostwriter-targets-ukraine-government.html",
+    "source": "feeds.feedburner.com",
+    "published": "Fri, 22 May 2026 21:50:32 +0530"
+  },
+  {
     "title": "Megalodon GitHub Attack Targets 5,561 Repos with Malicious CI/CD Workflows",
     "summary": "Cybersecurity researchers have disclosed details of a new automated campaign called Megalodon that has pushed 5,718 malicious commits to 5,561 GitHub repositories within a six-hour window. \"Using throwaway accounts and forged author identities (build-bot, auto-ci, ci-bot, pipeline-bot), the attacker injected GitHub Actions workflows containing base64-encoded bash payloads that exfiltrate CI",
     "url": "https://thehackernews.com/2026/05/megalodon-github-attack-targets-5561.html",
@@ -49,18 +63,18 @@
     "published": "Fri, 22 May 2026 17:25:24 +0530"
   },
   {
-    "title": "Making Vulnerable Drivers Exploitable Without Hardware - The BYOVD Perspective",
-    "summary": "1 Introduction This article provides a technical analysis of how many Windows kernel mode drivers can be interacted with from user mode without the hardware they were developed for. This work was motivated by driver-oriented vulnerability research and the need to evaluate the exploitability of individual findings, which frequently affect code whose reachability is hardware-gated. The",
-    "url": "https://thehackernews.com/2026/05/making-vulnerable-drivers-exploitable.html",
-    "source": "feeds.feedburner.com",
-    "published": "Fri, 22 May 2026 17:08:12 +0530"
+    "title": "Netherlands seizes 800 servers of hosting firm enabling cyberattacks",
+    "summary": "Financial crime investigators in the Netherlands (FIOD) arrested two men and seized 800 servers linked to a web hosting company that enabled cyberattacks, interference operations, and disinformation campaigns. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/netherlands-seizes-800-servers-of-hosting-firm-enabling-cyberattacks/",
+    "source": "bleepingcomputer.com",
+    "published": "Fri, 22 May 2026 13:24:52 -0400"
   },
   {
-    "title": "Kimwolf DDoS Botnet Operator Arrested in Canada Over DDoS-for-Hire Attacks",
-    "summary": "The U.S. Department of Justice (DoJ) on Thursday announced the arrest of a Canadian man in connection with allegedly operating a distributed denial-of-service (DDoS) botnet known as Kimwolf. In tandem, Jacob Butler (aka Dort), 23, Ottawa, Canada, has been charged with offenses related to the development and operation of the botnet. Kimwolf is assessed to be a variant of AISURU. \"Kimwolf",
-    "url": "https://thehackernews.com/2026/05/kimwolf-ddos-botnet-operator-arrested.html",
-    "source": "feeds.feedburner.com",
-    "published": "Fri, 22 May 2026 14:20:18 +0530"
+    "title": "Former US execs plead guilty to aiding tech support scammers",
+    "summary": "Two former executives of a call-tracking and analytics company pleaded guilty to concealing a years-long tech support fraud scheme that victimized individuals worldwide. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/former-us-execs-plead-guilty-to-aiding-tech-support-scammers/",
+    "source": "bleepingcomputer.com",
+    "published": "Fri, 22 May 2026 11:32:18 -0400"
   },
   {
     "title": "Trend Micro warns of Apex One zero-day exploited in the wild",
@@ -68,20 +82,6 @@
     "url": "https://www.bleepingcomputer.com/news/security/trend-micro-warns-of-apex-one-zero-day-exploited-in-attacks/",
     "source": "bleepingcomputer.com",
     "published": "Fri, 22 May 2026 09:39:19 -0400"
-  },
-  {
-    "title": "Drupal: Critical SQL injection flaw now targeted in attacks",
-    "summary": "Drupal is warning that hackers are attempting to exploit a \"highly critical\" SQL injection vulnerability announced earlier this week. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/drupal-critical-sql-injection-flaw-now-targeted-in-attacks/",
-    "source": "bleepingcomputer.com",
-    "published": "Fri, 22 May 2026 09:14:40 -0400"
-  },
-  {
-    "title": "Why Chargebacks are Just One Piece of the Fraud Puzzle",
-    "summary": "Fraud losses don't stop at chargebacks. False declines, account takeovers, and abuse also damage revenue and trust. IPQS breaks down why fraud teams need broader visibility into risk and customer impact. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/why-chargebacks-are-just-one-piece-of-the-fraud-puzzle/",
-    "source": "bleepingcomputer.com",
-    "published": "Fri, 22 May 2026 09:09:18 -0400"
   },
   {
     "title": "Student Loan Breach Exposes 2.5M Records",
@@ -168,6 +168,13 @@
     "published": "Wed, 06 May 2026 13:00:29 +0000"
   },
   {
+    "title": "RemotePE: The Lazarus RAT that lives in memory",
+    "summary": "Authors: Yun Zheng Hu and Mick Koomen Summary Last year, we published research about a North Korean Lazarus subgroup targeting financial and cryptocurrency organizations, encountered during multiple incident response engagements. This Lazarus subgroup overlaps with activity linked to AppleJeus, Citrine Sleet, UNC4736, and Gleaming Pisces. In one investigation, we observed that the actor had replaced &#8230; Continue reading RemotePE: The Lazarus RAT that lives in&#160;memory &#8594;",
+    "url": "https://blog.fox-it.com/2026/05/22/remotepe-the-lazarus-rat-that-lives-in-memory/",
+    "source": "blog.fox-it.com",
+    "published": "Fri, 22 May 2026 14:55:58 +0000"
+  },
+  {
     "title": "Three Lazarus RATs coming for your cheese",
     "summary": "Authors: Yun Zheng Hu and Mick Koomen Introduction In the past few years, Fox-IT and NCC Group have conducted multiple incident response cases involving a Lazarus subgroup that specifically targets organizations in the financial and cryptocurrency sector. This Lazarus subgroup overlaps with activity linked to AppleJeus, Citrine Sleet, UNC4736, and Gleaming Pisces. This actor uses &#8230; Continue reading Three Lazarus RATs coming for your&#160;cheese &#8594;",
     "url": "https://blog.fox-it.com/2025/09/01/three-lazarus-rats-coming-for-your-cheese/",
@@ -180,13 +187,6 @@
     "url": "https://blog.fox-it.com/2024/12/11/decrypting-full-disk-encryption-with-dissect/",
     "source": "blog.fox-it.com",
     "published": "Wed, 11 Dec 2024 07:30:00 +0000"
-  },
-  {
-    "title": "Red Teaming in the age of EDR: Evasion of Endpoint Detection Through Malware Virtualisation",
-    "summary": "Authors: Boudewijn Meijer &#38;&#38; Rick Veldhoven Introduction As defensive security products improve, attackers must refine their craft. Gone are the days of executing malicious binaries from disk, especially ones well known to antivirus and Endpoint Detection and Reponse (EDR) vendors. Now, attackers focus on in-memory payload execution for both native and managed applications to evade &#8230; Continue reading Red Teaming in the age of EDR: Evasion of Endpoint Detection Through Malware&#160;Virtualisation &#8594;",
-    "url": "https://blog.fox-it.com/2024/09/25/red-teaming-in-the-age-of-edr-evasion-of-endpoint-detection-through-malware-virtualisation/",
-    "source": "blog.fox-it.com",
-    "published": "Wed, 25 Sep 2024 10:36:12 +0000"
   },
   {
     "title": "(繁中) The Art of PHP — My CTF Journey and Untold Stories!",
