@@ -42,25 +42,32 @@
     "published": "2026-05-21T16:03:37Z"
   },
   {
+    "title": "npm Adds 2FA-Gated Publishing and Package Install Controls Against Supply Chain Attacks",
+    "summary": "GitHub has rolled out new controls for npm to improve the security of the software supply chain, giving maintainers the ability to explicitly approve a release prior to the packages becoming publicly available for installation. Called staged publishing, the feature is now generally available on npm. It mandates that a human maintainer pass a two-factor authentication (2FA) challenge to approve",
+    "url": "https://thehackernews.com/2026/05/npm-adds-2fa-gated-publishing-and.html",
+    "source": "feeds.feedburner.com",
+    "published": "Sat, 23 May 2026 22:05:10 +0530"
+  },
+  {
+    "title": "Packagist Supply Chain Attack Infects 8 Packages Using GitHub-Hosted Linux Malware",
+    "summary": "A new \"coordinated\" supply chain attack campaign has impacted eight packages on Packagist including malicious code designed to run a Linux binary retrieved from a GitHub Releases URL. \"Although the affected packages were all Composer packages, the malicious code was not added to composer.json,\" Socket said. \"Instead, it was inserted into package.json, targeting projects that ship JavaScript",
+    "url": "https://thehackernews.com/2026/05/packagist-supply-chain-attack-infects-8.html",
+    "source": "feeds.feedburner.com",
+    "published": "Sat, 23 May 2026 21:37:51 +0530"
+  },
+  {
     "title": "Claude Mythos AI Finds 10,000 High-Severity Flaws in Widely Used Software",
-    "summary": "Anthropic on Friday disclosed that Project Glasswing has helped uncover more than 10,000 high- or critical-severity vulnerabilities across some of the most \"systemically\" important software across the world since the cybersecurity initiative went live last month. Project Glasswing is an effort led by the artificial intelligence (AI) company, as part of which a small set of about 50 partners",
+    "summary": "Anthropic on Friday disclosed that Project Glasswing has helped uncover more than 10,000 high- or critical-severity vulnerabilities across some of the most \"systemically\" important software across the world since the cybersecurity initiative went live last month. Project Glasswing is a defensive effort launched by the artificial intelligence (AI) company to secure critical global software",
     "url": "https://thehackernews.com/2026/05/claude-mythos-ai-finds-10000-high.html",
     "source": "feeds.feedburner.com",
     "published": "Sat, 23 May 2026 17:25:35 +0530"
   },
   {
-    "title": "Laravel-Lang PHP Packages Compromised to Deliver Cross-Platform Credential Stealer",
-    "summary": "Cybersecurity researchers have flagged a fresh software supply chain attack campaign that has targeted multiple PHP packages belonging to Laravel-Lang to deliver a comprehensive credential-stealing framework. The affected packages include - laravel-lang/lang laravel-lang/http-statuses laravel-lang/attributes laravel-lang/actions \"The timing and pattern of the newly published tags",
-    "url": "https://thehackernews.com/2026/05/laravel-lang-php-packages-compromised.html",
-    "source": "feeds.feedburner.com",
-    "published": "Sat, 23 May 2026 15:21:13 +0530"
-  },
-  {
-    "title": "LiteSpeed cPanel Plugin CVE-2026-48172 Exploited to Run Scripts as Root",
-    "summary": "A maximum-severity security vulnerability impacting LiteSpeed User-End cPanel Plugin has come under active exploitation in the wild. The flaw, tracked as CVE-2026-48172 (CVSS score: 10.0), relates to an instance of incorrect privilege assignment that an attacker could abuse to run arbitrary scripts with elevated permissions. \"Any cPanel user (including an attacker or a compromised account) may",
-    "url": "https://thehackernews.com/2026/05/litespeed-cpanel-plugin-cve-2026-48172.html",
-    "source": "feeds.feedburner.com",
-    "published": "Sat, 23 May 2026 13:05:13 +0530"
+    "title": "Italy disrupts CINEMAGOAL piracy app that stole streaming auth codes",
+    "summary": "Italian authorities have dismantled a piracy ecosystem centered around the CINEMAGOAL app that provided access to various streaming platforms, including Netflix, Disney+, and Spotify. [...]",
+    "url": "https://www.bleepingcomputer.com/news/legal/italy-disrupts-cinemagoal-piracy-app-that-stole-streaming-auth-codes/",
+    "source": "bleepingcomputer.com",
+    "published": "Sat, 23 May 2026 10:23:44 -0400"
   },
   {
     "title": "Netherlands seizes 800 servers of hosting firm enabling cyberattacks",
@@ -75,13 +82,6 @@
     "url": "https://www.bleepingcomputer.com/news/security/former-us-execs-plead-guilty-to-aiding-tech-support-scammers/",
     "source": "bleepingcomputer.com",
     "published": "Fri, 22 May 2026 11:32:18 -0400"
-  },
-  {
-    "title": "Trend Micro warns of Apex One zero-day exploited in the wild",
-    "summary": "Japanese cybersecurity software company Trend Micro has addressed an Apex One zero-day vulnerability exploited in attacks targeting Windows systems. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/trend-micro-warns-of-apex-one-zero-day-exploited-in-attacks/",
-    "source": "bleepingcomputer.com",
-    "published": "Fri, 22 May 2026 09:39:19 -0400"
   },
   {
     "title": "Student Loan Breach Exposes 2.5M Records",
