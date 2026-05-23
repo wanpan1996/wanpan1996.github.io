@@ -42,25 +42,25 @@
     "published": "2026-05-21T16:03:37Z"
   },
   {
+    "title": "LiteSpeed cPanel Plugin CVE-2026-48172 Exploited to Run Scripts as Root",
+    "summary": "A maximum-severity security vulnerability impacting LiteSpeed User-End cPanel Plugin has come under active exploitation in the wild. The flaw, tracked as CVE-2026-48172 (CVSS score: 10.0), relates to an instance of incorrect privilege assignment that an attacker could abuse to run arbitrary scripts with elevated permissions. \"Any cPanel user (including an attacker or a compromised account) may",
+    "url": "https://thehackernews.com/2026/05/litespeed-cpanel-plugin-cve-2026-48172.html",
+    "source": "feeds.feedburner.com",
+    "published": "Sat, 23 May 2026 13:05:13 +0530"
+  },
+  {
+    "title": "Drupal Core SQL Injection Bug Actively Exploited, Added to CISA KEV",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a recently patched critical security flaw impacting Drupal Core to its Known Exploited Vulnerabilities (KEV) catalog, based on evidence of active exploitation. The vulnerability in question is CVE-2026-9082 (CVSS score: 6.5), an SQL injection vulnerability affecting all supported versions of Drupal Core. \"Drupal Core",
+    "url": "https://thehackernews.com/2026/05/drupal-core-sql-injection-bug-actively.html",
+    "source": "feeds.feedburner.com",
+    "published": "Sat, 23 May 2026 12:53:48 +0530"
+  },
+  {
     "title": "First VPN Dismantled in Global Takedown Over Use by 25 Ransomware Groups",
-    "summary": "Authorities in Europe and North America have announced the dismantling of a criminal virtual private network (VPN) service used by criminal actors to obscure the origins of ransomware attacks, data theft, scanning, and denial-of-service attacks. The disruption of First VPN Service was led by France and the Netherlands, with several other nations supporting the investigation since December",
+    "summary": "Authorities in Europe and North America have announced the dismantling of a criminal virtual private network (VPN) service used by criminal actors to obscure the origins of ransomware attacks, data theft, scanning, and denial-of-service attacks. Codenamed Operation Saffron, the disruption of First VPN Service was led by France and the Netherlands, with several other nations supporting the",
     "url": "https://thehackernews.com/2026/05/first-vpn-dismantled-in-global-takedown.html",
     "source": "feeds.feedburner.com",
     "published": "Fri, 22 May 2026 23:05:02 +0530"
-  },
-  {
-    "title": "Ghostwriter Targets Ukraine Government Entities with Prometheus Phishing Malware",
-    "summary": "The Belarus-aligned threat actor known as Ghostwriter (aka UAC-0057 and UNC1151Ukraine's National Security and Defense Council) has been observed using lures related to Prometheus, a Ukrainian online learning platform, to target government organizations in the country. The activity, per the Computer Emergency Response Team of Ukraine (CERT-UA), involves sending phishing emails to government",
-    "url": "https://thehackernews.com/2026/05/ghostwriter-targets-ukraine-government.html",
-    "source": "feeds.feedburner.com",
-    "published": "Fri, 22 May 2026 21:50:32 +0530"
-  },
-  {
-    "title": "Megalodon GitHub Attack Targets 5,561 Repos with Malicious CI/CD Workflows",
-    "summary": "Cybersecurity researchers have disclosed details of a new automated campaign called Megalodon that has pushed 5,718 malicious commits to 5,561 GitHub repositories within a six-hour window. \"Using throwaway accounts and forged author identities (build-bot, auto-ci, ci-bot, pipeline-bot), the attacker injected GitHub Actions workflows containing base64-encoded bash payloads that exfiltrate CI",
-    "url": "https://thehackernews.com/2026/05/megalodon-github-attack-targets-5561.html",
-    "source": "feeds.feedburner.com",
-    "published": "Fri, 22 May 2026 17:25:24 +0530"
   },
   {
     "title": "Netherlands seizes 800 servers of hosting firm enabling cyberattacks",
