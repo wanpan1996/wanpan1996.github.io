@@ -21,6 +21,13 @@
     "published": "Mon, 18 May 2026 20:48:21 +0000"
   },
   {
+    "title": "Friday Squid Blogging: Regulating Squid Fishing in the South Pacific",
+    "summary": "The South Pacific Regional Fisheries Management Organization (SPRFMO) needs to regulate squid fishing in the South Pacific. As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered. Blog moderation policy.",
+    "url": "https://www.schneier.com/blog/archives/2026/05/friday-squid-blogging-regulating-squid-fishing-in-the-south-pacific.html",
+    "source": "schneier.com",
+    "published": "2026-05-22T21:04:16Z"
+  },
+  {
     "title": "CISA Security Leak",
     "summary": "Crazy story: Until this past weekend, a contractor for the Cybersecurity &#038; Infrastructure Security Agency (CISA) maintained a public GitHub repository that exposed credentials to several highly privileged AWS GovCloud accounts and a large number of internal CISA systems. Security experts said the public archive included files detailing how CISA builds, tests and deploys software internally, and that it represents one of the most egregious government data leaks in recent history. News article.",
     "url": "https://www.schneier.com/blog/archives/2026/05/cisa-security-leak.html",
@@ -33,13 +40,6 @@
     "url": "https://www.schneier.com/blog/archives/2026/05/macos-kernel-memory-corruption-exploit.html",
     "source": "schneier.com",
     "published": "2026-05-21T16:03:37Z"
-  },
-  {
-    "title": "On AI Security",
-    "summary": "Good report: Executive Summary: Let&#8217;s say you wanted to make sure that your AI is secure. Can you just maximize the security and privacy benchmark and call it a day? Nope, because benchmarks don&#8217;t actually work for measuring AI capabilities (even when they are NOT emergent systemic properties like security). So let&#8217;s take a step back: how do you measure security in the first place? Good question. Over the last 30 years, security engineering for software evolved from black box penetration testing, through whitebox code analysis and architectural risk analysis to de facto process-driven standards like the Building Security In Maturity Model (BSIMM). Software had a very deep impact on business operations, and it appears that AI is going to have an even deeper impact. Will a ",
-    "url": "https://www.schneier.com/blog/archives/2026/05/on-ai-security.html",
-    "source": "schneier.com",
-    "published": "2026-05-20T14:21:20Z"
   },
   {
     "title": "First VPN Dismantled in Global Takedown Over Use by 25 Ransomware Groups",
