@@ -42,25 +42,25 @@
     "published": "2026-05-21T16:03:37Z"
   },
   {
+    "title": "Claude Mythos AI Finds 10,000 High-Severity Flaws in Widely Used Software",
+    "summary": "Anthropic on Friday disclosed that Project Glasswing has helped uncover more than 10,000 high- or critical-severity vulnerabilities across some of the most \"systemically\" important software across the world since the cybersecurity initiative went live last month. Project Glasswing is an effort led by the artificial intelligence (AI) company, as part of which a small set of about 50 partners",
+    "url": "https://thehackernews.com/2026/05/claude-mythos-ai-finds-10000-high.html",
+    "source": "feeds.feedburner.com",
+    "published": "Sat, 23 May 2026 17:25:35 +0530"
+  },
+  {
+    "title": "Laravel-Lang PHP Packages Compromised to Deliver Cross-Platform Credential Stealer",
+    "summary": "Cybersecurity researchers have flagged a fresh software supply chain attack campaign that has targeted multiple PHP packages belonging to Laravel-Lang to deliver a comprehensive credential-stealing framework. The affected packages include - laravel-lang/lang laravel-lang/http-statuses laravel-lang/attributes laravel-lang/actions \"The timing and pattern of the newly published tags",
+    "url": "https://thehackernews.com/2026/05/laravel-lang-php-packages-compromised.html",
+    "source": "feeds.feedburner.com",
+    "published": "Sat, 23 May 2026 15:21:13 +0530"
+  },
+  {
     "title": "LiteSpeed cPanel Plugin CVE-2026-48172 Exploited to Run Scripts as Root",
     "summary": "A maximum-severity security vulnerability impacting LiteSpeed User-End cPanel Plugin has come under active exploitation in the wild. The flaw, tracked as CVE-2026-48172 (CVSS score: 10.0), relates to an instance of incorrect privilege assignment that an attacker could abuse to run arbitrary scripts with elevated permissions. \"Any cPanel user (including an attacker or a compromised account) may",
     "url": "https://thehackernews.com/2026/05/litespeed-cpanel-plugin-cve-2026-48172.html",
     "source": "feeds.feedburner.com",
     "published": "Sat, 23 May 2026 13:05:13 +0530"
-  },
-  {
-    "title": "Drupal Core SQL Injection Bug Actively Exploited, Added to CISA KEV",
-    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a recently patched critical security flaw impacting Drupal Core to its Known Exploited Vulnerabilities (KEV) catalog, based on evidence of active exploitation. The vulnerability in question is CVE-2026-9082 (CVSS score: 6.5), an SQL injection vulnerability affecting all supported versions of Drupal Core. \"Drupal Core",
-    "url": "https://thehackernews.com/2026/05/drupal-core-sql-injection-bug-actively.html",
-    "source": "feeds.feedburner.com",
-    "published": "Sat, 23 May 2026 12:53:48 +0530"
-  },
-  {
-    "title": "First VPN Dismantled in Global Takedown Over Use by 25 Ransomware Groups",
-    "summary": "Authorities in Europe and North America have announced the dismantling of a criminal virtual private network (VPN) service used by criminal actors to obscure the origins of ransomware attacks, data theft, scanning, and denial-of-service attacks. Codenamed Operation Saffron, the disruption of First VPN Service was led by France and the Netherlands, with several other nations supporting the",
-    "url": "https://thehackernews.com/2026/05/first-vpn-dismantled-in-global-takedown.html",
-    "source": "feeds.feedburner.com",
-    "published": "Fri, 22 May 2026 23:05:02 +0530"
   },
   {
     "title": "Netherlands seizes 800 servers of hosting firm enabling cyberattacks",
