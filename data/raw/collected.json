@@ -63,6 +63,13 @@
     "published": "Sat, 23 May 2026 17:25:35 +0530"
   },
   {
+    "title": "Laravel Lang packages hijacked to deploy credential-stealing malware",
+    "summary": "A supply chain attack targeting the Laravel Lang localization packages has exposed developers to a sophisticated credential-stealing malware campaign after attackers abused GitHub version tags to distribute malicious code through Composer packages. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/laravel-lang-packages-hijacked-to-deploy-credential-stealing-malware/",
+    "source": "bleepingcomputer.com",
+    "published": "Sat, 23 May 2026 16:48:23 -0400"
+  },
+  {
     "title": "Italy disrupts CINEMAGOAL piracy app that stole streaming auth codes",
     "summary": "Italian authorities have dismantled a piracy ecosystem centered around the CINEMAGOAL app that provided access to various streaming platforms, including Netflix, Disney+, and Spotify. [...]",
     "url": "https://www.bleepingcomputer.com/news/legal/italy-disrupts-cinemagoal-piracy-app-that-stole-streaming-auth-codes/",
@@ -75,13 +82,6 @@
     "url": "https://www.bleepingcomputer.com/news/security/netherlands-seizes-800-servers-of-hosting-firm-enabling-cyberattacks/",
     "source": "bleepingcomputer.com",
     "published": "Fri, 22 May 2026 13:24:52 -0400"
-  },
-  {
-    "title": "Former US execs plead guilty to aiding tech support scammers",
-    "summary": "Two former executives of a call-tracking and analytics company pleaded guilty to concealing a years-long tech support fraud scheme that victimized individuals worldwide. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/former-us-execs-plead-guilty-to-aiding-tech-support-scammers/",
-    "source": "bleepingcomputer.com",
-    "published": "Fri, 22 May 2026 11:32:18 -0400"
   },
   {
     "title": "Student Loan Breach Exposes 2.5M Records",
