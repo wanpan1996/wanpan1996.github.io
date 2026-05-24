@@ -63,6 +63,13 @@
     "published": "Sat, 23 May 2026 17:25:35 +0530"
   },
   {
+    "title": "Ghost CMS SQL injection flaw exploited in large-scale ClickFix campaign",
+    "summary": "A large-scale campaign is exploiting a critical SQL injection vulnerability (CVE-2026-26980) in Ghost CMS to inject malicious JavaScript code that triggers ClickFix attack flows. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/ghost-cms-sql-injection-flaw-exploited-in-large-scale-clickfix-campaign/",
+    "source": "bleepingcomputer.com",
+    "published": "Sun, 24 May 2026 10:12:32 -0400"
+  },
+  {
     "title": "Laravel Lang packages hijacked to deploy credential-stealing malware",
     "summary": "A supply chain attack targeting the Laravel Lang localization packages has exposed developers to a sophisticated credential-stealing malware campaign after attackers abused GitHub version tags to distribute malicious code through Composer packages. [...]",
     "url": "https://www.bleepingcomputer.com/news/security/laravel-lang-packages-hijacked-to-deploy-credential-stealing-malware/",
@@ -75,13 +82,6 @@
     "url": "https://www.bleepingcomputer.com/news/legal/italy-disrupts-cinemagoal-piracy-app-that-stole-streaming-auth-codes/",
     "source": "bleepingcomputer.com",
     "published": "Sat, 23 May 2026 10:23:44 -0400"
-  },
-  {
-    "title": "Netherlands seizes 800 servers of hosting firm enabling cyberattacks",
-    "summary": "Financial crime investigators in the Netherlands (FIOD) arrested two men and seized 800 servers linked to a web hosting company that enabled cyberattacks, interference operations, and disinformation campaigns. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/netherlands-seizes-800-servers-of-hosting-firm-enabling-cyberattacks/",
-    "source": "bleepingcomputer.com",
-    "published": "Fri, 22 May 2026 13:24:52 -0400"
   },
   {
     "title": "Student Loan Breach Exposes 2.5M Records",
