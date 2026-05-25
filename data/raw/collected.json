@@ -42,6 +42,13 @@
     "published": "2026-05-21T16:03:37Z"
   },
   {
+    "title": "TrapDoor Supply Chain Attack Spreads Credential-Stealing Malware via npm, PyPI, and CratesIO",
+    "summary": "A new coordinated cross-ecosystem software supply chain attack campaign has targeted npm, PyPI, and Crates.io to distribute credential-stealing malware. The campaign, codenamed TrapDoor, spans more than 34 malicious packages across over 384 versions. The earliest activity was recorded on May 22, 2026, at 8:20 p.m. UTC, with new packages published to the ecosystems in waves from a cluster of",
+    "url": "https://thehackernews.com/2026/05/trapdoor-supply-chain-attack-spreads.html",
+    "source": "feeds.feedburner.com",
+    "published": "Mon, 25 May 2026 11:29:13 +0530"
+  },
+  {
     "title": "npm Adds 2FA-Gated Publishing and Package Install Controls Against Supply Chain Attacks",
     "summary": "GitHub has rolled out new controls for npm to improve the security of the software supply chain, giving maintainers the ability to explicitly approve a release prior to the packages becoming publicly available for installation. Called staged publishing, the feature is now generally available on npm. It mandates that a human maintainer pass a two-factor authentication (2FA) challenge to approve",
     "url": "https://thehackernews.com/2026/05/npm-adds-2fa-gated-publishing-and.html",
@@ -54,13 +61,6 @@
     "url": "https://thehackernews.com/2026/05/packagist-supply-chain-attack-infects-8.html",
     "source": "feeds.feedburner.com",
     "published": "Sat, 23 May 2026 21:37:51 +0530"
-  },
-  {
-    "title": "Claude Mythos AI Finds 10,000 High-Severity Flaws in Widely Used Software",
-    "summary": "Anthropic on Friday disclosed that Project Glasswing has helped uncover more than 10,000 high- or critical-severity vulnerabilities across some of the most \"systemically\" important software across the world since the cybersecurity initiative went live last month. Project Glasswing is a defensive effort launched by the artificial intelligence (AI) company to secure critical global software",
-    "url": "https://thehackernews.com/2026/05/claude-mythos-ai-finds-10000-high.html",
-    "source": "feeds.feedburner.com",
-    "published": "Sat, 23 May 2026 17:25:35 +0530"
   },
   {
     "title": "Ghost CMS SQL injection flaw exploited in large-scale ClickFix campaign",
