@@ -42,46 +42,46 @@
     "published": "2026-05-21T16:03:37Z"
   },
   {
-    "title": "Iranian Hackers Deploy MiniFast and MiniJunk V2 via Phishing and SEO Poisoning",
-    "summary": "The Iranian state-sponsored threat actor known as Nimbus Manticore (aka Screening Serpens and UNC1549) has been attributed to a fresh campaign using lures impersonating organizations in the aviation and software sectors across the U.S., Europe, and the Middle East following the joint U.S.-Israeli military campaign against the country in late February 2026. The activity, besides embracing",
-    "url": "https://thehackernews.com/2026/05/iranian-hackers-deploy-minifast-and.html",
+    "title": "[THN Webinar] New AI DDoS Attacks Are Smarter. Learn How to Fight Back",
+    "summary": "Every single day, hackers are finding new ways to crash websites and steal data. But right now, something has changed. Hackers are no longer working alone. They are now using powerful Artificial Intelligence (AI) tools to make their attacks faster, stronger, and much harder to stop. According to recent updates from The Hacker News, bad actors are using AI to find weak spots in systems and",
+    "url": "https://thehackernews.com/2026/05/new-ai-ddos-attacks-are-smarter-learn.html",
     "source": "feeds.feedburner.com",
-    "published": "Tue, 26 May 2026 12:43:05 +0530"
+    "published": "Tue, 26 May 2026 17:28:00 +0530"
   },
   {
-    "title": "KnowledgeDeliver LMS Flaw Exploited to Deploy Godzilla and Cobalt Strike",
-    "summary": "A now-patched high-severity security flaw affecting Digital Knowledge KnowledgeDeliver, a Learning Management System (LMS) popular in Japan, was exploited as a zero-day to deliver the Godzilla web shell and ultimately facilitate the deployment of Cobalt Strike Beacon. The vulnerability, tracked as CVE-2026-5426 (CVSS score: 7.5), stems from the use of hard-coded ASP.NET machine keys, leading to",
-    "url": "https://thehackernews.com/2026/05/knowledgedeliver-lms-flaw-exploited-to.html",
+    "title": "Microsoft Patches SharePoint RCE Flaw CVE-2026-45659 Across Server Versions",
+    "summary": "Microsoft has rolled out updates to fix a remote code execution vulnerability impacting SharePoint that could be exploited by bad actors in attacks without requiring any specialized conditions to be met. The vulnerability, tracked as CVE-2026-45659, carries a CVSS score of 8.8. It has been assigned an important severity. \"Deserialization of untrusted data in Microsoft Office SharePoint allows",
+    "url": "https://thehackernews.com/2026/05/microsoft-patches-sharepoint-rce-flaw.html",
     "source": "feeds.feedburner.com",
-    "published": "Tue, 26 May 2026 10:49:38 +0530"
+    "published": "Tue, 26 May 2026 17:19:53 +0530"
   },
   {
-    "title": "⚡ Weekly Recap: Linux Flaws, Defender 0-Days, Router Botnets, and Supply Chain Chaos",
-    "summary": "Monday recap. Same mess, new week. A sketchy dev tool got people pwned, old bugs came back from the dead, and security products somehow needed protecting from themselves. A bunch of companies spent the week checking old boxes and forgotten servers they should've patched years ago. Good times. Phishing crews are getting smarter too - less obvious scam junk, more targeted stuff that actually",
-    "url": "https://thehackernews.com/2026/05/weekly-recap-linux-flaws-defender-0.html",
+    "title": "MFA Prompt Bombing: Why Your Second Factor Isn't Saving You",
+    "summary": "Multi-factor authentication (MFA) was supposed to close a critical gap in identity security. It meant that, even if an attacker possessed the account credentials, they couldn't log in without the second factor. While that logic was sound, attackers have now figured out that they don't need to steal the second factor: they just need the user to hand it over. If your workforce authenticates with",
+    "url": "https://thehackernews.com/2026/05/mfa-prompt-bombing-why-your-second.html",
     "source": "feeds.feedburner.com",
-    "published": "Mon, 25 May 2026 19:43:27 +0530"
+    "published": "Tue, 26 May 2026 16:00:00 +0530"
   },
   {
-    "title": "CISA orders feds to patch actively exploited Drupal vulnerability",
-    "summary": "CISA has given U.S. government agencies until Wednesday evening to secure their servers against an SQL injection vulnerability in the Drupal content management system (CMS) that it flagged as actively exploited. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-drupal-vulnerability/",
+    "title": "How Varonis Atlas integrates Claude Compliance API for AI governance",
+    "summary": "AI governance requires visibility into how AI tools interact with enterprise data. Varonis explains how its Atlas platform uses Claude Compliance API data to help monitor usage, investigate risk, and support compliance. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/how-varonis-atlas-integrates-claude-compliance-api-for-ai-governance/",
     "source": "bleepingcomputer.com",
-    "published": "Tue, 26 May 2026 04:46:45 -0400"
+    "published": "Tue, 26 May 2026 10:01:11 -0400"
   },
   {
-    "title": "Microsoft: Domain Controller lookup may fail on Windows Server 2016",
-    "summary": "Microsoft has confirmed a new known issue affecting Windows Server 2016 systems that causes domain controller lookups to fail after installing the KB5087537 May 2026 security update. [...]",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-domain-controller-lookup-may-fail-on-windows-server-2016/",
+    "title": "Microsoft Defender can now automatically isolate hacked endpoints",
+    "summary": "Microsoft is testing a new Defender for Endpoint capability that will automatically isolate compromised endpoints to thwart attackers' attempts to move laterally across the network. [...]",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-defender-can-now-automatically-isolate-hacked-endpoints/",
     "source": "bleepingcomputer.com",
-    "published": "Tue, 26 May 2026 03:41:25 -0400"
+    "published": "Tue, 26 May 2026 08:19:43 -0400"
   },
   {
-    "title": "7-Eleven data breach exposes personal information of 185,000 people",
-    "summary": "The ShinyHunters extortion gang stole the personal information of over 183,000 people after hacking the systems of convenience store chain giant 7-Eleven in April, according to data breach notification service Have I Been Pwned. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/7-eleven-data-breach-exposes-personal-information-of-185-000-people/",
+    "title": "Webinar: Too many tools are slowing network incident response",
+    "summary": "IT teams often need to jump between monitoring dashboards, infrastructure tools, ticketing systems, and communication platforms during network incidents. This webinar explores how automation and AI-assisted workflows can help reduce manual coordination and improve incident response times. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/webinar-too-many-tools-are-slowing-network-incident-response/",
     "source": "bleepingcomputer.com",
-    "published": "Tue, 26 May 2026 03:01:12 -0400"
+    "published": "Tue, 26 May 2026 08:16:24 -0400"
   },
   {
     "title": "Student Loan Breach Exposes 2.5M Records",
@@ -294,25 +294,25 @@
     "published": "Tue, 11 Nov 2025 19:02:38 +0000"
   },
   {
+    "title": "Check Point Frontier AI Models Readiness Program – Security Update",
+    "summary": "At Check Point we don’t wait for threats to evolve; we evolve ahead of them. This is why we’ve been running our Frontier AI Models Readiness Program: a proactive, structured initiative designed to ensure that our products remain resilient as AI models grow increasingly capable of understanding complex software systems and assisting adversaries in attacking them. As part of this program, we conducted large-scale AI-driven code scanning across our products, performed extensive security reviews, hardened components where needed, refined our time-to-patch procedures, and accelerated our protection development processes to meet the pace of emerging AI-driven threats. Today’s Jumbo Security Release [&#8230;] The post Check Point Frontier AI Models Readiness Program – Security Update appeared fir",
+    "url": "https://blog.checkpoint.com/security/check-point-frontier-ai-models-readiness-program-security-update/",
+    "source": "blog.checkpoint.com",
+    "published": "Tue, 26 May 2026 12:50:38 +0000"
+  },
+  {
+    "title": "2026 Cloud Security Report: Why Traditional Network, Cloud, and Security Architecture Are Lagging Behind the AI Transformation",
+    "summary": "As AI rapidly reshapes industries, the role of the cloud has become even more critical. From automated customer experiences to intelligent cyber security and predictive analytics, AI transformations are increasingly being built on a cloud-first foundation. Over the past two years, AI has swiftly moved from an experimental state to an operational reality, with every leading organization embedding AI into the core of how they build, operate, and compete. However, security architectures have not kept pace with the AI transformation. Closing that gap requires more than incremental fixes. It demands a rethinking of how security is designed, deployed, and enforced [&#8230;] The post 2026 Cloud Security Report: Why Traditional Network, Cloud, and Security Architecture Are Lagging Behind the AI Tr",
+    "url": "https://blog.checkpoint.com/securing-the-cloud/2026-cloud-security-report-why-traditional-network-cloud-and-security-architecture-are-lagging-behind-the-ai-transformation/",
+    "source": "blog.checkpoint.com",
+    "published": "Tue, 26 May 2026 12:40:14 +0000"
+  },
+  {
     "title": "AI Attacks Are No Longer Experimental: Key Findings from the March-April 2026 AI Threat Landscape",
     "summary": "Between late December 2025 and mid-February 2026, Gambit found that a single operator compromised nine Mexican government agencies, reaching tax records, civil registry data, patient files, and electoral infrastructure across a two-month campaign. What made it remarkable was not the scope but the method: the attacker ran the entire operation with commercial AI handling the exploitation work, and researchers only discovered what had happened after recovering materials from attacker-controlled servers. AI was not a productivity tool running in the background. It was the operational core of the attack. Check Point Research&#8217;s March-April 2026 Threat Landscape Digest documents this breach alongside [&#8230;] The post AI Attacks Are No Longer Experimental: Key Findings from the March-April",
     "url": "https://blog.checkpoint.com/research/ai-attacks-are-no-longer-experimental-key-findings-from-the-march-april-2026-ai-threat-landscape/",
     "source": "blog.checkpoint.com",
     "published": "Fri, 22 May 2026 13:00:42 +0000"
-  },
-  {
-    "title": "Protect GenAI Chatbots with Check Point WAF",
-    "summary": "Generative AI chatbots are quickly becoming the new front door to your business. They answer customer questions, support employees, guide buyers, and increasingly connect to internal documents, APIs, knowledge bases, and business workflows. That convenience creates a new risk for you, chatbot may now speak on behalf of your brand, access sensitive information, or influence customer decisions. Some of the Chatbot incidents show how quickly this can go wrong A car dealership chatbot was manipulated into a $1 car offer Air Canada faced liability after its chatbot gave misleading refund guidance Sears Home Services had millions of records of customers [&#8230;] The post Protect GenAI Chatbots with Check Point WAF appeared first on Check Point Blog.",
-    "url": "https://blog.checkpoint.com/hybrid-mesh/protect-genai-chatbots-with-check-point-waf/",
-    "source": "blog.checkpoint.com",
-    "published": "Thu, 21 May 2026 13:00:32 +0000"
-  },
-  {
-    "title": "The Network Security Problem No One Could Solve – Until Now.",
-    "summary": "Networks used to be simple. A perimeter. A data center. A set of rules a single engineer could hold in their head. That world is long gone. Every wave of enterprise transformation &#8211; cloud migration, M&#38;A, hybrid multi-cloud, IoT, remote work &#8211; added another layer of complexity. Each with its own topology, traffic patterns, and security assumptions. The complexity grew exponentially. And security followed, manually &#8211; more policies to author, more configurations to validate, more vendors to manage. The part that doesn&#8217;t show up in vendor presentations is that modern network security runs on institutional know-how. It lives in the [&#8230;] The post The Network Security Problem No One Could Solve &#8211; Until Now. appeared first on Check Point Blog.",
-    "url": "https://blog.checkpoint.com/security/the-network-security-problem-no-one-could-solve-until-now/",
-    "source": "blog.checkpoint.com",
-    "published": "Tue, 19 May 2026 13:00:16 +0000"
   },
   {
     "title": "High Signal Detection and Exploitation of Ivanti's Pulse Connect Secure Auth Bypass & RCE",
